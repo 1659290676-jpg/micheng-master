@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "comment": "边界格子随机图纸权重，数值越大概率越高",
+  "weights": {
+    "tower": 18,
+    "mine": 22,
+    "barracks_low": 35,
+    "barracks_mid": 12,
+    "barracks_high": 3,
+    "mystery": 10
+  },
+  "costs": {
+    "tower": 50,
+    "mine": 50,
+    "barracks_low": 50,
+    "barracks_mid": 100,
+    "barracks_high": 250,
+    "mystery": 25
+  },
+  "icons": {
+    "tower": "shield",
+    "mine": "stone",
+    "barracks_low": "helmet",
+    "barracks_mid": "helmet",
+    "barracks_high": "helmet",
+    "mystery": "question"
+  }
+}

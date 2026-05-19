@@ -16,12 +16,6 @@
 - **当前模块**：M1 棋盘（见 `docs/asset-request-now.md`）
 - **配置**：`data/*.json`（卡表、单位、盲盒池）
 
-## GitHub
-
-- **用户名**：`1659290676-jpg`
-- **邮箱**：`1659290676@qq.com`（已写入本仓库 `git config`）
-- **预期仓库**：https://github.com/1659290676-jpg/micheng-master
-
 ## 协作约定
 
 - 改玩法先更新 `docs/GDD.md`，再改 `data/` 与 `src/`

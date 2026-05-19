@@ -6,9 +6,9 @@ export interface HexCoord {
 
 export const BOARD_COLS = 9;
 export const BOARD_ROWS = 16;
-export const HEX_SIZE = 26;
+/** 更大格子，贴近占城大师 */
+export const HEX_SIZE = 38;
 
-/** 9×16 = 144 格 */
 export function generateRectBoard(
   cols = BOARD_COLS,
   rows = BOARD_ROWS,
@@ -22,7 +22,6 @@ export function generateRectBoard(
   return tiles;
 }
 
-/** 平顶 odd-r → 像素（格心） */
 export function hexToPixel(col: number, row: number): { x: number; y: number } {
   const x = HEX_SIZE * (3 / 2) * col;
   const y = HEX_SIZE * Math.sqrt(3) * (row + 0.5 * (col & 1));
@@ -43,7 +42,6 @@ export function getBoardPixelSize(): { width: number; height: number } {
   };
 }
 
-/** 根据行判定初始归属：上 8 行红方，下 8 行绿方 */
 export function defaultOwnerForRow(row: number): 'playerA' | 'playerB' {
   return row >= 8 ? 'playerA' : 'playerB';
 }

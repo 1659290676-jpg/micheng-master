@@ -14,7 +14,7 @@ Desktop.ini
 # Build / Export
 bin/
 obj/
-build/
+/build/
 dist/
 dist-single/
 src/web/dist/

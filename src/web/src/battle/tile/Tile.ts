@@ -3,14 +3,9 @@ import type { Building } from '../../entities/Building';
 import type { Soldier } from '../../entities/Soldier';
 import { TileFaction } from './TileFaction';
 
-/**
- * 独立格子 GameObject 逻辑体（对应 Unity 的 Tile + 挂载脚本）
- * 存储网格坐标与归属；渲染由 sprite / buildingSprite 负责
- */
 export class Tile {
   readonly col: number;
   readonly row: number;
-  /** 轴向 Z 在 2D 中用 row 表示层序时可扩展；当前与 row 一致 */
   readonly z: number;
 
   faction: TileFaction;

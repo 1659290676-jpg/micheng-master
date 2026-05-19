@@ -1,46 +1,36 @@
 import type { GameManager } from './GameManager';
 import type { GridSystem } from '../battle/grid/GridSystem';
-import { GachaManager } from './GachaManager';
+import type { FrontierManager } from '../build/FrontierManager';
+import type { BuildSystem } from '../build/BuildSystem';
 import { TileFaction } from '../battle/tile/TileFaction';
-import type { Tile } from '../battle/tile/Tile';
-
-/** 简易敌方 AI：周期性在己方领地抽卡/造矿 */
+import { BlueprintConfig } from './BlueprintConfig';
 export class EnemyAI {
   private timer = 0;
-  private gacha = new GachaManager();
 
   constructor(
     private game: GameManager,
     private grid: GridSystem,
+    private frontier: FrontierManager,
+    private buildSystem: BuildSystem,
   ) {}
 
   update(deltaMs: number): void {
     if (this.game.matchOver) return;
     this.timer += deltaMs;
-    if (this.timer < 2500) return;
+    if (this.timer < 2800) return;
     this.timer = 0;
 
-    const tile = this.pickRandomEnemyTile();
-    if (!tile) return;
+    const candidates = this.grid
+      .getAllTiles()
+      .filter((t) => this.grid.isFrontierBuildable(t, TileFaction.Enemy));
 
-    const roll = Math.random();
-    if (roll < 0.35 && this.game.trySpendEnemyGold(50)) {
-      this.grid.placeMine(tile, TileFaction.Enemy);
-    } else if (roll < 0.7 && this.game.trySpendEnemyGold(50)) {
-      const rarity = this.gacha.roll(50);
-      if (rarity !== 'none') this.grid.placeBarracks(tile, TileFaction.Enemy, rarity);
-    } else if (this.game.trySpendEnemyGold(25)) {
-      const rarity = this.gacha.roll(25);
-      if (rarity !== 'none') this.grid.placeBarracks(tile, TileFaction.Enemy, rarity);
-    }
-  }
+    if (candidates.length === 0) return;
 
-  private pickRandomEnemyTile(): Tile | null {
-    const candidates: Tile[] = [];
-    for (const t of this.grid.getAllTiles()) {
-      if (this.grid.canEnemyBuild(t)) candidates.push(t);
+    const tile = candidates[Math.floor(Math.random() * candidates.length)];
+    let bp = this.frontier.getEnemyBlueprint(tile);
+    if (!bp) {
+      bp = BlueprintConfig.rollBlueprint();
     }
-    if (candidates.length === 0) return null;
-    return candidates[Math.floor(Math.random() * candidates.length)];
+    this.buildSystem.tryEnemyBuild(tile, bp);
   }
 }

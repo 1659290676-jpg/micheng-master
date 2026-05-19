@@ -2,14 +2,6 @@ import Phaser from 'phaser';
 import type { GridSystem } from '../battle/grid/GridSystem';
 import { TileFaction } from '../battle/tile/TileFaction';
 
-export type BuildMode =
-  | 'none'
-  | 'mine'
-  | 'mystery25'
-  | 'barracks50'
-  | 'barracks100'
-  | 'barracks250';
-
 export type MatchResult = 'none' | 'player_win' | 'enemy_win';
 
 export class GameManager {
@@ -24,8 +16,6 @@ export class GameManager {
   timeLeftSec = 180;
   matchOver = false;
   result: MatchResult = 'none';
-
-  buildMode: BuildMode = 'none';
 
   private goldAccumulator = 0;
   private enemyGoldAccumulator = 0;
@@ -43,22 +33,8 @@ export class GameManager {
     this.timeLeftSec = this.matchDurationSec;
     this.matchOver = false;
     this.result = 'none';
-    this.buildMode = 'none';
     this.goldAccumulator = 0;
     this.enemyGoldAccumulator = 0;
-  }
-
-  setBuildMode(mode: BuildMode): void {
-    this.buildMode = mode;
-    const labels: Record<BuildMode, string> = {
-      none: '浏览',
-      mine: '建造金矿 (50金)',
-      mystery25: '问号盲盒 (25金)',
-      barracks50: '兵营抽卡 (50金)',
-      barracks100: '兵营抽卡 (100金)',
-      barracks250: '兵营抽卡 (250金)',
-    };
-    this.onToast(`模式：${labels[mode]}`);
   }
 
   update(deltaMs: number): void {
@@ -71,8 +47,8 @@ export class GameManager {
       return;
     }
 
-    const playerMines = this.grid.countBuildings(TileFaction.Player, 'mine');
-    const enemyMines = this.grid.countBuildings(TileFaction.Enemy, 'mine');
+    const playerMines = this.grid.countBuildings(TileFaction.Player, 'gold_mine');
+    const enemyMines = this.grid.countBuildings(TileFaction.Enemy, 'gold_mine');
     const playerRate = this.baseGoldPerSec + playerMines * this.mineBonusPerSec;
     const enemyRate = this.baseGoldPerSec + enemyMines * this.mineBonusPerSec;
 

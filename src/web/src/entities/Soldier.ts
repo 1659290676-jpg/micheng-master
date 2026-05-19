@@ -3,17 +3,17 @@ import { TileFaction } from '../battle/tile/TileFaction';
 import type { Tile } from '../battle/tile/Tile';
 import type { GridSystem } from '../battle/grid/GridSystem';
 import { findHexPath } from '../pathfinding/HexAStar';
-import type { BarracksRarity } from '../game/GachaManager';
-
-const RARITY_STATS: Record<
-  BarracksRarity,
-  { hp: number; attack: number; moveInterval: number }
+import type { UnitKind } from '../game/BuildingKinds';
+import { UNIT_TEXTURE } from '../game/BuildingKinds';
+const UNIT_STATS: Record<
+  UnitKind,
+  { hp: number; attack: number; moveInterval: number; range: number; flying: boolean; buildingBonus: number }
 > = {
-  none: { hp: 80, attack: 10, moveInterval: 450 },
-  normal: { hp: 110, attack: 18, moveInterval: 420 },
-  rare: { hp: 130, attack: 28, moveInterval: 400 },
-  epic: { hp: 200, attack: 45, moveInterval: 380 },
-  legendary: { hp: 380, attack: 65, moveInterval: 360 },
+  melee: { hp: 110, attack: 18, moveInterval: 380, range: 1, flying: false, buildingBonus: 1 },
+  ranged: { hp: 75, attack: 22, moveInterval: 400, range: 2, flying: false, buildingBonus: 1 },
+  flying: { hp: 90, attack: 20, moveInterval: 340, range: 1, flying: true, buildingBonus: 1 },
+  heavy: { hp: 220, attack: 35, moveInterval: 480, range: 1, flying: false, buildingBonus: 1 },
+  siege: { hp: 140, attack: 55, moveInterval: 450, range: 2, flying: false, buildingBonus: 1.5 },
 };
 
 export class Soldier {
@@ -21,13 +21,18 @@ export class Soldier {
   maxHp: number;
   attack: number;
   readonly faction: TileFaction;
+  readonly unitKind: UnitKind;
+  readonly flying: boolean;
+  readonly attackRange: number;
+  readonly buildingDmgMul: number;
   tile: Tile;
   readonly sprite: Phaser.GameObjects.Image;
 
   private path: Array<{ col: number; row: number }> = [];
   private moveTimer?: Phaser.Time.TimerEvent;
   private combatTimer?: Phaser.Time.TimerEvent;
-  private inCombat = false;
+  private goalCol = 0;
+  private goalRow = 0;
 
   constructor(
     private scene: Phaser.Scene,
@@ -35,26 +40,39 @@ export class Soldier {
     tile: Tile,
     faction: TileFaction,
     sprite: Phaser.GameObjects.Image,
-    rarity: BarracksRarity = 'normal',
+    unitKind: UnitKind = 'melee',
   ) {
     this.tile = tile;
     this.faction = faction;
+    this.unitKind = unitKind;
     this.sprite = sprite;
-    const stats = RARITY_STATS[rarity] ?? RARITY_STATS.normal;
+    const stats = UNIT_STATS[unitKind];
     this.maxHp = stats.hp;
     this.hp = stats.hp;
     this.attack = stats.attack;
+    this.flying = stats.flying;
+    this.attackRange = stats.range;
+    this.buildingDmgMul = stats.buildingBonus;
     tile.soldier = this;
     this.refreshPath();
     this.startMoveLoop(stats.moveInterval);
     this.startCombatLoop();
   }
 
-  takeDamage(amount: number): void {
+  static textureKey(faction: TileFaction, kind: UnitKind): string {
+    return faction === TileFaction.Player
+      ? UNIT_TEXTURE[kind].player
+      : UNIT_TEXTURE[kind].enemy;
+  }
+
+  takeDamage(amount: number, attacker?: TileFaction): void {
     if (this.hp <= 0) return;
     this.hp -= amount;
-    this.sprite.setScale(0.85 + 0.15 * (this.hp / this.maxHp));
-    if (this.hp <= 0) this.grid.destroySoldier(this);
+    const atk =
+      attacker ??
+      (this.faction === TileFaction.Player ? TileFaction.Enemy : TileFaction.Player);
+    this.grid.combatText?.damage(this.sprite.x, this.sprite.y, amount, atk);
+    if (this.hp <= 0) this.grid.destroySoldier(this, atk);
   }
 
   private startMoveLoop(intervalMs: number): void {
@@ -67,7 +85,7 @@ export class Soldier {
 
   private startCombatLoop(): void {
     this.combatTimer = this.scene.time.addEvent({
-      delay: 1000,
+      delay: 800,
       loop: true,
       callback: () => this.combatTick(),
     });
@@ -75,26 +93,49 @@ export class Soldier {
 
   private combatTick(): void {
     if (this.hp <= 0) return;
-    const adj = this.grid.getAdjacentEnemies(this.tile.col, this.tile.row, this.faction);
-    if (adj.length === 0) {
-      this.inCombat = false;
-      return;
-    }
-    this.inCombat = true;
+    const adj = this.grid.getAdjacentEnemies(
+      this.tile.col,
+      this.tile.row,
+      this.faction,
+      this.attackRange,
+    );
+    if (adj.length === 0) return;
+
     const target = adj[0];
-    if (target.building) target.building.takeDamage(this.attack);
-    else if (target.soldier) target.soldier.takeDamage(this.attack);
+    let dmg = this.attack;
+    if (target.building) dmg *= this.buildingDmgMul;
+    if (target.building) target.building.takeDamage(dmg, this.faction);
+    else if (target.soldier) target.soldier.takeDamage(dmg, this.faction);
   }
 
   private stepMove(): void {
-    if (this.hp <= 0 || this.inCombat) return;
+    if (this.hp <= 0) return;
+
+    const adj = this.grid.getAdjacentEnemies(
+      this.tile.col,
+      this.tile.row,
+      this.faction,
+      this.attackRange,
+    );
+    if (adj.length > 0) return;
 
     if (this.path.length === 0) this.refreshPath();
     if (this.path.length === 0) return;
 
     const next = this.path.shift()!;
     const nextTile = this.grid.getTile(next.col, next.row);
-    if (!nextTile || nextTile.isObstacleForPath() || nextTile.soldier) {
+    if (
+      !nextTile ||
+      !this.grid.canUnitEnterTile(
+        next.col,
+        next.row,
+        this.faction,
+        this.goalCol,
+        this.goalRow,
+        this.flying,
+      ) ||
+      (nextTile.soldier && nextTile.soldier !== this)
+    ) {
       this.refreshPath();
       return;
     }
@@ -102,12 +143,11 @@ export class Soldier {
     this.tile.soldier = undefined;
     this.tile = nextTile;
     this.tile.soldier = this;
-    this.sprite.setPosition(nextTile.sprite.x, nextTile.sprite.y - 8);
+    this.sprite.setPosition(nextTile.sprite.x, nextTile.sprite.y - 6);
 
-    this.grid.captureTile(nextTile, this.faction);
-
-    const adj = this.grid.getAdjacentEnemies(next.col, next.row, this.faction);
-    if (adj.length > 0) this.inCombat = true;
+    if (!nextTile.building) {
+      this.grid.captureTile(nextTile, this.faction);
+    }
   }
 
   private refreshPath(): void {
@@ -116,19 +156,17 @@ export class Soldier {
       this.path = [];
       return;
     }
-    const full = findHexPath(
+    this.goalCol = goal.col;
+    this.goalRow = goal.row;
+
+    this.path = findHexPath(
       this.tile.col,
       this.tile.row,
       goal.col,
       goal.row,
-      (c, r) => {
-        const t = this.grid.getTile(c, r);
-        if (!t) return false;
-        if (t.col === goal.col && t.row === goal.row) return true;
-        return !t.isObstacleForPath() && !t.soldier;
-      },
+      (c, r) =>
+        this.grid.canUnitEnterTile(c, r, this.faction, goal.col, goal.row, this.flying),
     );
-    this.path = full;
   }
 
   destroy(): void {
