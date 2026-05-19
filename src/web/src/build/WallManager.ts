@@ -37,6 +37,9 @@ export class WallManager {
   private shouldHaveWall(tile: Tile, faction: TileFaction): boolean {
     if (tile.faction !== faction || !tile.isEmpty()) return false;
 
+    // 贴边墙建筑邻格：围墙在格内，不占邻格
+    if (this.grid.isEdgeWallNeighborTile(tile)) return false;
+
     // 可建造边界格：留给图纸，不铺墙
     if (this.grid.isFrontierBuildable(tile, faction)) return false;
 

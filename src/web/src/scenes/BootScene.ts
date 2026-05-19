@@ -33,6 +33,7 @@ export class BootScene extends Phaser.Scene {
     genBuilding(this, 'ent_barracks_ranged', 0x34d399, 'bow');
     genBuilding(this, 'ent_barracks_flying', 0x38bdf8, 'fly');
     genBuilding(this, 'ent_wall', 0x78716c, 'wall');
+    genWallEdge(this);
     genUnit(this, 'unit_melee_p', 0x4ade80);
     genUnit(this, 'unit_melee_e', 0xf87171);
     genUnit(this, 'unit_ranged_p', 0x86efac);
@@ -152,6 +153,34 @@ function genBuilding(
     g.fillCircle(24, 12, 8);
   }
   g.generateTexture(key, 48, 48);
+  g.destroy();
+}
+
+/** 主堡格六边贴线：2.5D 矮墙段 */
+function genWallEdge(scene: Phaser.Scene): void {
+  if (scene.textures.exists('ent_wall_edge')) return;
+  const g = scene.make.graphics({ x: 0, y: 0 });
+  const W = 40;
+  const H = 28;
+  const cx = W / 2;
+  const baseY = H - 4;
+  g.fillStyle(0x000000, 0.2);
+  g.fillEllipse(cx, baseY, 28, 6);
+  g.fillStyle(0x78716c, 1);
+  g.fillRect(8, 10, 24, 14);
+  g.fillStyle(0x9ca3af, 1);
+  g.fillRect(10, 6, 20, 6);
+  g.fillStyle(0x57534e, 1);
+  g.fillRect(30, 10, 6, 12);
+  g.fillStyle(0x6b7280, 1);
+  g.beginPath();
+  g.moveTo(10, 6);
+  g.lineTo(cx, 2);
+  g.lineTo(30, 6);
+  g.lineTo(cx, 10);
+  g.closePath();
+  g.fillPath();
+  g.generateTexture('ent_wall_edge', W, H);
   g.destroy();
 }
 

@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import type { Building } from '../../entities/Building';
 import type { Soldier } from '../../entities/Soldier';
+import type { HexEdgeWallRing } from '../view/HexEdgeWallRing';
 import { TileFaction } from './TileFaction';
 
 export class Tile {
@@ -13,6 +14,8 @@ export class Tile {
   buildingSprite?: Phaser.GameObjects.Image;
   building?: Building;
   soldier?: Soldier;
+  /** 主堡格内贴边围墙（不占邻格） */
+  hexEdgeWalls?: HexEdgeWallRing;
 
   constructor(col: number, row: number, faction: TileFaction, sprite: Phaser.GameObjects.Image) {
     this.col = col;

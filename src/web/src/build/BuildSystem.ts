@@ -3,13 +3,22 @@ import type { GridSystem } from '../battle/grid/GridSystem';
 import type { Tile } from '../battle/tile/Tile';
 import { TileFaction } from '../battle/tile/TileFaction';
 import type { GameManager } from '../game/GameManager';
-import { GachaManager } from '../game/GachaManager';
+import { GachaManager, type BarracksRarity } from '../game/GachaManager';
 import type { FrontierManager } from './FrontierManager';
 import {
   barracksCost,
   BLUEPRINT_LABELS,
   type BlueprintType,
 } from '../game/BlueprintTypes';
+import { playBuildTileFlip } from '../battle/view/TileFlipFX';
+
+const MYSTERY_RESULT_LABEL: Record<BarracksRarity, string> = {
+  none: '什么都没有',
+  normal: '普通品质兵营',
+  rare: '稀有兵营',
+  epic: '史诗品质兵营',
+  legendary: '传奇品质兵营',
+};
 
 export class BuildSystem {
   private gacha = new GachaManager();
@@ -41,8 +50,8 @@ export class BuildSystem {
     if (!this.game.trySpendPlayerGold(cost)) return;
 
     this.frontier.clearPlayerBlueprint(tile);
-    this.playBuildFx(tile, () => {
-      this.executeBlueprint(tile, TileFaction.Player, bp, cost);
+    playBuildTileFlip(this.scene, tile, () => {
+      this.executeBlueprint(tile, TileFaction.Player, bp);
       this.frontier.refreshAfterBuild(TileFaction.Player);
     });
   }
@@ -51,7 +60,7 @@ export class BuildSystem {
     const cost = this.getEffectiveCost(bp);
     if (!this.game.trySpendEnemyGold(cost)) return false;
     if (!this.grid.isFrontierBuildable(tile, TileFaction.Enemy)) return false;
-    this.executeBlueprint(tile, TileFaction.Enemy, bp, cost);
+    this.executeBlueprint(tile, TileFaction.Enemy, bp);
     this.frontier.refreshAfterBuild(TileFaction.Enemy);
     return true;
   }
@@ -67,7 +76,6 @@ export class BuildSystem {
     tile: Tile,
     faction: TileFaction,
     bp: BlueprintType,
-    cost: number,
   ): void {
     switch (bp) {
       case 'tower':
@@ -80,13 +88,13 @@ export class BuildSystem {
         const rarity = this.gacha.roll(25);
         if (rarity === 'none') {
           if (faction === TileFaction.Player) {
-            this.onToast('盲盒：什么都没有…');
+            this.onToast(`盲盒：${MYSTERY_RESULT_LABEL.none}`);
           }
           return;
         }
         this.grid.placeBarracks(tile, faction, rarity);
         if (faction === TileFaction.Player) {
-          this.onToast(`盲盒开出 ${rarity} 兵营`);
+          this.onToast(`盲盒开出：${MYSTERY_RESULT_LABEL[rarity]}`);
         }
         break;
       }
@@ -102,19 +110,5 @@ export class BuildSystem {
         break;
       }
     }
-    void cost;
-  }
-
-  private playBuildFx(tile: Tile, onDone: () => void): void {
-    const s = tile.sprite;
-    this.scene.tweens.add({
-      targets: s,
-      scaleX: 1.15,
-      scaleY: 1.15,
-      duration: 120,
-      yoyo: true,
-      ease: 'Back.easeOut',
-    });
-    this.scene.time.delayedCall(180, onDone);
   }
 }

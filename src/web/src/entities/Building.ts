@@ -96,6 +96,7 @@ export class Building {
   }
 
   private spawnUnitEntity(): void {
+    if (this.grid.countSoldiers(this.faction) >= 48) return;
     const spot = this.grid.findSpawnTileForBarracks(
       this.tile.col,
       this.tile.row,

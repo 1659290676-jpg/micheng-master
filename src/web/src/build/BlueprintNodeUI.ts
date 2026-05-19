@@ -34,7 +34,7 @@ export class BlueprintNodeUI {
     }).setOrigin(0.5);
 
     this.container = scene.add.container(x, y, [plate, icon, priceBg, price]);
-    this.container.setDepth(8);
+    this.container.setDepth(40 + tile.row * 0.1);
 
     const hitR = HEX_SIZE * 0.95;
     this.container.setInteractive(

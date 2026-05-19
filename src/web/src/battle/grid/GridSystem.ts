@@ -6,6 +6,7 @@ import {
   HEX_SIZE,
 } from '../hex/HexMath';
 import { getHexNeighbors, hexDistance } from '../hex/HexCoords';
+import { findHexPath } from '../../pathfinding/HexAStar';
 import { Tile } from '../tile/Tile';
 import { TileFaction } from '../tile/TileFaction';
 import { Building } from '../../entities/Building';
@@ -17,6 +18,9 @@ import {
   type BuildingKind,
   type UnitKind,
 } from '../../game/BuildingKinds';
+import { buildingCountsForEdgeWalls } from '../view/HexEdgeWallLogic';
+import { HexEdgeWallSystem } from '../view/HexEdgeWallSystem';
+import { tileCountsForEdgeWalls } from '../view/HexEdgeWallLogic';
 
 const FACTION_TEXTURE: Record<TileFaction, string> = {
   [TileFaction.Neutral]: 'tile_neutral',
@@ -29,9 +33,12 @@ export class GridSystem {
   private demonDecals = new Map<string, Phaser.GameObjects.Image>();
   private offsetX = 0;
   private offsetY = 0;
+  private hexEdgeWalls!: HexEdgeWallSystem;
   combatText?: FloatingCombatText;
 
-  constructor(private scene: Phaser.Scene) {}
+  constructor(private scene: Phaser.Scene) {
+    this.hexEdgeWalls = new HexEdgeWallSystem(scene, this);
+  }
 
   buildBoard(): void {
     const tiles = generateRectBoard();
@@ -148,7 +155,19 @@ export class GridSystem {
   placeLordBase(col: number, row: number, faction: TileFaction): Building | null {
     const tile = this.getTile(col, row);
     if (!tile) return null;
-    return this.spawnBuilding(tile, faction, 'lord_base', 100, { cdSeconds: 3 });
+    return this.spawnBuilding(tile, faction, 'lord_base', 2800, { cdSeconds: 3 });
+  }
+
+  /** 邻格有「格内贴边墙」建筑时，不铺占格自动墙 */
+  isEdgeWallNeighborTile(tile: Tile): boolean {
+    return getHexNeighbors(tile.col, tile.row).some((n) => {
+      const t = this.getTile(n.col, n.row);
+      return t ? tileCountsForEdgeWalls(t) : false;
+    });
+  }
+
+  refreshHexEdgeWallsAround(tile: Tile, animateCenter = false): void {
+    this.hexEdgeWalls.refreshAround(tile, animateCenter);
   }
 
   placeMine(tile: Tile, faction: TileFaction): Building | null {
@@ -194,44 +213,43 @@ export class GridSystem {
     const key = Soldier.textureKey(faction, unitKind);
     const spr = this.scene.add.image(tile.sprite.x, tile.sprite.y - 6, key);
     spr.setDisplaySize(32, 32);
-    spr.setDepth(12);
+    spr.setDepth(4);
     return new Soldier(this.scene, this, tile, faction, spr, unitKind);
   }
 
-  /** 兵营旁找出生点：优先朝敌方方向、空格 */
+  /** 兵营旁找出生点：朝敌方前排分散，避免堆在主堡脚下 */
   findSpawnTileForBarracks(
     col: number,
     row: number,
     faction: TileFaction,
   ): Tile | null {
     const enemyDir = faction === TileFaction.Player ? -1 : 1;
-    const neighbors = getHexNeighbors(col, row)
-      .map((n) => this.getTile(n.col, n.row))
-      .filter((t): t is Tile => !!t && t.isEmpty());
-
-    if (neighbors.length === 0) {
-      const ring2: Tile[] = [];
-      for (const n of getHexNeighbors(col, row)) {
-        for (const n2 of getHexNeighbors(n.col, n.row)) {
-          const t = this.getTile(n2.col, n2.row);
-          if (t?.isEmpty()) ring2.push(t);
-        }
+    const empty: Tile[] = [];
+    const seen = new Set<string>();
+    const queue: Array<{ col: number; row: number; d: number }> = [
+      { col, row, d: 0 },
+    ];
+    while (queue.length > 0) {
+      const cur = queue.shift()!;
+      const key = `${cur.col},${cur.row}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const t = this.getTile(cur.col, cur.row);
+      if (!t) continue;
+      if (cur.d > 0 && t.isEmpty()) empty.push(t);
+      if (cur.d >= 4) continue;
+      for (const n of getHexNeighbors(cur.col, cur.row)) {
+        queue.push({ col: n.col, row: n.row, d: cur.d + 1 });
       }
-      if (ring2.length > 0) {
-        return ring2.sort(
-          (a, b) =>
-            (a.row - row) * enemyDir - (b.row - row) * enemyDir,
-        )[0];
-      }
-      return null;
     }
-
-    neighbors.sort((a, b) => {
-      const da = (a.row - row) * enemyDir;
-      const db = (b.row - row) * enemyDir;
-      return da - db;
+    if (empty.length === 0) return null;
+    empty.sort((a, b) => {
+      const fa = (a.row - row) * enemyDir;
+      const fb = (b.row - row) * enemyDir;
+      if (fa !== fb) return fa - fb;
+      return hexDistance(col, row, a.col, a.row) - hexDistance(col, row, b.col, b.row);
     });
-    return neighbors[0];
+    return empty[0];
   }
 
   destroyBuilding(building: Building, destroyer?: TileFaction): void {
@@ -241,7 +259,11 @@ export class GridSystem {
         ? TileFaction.Enemy
         : TileFaction.Player);
     const tile = building.tile;
+    const hadEdgeWalls = buildingCountsForEdgeWalls(building.kind);
     building.destroy();
+    if (hadEdgeWalls) {
+      this.refreshHexEdgeWallsAround(tile, false);
+    }
     this.flipNeighborsOnBuildingDestroyed(tile, killer);
     if (killer === TileFaction.Player && building.kind !== 'wall') {
       this.combatText?.goldReward(tile.sprite.x, tile.sprite.y, 1);
@@ -301,6 +323,43 @@ export class GridSystem {
     return best;
   }
 
+  countSoldiers(faction: TileFaction): number {
+    let n = 0;
+    for (const t of this.tiles.values()) {
+      if (t.soldier?.faction === faction) n++;
+    }
+    return n;
+  }
+
+  /** 推进目标：能到主塔则主塔；否则最近敌方空地（避免全堵在己方边界） */
+  findAdvanceGoalForSoldier(col: number, row: number, faction: TileFaction): Tile | null {
+    const primary = this.findTargetForSoldier(col, row, faction);
+    if (!primary) return null;
+
+    const path = findHexPath(
+      col,
+      row,
+      primary.col,
+      primary.row,
+      (c, r) => this.canPlanUnitPath(c, r, primary.col, primary.row, false),
+    );
+    if (path.length > 0) return primary;
+
+    const enemy =
+      faction === TileFaction.Player ? TileFaction.Enemy : TileFaction.Player;
+    let best: Tile | null = null;
+    let bestD = Infinity;
+    for (const t of this.tiles.values()) {
+      if (t.faction !== enemy || t.building || t.soldier) continue;
+      const d = hexDistance(col, row, t.col, t.row);
+      if (d < bestD) {
+        bestD = d;
+        best = t;
+      }
+    }
+    return best ?? primary;
+  }
+
   /** 寻路目标：敌主塔 > 最近敌建筑(含墙) > 最近敌兵 */
   findTargetForSoldier(col: number, row: number, faction: TileFaction): Tile | null {
     const enemy =
@@ -336,7 +395,25 @@ export class GridSystem {
     return nearestSoldier;
   }
 
-  /** 单位能否走入该格（可踏入敌方空地；建筑格不可穿过） */
+  /** A* 规划用：忽略占格小兵，避免边界处集体堵死 */
+  canPlanUnitPath(
+    col: number,
+    row: number,
+    goalCol: number,
+    goalRow: number,
+    flying: boolean,
+  ): boolean {
+    const t = this.getTile(col, row);
+    if (!t) return false;
+    if (col === goalCol && row === goalRow) return true;
+    if (t.building) {
+      if (flying && t.building.kind !== 'wall') return false;
+      return false;
+    }
+    return true;
+  }
+
+  /** 实际迈步：可踏入敌方/己方空地；他方小兵占格不可进入 */
   canUnitEnterTile(
     col: number,
     row: number,
@@ -349,11 +426,7 @@ export class GridSystem {
     if (!t) return false;
     if (col === goalCol && row === goalRow) return true;
     if (t.soldier) return false;
-    if (t.building) {
-      if (flying && t.building.kind !== 'wall') return false;
-      return false;
-    }
-    return true;
+    return this.canPlanUnitPath(col, row, goalCol, goalRow, flying);
   }
 
   private spawnBuilding(
@@ -365,9 +438,9 @@ export class GridSystem {
   ): Building | null {
     const tex = BUILDING_TEXTURE[kind];
     const spr = this.scene.add.image(tile.sprite.x, tile.sprite.y - 4, tex);
-    const scale = kind === 'lord_base' ? 1.2 : kind === 'wall' ? 0.95 : 1;
+    const scale = kind === 'lord_base' ? 1.15 : kind === 'wall' ? 0.95 : 1;
     spr.setDisplaySize(40 * scale, 44 * scale);
-    spr.setDepth(6);
+    spr.setDepth(kind === 'lord_base' ? 8 : 6);
     spr.setScale(0.15);
     this.scene.tweens.add({
       targets: spr,
@@ -377,6 +450,9 @@ export class GridSystem {
     });
     if (faction === TileFaction.Enemy) spr.setFlipX(true);
     const b = new Building(this.scene, this, tile, kind, faction, spr, maxHp, opts);
+    if (buildingCountsForEdgeWalls(kind)) {
+      this.refreshHexEdgeWallsAround(tile, true);
+    }
     this.refreshTerritoryDecals();
     this.scene.events.emit('building-placed', faction);
     return b;

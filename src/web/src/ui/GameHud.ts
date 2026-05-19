@@ -82,7 +82,7 @@ export class GameHud {
       .text(12, 80, '', { fontSize: '14px', color: '#fca5a5' })
       .setDepth(100);
     this.scene.add
-      .text(12, 104, '点击边界图纸格一键建造 · 绿方=你', {
+      .text(12, 104, '每格建筑六边贴墙 · 相邻共用边自动合并', {
         fontSize: '13px',
         color: '#94a3b8',
       })

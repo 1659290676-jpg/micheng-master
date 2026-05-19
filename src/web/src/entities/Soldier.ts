@@ -2,12 +2,21 @@ import Phaser from 'phaser';
 import { TileFaction } from '../battle/tile/TileFaction';
 import type { Tile } from '../battle/tile/Tile';
 import type { GridSystem } from '../battle/grid/GridSystem';
+import { getHexNeighbors, hexDistance } from '../battle/hex/HexCoords';
 import { findHexPath } from '../pathfinding/HexAStar';
 import type { UnitKind } from '../game/BuildingKinds';
 import { UNIT_TEXTURE } from '../game/BuildingKinds';
+
 const UNIT_STATS: Record<
   UnitKind,
-  { hp: number; attack: number; moveInterval: number; range: number; flying: boolean; buildingBonus: number }
+  {
+    hp: number;
+    attack: number;
+    moveInterval: number;
+    range: number;
+    flying: boolean;
+    buildingBonus: number;
+  }
 > = {
   melee: { hp: 110, attack: 18, moveInterval: 380, range: 1, flying: false, buildingBonus: 1 },
   ranged: { hp: 75, attack: 22, moveInterval: 400, range: 2, flying: false, buildingBonus: 1 },
@@ -33,6 +42,7 @@ export class Soldier {
   private combatTimer?: Phaser.Time.TimerEvent;
   private goalCol = 0;
   private goalRow = 0;
+  private stuckTicks = 0;
 
   constructor(
     private scene: Phaser.Scene,
@@ -120,38 +130,102 @@ export class Soldier {
     if (adj.length > 0) return;
 
     if (this.path.length === 0) this.refreshPath();
-    if (this.path.length === 0) return;
 
-    const next = this.path.shift()!;
-    const nextTile = this.grid.getTile(next.col, next.row);
-    if (
-      !nextTile ||
-      !this.grid.canUnitEnterTile(
-        next.col,
-        next.row,
-        this.faction,
-        this.goalCol,
-        this.goalRow,
-        this.flying,
-      ) ||
-      (nextTile.soldier && nextTile.soldier !== this)
-    ) {
-      this.refreshPath();
+    if (this.path.length > 0) {
+      const next = this.path[0]!;
+      const nextTile = this.grid.getTile(next.col, next.row);
+      if (
+        nextTile &&
+        this.grid.canUnitEnterTile(
+          next.col,
+          next.row,
+          this.faction,
+          this.goalCol,
+          this.goalRow,
+          this.flying,
+        ) &&
+        (!nextTile.soldier || nextTile.soldier === this)
+      ) {
+        this.path.shift();
+        this.moveToTile(nextTile);
+        this.stuckTicks = 0;
+        return;
+      }
+      this.path.shift();
+    }
+
+    this.stuckTicks++;
+    if (this.tryGreedyStepTowardGoal()) {
+      this.stuckTicks = 0;
       return;
     }
 
+    if (this.stuckTicks >= 2) {
+      this.refreshPath();
+      this.stuckTicks = 0;
+    }
+  }
+
+  private tryGreedyStepTowardGoal(): boolean {
+    const goal = this.grid.findAdvanceGoalForSoldier(
+      this.tile.col,
+      this.tile.row,
+      this.faction,
+    );
+    if (!goal) return false;
+
+    const enemy =
+      this.faction === TileFaction.Player ? TileFaction.Enemy : TileFaction.Player;
+
+    const candidates = getHexNeighbors(this.tile.col, this.tile.row)
+      .map((n) => this.grid.getTile(n.col, n.row))
+      .filter((t): t is Tile => {
+        if (!t) return false;
+        return this.grid.canUnitEnterTile(
+          t.col,
+          t.row,
+          this.faction,
+          goal.col,
+          goal.row,
+          this.flying,
+        );
+      })
+      .filter((t) => !t.soldier || t.soldier === this);
+
+    if (candidates.length === 0) return false;
+
+    candidates.sort((a, b) => {
+      const da = hexDistance(a.col, a.row, goal.col, goal.row);
+      const db = hexDistance(b.col, b.row, goal.col, goal.row);
+      const aBonus = a.faction === enemy && a.isEmpty() ? -3 : 0;
+      const bBonus = b.faction === enemy && b.isEmpty() ? -3 : 0;
+      const aAlly = a.faction === this.faction && a.isEmpty() ? 0.15 : 0;
+      const bAlly = b.faction === this.faction && b.isEmpty() ? 0.15 : 0;
+      return da + aBonus + aAlly - (db + bBonus + bAlly);
+    });
+
+    this.moveToTile(candidates[0]!);
+    this.goalCol = goal.col;
+    this.goalRow = goal.row;
+    return true;
+  }
+
+  private moveToTile(nextTile: Tile): void {
     this.tile.soldier = undefined;
     this.tile = nextTile;
     this.tile.soldier = this;
     this.sprite.setPosition(nextTile.sprite.x, nextTile.sprite.y - 6);
-
     if (!nextTile.building) {
       this.grid.captureTile(nextTile, this.faction);
     }
   }
 
   private refreshPath(): void {
-    const goal = this.grid.findTargetForSoldier(this.tile.col, this.tile.row, this.faction);
+    const goal = this.grid.findAdvanceGoalForSoldier(
+      this.tile.col,
+      this.tile.row,
+      this.faction,
+    );
     if (!goal) {
       this.path = [];
       return;
@@ -165,7 +239,7 @@ export class Soldier {
       goal.col,
       goal.row,
       (c, r) =>
-        this.grid.canUnitEnterTile(c, r, this.faction, goal.col, goal.row, this.flying),
+        this.grid.canPlanUnitPath(c, r, goal.col, goal.row, this.flying),
     );
   }
 
