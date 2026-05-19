@@ -1,0 +1,49 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.suo
+*.user
+*.userosscache
+
+# Build / Export
+bin/
+obj/
+build/
+dist/
+dist-single/
+src/web/dist/
+src/web/dist-single/
+export/
+*.apk
+*.ipa
+
+# Godot
+.godot/
+*.import
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Node（若用 TS 工具链）
+node_modules/
+.npm/
+
+# Env / secrets
+.env
+.env.*
+*.pem
+
+# Logs
+*.log

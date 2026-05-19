@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "unit_swordman",
+      "name": "剑士",
+      "type": "unit",
+      "rarity": "common",
+      "faction": "human",
+      "cost": 50,
+      "weight_in_pool": 100
+    },
+    {
+      "id": "tower_arrow",
+      "name": "箭塔",
+      "type": "tower",
+      "rarity": "rare",
+      "faction": "human",
+      "cost": 80,
+      "weight_in_pool": 60
+    },
+    {
+      "id": "tile_mine",
+      "name": "矿场",
+      "type": "building",
+      "rarity": "common",
+      "faction": "neutral",
+      "cost": 40,
+      "weight_in_pool": 80
+    },
+    {
+      "id": "mystery_box",
+      "name": "问号格",
+      "type": "mystery",
+      "rarity": "special",
+      "faction": "neutral",
+      "cost": 25,
+      "weight_in_pool": 0,
+      "note": "由地图刷新，不进常规卡组"
+    }
+  ]
+}

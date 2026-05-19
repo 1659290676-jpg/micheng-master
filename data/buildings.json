@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "fixedBuildings": [
+    {
+      "id": "mine_gold",
+      "name": "金矿",
+      "type": "mine",
+      "openCost": 50,
+      "random": false,
+      "level": 1,
+      "buildingHp": 140,
+      "produceIntervalSec": 5.995,
+      "incomeGold": 10
+    },
+    {
+      "id": "tower_sword",
+      "name": "剑塔",
+      "type": "tower",
+      "openCost": 50,
+      "random": false,
+      "level": 1,
+      "buildingHp": 400,
+      "attack": 120,
+      "attackIntervalSec": 2.995,
+      "attackRange": 3,
+      "targets": ["ground", "air"]
+    },
+    {
+      "id": "tower_arrow_rare",
+      "name": "珍珍箭塔猫",
+      "type": "tower",
+      "rarity": "rare",
+      "openCost": 0,
+      "note": "通过卡组开出，数值见 cards.json",
+      "random": false,
+      "level": 1,
+      "buildingHp": 320,
+      "attack": 95,
+      "attackIntervalSec": 2.995,
+      "attackRange": 4,
+      "targets": ["ground", "air"]
+    }
+  ]
+}

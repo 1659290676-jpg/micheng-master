@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "cost": 25,
+  "rolls": [
+    { "result": "empty_tile", "weight": 50 },
+    { "result": "unit_swordman", "weight": 35 },
+    { "result": "tower_arrow", "weight": 12 },
+    { "result": "unit_epic_placeholder", "weight": 3 }
+  ]
+}

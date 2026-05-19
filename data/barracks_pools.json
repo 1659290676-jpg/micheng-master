@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "tiers": [
+    {
+      "id": "barracks_50",
+      "name": "兵营·50金",
+      "cost": 50,
+      "rolls": [
+        { "rarity": "common", "weight": 74 },
+        { "rarity": "rare", "weight": 20 },
+        { "rarity": "epic", "weight": 5 },
+        { "rarity": "legendary", "weight": 1 }
+      ]
+    },
+    {
+      "id": "barracks_100",
+      "name": "兵营·100金",
+      "cost": 100,
+      "rolls": [
+        { "rarity": "common", "weight": 50 },
+        { "rarity": "rare", "weight": 40 },
+        { "rarity": "epic", "weight": 8 },
+        { "rarity": "legendary", "weight": 2 }
+      ]
+    },
+    {
+      "id": "barracks_250",
+      "name": "兵营·250金",
+      "cost": 250,
+      "rolls": [
+        { "rarity": "epic", "weight": 90 },
+        { "rarity": "legendary", "weight": 10 }
+      ]
+    }
+  ]
+}

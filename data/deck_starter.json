@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "初始卡组",
+  "cardIds": [
+    "mine_gold",
+    "tower_arrow_rare",
+    "unit_mianmian_cat",
+    "unit_cengceng_cat",
+    "unit_chuanchuan_cat",
+    "unit_yueyue_cat",
+    "unit_yanyan_cat",
+    "unit_baba_cat"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "mystery_question",
+  "name": "问号盲盒格",
+  "cost": 25,
+  "openingNoLegendarySeconds": 30,
+  "emptyStreakPity": 3,
+  "epicPityBeforeRoll": 8,
+  "legendaryCapPerMatch": 1,
+  "rolls": [
+    { "result": "nothing", "weight": 70, "rarity": "none" },
+    { "result": "from_deck_common", "weight": 10, "rarity": "common" },
+    { "result": "from_deck_epic", "weight": 15, "rarity": "epic" },
+    { "result": "from_deck_legendary", "weight": 5, "rarity": "legendary" }
+  ]
+}
