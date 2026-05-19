@@ -45,6 +45,18 @@ npm run build:html
 copy dist-single\index.html ..\..\release\咪城大师-预览.html
 ```
 
+## 推送到 GitHub
+
+本地已 `git init` 并提交。登录后执行：
+
+```powershell
+gh auth login
+cd E:\CCfirst
+powershell -ExecutionPolicy Bypass -File scripts\push-to-github.ps1
+```
+
+详见 `docs/github-setup.md`。
+
 ## 文档入口
 
 | 用途 | 文件 |
