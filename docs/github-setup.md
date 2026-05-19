@@ -19,7 +19,11 @@ cd E:\CCfirst
 powershell -ExecutionPolicy Bypass -File scripts\push-to-github.ps1
 ```
 
-默认仓库名：`micheng-master`（公开）。若要改名，编辑 `scripts/push-to-github.ps1` 里的 `$repoName`。
+默认仓库：`1659290676-jpg/micheng-master`（公开）。
+
+本仓库 Git 已配置：
+- `user.name` = `1659290676-jpg`
+- `user.email` = `1659290676@qq.com`
 
 ## 已有空仓库时
 

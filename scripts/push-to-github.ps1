@@ -2,6 +2,7 @@
 # 然后运行本脚本：powershell -ExecutionPolicy Bypass -File scripts\push-to-github.ps1
 
 $ErrorActionPreference = "Stop"
+$githubUser = "1659290676-jpg"
 $repoName = "micheng-master"
 $root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $root
@@ -21,8 +22,8 @@ if ($LASTEXITCODE -ne 0) {
 
 $remote = git remote get-url origin 2>$null
 if (-not $remote) {
-    Write-Host "正在创建远程仓库并推送: $repoName"
-    gh repo create $repoName --public --source=. --remote=origin --push --description "咪城大师 - 猫咪IP占格PVP网页小游戏"
+    Write-Host "正在创建远程仓库并推送: $githubUser/$repoName"
+    gh repo create "$githubUser/$repoName" --public --source=. --remote=origin --push --description "咪城大师 - 猫咪IP占格PVP网页小游戏"
 } else {
     Write-Host "推送到已有远程: $remote"
     git push -u origin main
