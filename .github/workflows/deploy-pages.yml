@@ -32,6 +32,8 @@ jobs:
           cd src/web
           npm ci
           npm run build:html
+          # 避免 Pages 走 Jekyll，确保部署的是单文件游戏
+          touch dist-single/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
