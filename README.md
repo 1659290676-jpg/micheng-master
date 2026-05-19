@@ -45,6 +45,16 @@ npm run build:html
 copy dist-single\index.html ..\..\release\咪城大师-预览.html
 ```
 
+## 发布成公网（大家都能玩）
+
+完整说明见 **`docs/deploy-public.md`**。
+
+1. 打开 [仓库 Pages 设置](https://github.com/1659290676-jpg/micheng-master/settings/pages)
+2. **Source** 选 **GitHub Actions**（只需设置一次）
+3. 推送代码后自动部署，分享链接：
+
+**https://1659290676-jpg.github.io/micheng-master/**
+
 ## 文档入口
 
 | 用途 | 文件 |
