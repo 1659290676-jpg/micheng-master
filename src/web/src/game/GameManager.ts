@@ -10,7 +10,6 @@ export class GameManager {
 
   readonly startingGold = 100;
   readonly baseGoldPerSec = 5;
-  readonly mineBonusPerSec = 2;
   readonly matchDurationSec = 180;
 
   timeLeftSec = 180;
@@ -47,10 +46,8 @@ export class GameManager {
       return;
     }
 
-    const playerMines = this.grid.countBuildings(TileFaction.Player, 'gold_mine');
-    const enemyMines = this.grid.countBuildings(TileFaction.Enemy, 'gold_mine');
-    const playerRate = this.baseGoldPerSec + playerMines * this.mineBonusPerSec;
-    const enemyRate = this.baseGoldPerSec + enemyMines * this.mineBonusPerSec;
+    const playerRate = this.baseGoldPerSec;
+    const enemyRate = this.baseGoldPerSec;
 
     this.goldAccumulator += playerRate * dt;
     this.enemyGoldAccumulator += enemyRate * dt;
@@ -84,6 +81,19 @@ export class GameManager {
     if (this.enemyGold < amount) return false;
     this.enemyGold -= amount;
     return true;
+  }
+
+  grantGold(faction: TileFaction, amount: number): void {
+    if (this.matchOver || amount <= 0) return;
+    if (faction === TileFaction.Player) {
+      this.playerGold += amount;
+    } else {
+      this.enemyGold += amount;
+    }
+  }
+
+  countMines(faction: TileFaction): number {
+    return this.grid.countBuildings(faction, 'gold_mine');
   }
 
   endMatch(result: MatchResult): void {

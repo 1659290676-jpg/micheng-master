@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import type { GameManager, MatchResult } from '../game/GameManager';
+import { TileFaction } from '../battle/tile/TileFaction';
 
 export class GameHud {
   private goldText!: Phaser.GameObjects.Text;
@@ -26,13 +27,14 @@ export class GameHud {
     const { player, enemy } = this.game.getTileCounts();
     const m = Math.floor(this.game.timeLeftSec / 60);
     const s = Math.floor(this.game.timeLeftSec % 60);
-    const mines = 0;
+    const mines = this.game.countMines(TileFaction.Player);
+    const mineHint =
+      mines > 0 ? `  矿×${mines}每~6秒+10` : '';
     this.goldText.setText(
-      `金币 ${Math.floor(this.game.playerGold)}  (+${this.game.baseGoldPerSec}/秒+矿)`,
+      `金币 ${Math.floor(this.game.playerGold)}  (+${this.game.baseGoldPerSec}/秒${mineHint})`,
     );
     this.timerText.setText(`剩余 ${m}:${s.toString().padStart(2, '0')}`);
     this.countText.setText(`绿格 ${player}  vs  红格 ${enemy}`);
-    void mines;
   }
 
   hideEndPanel(): void {

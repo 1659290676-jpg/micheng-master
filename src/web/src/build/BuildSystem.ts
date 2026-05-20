@@ -22,6 +22,7 @@ const MYSTERY_RESULT_LABEL: Record<BarracksRarity, string> = {
 
 export class BuildSystem {
   private gacha = new GachaManager();
+  private busyTileKey: string | null = null;
 
   constructor(
     private scene: Phaser.Scene,
@@ -32,6 +33,7 @@ export class BuildSystem {
   ) {}
 
   tryPlayerBuild(tile: Tile): void {
+    if (this.busyTileKey === tile.key) return;
     if (tile.building?.kind === 'wall') {
       this.onToast('这里是城墙，无法建造');
       return;
@@ -49,10 +51,22 @@ export class BuildSystem {
     const cost = this.getEffectiveCost(bp);
     if (!this.game.trySpendPlayerGold(cost)) return;
 
-    this.frontier.clearPlayerBlueprint(tile);
-    playBuildTileFlip(this.scene, tile, () => {
+    if (bp === 'mystery') {
+      const rarity = this.gacha.roll(25);
+      this.beginBuild(tile, () => {
+        if (rarity === 'none') {
+          this.grid.placeMysteryEmptyWall(tile, TileFaction.Player);
+          this.onToast(`盲盒：${MYSTERY_RESULT_LABEL.none}，生成空围墙`);
+          return;
+        }
+        this.grid.placeBarracks(tile, TileFaction.Player, rarity);
+        this.onToast(`盲盒开出：${MYSTERY_RESULT_LABEL[rarity]}，已落地出兵营`);
+      });
+      return;
+    }
+
+    this.beginBuild(tile, () => {
       this.executeBlueprint(tile, TileFaction.Player, bp);
-      this.frontier.refreshAfterBuild(TileFaction.Player);
     });
   }
 
@@ -60,9 +74,28 @@ export class BuildSystem {
     const cost = this.getEffectiveCost(bp);
     if (!this.game.trySpendEnemyGold(cost)) return false;
     if (!this.grid.isFrontierBuildable(tile, TileFaction.Enemy)) return false;
-    this.executeBlueprint(tile, TileFaction.Enemy, bp);
+    if (bp === 'mystery') {
+      const rarity = this.gacha.roll(25);
+      if (rarity === 'none') {
+        this.grid.placeMysteryEmptyWall(tile, TileFaction.Enemy);
+      } else {
+        this.grid.placeBarracks(tile, TileFaction.Enemy, rarity);
+      }
+    } else {
+      this.executeBlueprint(tile, TileFaction.Enemy, bp);
+    }
     this.frontier.refreshAfterBuild(TileFaction.Enemy);
     return true;
+  }
+
+  private beginBuild(tile: Tile, onReveal: () => void): void {
+    this.busyTileKey = tile.key;
+    this.frontier.clearPlayerBlueprint(tile);
+    playBuildTileFlip(this.scene, tile, () => {
+      onReveal();
+      this.frontier.refreshAfterBuild(TileFaction.Player);
+      this.busyTileKey = null;
+    });
   }
 
   private getEffectiveCost(bp: BlueprintType): number {
@@ -84,20 +117,6 @@ export class BuildSystem {
       case 'mine':
         this.grid.placeMine(tile, faction);
         break;
-      case 'mystery': {
-        const rarity = this.gacha.roll(25);
-        if (rarity === 'none') {
-          if (faction === TileFaction.Player) {
-            this.onToast(`盲盒：${MYSTERY_RESULT_LABEL.none}`);
-          }
-          return;
-        }
-        this.grid.placeBarracks(tile, faction, rarity);
-        if (faction === TileFaction.Player) {
-          this.onToast(`盲盒开出：${MYSTERY_RESULT_LABEL[rarity]}`);
-        }
-        break;
-      }
       case 'barracks_low':
       case 'barracks_mid':
       case 'barracks_high': {
@@ -109,6 +128,8 @@ export class BuildSystem {
         }
         break;
       }
+      default:
+        break;
     }
   }
 }

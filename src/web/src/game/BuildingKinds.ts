@@ -7,6 +7,7 @@ export type BuildingKind =
   | 'barracks_melee'
   | 'barracks_ranged'
   | 'barracks_flying'
+  | 'empty_wall'
   | 'wall';
 
 export type UnitKind = 'melee' | 'ranged' | 'flying' | 'heavy' | 'siege';
@@ -19,6 +20,7 @@ export const BUILDING_TEXTURE: Record<BuildingKind, string> = {
   barracks_melee: 'ent_barracks_melee',
   barracks_ranged: 'ent_barracks_ranged',
   barracks_flying: 'ent_barracks_flying',
+  empty_wall: 'ent_empty_wall',
   wall: 'ent_wall',
 };
 

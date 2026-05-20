@@ -32,6 +32,7 @@ export class BootScene extends Phaser.Scene {
     genBuilding(this, 'ent_barracks_melee', 0x9ca3af, 'melee');
     genBuilding(this, 'ent_barracks_ranged', 0x34d399, 'bow');
     genBuilding(this, 'ent_barracks_flying', 0x38bdf8, 'fly');
+    genEmptyBuilding(this, 'ent_empty_wall');
     genBuilding(this, 'ent_wall', 0x78716c, 'wall');
     genWallEdge(this);
     genUnit(this, 'unit_melee_p', 0x4ade80);
@@ -152,6 +153,14 @@ function genBuilding(
     g.fillRect(14, 14, 20, 22);
     g.fillCircle(24, 12, 8);
   }
+  g.generateTexture(key, 48, 48);
+  g.destroy();
+}
+
+function genEmptyBuilding(scene: Phaser.Scene, key: string): void {
+  const g = scene.make.graphics({ x: 0, y: 0 });
+  g.fillStyle(0xffffff, 0);
+  g.fillRect(0, 0, 48, 48);
   g.generateTexture(key, 48, 48);
   g.destroy();
 }

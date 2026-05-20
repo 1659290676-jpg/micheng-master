@@ -10,6 +10,7 @@ export function buildingCountsForEdgeWalls(kind: BuildingKind | undefined): bool
     kind === 'gold_mine' ||
     kind === 'arrow_tower' ||
     kind === 'aoe_tower' ||
+    kind === 'empty_wall' ||
     kind.startsWith('barracks')
   );
 }

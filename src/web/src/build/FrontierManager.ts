@@ -80,7 +80,8 @@ export class FrontierManager {
   }
 
   private isFrontierTile(tile: Tile, faction: TileFaction): boolean {
-    if (tile.faction !== faction || !tile.isEmpty()) return false;
+    if (!tile.isEmpty()) return false;
+    if (faction === TileFaction.Enemy && tile.faction !== faction) return false;
     return getHexNeighbors(tile.col, tile.row).some((n) => {
       const t = this.grid.getTile(n.col, n.row);
       return t?.building?.faction === faction && t.building.kind !== 'wall';
@@ -88,6 +89,9 @@ export class FrontierManager {
   }
 
   private syncPlayerUI(): void {
+    for (const t of this.grid.getAllTiles()) {
+      if (t.sprite.input) t.sprite.setInteractive();
+    }
     for (const [key, ui] of [...this.playerUI]) {
       if (!this.playerBlueprints.has(key)) {
         ui.destroy();
@@ -95,10 +99,11 @@ export class FrontierManager {
       }
     }
     for (const [key, bp] of this.playerBlueprints) {
-      if (this.playerUI.has(key)) continue;
       const parts = key.split(',').map(Number);
       const tile = this.grid.getTile(parts[0], parts[1]);
       if (!tile) continue;
+      if (tile.sprite.input) tile.sprite.disableInteractive();
+      if (this.playerUI.has(key)) continue;
       this.playerUI.set(key, new BlueprintNodeUI(this.scene, tile, bp));
     }
   }

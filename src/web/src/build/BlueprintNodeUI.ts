@@ -42,7 +42,8 @@ export class BlueprintNodeUI {
       Phaser.Geom.Circle.Contains,
     );
     this.container.setData('tile', tile);
-    this.container.on('pointerdown', () => {
+    this.container.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
+      pointer.event?.stopPropagation();
       scene.events.emit('tile-clicked', tile);
     });
   }

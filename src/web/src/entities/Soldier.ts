@@ -6,24 +6,7 @@ import { getHexNeighbors, hexDistance } from '../battle/hex/HexCoords';
 import { findHexPath } from '../pathfinding/HexAStar';
 import type { UnitKind } from '../game/BuildingKinds';
 import { UNIT_TEXTURE } from '../game/BuildingKinds';
-
-const UNIT_STATS: Record<
-  UnitKind,
-  {
-    hp: number;
-    attack: number;
-    moveInterval: number;
-    range: number;
-    flying: boolean;
-    buildingBonus: number;
-  }
-> = {
-  melee: { hp: 110, attack: 18, moveInterval: 380, range: 1, flying: false, buildingBonus: 1 },
-  ranged: { hp: 75, attack: 22, moveInterval: 400, range: 2, flying: false, buildingBonus: 1 },
-  flying: { hp: 90, attack: 20, moveInterval: 340, range: 1, flying: true, buildingBonus: 1 },
-  heavy: { hp: 220, attack: 35, moveInterval: 480, range: 1, flying: false, buildingBonus: 1 },
-  siege: { hp: 140, attack: 55, moveInterval: 450, range: 2, flying: false, buildingBonus: 1.5 },
-};
+import { barracksTierForUnit, COMBAT_BALANCE } from '../game/CombatBalance';
 
 export class Soldier {
   hp: number;
@@ -56,16 +39,17 @@ export class Soldier {
     this.faction = faction;
     this.unitKind = unitKind;
     this.sprite = sprite;
-    const stats = UNIT_STATS[unitKind];
-    this.maxHp = stats.hp;
-    this.hp = stats.hp;
-    this.attack = stats.attack;
-    this.flying = stats.flying;
-    this.attackRange = stats.range;
-    this.buildingDmgMul = stats.buildingBonus;
+    const tier = barracksTierForUnit(unitKind);
+    const stats = COMBAT_BALANCE.barracks[tier];
+    this.maxHp = stats.unitHp;
+    this.hp = stats.unitHp;
+    this.attack = stats.unitAttack;
+    this.flying = unitKind === 'flying';
+    this.attackRange = stats.attackRangeHex;
+    this.buildingDmgMul = unitKind === 'siege' ? 1.5 : 1;
     tile.soldier = this;
     this.refreshPath();
-    this.startMoveLoop(stats.moveInterval);
+    this.startMoveLoop(stats.moveIntervalMs);
     this.startCombatLoop();
   }
 
@@ -127,7 +111,11 @@ export class Soldier {
       this.faction,
       this.attackRange,
     );
-    if (adj.length > 0) return;
+    const blockingEnemies = adj.filter((t) => {
+      const kind = t.building?.kind;
+      return kind !== 'arrow_tower' && kind !== 'lord_base';
+    });
+    if (blockingEnemies.length > 0) return;
 
     if (this.path.length === 0) this.refreshPath();
 

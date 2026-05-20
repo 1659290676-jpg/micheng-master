@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "goldMine": { "buildingHp": 140, "goldIntervalSec": 5.995, "goldPerPulse": 10 },
+  "arrowTower": {
+    "buildingHp": 400,
+    "attackDamage": 120,
+    "attackIntervalSec": 2.995,
+    "attackRangeHex": 3
+  },
+  "mysteryEmptyWall": {
+    "buildingHp": 100
+  },
+  "lordBase": {
+    "buildingHp": 1000,
+    "goldIntervalSec": 5,
+    "goldPerPulse": 10,
+    "attackDamage": 150,
+    "attackIntervalSec": 1,
+    "attackRangeHex": 3
+  },
+  "barracks": {
+    "normal": {
+      "buildingHp": 300,
+      "unitHp": 100,
+      "unitAttack": 13,
+      "spawnIntervalSec": 7,
+      "moveIntervalMs": 2400,
+      "attackRangeHex": 1.2
+    },
+    "rare": {
+      "buildingHp": 400,
+      "unitHp": 150,
+      "unitAttack": 20,
+      "spawnIntervalSec": 15,
+      "moveIntervalMs": 1000,
+      "attackRangeHex": 5
+    },
+    "epic": {
+      "buildingHp": 800,
+      "unitHp": 250,
+      "unitAttack": 50,
+      "spawnIntervalSec": 18,
+      "moveIntervalMs": 3000,
+      "attackRangeHex": 3
+    },
+    "legendary": {
+      "buildingHp": 4000,
+      "unitHp": 1400,
+      "unitAttack": 100,
+      "spawnIntervalSec": 40,
+      "moveIntervalMs": 2000,
+      "attackRangeHex": 1
+    }
+  }
+}

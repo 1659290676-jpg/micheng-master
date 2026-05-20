@@ -32,8 +32,6 @@ export class BoardScene extends Phaser.Scene {
 
     this.grid = new GridSystem(this);
     this.grid.combatText = new FloatingCombatText(this);
-    this.grid.buildBoard();
-    this.frontier = new FrontierManager(this, this.grid);
 
     let hudRef!: GameHud;
     this.gameManager = new GameManager(
@@ -42,6 +40,9 @@ export class BoardScene extends Phaser.Scene {
       (msg) => hudRef.showToast(msg),
       (result) => this.onMatchEnd(result),
     );
+    this.grid.bindGameManager(this.gameManager);
+    this.grid.buildBoard();
+    this.frontier = new FrontierManager(this, this.grid);
     this.hud = hudRef = new GameHud(this, this.gameManager);
     this.buildSystem = new BuildSystem(
       this,
