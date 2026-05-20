@@ -1,0 +1,872 @@
+{
+  "_$ver": 1,
+  "_$id": "mexsw9o2",
+  "_$type": "Sprite3D",
+  "name": "fx_yaoren_B_1",
+  "_$comp": [
+    {
+      "_$type": "ShurikenParticleRenderer",
+      "reflectionMode": 0,
+      "lightmapScaleOffset": {
+        "_$type": "Vector4"
+      },
+      "sharedMaterials": [
+        {
+          "_$uuid": "3573d1f1-90d6-4e95-ba25-9651469c930f",
+          "_$type": "Material"
+        }
+      ],
+      "renderMode": 1,
+      "stretchedBillboardLengthScale": 1,
+      "_particleSystem": {
+        "duration": 0.5,
+        "looping": false,
+        "startLifetimeType": 2,
+        "startLifetimeConstant": 3,
+        "startLifetimeConstantMin": 0.4,
+        "startLifetimeConstantMax": 1,
+        "startSpeedType": 2,
+        "startSpeedConstantMin": 0.2,
+        "startSpeedConstantMax": 0.8,
+        "threeDStartSize": true,
+        "startSizeConstant": 0.5,
+        "startSizeConstantSeparate": {
+          "_$type": "Vector3",
+          "x": 3,
+          "y": 5,
+          "z": 1
+        },
+        "startSizeConstantMinSeparate": {
+          "_$type": "Vector3"
+        },
+        "startSizeConstantMaxSeparate": {
+          "_$type": "Vector3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "startRotationType": 2,
+        "startRotationConstantSeparate": {
+          "_$type": "Vector3"
+        },
+        "startRotationConstantMinSeparate": {
+          "_$type": "Vector3"
+        },
+        "startRotationConstantMaxSeparate": {
+          "_$type": "Vector3"
+        },
+        "startColorConstant": {
+          "_$type": "Vector4",
+          "x": 1,
+          "y": 0.8671875,
+          "w": 1
+        },
+        "startColorConstantMin": {
+          "_$type": "Vector4",
+          "x": 1,
+          "y": 0.632812499999999
+        },
+        "startColorConstantMax": {
+          "_$type": "Vector4",
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "gravityModifier": 0.02,
+        "simulationSpace": 0,
+        "scaleMode": 0,
+        "maxParticles": 100,
+        "randomSeed": {
+          "_$type": "Uint32Array",
+          "value": [
+            0
+          ]
+        },
+        "emission": {
+          "emissionRate": 0,
+          "_bursts": [
+            {
+              "_$type": "Burst",
+              "_minCount": 1
+            }
+          ]
+        },
+        "shape": {
+          "_$type": "SphereShape",
+          "radius": 0.1
+        },
+        "colorOverLifetime": {
+          "_$type": "ColorOverLifetime",
+          "enable": true,
+          "_color": {
+            "_$type": "GradientColor",
+            "_type": 2,
+            "_constant": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": 1
+            },
+            "_constantMin": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 0.539062499999999,
+              "w": 1
+            },
+            "_constantMax": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 0.8346656976744177,
+              "z": 0.18604651162790697,
+              "w": 1
+            },
+            "_gradient": {
+              "_$type": "Gradient",
+              "_alphaElements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_colorAlphaKeysCount": 2,
+              "_rgbElements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_colorRGBKeysCount": 2
+            },
+            "_gradientMin": {
+              "_$type": "Gradient",
+              "_alphaElements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "_colorAlphaKeysCount": 2,
+              "_rgbElements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0.3192771077156067,
+                  1,
+                  0.9016776084899902,
+                  0.25968992710113525,
+                  1,
+                  1,
+                  0.5675872564315796,
+                  0.011627906933426857
+                ]
+              },
+              "_colorRGBKeysCount": 2
+            },
+            "_gradientMax": {
+              "_$type": "Gradient",
+              "_alphaElements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              "_colorAlphaKeysCount": 2,
+              "_rgbElements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0.2590361535549164,
+                  1,
+                  0.8671875,
+                  0,
+                  0.5722891688346863,
+                  1,
+                  0.9016776084899902,
+                  0.25968992710113525,
+                  1,
+                  1,
+                  0.923812985420227,
+                  0.42635658383369446
+                ]
+              },
+              "_colorRGBKeysCount": 3
+            }
+          }
+        },
+        "sizeOverLifetime": {
+          "_$type": "SizeOverLifetime",
+          "enable": true,
+          "_size": {
+            "_$type": "GradientSize",
+            "_constantMin": 1,
+            "_constantMax": 1,
+            "_constantMinSeparate": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "_constantMaxSeparate": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "_gradient": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0.013245036825537682,
+                  1,
+                  0.5607436299324036,
+                  1,
+                  0.5607436299324036,
+                  0,
+                  -1
+                ]
+              },
+              "_currentLength": 8,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientX": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0.6554054021835327,
+                  0,
+                  -1,
+                  0,
+                  -1
+                ]
+              },
+              "_currentLength": 8,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientY": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0.5540540814399719,
+                  0,
+                  -1,
+                  0,
+                  -1
+                ]
+              },
+              "_currentLength": 8,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientZ": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0.30743247270584106,
+                  0,
+                  -1,
+                  0,
+                  -1
+                ]
+              },
+              "_currentLength": 8,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientMin": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientMax": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientXMin": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientYMin": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientZMin": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientXMax": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientYMax": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            },
+            "_gradientZMax": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 4,
+              "_curveMin": -1,
+              "_curveMax": 1
+            }
+          }
+        },
+        "textureSheetAnimation": {
+          "_$type": "TextureSheetAnimation",
+          "enable": true,
+          "tiles": {
+            "_$type": "Vector2",
+            "x": 4,
+            "y": 4
+          },
+          "_frame": {
+            "_$type": "FrameOverTime",
+            "_type": 1,
+            "_constant": 1,
+            "_constantMin": 1,
+            "_constantMax": 1,
+            "_overTime": {
+              "_$type": "GradientDataInt",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  0.027027258649468422,
+                  1,
+                  16,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 8,
+              "_curveMin": 0,
+              "_curveMax": 16
+            },
+            "_overTimeMin": {
+              "_$type": "GradientDataInt",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "_currentLength": 2,
+              "_curveMin": 0,
+              "_curveMax": 1
+            },
+            "_overTimeMax": {
+              "_$type": "GradientDataInt",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "_currentLength": 2,
+              "_curveMin": 0,
+              "_curveMax": 1
+            }
+          },
+          "_startFrame": {
+            "_$type": "StartFrame"
+          }
+        }
+      }
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "jbii434s",
+      "_$type": "Sprite3D",
+      "name": "shouji",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 3.393845847887565,
+          "z": 7.535851604706522e-16
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865475,
+          "w": 0.7071067811865476
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "ShurikenParticleRenderer",
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "ac60a1c1-023c-45f6-be00-86a3da01fc09",
+              "_$type": "Material"
+            }
+          ],
+          "renderMode": 1,
+          "_particleSystem": {
+            "_isPlaying": true,
+            "duration": 2,
+            "startLifetimeType": 2,
+            "startLifetimeConstant": 1,
+            "startLifetimeConstantMin": 0.2,
+            "startLifetimeConstantMax": 0.6,
+            "startSpeedConstant": 1,
+            "startSizeType": 2,
+            "startSizeConstant": 0.5,
+            "startSizeConstantMin": 1,
+            "startSizeConstantMax": 2,
+            "startSizeConstantSeparate": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "startSizeConstantMinSeparate": {
+              "_$type": "Vector3"
+            },
+            "startSizeConstantMaxSeparate": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "startRotationConstantSeparate": {
+              "_$type": "Vector3"
+            },
+            "startRotationConstantMinSeparate": {
+              "_$type": "Vector3"
+            },
+            "startRotationConstantMaxSeparate": {
+              "_$type": "Vector3"
+            },
+            "startColorConstant": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": 1
+            },
+            "startColorConstantMin": {
+              "_$type": "Vector4"
+            },
+            "startColorConstantMax": {
+              "_$type": "Vector4",
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": 1
+            },
+            "simulationSpace": 0,
+            "simulationSpeed": 2,
+            "scaleMode": 0,
+            "maxParticles": 100,
+            "randomSeed": {
+              "_$type": "Uint32Array",
+              "value": [
+                0
+              ]
+            },
+            "emission": {
+              "emissionRate": 0,
+              "_bursts": [
+                {
+                  "_$type": "Burst",
+                  "_minCount": 8,
+                  "_maxCount": 15
+                }
+              ]
+            },
+            "shape": {
+              "_$type": "ConeShape",
+              "angleDEG": 57.889,
+              "radius": 2.9,
+              "length": 0.1,
+              "emitType": 3
+            },
+            "colorOverLifetime": {
+              "_$type": "ColorOverLifetime",
+              "enable": true,
+              "_color": {
+                "_$type": "GradientColor",
+                "_type": 2,
+                "_constant": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 0.6116763565891465,
+                  "z": 0.11240310077519378,
+                  "w": 1
+                },
+                "_constantMin": {
+                  "_$type": "Vector4",
+                  "x": 1,
+                  "y": 0.5692829457364332,
+                  "z": 0.015503875968992276,
+                  "w": 1
+                },
+                "_constantMax": {
+                  "_$type": "Vector4",
+                  "x": 0.2596899224806202,
+                  "y": 0.14607558139534862,
+                  "w": 1
+                },
+                "_gradient": {
+                  "_$type": "Gradient",
+                  "_alphaElements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_colorAlphaKeysCount": 2,
+                  "_rgbElements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_colorRGBKeysCount": 2
+                },
+                "_gradientMin": {
+                  "_$type": "Gradient",
+                  "_alphaElements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_colorAlphaKeysCount": 2,
+                  "_rgbElements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_colorRGBKeysCount": 2
+                },
+                "_gradientMax": {
+                  "_$type": "Gradient",
+                  "_alphaElements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_colorAlphaKeysCount": 2,
+                  "_rgbElements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_colorRGBKeysCount": 2
+                }
+              }
+            },
+            "textureSheetAnimation": {
+              "_$type": "TextureSheetAnimation",
+              "enable": true,
+              "tiles": {
+                "_$type": "Vector2",
+                "x": 3,
+                "y": 2
+              },
+              "_frame": {
+                "_$type": "FrameOverTime",
+                "_type": 1,
+                "_constant": 1,
+                "_constantMin": 1,
+                "_constantMax": 1,
+                "_overTime": {
+                  "_$type": "GradientDataInt",
+                  "_elements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      0,
+                      1,
+                      6,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "_currentLength": 8,
+                  "_curveMin": 0,
+                  "_curveMax": 6
+                },
+                "_overTimeMin": {
+                  "_$type": "GradientDataInt",
+                  "_elements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "_currentLength": 2,
+                  "_curveMin": 0,
+                  "_curveMax": 1
+                },
+                "_overTimeMax": {
+                  "_$type": "GradientDataInt",
+                  "_elements": {
+                    "_$type": "Float32Array",
+                    "value": [
+                      0,
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "_currentLength": 2,
+                  "_curveMin": 0,
+                  "_curveMax": 1
+                }
+              },
+              "_startFrame": {
+                "_$type": "StartFrame"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

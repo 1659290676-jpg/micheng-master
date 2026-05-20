@@ -1,0 +1,77 @@
+{
+  "_$ver": 1,
+  "_$id": "nb0l3wmn",
+  "_$type": "Sprite3D",
+  "name": "putong_zhongxing11",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "03c092ed-9019-447b-94f9-2152a4a13788",
+      "scriptPath": "../src/Game/Scene/Components/Unit_Building.ts",
+      "type": 2
+    },
+    {
+      "_$type": "PhysicsCollider",
+      "colliderShape": {
+        "_$type": "BoxColliderShape",
+        "localOffset": {
+          "_$type": "Vector3",
+          "y": 4.944
+        },
+        "size": {
+          "_$type": "Vector3",
+          "x": 4,
+          "y": 9.8,
+          "z": 4.5
+        }
+      },
+      "collisionGroup": 8,
+      "canCollideWith": 16
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "putong_zhongxing11",
+      "transform": {
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "768f2329-dee2-4517-a0c9-5ff145a385ed@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

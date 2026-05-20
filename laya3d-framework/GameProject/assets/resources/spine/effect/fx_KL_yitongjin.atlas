@@ -1,0 +1,160 @@
+
+fx_KL_yitongjin.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0gm1
+  rotate: true
+  xy: 2, 114
+  size: 140, 138
+  orig: 140, 138
+  offset: 0, 0
+  index: -1
+0xx1
+  rotate: false
+  xy: 401, 160
+  size: 22, 27
+  orig: 24, 29
+  offset: 1, 1
+  index: -1
+0xx2
+  rotate: false
+  xy: 401, 189
+  size: 29, 35
+  orig: 31, 37
+  offset: 1, 1
+  index: -1
+0xx3
+  rotate: false
+  xy: 423, 134
+  size: 20, 24
+  orig: 22, 26
+  offset: 1, 1
+  index: -1
+Bm_ytjb
+  rotate: true
+  xy: 272, 126
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+baiguang1
+  rotate: false
+  xy: 2, 52
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+eff_xinxin_1
+  rotate: false
+  xy: 142, 126
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fx_giow2
+  rotate: false
+  xy: 242, 6
+  size: 124, 118
+  orig: 128, 128
+  offset: 2, 3
+  index: -1
+tg_00001
+  rotate: true
+  xy: 66, 3
+  size: 7, 13
+  orig: 128, 70
+  offset: 14, 11
+  index: -1
+tg_00002
+  rotate: false
+  xy: 401, 129
+  size: 20, 29
+  orig: 128, 70
+  offset: 14, 6
+  index: -1
+tg_00003
+  rotate: false
+  xy: 413, 21
+  size: 34, 43
+  orig: 128, 70
+  offset: 15, 3
+  index: -1
+tg_00004
+  rotate: false
+  xy: 368, 18
+  size: 43, 46
+  orig: 128, 70
+  offset: 18, 3
+  index: -1
+tg_00005
+  rotate: true
+  xy: 128, 2
+  size: 51, 54
+  orig: 128, 70
+  offset: 23, 3
+  index: -1
+tg_00006
+  rotate: false
+  xy: 368, 66
+  size: 55, 58
+  orig: 128, 70
+  offset: 30, 3
+  index: -1
+tg_00007
+  rotate: true
+  xy: 124, 55
+  size: 57, 60
+  orig: 128, 70
+  offset: 41, 3
+  index: -1
+tg_00008
+  rotate: false
+  xy: 64, 53
+  size: 58, 59
+  orig: 128, 70
+  offset: 45, 4
+  index: -1
+tg_00009
+  rotate: false
+  xy: 186, 64
+  size: 54, 60
+  orig: 128, 70
+  offset: 53, 5
+  index: -1
+tg_00010
+  rotate: true
+  xy: 2, 3
+  size: 47, 62
+  orig: 128, 70
+  offset: 65, 6
+  index: -1
+tg_00011
+  rotate: true
+  xy: 66, 12
+  size: 39, 60
+  orig: 128, 70
+  offset: 77, 9
+  index: -1
+tg_00012
+  rotate: true
+  xy: 184, 17
+  size: 36, 56
+  orig: 128, 70
+  offset: 83, 13
+  index: -1
+tg_00013
+  rotate: true
+  xy: 401, 226
+  size: 28, 51
+  orig: 128, 70
+  offset: 91, 18
+  index: -1
+tg_00014
+  rotate: true
+  xy: 413, 3
+  size: 16, 26
+  orig: 128, 70
+  offset: 96, 43
+  index: -1

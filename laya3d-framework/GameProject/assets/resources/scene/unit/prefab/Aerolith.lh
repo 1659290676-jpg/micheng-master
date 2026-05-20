@@ -1,0 +1,48 @@
+{
+  "_$ver": 1,
+  "_$id": "aixckoix",
+  "_$type": "Sprite3D",
+  "name": "Sprite3D",
+  "_$comp": [
+    {
+      "_$type": "ae38a3a3-93f5-48ae-b277-2aca35137aab",
+      "scriptPath": "../src/Game/Scene/Unit/AerolithUnit.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "653p2fts",
+      "_$prefab": "f7235093-2bed-4483-9f66-80b7962d0f6e",
+      "name": "effect",
+      "active": true,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 0.21
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865475,
+          "w": 0.7071067811865476
+        }
+      }
+    },
+    {
+      "_$id": "yozl3uu5",
+      "_$prefab": "038da2ea-7160-412a-8a29-56ad0ef2e108",
+      "name": "hole",
+      "active": false,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 0.21
+        },
+        "localRotation": {
+          "_$type": "Quaternion"
+        }
+      }
+    }
+  ]
+}

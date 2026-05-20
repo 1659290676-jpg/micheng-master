@@ -1,0 +1,34 @@
+{
+  "_$ver": 1,
+  "_$id": "qx722xat",
+  "_$type": "Sprite3D",
+  "name": "Role_dinosaur02",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 1.2,
+      "y": 1.2,
+      "z": 1.2
+    }
+  },
+  "_$child": [
+    {
+      "_$id": "wfo31wug",
+      "_$prefab": "96aed5df-96e9-4f1f-ab78-af61242ee073",
+      "name": "Role_dinosaur02",
+      "active": true,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 0.3
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "y": 1,
+          "w": 6.123233995736766e-17
+        }
+      }
+    }
+  ]
+}

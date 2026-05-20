@@ -1,0 +1,161 @@
+{
+  "_$ver": 1,
+  "_$id": "kgt1gabp",
+  "_$runtime": "res://c64614ad-d93e-44e9-8469-e72087c7cf5a",
+  "_$type": "GWidget",
+  "name": "Vw_BuySkill",
+  "width": 494,
+  "height": 576,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "vcz5md79",
+      "_$type": "GImage",
+      "name": "img_3",
+      "width": 494,
+      "height": 576,
+      "src": "res://314dec43-29bc-4a4e-85d1-24a127a829db",
+      "autoSize": false
+    },
+    {
+      "_$id": "0l1qjcsg",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "spineBase",
+      "x": 248,
+      "y": 205,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "_$id": "qkyffsh0",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgIcon",
+      "x": 143,
+      "y": 100,
+      "width": 210,
+      "height": 210,
+      "src": "res://6a51479b-ce5f-4da0-a506-16ec828a36cd"
+    },
+    {
+      "_$id": "k9vktgxk",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 456,
+      "y": 37,
+      "visible": true,
+      "width": 34,
+      "height": 34,
+      "icon": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf"
+    },
+    {
+      "_$id": "3ni2kxb8",
+      "_$prefab": "1bf22151-48a6-4f1f-b2d4-02f82d34ccbf",
+      "_$var": true,
+      "name": "btn",
+      "active": true,
+      "x": 102,
+      "y": 410,
+      "visible": true
+    },
+    {
+      "_$id": "vtgsxzav",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 205,
+      "y": 14,
+      "width": 84,
+      "height": 49,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "kgt1gabp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "等级",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "0hvptih6",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 236,
+      "y": 349,
+      "width": 21,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "kgt1gabp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "1",
+      "_isDemo": true,
+      "fontSize": 30,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "9kp31y25",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbCount",
+      "x": 309,
+      "y": 246,
+      "width": 63,
+      "height": 62,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "kgt1gabp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "+1",
+      "fontSize": 52,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

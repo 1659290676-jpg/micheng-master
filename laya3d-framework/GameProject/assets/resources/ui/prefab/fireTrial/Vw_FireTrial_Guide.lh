@@ -1,0 +1,275 @@
+{
+  "_$ver": 1,
+  "_$id": "s0k2di2p",
+  "_$runtime": "res://5ce5778b-619e-4669-a34e-e7a9735903f4",
+  "_$type": "GWidget",
+  "name": "Vw_FireTrial_Guide",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "55j2uj5r",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgClose",
+      "width": 720,
+      "height": 1440,
+      "src": "",
+      "autoSize": false
+    },
+    {
+      "_$id": "wh3oreon",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "box1",
+      "width": 720,
+      "height": 1440,
+      "visible": false,
+      "_$child": [
+        {
+          "_$id": "d78bzpnr",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGuide1",
+          "x": 266,
+          "y": 1088,
+          "width": 454,
+          "height": 352,
+          "src": "res://df6052b3-aa2f-423e-a6ab-ebd0b690ffb4"
+        }
+      ]
+    },
+    {
+      "_$id": "sk5jufr6",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "box2",
+      "width": 720,
+      "height": 1440,
+      "visible": false,
+      "_$child": [
+        {
+          "_$id": "9yufzwhg",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGuide2",
+          "x": 255,
+          "y": 1049,
+          "width": 246,
+          "height": 278,
+          "src": "res://ed1363b1-0493-4dfd-8348-f3112942b908"
+        }
+      ]
+    },
+    {
+      "_$id": "4kh4h0ab",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "box3",
+      "width": 720,
+      "height": 1440,
+      "_$child": [
+        {
+          "_$id": "eqv70h6x",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGuide3",
+          "x": 124,
+          "y": 481,
+          "width": 554,
+          "height": 356,
+          "src": "res://068c0297-7da1-4fa8-b96c-8aa259e19319"
+        }
+      ]
+    },
+    {
+      "_$id": "tkym3quh",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "box4",
+      "width": 720,
+      "height": 1440,
+      "_$child": [
+        {
+          "_$id": "l7cy97s4",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgTitle",
+          "x": 228,
+          "y": 56,
+          "width": 264,
+          "height": 67,
+          "src": "res://6558ba90-c090-4459-bec0-24eac133f0ba",
+          "autoSize": false
+        },
+        {
+          "_$id": "hxhiwlg8",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "pos1",
+          "x": 44,
+          "y": 206,
+          "width": 266,
+          "height": 132,
+          "src": "res://48f91840-56f2-4c20-b27a-8dcb5551b7c6",
+          "_$child": [
+            {
+              "_$id": "rmyq50be",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 134,
+              "y": 153,
+              "width": 193,
+              "height": 39,
+              "anchorX": 0.5,
+              "anchorY": 0.5,
+              "text": "玩家共同挑战",
+              "fontSize": 32,
+              "color": "#f3f3f3",
+              "fitContent": 1,
+              "align": "center",
+              "strokeColor": "#2c2014"
+            }
+          ]
+        },
+        {
+          "_$id": "j0g85kkc",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "pos2",
+          "x": 290,
+          "y": 359,
+          "width": 92,
+          "height": 81,
+          "src": "res://0d02f3b1-e7b9-4be9-b39a-c30fd1d3b515"
+        },
+        {
+          "_$id": "in90s6zc",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "pos3",
+          "x": 389,
+          "y": 437,
+          "width": 237,
+          "height": 107,
+          "src": "res://56399125-28dd-40ad-a4ff-91fb8c50aaeb",
+          "_$child": [
+            {
+              "_$id": "vwvrm7hw",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 117,
+              "y": 130,
+              "width": 130,
+              "height": 39,
+              "anchorX": 0.5,
+              "anchorY": 0.5,
+              "text": "挑战胜利",
+              "fontSize": 32,
+              "color": "#fcf8fe",
+              "fitContent": 1,
+              "align": "center",
+              "strokeColor": "#2c2014"
+            }
+          ]
+        },
+        {
+          "_$id": "w4czwwkw",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "pos4",
+          "x": 383,
+          "y": 599,
+          "width": 92,
+          "height": 81,
+          "scaleX": -1,
+          "src": "res://0d02f3b1-e7b9-4be9-b39a-c30fd1d3b515"
+        },
+        {
+          "_$id": "2q3v2p7r",
+          "_$var": true,
+          "_$type": "GWidget",
+          "name": "pos5",
+          "x": 6,
+          "y": 718,
+          "width": 406,
+          "height": 266,
+          "_$child": [
+            {
+              "_$id": "sw91u29w",
+              "_$var": true,
+              "_$type": "GImage",
+              "name": "imgGuide4",
+              "width": 444,
+              "height": 199,
+              "scaleX": 0.75,
+              "scaleY": 0.75,
+              "src": "res://a80992c9-1c60-433f-94e5-8d80bb4a295c",
+              "autoSize": false
+            },
+            {
+              "_$id": "frko7swc",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 106,
+              "y": 160,
+              "width": 130,
+              "height": 39,
+              "text": "瓜分大奖",
+              "fontSize": 32,
+              "color": "#fcf8fe",
+              "fitContent": 1,
+              "align": "center",
+              "strokeColor": "#2c2014"
+            }
+          ]
+        },
+        {
+          "_$id": "2u1i0t9k",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbDes",
+          "x": 65,
+          "y": 1022,
+          "width": 571,
+          "height": 58,
+          "text": "连续",
+          "fontSize": 32,
+          "color": "#fcf8fe",
+          "align": "center",
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "4xq39jxj",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbClose",
+          "x": 74,
+          "y": 1349,
+          "width": 571,
+          "height": 38,
+          "text": "点击空白",
+          "fontSize": 32,
+          "color": "#fcf8fe",
+          "align": "center",
+          "strokeColor": "#2c2014"
+        }
+      ]
+    }
+  ]
+}

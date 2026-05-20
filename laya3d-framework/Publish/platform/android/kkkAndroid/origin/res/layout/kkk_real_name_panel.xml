@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkk_fragment_transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/kkk_tv_tips_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="为符合国家新闻出版署相关法律法规及监管要求，并保证您的个人权益，\n请填写有效身份证明信息。"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <cn.kkk.gamesdk.k3.ui.RightEventEditText
+        android:id="@+id/kkk_reet_id_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp" />
+
+    <cn.kkk.gamesdk.k3.ui.RightEventEditText
+        android:id="@+id/kkk_reet_id_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/kkk_tv_tips_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="注：有效身份信息限填写一次，提交后不可更改，请确保信息真实有效。"
+        android:textColor="@color/kkk_color_orange"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/kkk_btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/kkk_btn_bg_orange"
+        android:text="确认"
+        android:textColor="@color/kkk_color_white"
+        android:textSize="16sp" />
+
+</LinearLayout>

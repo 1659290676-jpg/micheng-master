@@ -1,0 +1,108 @@
+{
+  "_$ver": 1,
+  "_$id": "2rjy21q2",
+  "_$type": "Scene",
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "name": "Scene2D",
+  "width": 720,
+  "height": 1440,
+  "_$child": [
+    {
+      "_$id": "xy5g7v8b",
+      "_$type": "GWidget",
+      "name": "Vw_GmBtn",
+      "width": 68,
+      "height": 68,
+      "_$comp": [
+        {
+          "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+          "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+          "sizeType": null,
+          "horizontal": 4,
+          "vertical": 4,
+          "x": 20,
+          "y": 100,
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "o3hb97rn",
+          "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+          "_$var": true,
+          "name": "btn",
+          "active": true,
+          "x": 34,
+          "y": 34,
+          "width": 68,
+          "height": 68,
+          "visible": true,
+          "title": "显示",
+          "icon": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352"
+        },
+        {
+          "_$id": "20a36qiv",
+          "_$var": true,
+          "_$type": "GBox",
+          "name": "btnGp",
+          "y": 72,
+          "width": 68,
+          "height": 68,
+          "visible": false,
+          "layout": {
+            "type": 1,
+            "rowGap": 4
+          },
+          "_$child": [
+            {
+              "_$id": "ealq58zg",
+              "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+              "_$var": true,
+              "name": "btnGm",
+              "active": true,
+              "x": 34,
+              "y": 34,
+              "width": 68,
+              "height": 68,
+              "visible": true,
+              "title": "GM",
+              "icon": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352"
+            },
+            {
+              "_$id": "tube1r1q",
+              "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+              "_$var": true,
+              "name": "btnProtocol",
+              "active": true,
+              "x": 34,
+              "y": 106,
+              "width": 68,
+              "height": 68,
+              "visible": true,
+              "title": "协议",
+              "icon": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352"
+            },
+            {
+              "_$id": "i4l9nsg6",
+              "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+              "_$var": true,
+              "name": "btnLock",
+              "active": true,
+              "x": 34,
+              "y": 178,
+              "width": 68,
+              "height": 68,
+              "visible": true,
+              "title": "不跟",
+              "icon": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

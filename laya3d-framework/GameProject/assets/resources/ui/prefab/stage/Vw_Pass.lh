@@ -1,0 +1,272 @@
+{
+  "_$ver": 1,
+  "_$id": "xy5g7v8b",
+  "_$runtime": "res://63f79718-46d7-4339-88c0-07cc43045b90",
+  "_$type": "GWidget",
+  "name": "Vw_Pass",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": 3,
+      "horizontal": 0,
+      "vertical": 4,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "af44yj4j",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "panelBase",
+      "x": 63,
+      "y": 487,
+      "width": 594,
+      "height": 606,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "6qcmz2rz",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": 173,
+          "y": -251,
+          "width": 249,
+          "height": 255,
+          "src": "res://b46227c1-683e-4f88-8ec4-a356235fdd2e"
+        },
+        {
+          "_$id": "06mhmxog",
+          "_$type": "GImage",
+          "name": "img_1",
+          "width": 594,
+          "height": 594,
+          "src": "res://e39e3b87-020b-48b8-a902-86325c53c8d4",
+          "autoSize": false
+        },
+        {
+          "_$id": "xvd61kua",
+          "_$var": true,
+          "_$type": "GWidget",
+          "name": "goldSpine",
+          "x": 296,
+          "y": 265,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "_$id": "mt7y0jtj",
+          "_$type": "GImage",
+          "name": "img_1",
+          "x": 212,
+          "y": 188,
+          "width": 165,
+          "height": 163,
+          "src": "res://20b4ea7e-11b5-4904-afaf-ea4a71a7aa4c"
+        },
+        {
+          "_$id": "xhf5n8hy",
+          "_$prefab": "78b881d7-0bdc-40e8-a004-7718e9d713cf",
+          "_$var": true,
+          "name": "btnNext",
+          "active": true,
+          "x": 170,
+          "y": 470,
+          "width": 230,
+          "visible": true
+        },
+        {
+          "_$id": "jlc5e7dh",
+          "_$prefab": "fe77171b-e12e-455e-bd96-46b955e931a5",
+          "_$var": true,
+          "name": "btnAd",
+          "active": true,
+          "x": 424,
+          "y": 470,
+          "visible": true
+        },
+        {
+          "_$id": "8vo72win",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbTitle",
+          "x": 247,
+          "y": 15,
+          "width": 100,
+          "height": 58,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "af44yj4j"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "完成",
+          "_isDemo": true,
+          "fontSize": 48,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "t7lpuxyu",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbReward",
+          "x": 255,
+          "y": 95,
+          "width": 84,
+          "height": 49,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "奖励",
+          "_isDemo": true,
+          "fontSize": 40,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "18lweeri",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbCount",
+          "x": 309,
+          "y": 295,
+          "width": 75,
+          "height": 75,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "40",
+          "_isDemo": true,
+          "fontSize": 64,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "stroke": 3,
+          "strokeColor": "#2c2014"
+        }
+      ]
+    },
+    {
+      "_$id": "12c70cdl",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "moneyBase",
+      "x": 504,
+      "y": 18,
+      "width": 196,
+      "height": 43,
+      "_mouseState": 2,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            9,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "dfqjf5p7",
+          "_$type": "GImage",
+          "name": "img_2",
+          "width": 188,
+          "height": 40,
+          "src": "res://44780878-e9eb-4fe8-92ba-7a9fb92b96e7"
+        },
+        {
+          "_$id": "wkzkc4nw",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGold",
+          "x": 14,
+          "y": 20,
+          "width": 50,
+          "height": 54,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e"
+        },
+        {
+          "_$id": "mjt01szg",
+          "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+          "_$var": true,
+          "name": "btnGold",
+          "active": true,
+          "x": 169,
+          "y": 19,
+          "visible": true,
+          "width": 62,
+          "height": 62,
+          "icon": "res://6285f6c7-bd50-4e10-9dca-a6f7d082c1cf"
+        },
+        {
+          "_$id": "lonsd1nq",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbGold",
+          "x": 50,
+          "y": 2,
+          "width": 79,
+          "height": 38,
+          "text": "35:00",
+          "_isDemo": true,
+          "fontSize": 30,
+          "color": "#ffffff",
+          "fitContent": 1,
+          "stroke": 2
+        }
+      ]
+    }
+  ]
+}

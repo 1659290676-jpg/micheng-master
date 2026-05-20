@@ -1,0 +1,49 @@
+{
+  "_$ver": 1,
+  "_$id": "evosoptl",
+  "_$type": "Sprite3D",
+  "name": "Common_xiaolu_02",
+  "_$child": [
+    {
+      "_$id": "#44",
+      "_$type": "Sprite3D",
+      "name": "xiaolu_02",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 0.0015950202941894531,
+          "y": 0.0000499999696330633,
+          "z": -0.00018018457922153175
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "ff415184-affb-4df8-98fb-829de1c53836@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        agp_version = '8.13.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        //ironsource 配置
+        maven { url 'https://android-sdk.is.com/' }
+        //ironsource的Mintegral
+        maven { url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" }
+        //is Tapjoy配置
+        maven {
+            name "Tapjoy's maven repo"
+            url "https://sdk.tapjoy.com/"
+        }
+        maven { url "https://jitpack.io" }
+        // Pangle Global SDK (com.pangle.global:ads-sdk)
+        maven { url 'https://artifact.bytedance.com/repository/pangle' }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+        classpath 'com.google.gms:google-services:4.4.3'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.4'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url "https://jitpack.io" }
+        mavenLocal()
+        mavenCentral()
+        google()
+        // Pangle Global SDK (com.pangle.global:ads-sdk)
+        maven { url 'https://artifact.bytedance.com/repository/pangle' }
+
+        //ironsource 配置
+        maven { url 'https://android-sdk.is.com/' }
+        //ironsource的Mintegral
+        maven { url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" }
+        //is Tapjoy配置
+        maven {
+            name "Tapjoy's maven repo"
+            url "https://sdk.tapjoy.com/"
+        }
+    }
+    /*gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }*/
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext{
+    compileSdkVersion = 36
+    buildToolsVersion  = '35.0.0'
+    minSdkVersion = 22
+    targetSdkVersion = 36
+}

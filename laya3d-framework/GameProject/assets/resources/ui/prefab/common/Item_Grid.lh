@@ -1,0 +1,36 @@
+{
+  "_$ver": 1,
+  "_$id": "m7jydteb",
+  "_$runtime": "res://16346afc-45f2-4903-943b-be48aa734cc0",
+  "_$type": "GWidget",
+  "name": "Item_Grid",
+  "width": 170,
+  "height": 160,
+  "_$child": [
+    {
+      "_$id": "547vm7dd",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 156,
+      "height": 136,
+      "src": "res://d009c258-7086-4ed6-b12d-2a37f96ed27d"
+    },
+    {
+      "_$id": "dzrdvxl6",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbCnt",
+      "x": 33,
+      "y": 110,
+      "width": 146,
+      "height": 73,
+      "text": "x1",
+      "fontSize": 50,
+      "color": "#ffffff",
+      "align": "right",
+      "stroke": 6,
+      "strokeColor": "#070b0e"
+    }
+  ]
+}

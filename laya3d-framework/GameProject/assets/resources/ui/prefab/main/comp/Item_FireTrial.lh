@@ -1,0 +1,94 @@
+{
+  "_$ver": 1,
+  "_$id": "x39xhfp6",
+  "_$runtime": "res://5af8eec9-7623-4f8f-9d43-4365241c22a1",
+  "_$type": "GButton",
+  "name": "Item_FireTrial",
+  "width": 108,
+  "height": 120,
+  "anchorX": 1,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "downEffect": 3,
+  "_$child": [
+    {
+      "_$id": "2ku91iol",
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 108,
+      "height": 120,
+      "src": "res://37759d32-ceb4-46c6-8306-3729be644bce",
+      "autoSize": false
+    },
+    {
+      "_$id": "p72o9vvo",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 21,
+      "y": 26,
+      "width": 70,
+      "height": 70,
+      "src": "res://165d8843-ee0b-4d71-80ee-019399bb41f0"
+    },
+    {
+      "_$id": "olw0lxwc",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bgText",
+      "x": 55,
+      "y": 98,
+      "width": 72,
+      "height": 22,
+      "anchorX": 0.5,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "x39xhfp6"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://590de609-8493-43f6-86cb-adb791a57929"
+    },
+    {
+      "_$id": "if5g0ebb",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgLock",
+      "x": 22,
+      "y": 100,
+      "width": 16,
+      "height": 22,
+      "src": "res://6e48df7a-85fb-4fd2-b32a-28ccd77e29f8"
+    },
+    {
+      "_$id": "imzn8a6a",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb",
+      "x": 33,
+      "y": 97,
+      "width": 36,
+      "height": 27,
+      "text": "text",
+      "fontSize": 20,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

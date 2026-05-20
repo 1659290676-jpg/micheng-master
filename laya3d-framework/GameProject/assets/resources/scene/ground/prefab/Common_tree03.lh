@@ -1,0 +1,36 @@
+{
+  "_$ver": 1,
+  "_$id": "8g8utque",
+  "_$type": "Sprite3D",
+  "name": "Common_tree03",
+  "_$child": [
+    {
+      "_$id": "#41",
+      "_$type": "Sprite3D",
+      "name": "Common_tree03",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "f3490ca0-9bff-4dcd-8ec4-34c33cc69dc5@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

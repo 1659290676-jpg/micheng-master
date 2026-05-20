@@ -1,0 +1,40 @@
+{
+  "_$ver": 1,
+  "_$id": "yfdk7a0c",
+  "_$runtime": "res://bf607631-65b3-4497-8943-a87fb81876be",
+  "_$type": "GWidget",
+  "name": "Item_Shop1",
+  "width": 720,
+  "height": 400,
+  "_$child": [
+    {
+      "_$id": "owjmqw8k",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "x": 8,
+      "width": 703,
+      "height": 481,
+      "layout": {
+        "type": 1,
+        "rowGap": 30
+      },
+      "clipping": false,
+      "_templateNode": {
+        "_$ref": "gv8up805",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 2,
+      "_isDemo": true
+    },
+    {
+      "_$id": "gv8up805",
+      "_$prefab": "b4d96765-412b-4e20-bc54-91953319b1be",
+      "name": "Item_Shop_Grid1",
+      "active": true,
+      "x": 352,
+      "y": 104,
+      "visible": true
+    }
+  ]
+}

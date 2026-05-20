@@ -1,0 +1,112 @@
+{
+  "_$ver": 1,
+  "_$id": "qopsmgl0",
+  "_$runtime": "res://f33b89d8-09bd-4654-9993-e6c778abc361",
+  "_$type": "GWidget",
+  "name": "Vw_Role_Name",
+  "width": 594,
+  "height": 360,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "odkneia0",
+      "_$type": "GImage",
+      "name": "img_3",
+      "y": 2,
+      "width": 594,
+      "height": 357,
+      "src": "res://7c4edada-684a-4340-85ce-70be82d404d2",
+      "autoSize": false
+    },
+    {
+      "_$id": "ta6r0y49",
+      "_$type": "GImage",
+      "name": "img_4",
+      "x": 62,
+      "y": 113,
+      "width": 469,
+      "height": 60,
+      "src": "res://aac42420-3668-45f8-b00e-24af87b6fef7",
+      "autoSize": false
+    },
+    {
+      "_$id": "62rvg7qi",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 250,
+      "y": 14,
+      "width": 93,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "qopsmgl0"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "改 名",
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "zlefozl0",
+      "_$var": true,
+      "_$type": "GTextInput",
+      "name": "input",
+      "x": 68,
+      "y": 118,
+      "width": 457,
+      "height": 50,
+      "text": "输入新昵称",
+      "fontSize": 30,
+      "color": "#f3f3f3",
+      "align": "center",
+      "valign": "middle",
+      "strokeColor": "#2c2014",
+      "maxChars": 13,
+      "promptColor": "#76b9ff"
+    },
+    {
+      "_$id": "wpw73yyi",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 539,
+      "y": 37,
+      "visible": true
+    },
+    {
+      "_$id": "adrgu49q",
+      "_$prefab": "78b881d7-0bdc-40e8-a004-7718e9d713cf",
+      "_$var": true,
+      "name": "btn",
+      "active": true,
+      "x": 297,
+      "y": 270,
+      "visible": true,
+      "title": "保存"
+    }
+  ]
+}

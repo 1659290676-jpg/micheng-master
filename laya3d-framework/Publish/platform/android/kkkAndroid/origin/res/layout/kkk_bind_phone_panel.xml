@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkk_fragment_transparent">
+
+    <ImageView
+        android:id="@+id/kkk_iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/kkk_phone_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/kkk_iv_icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kkk_tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="当前账号已绑定手机，您可以使用\n该手机号作为登录账号。"
+            android:textColor="@color/kkk_color_font_gray"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kkk_tv_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="13527170963"
+
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/kkk_btn_change_phone_number"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/kkk_btn_bg_light_blue"
+            android:text="更改绑定手机号"
+            android:textColor="@color/kkk_color_white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

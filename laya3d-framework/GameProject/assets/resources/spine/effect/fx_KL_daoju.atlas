@@ -1,0 +1,41 @@
+
+fx_KL_daoju.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_xinxin_1
+  rotate: false
+  xy: 200, 14
+  size: 114, 114
+  orig: 128, 128
+  offset: 6, 6
+  index: -1
+effect_liubianxing
+  rotate: true
+  xy: 2, 30
+  size: 26, 22
+  orig: 26, 26
+  offset: 0, 2
+  index: -1
+effect_liubianxing2
+  rotate: true
+  xy: 2, 2
+  size: 26, 22
+  orig: 26, 26
+  offset: 0, 2
+  index: -1
+fx_giow
+  rotate: true
+  xy: 200, 130
+  size: 124, 118
+  orig: 128, 128
+  offset: 2, 3
+  index: -1
+gm
+  rotate: false
+  xy: 2, 58
+  size: 196, 196
+  orig: 200, 200
+  offset: 2, 2
+  index: -1

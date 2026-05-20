@@ -1,0 +1,57 @@
+{
+  "_$ver": 1,
+  "_$id": "m7dxisne",
+  "_$type": "Sprite3D",
+  "name": "Common_tree04",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "Common_tree01",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 2.755241674846344e-17,
+          "y": 1.033210277557373,
+          "z": -1.7110525446957446e-17
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6272225876728587,
+          "y": -0.38094788186876444,
+          "z": -0.4221599333234165,
+          "w": 0.5322137986834179
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.04635299742221832,
+          "y": 0.04635300114750862,
+          "z": 0.04635299742221832
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "9afdf223-2e2e-491d-95ba-7e2c5a629214@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

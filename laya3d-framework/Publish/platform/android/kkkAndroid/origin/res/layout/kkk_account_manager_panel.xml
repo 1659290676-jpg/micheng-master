@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkk_fragment_transparent">
+
+    <ListView
+        android:id="@+id/kkk_lv_account_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:divider="@color/kkk_color_gray"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:dividerHeight="1dp" />
+</LinearLayout>

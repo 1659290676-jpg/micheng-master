@@ -1,0 +1,55 @@
+{
+  "_$ver": 1,
+  "_$id": "fmfctlw2",
+  "_$runtime": "res://b3daa9df-d2a7-4824-b1c5-421bc100e5c7",
+  "_$type": "GWidget",
+  "name": "Root",
+  "width": 116,
+  "height": 16,
+  "_$child": [
+    {
+      "_$id": "xzg2432x",
+      "_$var": true,
+      "_$type": "GProgressBar",
+      "name": "pb",
+      "width": 116,
+      "height": 16,
+      "value": 100,
+      "_hBar": {
+        "_$ref": "3v4jcd93"
+      },
+      "_$child": [
+        {
+          "_$id": "7afj9t2f",
+          "_$type": "GImage",
+          "name": "img_1",
+          "x": -2,
+          "y": -2,
+          "width": 120,
+          "height": 20,
+          "src": "res://5cd0acc5-4c19-44c3-a4ca-961f847e9fd7",
+          "autoSize": false
+        },
+        {
+          "_$id": "3v4jcd93",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 116,
+          "height": 16,
+          "src": "res://7146487c-020c-4921-a241-45aa3e769552",
+          "autoSize": false
+        },
+        {
+          "_$id": "qq4yaxzb",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "hpBar",
+          "width": 116,
+          "height": 16,
+          "src": "res://6ab2dbaa-6411-4352-91c3-edf6aa8f3467",
+          "autoSize": false
+        }
+      ]
+    }
+  ]
+}

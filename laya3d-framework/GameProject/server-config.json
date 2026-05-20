@@ -1,0 +1,50 @@
+{
+    "title":"恐龙",
+    "engine": "laya3",
+    "type": 1,
+    "num": 1,
+    "resDir": "bin",
+    "gameResDir": "res",
+    "excel": "../../plan/正式配置",
+    "jsonPath": "bin/json",
+    "cfgPath": "assets/resources/cfg",
+    "structPath": "src/DataStock/ConfigData",
+    "keyExcel": "前端_导key的表名.xlsx",
+    "onlyKeys": "前端_导出不包含字段的表名.xlsx",
+    "suffix": "",
+    "clsName": "ConfigData",
+    "isStruct": 1,
+    "encode": 4,
+    "onlyKeyExport": 0,
+    "exportType": 1,
+    "langApi":{"import":"import LanguageMgr from '../../LanguageMgr';", "api":"LanguageMgr.getLngTxt"},
+    "lang":{
+        "0": ["zhcn", "简体中文"],
+        "1": ["zhtw", "繁体中文"],
+        "2": ["en", "英文"],
+        "3": ["ko", "韩语"],
+        "4": ["ja", "日语"],
+        "5": ["ge", "德语"],
+        "6": ["fr", "法语"],
+        "7": ["sp", "西班牙语"]
+    },
+    "region":{
+        "0": ["0", "默认"],
+        "1": ["1", "欧美"]
+    },
+    "localizeDir": "localize",
+    "localizeEncode": 4,
+    "packSpine": ["body", "horse", "weapon", "wing", "head", "shield", "effect"],
+    "port": 8092,
+    "whitelist": {
+        "192.168.17.198": {"n":"版本服","lock":1},
+        "192.168.17.178": {"n":"谢学亮","lock":1},
+        "192.168.17.179": {"n":"陈卓源","lock":1},
+        "192.168.16.37": {"n":"刘永灵","lock":1},
+        "192.168.16.99": {"n":"梁伟良","lock":1},
+        "192.168.16.47": {"n":"陈志浩"},
+        "192.168.17.48": {"n":"何叶"},
+        "192.168.17.24": {"n":"刘文韬"},
+        "192.168.16.51": {"n":"吴迪"}
+    }
+}

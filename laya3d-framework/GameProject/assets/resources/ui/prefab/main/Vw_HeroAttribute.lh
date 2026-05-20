@@ -1,0 +1,180 @@
+{
+  "_$ver": 1,
+  "_$id": "mntdps4p",
+  "_$runtime": "res://f2a4ec2d-1291-45ca-a43c-456d737b25b5",
+  "_$type": "GWidget",
+  "name": "Vw_HeroAttribute",
+  "width": 720,
+  "height": 360,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": 8,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "hja4vg8i",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 720,
+      "height": 360,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "mntdps4p"
+          },
+          "data": [
+            1,
+            0
+          ]
+        }
+      ],
+      "src": "res://006afe33-9f32-4ab2-b036-7338a5174d80",
+      "autoSize": false
+    },
+    {
+      "_$id": "yn2y090i",
+      "_$prefab": "783e7bf0-1ab5-4b6f-8244-938066ad115f",
+      "_$var": true,
+      "name": "compGold",
+      "active": true,
+      "x": 6,
+      "y": 10,
+      "visible": true,
+      "title": "8",
+      "icon": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e"
+    },
+    {
+      "_$id": "c3w3v6hm",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 670,
+      "y": 37,
+      "visible": true,
+      "width": 34,
+      "height": 34,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "mntdps4p"
+          },
+          "data": [
+            9,
+            0
+          ]
+        }
+      ],
+      "icon": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf"
+    },
+    {
+      "_$id": "ldnahhnj",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "x": 19,
+      "y": 86,
+      "width": 682,
+      "height": 227,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "mntdps4p"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "layout": {
+        "type": 2,
+        "columnGap": 32,
+        "align": 1
+      },
+      "_templateNode": {
+        "_$ref": "zdkiepjh",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 3,
+      "_isDemo": true,
+      "_$child": [
+        {
+          "_$id": "zdkiepjh",
+          "_$type": "GWidget",
+          "name": "itemAttr",
+          "width": 170,
+          "height": 226,
+          "_$child": [
+            {
+              "_$id": "vk1v1ot1",
+              "_$type": "GImage",
+              "name": "img",
+              "width": 170,
+              "height": 226,
+              "src": "res://67229b8f-614b-4fa7-88d3-f96d88ec7536",
+              "autoSize": false
+            },
+            {
+              "_$id": "m0ble7yl",
+              "_$type": "GImage",
+              "name": "icon",
+              "x": 32,
+              "y": 22,
+              "width": 106,
+              "height": 106,
+              "src": "res://74fbdfab-3de5-4ebc-aef2-2705e5724ee7"
+            },
+            {
+              "_$id": "inwga3a1",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 74,
+              "y": 130,
+              "width": 22,
+              "height": 40,
+              "relations": [
+                {
+                  "_$type": "Relation",
+                  "target": {
+                    "_$ref": "zdkiepjh"
+                  },
+                  "data": [
+                    6,
+                    0
+                  ]
+                }
+              ],
+              "text": "1",
+              "_isDemo": true,
+              "fontSize": 32,
+              "color": "#e24465",
+              "fitContent": 1
+            },
+            {
+              "_$id": "852qqwiy",
+              "_$prefab": "74d43b0f-c885-4de0-b9a8-9a44a02aefb7",
+              "name": "btn",
+              "active": true,
+              "x": 85,
+              "y": 197,
+              "visible": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

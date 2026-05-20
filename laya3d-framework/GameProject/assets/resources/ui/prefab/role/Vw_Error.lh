@@ -1,0 +1,125 @@
+{
+  "_$ver": 1,
+  "_$id": "qopsmgl0",
+  "_$runtime": "res://06d4345f-faf2-43ce-ac47-4ac665fd7ee9",
+  "_$type": "GWidget",
+  "name": "Vw_Error",
+  "width": 594,
+  "height": 696,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "u0we9zya",
+      "_$type": "GImage",
+      "name": "img_1",
+      "width": 594,
+      "height": 696,
+      "src": "res://7c4edada-684a-4340-85ce-70be82d404d2",
+      "autoSize": false
+    },
+    {
+      "_$id": "62rvg7qi",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 250,
+      "y": 13,
+      "width": 93,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "qopsmgl0"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "提 示",
+      "fontSize": 40,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "v3sq2g52",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbMs",
+      "x": 179,
+      "y": 477,
+      "width": 240,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "qopsmgl0"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "该昵称不可使用！",
+      "fontSize": 30,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "xngvec6c",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img",
+      "x": 297,
+      "y": 288,
+      "width": 118,
+      "height": 320,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "src": "res://c62fb2fb-d0ec-4136-9837-32906bf08f4c"
+    },
+    {
+      "_$id": "6k8ozkt9",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 539,
+      "y": 34,
+      "visible": true
+    },
+    {
+      "_$id": "cofs1743",
+      "_$prefab": "78b881d7-0bdc-40e8-a004-7718e9d713cf",
+      "_$var": true,
+      "name": "btn",
+      "active": true,
+      "x": 297,
+      "y": 591,
+      "visible": true,
+      "title": "确 认"
+    }
+  ]
+}

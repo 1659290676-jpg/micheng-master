@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/kkk_fuse_et_code"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:imeOptions="flagNoExtractUi|flagNoFullscreen"
+        android:maxLength="4"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:textCursorDrawable="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kkk_fuse_tv_code_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="@color/kkk_fuse_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_fuse_tv_code_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/kkk_fuse_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_fuse_tv_code_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/kkk_fuse_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_fuse_tv_code_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/kkk_fuse_color_orange"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/kkk_fuse_line_1"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:id="@+id/kkk_fuse_line_2"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:id="@+id/kkk_fuse_line_3"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:id="@+id/kkk_fuse_line_4"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</RelativeLayout>

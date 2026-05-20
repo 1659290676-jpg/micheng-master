@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/kkk_login_bg_margin"
+        android:layout_marginRight="@dimen/kkk_login_bg_margin"
+        android:background="@drawable/kkk_login_account_act_bg_gray">
+
+        <include layout="@layout/kkk_layout_titlebar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kkk_login_account_rl_title"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+
+            <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                android:id="@+id/kkk_et_account"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp" />
+
+            <View
+                android:id="@+id/kkk_switch_chen"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"/>
+
+
+            <Button
+                android:id="@+id/kkk_btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/kkk_et_account"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/kkk_btn_bg_orange_selected"
+                android:text="登录"
+                android:textColor="@color/kkk_color_white"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/kkk_tv_go_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kkk_btn_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:padding="6dp"
+                android:autoLink="all"
+                android:text="其他登录方式"
+                android:textColor="@color/kkk_color_orange"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/kkk_rl_account_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@+id/kkk_login_account_rl_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="3.5dp"
+            android:paddingBottom="3.5dp"
+            android:background="@drawable/kkk_dialog_white_bg">
+
+            <ScrollView
+                android:id="@+id/kkk_sv_account_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:scrollbars="none"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/kkk_ll_account_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+{
+  "_$type": "Animator",
+  "controller": {
+    "_$uuid": "0eb64b92-59a5-4950-bf8e-83166f1d6567",
+    "_$type": "AnimationController"
+  },
+  "cullingMode": 0,
+  "controllerLayers": [
+    {
+      "_$type": "AnimatorControllerLayer",
+      "name": "idle",
+      "states": [
+        {
+          "x": 60.90908757603206,
+          "y": 144.54545389243694,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 550
+        },
+        {
+          "x": 253.42449632451883,
+          "y": 315.5989420916548,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "1",
+          "name": "run",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "f7938bbe-fb10-422c-9a51-9c5e9a7b422b"
+          },
+          "clipStart": 0
+        },
+        {
+          "x": 123.42448752299819,
+          "y": 301.4322761540477,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "idle",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "a2a16346-90c1-4a45-bceb-42f67cea0cd2"
+          },
+          "clipStart": 0
+        }
+      ],
+      "defaultStateName": "idle"
+    }
+  ]
+}

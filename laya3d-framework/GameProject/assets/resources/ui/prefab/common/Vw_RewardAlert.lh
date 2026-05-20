@@ -1,0 +1,143 @@
+{
+  "_$ver": 1,
+  "_$id": "ul1vwufj",
+  "_$runtime": "res://47a40abe-e147-4ea9-b116-404dca503e1f",
+  "_$type": "GWidget",
+  "name": "Vw_RewardAlert",
+  "width": 720,
+  "height": 1440,
+  "mouseThrough": true,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "1jt3y9vn",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "titleSpine",
+      "x": 360,
+      "y": 226,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "_$id": "9h62nqch",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "x": 15,
+      "y": 523,
+      "width": 690,
+      "height": 523,
+      "layout": {
+        "type": 3,
+        "rowGap": 25,
+        "columnGap": 48,
+        "align": 1,
+        "valign": 1
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "barDisplay": 5
+      },
+      "_templateNode": {
+        "_$ref": "z2tyg0te",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 1,
+      "_isDemo": true,
+      "_itemData": []
+    },
+    {
+      "_$id": "0gd4eoen",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 78,
+      "y": 457,
+      "width": 228,
+      "height": 30,
+      "src": "res://459e29b1-d9c6-4d32-87cf-59e0f23b5a90"
+    },
+    {
+      "_$id": "egr29j12",
+      "_$type": "GImage",
+      "name": "img_3",
+      "x": 643,
+      "y": 457,
+      "width": 228,
+      "height": 30,
+      "scaleX": -1,
+      "src": "res://459e29b1-d9c6-4d32-87cf-59e0f23b5a90"
+    },
+    {
+      "_$id": "ac8fr62j",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 163,
+      "y": 195,
+      "width": 394,
+      "height": 73,
+      "text": "恭喜获奖",
+      "fontSize": 54,
+      "color": "#ffffff",
+      "align": "center",
+      "stroke": 4,
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "s3nilts7",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes1",
+      "x": 163,
+      "y": 451,
+      "width": 394,
+      "height": 73,
+      "text": "奖励",
+      "fontSize": 40,
+      "color": "#ffffff",
+      "align": "center",
+      "stroke": 6,
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "0ncghums",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes2",
+      "x": 131,
+      "y": 1083,
+      "width": 458,
+      "height": 53,
+      "text": "点击领取",
+      "fontSize": 40,
+      "color": "#ffffff",
+      "align": "center",
+      "stroke": 6,
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "z2tyg0te",
+      "_$prefab": "5177e988-150c-4c69-ba04-ea264e045898",
+      "name": "Item_Reward_Grid",
+      "active": true,
+      "x": 0,
+      "y": 0,
+      "visible": true
+    }
+  ]
+}

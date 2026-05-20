@@ -1,0 +1,39 @@
+{
+  "_$ver": 1,
+  "_$id": "v694qxqo",
+  "_$type": "GWidget",
+  "name": "Root",
+  "width": 100,
+  "height": 100,
+  "_$child": [
+    {
+      "_$id": "m5h814lp",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtName",
+      "x": -3,
+      "width": 106,
+      "height": 88,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "v694qxqo"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "Player\nLv.1",
+      "_isDemo": true,
+      "fontSize": 36,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "stroke": 2,
+      "strokeColor": "#2c2c2c"
+    }
+  ]
+}

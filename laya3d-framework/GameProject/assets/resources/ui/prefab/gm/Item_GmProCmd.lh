@@ -1,0 +1,86 @@
+{
+    "_$ver": 1,
+    "_$id": "bgtm9sqn",
+    "_$type": "GWidget",
+    "name": "itemCmd",
+    "x": -2,
+    "y": -73,
+    "width": 670,
+    "height": 34,
+    "_$child": [
+        {
+            "_$id": "38702pj5",
+            "_$type": "GTextField",
+            "name": "lbTitle",
+            "y": 1,
+            "width": 52,
+            "height": 32,
+            "text": "类型",
+            "fontSize": 24,
+            "fitContent": 1
+        },
+        {
+            "_$id": "noc0o8r1",
+            "_$type": "GTextField",
+            "name": "lbData",
+            "x": 132,
+            "y": 1,
+            "width": 52,
+            "height": 32,
+            "text": "数据",
+            "fontSize": 24,
+            "fitContent": 1
+        },
+        {
+            "_$id": "vs58nual",
+            "_$type": "GImage",
+            "name": "input",
+            "x": 192,
+            "width": 478,
+            "height": 34,
+            "src": "res://63e14989-655b-438c-9f91-6943213a523f",
+            "autoSize": false,
+            "_$child": [
+                {
+                    "_$id": "ziq54fg7",
+                    "_$var": true,
+                    "_$type": "GTextInput",
+                    "name": "lbInput",
+                    "x": 5,
+                    "width": 468,
+                    "height": 34,
+                    "text": "",
+                    "fontSize": 24,
+                    "color": "#ffffff",
+                    "valign": "middle"
+                }
+            ]
+        },
+        {
+            "_$id": "p603tz2g",
+            "_$type": "GImage",
+            "name": "img",
+            "x": 55,
+            "width": 60,
+            "height": 34,
+            "src": "res://63e14989-655b-438c-9f91-6943213a523f",
+            "autoSize": false,
+            "_$child": [
+                {
+                    "_$id": "0p5bx8az",
+                    "_$var": true,
+                    "_$type": "GTextField",
+                    "name": "lbType",
+                    "x": 6,
+                    "width": 20,
+                    "height": 32,
+                    "text": "B",
+                    "fontSize": 24,
+                    "color": "#ffffff",
+                    "fitContent": 1
+                }
+            ]
+        }
+    ],
+    "_$runtime": "res://713027eb-c4e9-409f-87b6-5d0748f6286b"
+}

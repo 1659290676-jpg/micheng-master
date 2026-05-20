@@ -1,0 +1,58 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "_$type": "AnimatorControllerLayer",
+      "name": "Base Layer",
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1,
+      "avatarMask": null,
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "1"
+            }
+          ]
+        },
+        {
+          "x": 884,
+          "y": 100,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        },
+        {
+          "x": 423.9252540585253,
+          "y": 468.0967842180961,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "1",
+          "name": "fx_yunshi_xialuo",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "15db20bb-92b2-4ea1-872f-7152e36adba9"
+          }
+        }
+      ],
+      "defaultStateName": "yunshi_xialuo"
+    }
+  ],
+  "sleep": false,
+  "layerW": 150
+}

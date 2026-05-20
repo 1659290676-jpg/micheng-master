@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!--例子-->
+	<default>
+	    <pf_des val="什么包"/>
+		<pf_os val="打包的系统 例如 web ios android"/>
+		<pf_id val="包id"/>
+		<pf_package val="包名 com.layabox.game"/>
+		<pf_sdk val="使用的sdk名"/>
+		<pf_sdk_title val="sdk区分不同渠道名"/>
+		<pf_name val="平台名称 游戏中的platform"/>
+		<pf_title val="渠道名称 游戏中的pf 生成包的名"/>
+		<pf_appname>
+			<default val="app名称" />
+		</pf_appname>
+		<pf_keystore val="使用的签名文件名"/>
+		<pf_sign_pwd val="签名密码"/>
+		<pf_sign_alias val=""/>
+		<pf_sign_alias_pwd val=""/>
+		<pf_server_http val="后台地址" />
+		<pf_ext val="包体的一些配置参数，json格式"/>
+		<pf_targetSdk val="安卓包的sdk版本"/>
+		<pf_minSdk val="安卓包的最小sdk版本"/>
+		<pf_compileSdk val="安卓包的sdk版本"/>
+		<pf_mini_appid val="小游戏appid"/>
+		<pf_cdn val="资源cdn跟目录"/>
+		<pf_bg val="登录背景，bg目录下的jpg文件"/>
+		<pf_logo val="登录logo，bg目录下的png文件"/>
+		<pf_shlash val="闪屏页底图，bg目录下的jpg文件"/>
+		<pf_channel_id val="渠道id：1微信 2抖音"/>
+	</default>
+	
+	<!---测试-->
+	<pf>
+	    <pf_des val="内网测试包"/>
+		<pf_os val="android"/>
+		<pf_id val="1"/>
+		<pf_sdk val="test"/>
+		<pf_sdk_title val="origin"/>
+		<pf_title val="local"/>
+		<pf_name val="dinosaur"/>
+		<pf_package val="com.test.dinasaur"/>
+		<pf_appname>
+			<default val="恐龙"/>
+			<en val="Dinosaur"/>
+		</pf_appname>
+		<pf_server_http val="http://192.168.16.123:6221"/>
+	</pf>
+	
+	<!--- Tapplus GPSDK -->
+	<pf>
+	    <pf_des val="海外-测试-Tapplus"/>
+		<pf_os val="android"/>
+		<pf_id val="1"/>
+		<pf_sdk val="seasAndroid"/>
+		<pf_sdk_title val="origin"/>
+		<pf_title val="tapplusGpsTest"/>
+		<pf_name val="dinoTest"/>
+		<pf_package val="com.joylith.dg.gg"/>
+		<pf_keystore val="xingyun_dinogobble"/>
+		<pf_sign_pwd val="xydg1234"/>
+		<pf_sign_alias val="xingyundg"/>
+		<pf_sign_alias_pwd val="xydg1234"/>
+		<pf_keystore_ext val="jks"/>
+		<pf_appname>
+			<default val="Dino Gobble" />
+		</pf_appname>
+		<pf_server_http val="https://minigame-us-test1.3kxyz.com:6211"/>
+		<pf_minSdk val="24"/>
+		<pf_bg val="bg_en.jpg"/>
+	</pf>
+	
+	<!--- Tapplus GPSDK -->
+	<pf>
+	    <pf_des val="海外-正式-Tapplus"/>
+		<pf_os val="android"/>
+		<pf_id val="1"/>
+		<pf_sdk val="seasAndroid"/>
+		<pf_sdk_title val="origin"/>
+		<pf_title val="tapplusGps"/>
+		<pf_name val="dino"/>
+		<pf_package val="com.joylith.dg.gg"/>
+		<pf_keystore val="xingyun_dinogobble"/>
+		<pf_sign_pwd val="xydg1234"/>
+		<pf_sign_alias val="xingyundg"/>
+		<pf_sign_alias_pwd val="xydg1234"/>
+		<pf_keystore_ext val="jks"/>
+		<pf_appname>
+			<default val="Dino Gobble" />
+		</pf_appname>
+		<pf_server_http val="https://minigame-dino-us-prod.3kxyz.com:6002"/>
+		<pf_minSdk val="24"/>
+		<pf_bg val="bg"/>
+		<pf_shlash val="bg_en"/>
+	</pf>
+	
+	<!--- Tapplus GPSDK tiktok -->
+	<pf>
+	    <pf_des val="tiktok-Dino Gobble"/>
+		<pf_os val="tiktokgame"/>
+		<pf_id val="1"/>
+		<pf_sdk val="tiktok"/>
+		<pf_sdk_title val="origin"/>
+		<pf_title val="dino_tiktok"/>
+		<pf_name val="dino"/>
+		<pf_package val=""/>
+		<pf_server_http val="https://minigame-dino-us-prod.3kxyz.com:6002"/>
+		<pf_mini_appid val="mgu2im4la3ylcjxu"/>
+		<pf_bg val="bg"/>
+		<pf_cdn val="https://minigame-cdn-prd.3kxyz.com"/>
+	</pf>
+	
+	<!--- 无sdk -->
+	<pf>
+	    <pf_des val="微小-贪吃恐龙"/>
+		<pf_os val="wxgame"/>
+		<pf_id val="1"/>
+		<pf_sdk val="wechat"/>
+		<pf_sdk_title val="origin"/>
+		<pf_title val="dinosaur_wechat"/>
+		<pf_name val="dinosaur"/>
+		<pf_package val=""/>
+		<pf_server_http val="https://minigame-dinosaur-cn-prod.3kxyz.com:6002"/>
+		<pf_mini_appid val="wx0db800a2b5ac4439"/>
+		<pf_bg val="bg"/>
+		<pf_channel_id val="1"/>
+		<pf_cdn val="https://minigame-cdn-prd.3kxyz.com"/>
+	</pf>
+	
+	<!--- 无sdk -->
+	<pf>
+	    <pf_des val="抖小-恐龙吞噬"/>
+		<pf_os val="bytedancegame"/>
+		<pf_id val="1"/>
+		<pf_sdk val="douyin"/>
+		<pf_sdk_title val="origin"/>
+		<pf_title val="dinosaur_bytedance"/>
+		<pf_name val="dinosaur"/>
+		<pf_package val=""/>
+		<pf_server_http val="https://minigame-dinosaur-cn-prod.3kxyz.com:6002"/>
+		<pf_mini_appid val="ttafcbd97631ad34a302"/>
+		<pf_bg val="bg"/>
+		<pf_channel_id val="2"/>
+		<pf_cdn val="https://minigame-cdn-prd.3kxyz.com"/>
+	</pf>
+	
+
+	
+</root>

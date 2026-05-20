@@ -1,0 +1,839 @@
+{
+  "_$ver": 1,
+  "_$id": "xy5g7v8b",
+  "_$runtime": "res://2ded06a9-3171-4085-8a43-65b71b43decb",
+  "_$type": "GWidget",
+  "name": "Vw_Fail",
+  "width": 594,
+  "height": 1050,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "52w67van",
+      "_$type": "GImage",
+      "name": "img_1",
+      "width": 594,
+      "height": 734,
+      "src": "res://e39e3b87-020b-48b8-a902-86325c53c8d4",
+      "autoSize": false
+    },
+    {
+      "_$id": "lzk6itkt",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 539,
+      "y": 36,
+      "visible": true,
+      "width": 34,
+      "height": 34,
+      "icon": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf"
+    },
+    {
+      "_$id": "rzd23ooc",
+      "_$prefab": "1bf22151-48a6-4f1f-b2d4-02f82d34ccbf",
+      "_$var": true,
+      "name": "btnRelive",
+      "active": true,
+      "x": 152,
+      "y": 572,
+      "visible": true
+    },
+    {
+      "_$id": "gcp3rncj",
+      "_$prefab": "1b0254db-f463-4e3e-bba5-0958ea5eb014",
+      "_$var": true,
+      "name": "btnExit",
+      "active": true,
+      "x": 297,
+      "y": 632,
+      "visible": true
+    },
+    {
+      "_$id": "58j7infn",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 255,
+      "y": 15,
+      "width": 84,
+      "height": 49,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "失败",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "ga18xkvu",
+      "_$var": true,
+      "_$type": "GPanel",
+      "name": "giftBase",
+      "x": -63,
+      "y": 744,
+      "width": 720,
+      "height": 320,
+      "layout": {
+        "type": 2,
+        "columnGap": 30
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "direction": 1,
+        "barDisplay": 1,
+        "snapToItem": true
+      },
+      "_$child": [
+        {
+          "_$id": "b7sop3zq",
+          "_$type": "GWidget",
+          "name": "node",
+          "width": 662,
+          "height": 300,
+          "_$child": [
+            {
+              "_$id": "g56d2rr4",
+              "_$var": true,
+              "_$type": "GButton",
+              "name": "gift0",
+              "x": 360,
+              "y": 157,
+              "width": 600,
+              "height": 254,
+              "anchorX": 0.5,
+              "anchorY": 0.5,
+              "controllers": {
+                "_$type": "Record",
+                "button": {
+                  "_$type": "Controller",
+                  "pages": [
+                    "up",
+                    "down",
+                    "over",
+                    "selectedOver"
+                  ]
+                }
+              },
+              "downEffect": 2,
+              "_$child": [
+                {
+                  "_$id": "e02jx5vh",
+                  "_$type": "GImage",
+                  "name": "img",
+                  "width": 600,
+                  "height": 254,
+                  "relations": [
+                    {
+                      "_$type": "Relation",
+                      "target": {
+                        "_$ref": "g56d2rr4"
+                      },
+                      "data": [
+                        9,
+                        0
+                      ]
+                    }
+                  ],
+                  "src": "res://3a90093a-b44a-4c45-b1ee-99639af272e5"
+                },
+                {
+                  "_$id": "r0bter2m",
+                  "_$var": true,
+                  "_$type": "GButton",
+                  "name": "btnGift0",
+                  "x": 467,
+                  "y": 194,
+                  "width": 184,
+                  "height": 71,
+                  "anchorX": 0.5,
+                  "anchorY": 0.5,
+                  "_mouseState": 1,
+                  "controllers": {
+                    "_$type": "Record",
+                    "button": {
+                      "_$type": "Controller",
+                      "pages": [
+                        "up",
+                        "down",
+                        "over",
+                        "selectedOver"
+                      ]
+                    }
+                  },
+                  "relations": [
+                    {
+                      "_$type": "Relation",
+                      "target": {
+                        "_$ref": "g56d2rr4"
+                      },
+                      "data": [
+                        9,
+                        0
+                      ]
+                    }
+                  ],
+                  "titleColor": "#f3f3f3",
+                  "titleFontSize": 40,
+                  "titleWidget": {
+                    "_$ref": "4iwhoy0i"
+                  },
+                  "_$child": [
+                    {
+                      "_$id": "z4dmn468",
+                      "_$type": "GImage",
+                      "name": "img",
+                      "width": 184,
+                      "height": 71,
+                      "relations": [
+                        {
+                          "_$type": "Relation",
+                          "target": {
+                            "_$ref": "r0bter2m"
+                          },
+                          "data": [
+                            1,
+                            0,
+                            2,
+                            0
+                          ]
+                        }
+                      ],
+                      "src": "res://f70f15ab-3186-41f8-b02a-c096129cc691",
+                      "autoSize": false
+                    },
+                    {
+                      "_$id": "s8ix0ajf",
+                      "_$var": true,
+                      "_$type": "GImage",
+                      "name": "imgGitfAd0",
+                      "x": 27,
+                      "y": 14,
+                      "width": 50,
+                      "height": 42,
+                      "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+                    },
+                    {
+                      "_$id": "4iwhoy0i",
+                      "_$type": "GTextField",
+                      "name": "txt",
+                      "x": 79,
+                      "y": 11,
+                      "width": 26,
+                      "height": 49,
+                      "relations": [
+                        {
+                          "_$type": "Relation",
+                          "target": {
+                            "_$ref": "r0bter2m"
+                          },
+                          "data": [
+                            6,
+                            0,
+                            13,
+                            0
+                          ]
+                        }
+                      ],
+                      "text": "1",
+                      "_isDemo": true,
+                      "fontSize": 40,
+                      "color": "#f3f3f3",
+                      "fitContent": 1
+                    },
+                    {
+                      "_$id": "r9vd47me",
+                      "_$var": true,
+                      "_$type": "GTextField",
+                      "name": "lbGitf0",
+                      "x": 90,
+                      "y": 13,
+                      "width": 62,
+                      "height": 45,
+                      "relations": [
+                        {
+                          "_$type": "Relation",
+                          "target": {
+                            "_$ref": "r0bter2m"
+                          },
+                          "data": [
+                            6,
+                            0,
+                            13,
+                            0
+                          ]
+                        }
+                      ],
+                      "text": "text",
+                      "_isDemo": true,
+                      "fontSize": 36,
+                      "color": "#f3f3f3",
+                      "fitContent": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "1ilrcfq1",
+          "_$var": true,
+          "_$type": "GWidget",
+          "name": "gift1Base",
+          "x": 692,
+          "width": 674,
+          "height": 300,
+          "_$child": [
+            {
+              "_$id": "b81ar94z",
+              "_$var": true,
+              "_$type": "GButton",
+              "name": "gift1",
+              "x": 310,
+              "y": 157,
+              "width": 620,
+              "height": 254,
+              "anchorX": 0.5,
+              "anchorY": 0.5,
+              "controllers": {
+                "_$type": "Record",
+                "button": {
+                  "_$type": "Controller",
+                  "pages": [
+                    "up",
+                    "down",
+                    "over",
+                    "selectedOver"
+                  ]
+                }
+              },
+              "downEffect": 2,
+              "_$child": [
+                {
+                  "_$id": "8fav2uqr",
+                  "_$type": "GImage",
+                  "name": "img_1",
+                  "width": 620,
+                  "height": 255,
+                  "src": "res://ac823e7f-c5ea-41d7-9e9d-d96f6eaf7839"
+                },
+                {
+                  "_$id": "dmtk9jlj",
+                  "_$var": true,
+                  "_$type": "GButton",
+                  "name": "btnGift1",
+                  "x": 467,
+                  "y": 194,
+                  "width": 184,
+                  "height": 71,
+                  "anchorX": 0.5,
+                  "anchorY": 0.5,
+                  "_mouseState": 1,
+                  "controllers": {
+                    "_$type": "Record",
+                    "button": {
+                      "_$type": "Controller",
+                      "pages": [
+                        "up",
+                        "down",
+                        "over",
+                        "selectedOver"
+                      ]
+                    }
+                  },
+                  "titleColor": "#f3f3f3",
+                  "titleFontSize": 40,
+                  "titleWidget": {
+                    "_$ref": "62g9d469"
+                  },
+                  "_$child": [
+                    {
+                      "_$id": "646gzfid",
+                      "_$type": "GImage",
+                      "name": "img",
+                      "width": 184,
+                      "height": 71,
+                      "relations": [
+                        {
+                          "_$type": "Relation",
+                          "target": {
+                            "_$ref": "dmtk9jlj"
+                          },
+                          "data": [
+                            1,
+                            0,
+                            2,
+                            0
+                          ]
+                        }
+                      ],
+                      "src": "res://f70f15ab-3186-41f8-b02a-c096129cc691",
+                      "autoSize": false
+                    },
+                    {
+                      "_$id": "zay5ez71",
+                      "_$var": true,
+                      "_$type": "GImage",
+                      "name": "imgGitfAd1",
+                      "x": 27,
+                      "y": 14,
+                      "width": 50,
+                      "height": 42,
+                      "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+                    },
+                    {
+                      "_$id": "62g9d469",
+                      "_$type": "GTextField",
+                      "name": "txt",
+                      "x": 79,
+                      "y": 11,
+                      "width": 26,
+                      "height": 49,
+                      "relations": [
+                        {
+                          "_$type": "Relation",
+                          "target": {
+                            "_$ref": "dmtk9jlj"
+                          },
+                          "data": [
+                            6,
+                            0,
+                            13,
+                            0
+                          ]
+                        }
+                      ],
+                      "text": "1",
+                      "_isDemo": true,
+                      "fontSize": 40,
+                      "color": "#f3f3f3",
+                      "fitContent": 1
+                    },
+                    {
+                      "_$id": "bphcmjuz",
+                      "_$var": true,
+                      "_$type": "GTextField",
+                      "name": "lbGitf1",
+                      "x": 90,
+                      "y": 13,
+                      "width": 62,
+                      "height": 45,
+                      "relations": [
+                        {
+                          "_$type": "Relation",
+                          "target": {
+                            "_$ref": "dmtk9jlj"
+                          },
+                          "data": [
+                            6,
+                            0,
+                            13,
+                            0
+                          ]
+                        }
+                      ],
+                      "text": "text",
+                      "_isDemo": true,
+                      "fontSize": 36,
+                      "color": "#f3f3f3",
+                      "fitContent": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "ssra570d",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "normalBase",
+      "width": 0,
+      "height": 0,
+      "_$child": [
+        {
+          "_$id": "bav83wch",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgIcon",
+          "x": 197,
+          "y": 159,
+          "width": 199,
+          "height": 231,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "src": "res://31eb59b7-9c54-4c91-9770-008c27ec2b7b"
+        },
+        {
+          "_$id": "959a32wj",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbStrength",
+          "x": 329,
+          "y": 311,
+          "width": 61,
+          "height": 75,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "-1",
+          "fontSize": 64,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "vvulcwho",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbTime",
+          "x": 208,
+          "y": 450,
+          "width": 177,
+          "height": 75,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "+60秒",
+          "_isDemo": true,
+          "fontSize": 64,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "cquzf5y5",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbDes",
+          "x": 151,
+          "y": 404,
+          "width": 292,
+          "height": 114,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0,
+                16,
+                0
+              ]
+            }
+          ],
+          "text": "生命+1\n继续进行游戏",
+          "_isDemo": true,
+          "fontSize": 48,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "align": "center",
+          "strokeColor": "#2c2014"
+        }
+      ]
+    },
+    {
+      "_$id": "22at7u8e",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "arenaState",
+      "x": 37,
+      "y": 128,
+      "width": 520,
+      "height": 348,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "iphma9eh",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": 40,
+          "y": 191,
+          "width": 439,
+          "height": 56,
+          "src": "res://86b6f4d0-15dc-4212-b2c8-8dfa75e7e83a",
+          "autoSize": false
+        },
+        {
+          "_$id": "yilm8qju",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg0",
+          "x": 93,
+          "y": 219,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://5068eb01-31b9-4c68-981a-41ad7b02014b"
+        },
+        {
+          "_$id": "xsxj1m9z",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg1",
+          "x": 176,
+          "y": 219,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "3qk5ppjn",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg2",
+          "x": 259,
+          "y": 219,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "jbsvvhfh",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg3",
+          "x": 342,
+          "y": 219,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "qowd8swk",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg4",
+          "x": 425,
+          "y": 219,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "9xhqeybc",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArenaDes",
+          "x": 168,
+          "y": 76,
+          "width": 184,
+          "height": 38,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "22at7u8e"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "继续进行游戏",
+          "_isDemo": true,
+          "fontSize": 30,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "align": "center",
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "pjbul0y2",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena0",
+          "x": 79,
+          "y": 202,
+          "width": 34,
+          "height": 36,
+          "text": "x1",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "39s09jht",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena1",
+          "x": 162,
+          "y": 202,
+          "width": 34,
+          "height": 36,
+          "text": "x2",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "psodeh70",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena2",
+          "x": 245,
+          "y": 202,
+          "width": 34,
+          "height": 36,
+          "text": "x3",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "83i0d46m",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena3",
+          "x": 330,
+          "y": 202,
+          "width": 34,
+          "height": 36,
+          "text": "x5",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "1gns9yd5",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena4",
+          "x": 402,
+          "y": 202,
+          "width": 49,
+          "height": 36,
+          "text": "x10",
+          "fontSize": 28,
+          "color": "#fbf22c",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "7bk7sfms",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "fireState",
+      "x": 37,
+      "y": 110,
+      "width": 520,
+      "height": 320,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "fto4zp3q",
+          "_$type": "GImage",
+          "name": "img_3",
+          "x": 26,
+          "y": 30,
+          "width": 467,
+          "height": 255,
+          "src": "res://c159801a-9241-43f6-b9fb-b589023239a9"
+        },
+        {
+          "_$id": "ws0dzluu",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbFireDes",
+          "x": 138,
+          "y": 369,
+          "width": 244,
+          "height": 49,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xy5g7v8b"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "继续进行游戏",
+          "_isDemo": true,
+          "fontSize": 40,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "align": "center",
+          "strokeColor": "#2c2014"
+        }
+      ]
+    }
+  ]
+}

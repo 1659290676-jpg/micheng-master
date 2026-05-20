@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+    <!--<plugin name="cn.kkk.apm.vision.TestMudelSDK" type="NetWorkNat" desc="网络性能模块"/>-->
+    <plugin name="cn.kkk.apm.datasdk.DataSdkPluginSdk" type="DataSDK" desc="数据SDK"/>
+</plugins>

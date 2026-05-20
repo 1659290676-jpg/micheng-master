@@ -1,0 +1,264 @@
+{
+  "_$ver": 1,
+  "_$id": "erx4povc",
+  "_$runtime": "res://4353293f-289d-4269-b6a0-0d24ef82ed9a",
+  "_$type": "GWidget",
+  "name": "Item_WarOrder2",
+  "width": 720,
+  "height": 406,
+  "_$child": [
+    {
+      "_$id": "1k3z5qin",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 720,
+      "height": 406,
+      "src": "res://05da0a02-feba-45d3-94e4-2c0c3c0cb0da",
+      "autoSize": false
+    },
+    {
+      "_$id": "fjx4kfrj",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 245,
+      "y": 58,
+      "width": 231,
+      "height": 54,
+      "src": "res://02f5d947-3ace-461d-a83a-9d38abc15dfc",
+      "autoSize": false
+    },
+    {
+      "_$id": "g75n02s9",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgSuo",
+      "x": 614,
+      "y": 65,
+      "width": 32,
+      "height": 42,
+      "src": "res://c67fef9f-edd1-44ad-9522-ffa1ef8b5bbb"
+    },
+    {
+      "_$id": "q1qnutah",
+      "_$type": "GImage",
+      "name": "img_5",
+      "x": 111,
+      "y": 282,
+      "width": 499,
+      "height": 48,
+      "src": "res://ac1f5879-4efd-4b1c-8760-e983d5b1839e",
+      "autoSize": false
+    },
+    {
+      "_$id": "pfk2r41u",
+      "_$type": "GImage",
+      "name": "img_6",
+      "x": 115,
+      "y": 286,
+      "width": 476,
+      "height": 40,
+      "src": "res://3daf1575-200b-4e66-b501-fb844513055e",
+      "autoSize": false,
+      "mesh": {
+        "_$type": "ProgressMesh",
+        "method": 1,
+        "amount": 1
+      }
+    },
+    {
+      "_$id": "ltdrd47i",
+      "_$type": "GImage",
+      "name": "img_8",
+      "x": 357,
+      "y": -74,
+      "width": 6,
+      "height": 76,
+      "src": "res://c75304a8-40bf-4d64-ab9c-eb4b576acf77",
+      "autoSize": false
+    },
+    {
+      "_$id": "c85c8q1b",
+      "_$type": "GImage",
+      "name": "img_7",
+      "x": 570,
+      "y": 278,
+      "width": 50,
+      "height": 54,
+      "src": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e"
+    },
+    {
+      "_$id": "2u0cwl0w",
+      "_$var": true,
+      "_$type": "GProgressBar",
+      "name": "proBar",
+      "x": 111,
+      "y": 280,
+      "width": 476,
+      "height": 50,
+      "value": 102,
+      "titleType": 1,
+      "_hBar": {
+        "_$ref": "pfk2r41u"
+      },
+      "_titleWidget": {
+        "_$ref": "ihnxuzf0"
+      }
+    },
+    {
+      "_$id": "3vvfbolc",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTitle",
+      "x": 279,
+      "y": 63,
+      "width": 161,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "erx4povc"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "进度宝箱",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "torn0554",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtDesc",
+      "x": 106,
+      "y": 152,
+      "width": 316,
+      "height": 90,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "erx4povc"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "激活高级通行证，没获取10把钥匙可积累100个金币，完成收集进度可领取金币奖励",
+      "_isDemo": true,
+      "fontSize": 24,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "maxWidth": 320,
+      "leading": 4,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "ihnxuzf0",
+      "_$type": "GTextField",
+      "name": "txtProBar",
+      "x": 293,
+      "y": 288,
+      "width": 134,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "erx4povc"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "102/100",
+      "_isDemo": true,
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "vizpu7oi",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btnFetch",
+      "x": 302,
+      "y": 345,
+      "width": 116,
+      "height": 52,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "titleColor": "#fcf8fe",
+      "titleFontSize": 28,
+      "titleWidget": {
+        "_$ref": "lixvmidf"
+      },
+      "iconWidget": {
+        "_$ref": "nt99n8fw"
+      },
+      "_$child": [
+        {
+          "_$id": "nt99n8fw",
+          "_$type": "GImage",
+          "name": "imgFetch1",
+          "width": 116,
+          "height": 52,
+          "src": "res://f70f15ab-3186-41f8-b02a-c096129cc691",
+          "autoSize": false
+        },
+        {
+          "_$id": "lixvmidf",
+          "_$type": "GTextField",
+          "name": "txtBtnFetch1",
+          "x": 29,
+          "y": 9,
+          "width": 59,
+          "height": 34,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "vizpu7oi"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "领取",
+          "_isDemo": true,
+          "fontSize": 28,
+          "color": "#fcf8fe",
+          "fitContent": 1,
+          "valign": "middle",
+          "strokeColor": "#2c2014"
+        }
+      ]
+    }
+  ]
+}

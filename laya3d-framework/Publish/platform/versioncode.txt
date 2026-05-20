@@ -1,0 +1,4 @@
+#
+#Fri May 08 12:16:15 CST 2026
+local=34
+tapplusGps=4

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kkk_account_center_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/kkk_account_center_container"
+        android:layout_width="350dp"
+        android:layout_height="440dp"
+        android:layout_gravity="center"
+        android:background="@drawable/kkk_login_account_act_bg_gray">
+
+        <RelativeLayout
+            android:id="@+id/kkk_account_center_rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/kkk_login_account_title_bg_black">
+
+            <TextView
+                android:id="@+id/kkk_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="个人中心"
+                android:textColor="@color/kkk_color_white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/kkk_iv_return"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:padding="2dp"
+                android:src="@drawable/kkk_return_left_img" />
+
+            <ImageView
+                android:id="@+id/kkk_iv_header_close"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:padding="2dp"
+                android:src="@drawable/kkk_header_close"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/kkk_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/kkk_account_center_rl_title" />
+
+    </RelativeLayout>
+</RelativeLayout>

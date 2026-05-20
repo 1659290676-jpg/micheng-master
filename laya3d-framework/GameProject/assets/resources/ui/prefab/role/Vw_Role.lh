@@ -1,0 +1,206 @@
+{
+  "_$ver": 1,
+  "_$id": "ldf629pb",
+  "_$runtime": "res://6b074dcf-2635-4f19-a0b1-bd971ac4a9ef",
+  "_$type": "GWidget",
+  "name": "Vw_Role",
+  "width": 720,
+  "height": 1133,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": 0,
+      "horizontal": 0,
+      "vertical": 5,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "5jcnhmzs",
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 720,
+      "height": 1205,
+      "src": "res://fa601202-bee5-429a-b5c1-b37ae0f3ab42",
+      "autoSize": false
+    },
+    {
+      "_$id": "pwbk3l4x",
+      "_$type": "GImage",
+      "name": "img_4",
+      "x": 82,
+      "y": 108,
+      "width": 138,
+      "height": 139,
+      "src": "res://6eed362f-6aca-463b-bebd-4002594082ba"
+    },
+    {
+      "_$id": "zvtchrr2",
+      "_$var": true,
+      "_$type": "GLoader",
+      "name": "imgHead",
+      "x": 91,
+      "y": 113,
+      "width": 120,
+      "height": 120,
+      "src": "res://91196bee-cc02-4f49-ab5f-883db454244f"
+    },
+    {
+      "_$id": "3ac5ub0s",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "y": 251,
+      "width": 720,
+      "height": 651,
+      "layout": {
+        "type": 3,
+        "columns": 3,
+        "rowGap": 18,
+        "columnGap": 18,
+        "padding": [
+          0,
+          0,
+          0,
+          33
+        ]
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "barDisplay": 5,
+        "paddingMaskDisabled": true
+      },
+      "_templateNode": {
+        "_$ref": "jn20y9ox",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 8,
+      "_isDemo": true
+    },
+    {
+      "_$id": "2a0cd5jt",
+      "_$prefab": "1b0254db-f463-4e3e-bba5-0958ea5eb014",
+      "_$var": true,
+      "name": "btn",
+      "active": true,
+      "x": 360,
+      "y": 999,
+      "visible": true
+    },
+    {
+      "_$id": "jn20y9ox",
+      "_$prefab": "6f5aaacc-6362-4a0a-873f-712af54a1397",
+      "name": "Item_Role",
+      "active": true,
+      "x": 0,
+      "y": 0,
+      "visible": true
+    },
+    {
+      "_$id": "hm52kkw8",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btnName",
+      "x": 421,
+      "y": 173,
+      "width": 310,
+      "height": 60,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "downEffect": 3,
+      "_$child": [
+        {
+          "_$id": "se69rcw5",
+          "_$type": "GImage",
+          "name": "img_5",
+          "width": 310,
+          "height": 60,
+          "src": "res://2f26cd86-4521-47ee-b8a9-e54dcf120bdb",
+          "autoSize": false
+        },
+        {
+          "_$id": "erniuci5",
+          "_$type": "GImage",
+          "name": "img_3",
+          "x": 242,
+          "y": 4,
+          "width": 51,
+          "height": 51,
+          "src": "res://62cf325a-4c01-4b0f-8526-48c518244ed5"
+        },
+        {
+          "_$id": "s3l68usu",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbName",
+          "x": 15,
+          "y": 11,
+          "width": 23,
+          "height": 38,
+          "text": "1",
+          "fontSize": 32,
+          "color": "#fcf8fe",
+          "fitContent": 1,
+          "strokeColor": "#2c2014"
+        }
+      ]
+    },
+    {
+      "_$id": "8dquo02e",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 668,
+      "y": 44,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "visible": true
+    },
+    {
+      "_$id": "bd36inx3",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 240,
+      "y": 9,
+      "width": 240,
+      "height": 67,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "ldf629pb"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "个人信息",
+      "fontSize": 60,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

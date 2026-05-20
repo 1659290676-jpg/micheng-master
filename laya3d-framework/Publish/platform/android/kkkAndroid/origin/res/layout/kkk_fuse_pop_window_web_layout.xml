@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center">
+
+        <WebView
+            android:id="@+id/kkk_fuse_pop_window_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/kkk_fuse_pop_window_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@id/kkk_fuse_pop_window_webview"
+            android:layout_alignRight="@id/kkk_fuse_pop_window_webview"
+            android:src="@drawable/kkk_fuse_commonsdk_dialog_close" />
+    </RelativeLayout>
+
+
+</LinearLayout>

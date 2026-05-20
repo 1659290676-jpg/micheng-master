@@ -1,0 +1,358 @@
+{
+  "_$id": "xy5g7v8b",
+  "_$type": "GWidget",
+  "name": "Vw_Gm",
+  "width": 700,
+  "height": 1020,
+  "mouseThrough": true,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "2fozmq3w",
+      "_$type": "GWidget",
+      "name": "node",
+      "width": 700,
+      "height": 1020,
+      "background": {
+        "_$type": "DrawRoundRectCmd",
+        "lt": 20,
+        "rt": 20,
+        "lb": 20,
+        "rb": 20,
+        "fillColor": "#dcdcdc"
+      }
+    },
+    {
+      "_$id": "9dmi0gn3",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 308,
+      "y": 16,
+      "width": 68,
+      "height": 49,
+      "text": "GM",
+      "fontSize": 40,
+      "fitContent": 1
+    },
+    {
+      "_$id": "mjjili7p",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "tabList",
+      "x": 20,
+      "y": 79,
+      "width": 660,
+      "height": 62,
+      "layout": {
+        "type": 2,
+        "columnGap": 6
+      },
+      "selection": {
+        "scrollItemToViewOnClick": true
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "direction": 1,
+        "snapToItem": true
+      },
+      "_templateNode": {
+        "_$ref": "1rft2wyl",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 2,
+      "_isDemo": true,
+      "_$child": [
+        {
+          "_$id": "1rft2wyl",
+          "_$type": "GButton",
+          "name": "btn",
+          "width": 168,
+          "height": 62,
+          "controllers": {
+            "_$type": "Record",
+            "button": {
+              "_$type": "Controller",
+              "pages": [
+                "up",
+                "down",
+                "over",
+                "selectedOver"
+              ]
+            }
+          },
+          "titleColor": "#ffffff",
+          "titleFontSize": 28,
+          "titleWidget": {
+            "_$ref": "itjhw3i6"
+          },
+          "mode": 2,
+          "_$child": [
+            {
+              "_$id": "xekly0c3",
+              "_$type": "GImage",
+              "name": "img",
+              "width": 207,
+              "height": 77,
+              "scaleX": 0.8,
+              "scaleY": 0.8,
+              "gears": [
+                {
+                  "_$type": "GearDisplay",
+                  "controller": {
+                    "_$ref": "1rft2wyl",
+                    "_$ctrl": "button"
+                  },
+                  "pages": [
+                    0,
+                    2
+                  ]
+                }
+              ],
+              "src": "res://9fcf1f7b-232e-41a8-92b0-a348494e0038",
+              "autoSize": false
+            },
+            {
+              "_$id": "193uj6uc",
+              "_$type": "GImage",
+              "name": "img_1",
+              "width": 207,
+              "height": 77,
+              "scaleX": 0.8,
+              "scaleY": 0.8,
+              "gears": [
+                {
+                  "_$type": "GearDisplay",
+                  "controller": {
+                    "_$ref": "1rft2wyl",
+                    "_$ctrl": "button"
+                  },
+                  "pages": [
+                    1,
+                    3
+                  ]
+                }
+              ],
+              "src": "res://baee511f-4929-462c-a7d8-f1dc11b0b36c"
+            },
+            {
+              "_$id": "itjhw3i6",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 74,
+              "y": 13,
+              "width": 20,
+              "height": 36,
+              "relations": [
+                {
+                  "_$type": "Relation",
+                  "target": {
+                    "_$ref": "1rft2wyl"
+                  },
+                  "data": [
+                    6,
+                    0,
+                    13,
+                    0
+                  ]
+                }
+              ],
+              "text": "1",
+              "_isDemo": true,
+              "fontSize": 28,
+              "color": "#ffffff",
+              "fitContent": 1,
+              "stroke": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "7fmc6qrr",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 23,
+      "y": 155,
+      "width": 157,
+      "height": 47,
+      "src": "res://63e14989-655b-438c-9f91-6943213a523f",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "leha5rxp",
+          "_$var": true,
+          "_$type": "GTextInput",
+          "name": "lbSearch",
+          "x": 5,
+          "width": 147,
+          "height": 46,
+          "text": "",
+          "fontSize": 24,
+          "color": "#ffffff",
+          "valign": "middle"
+        }
+      ]
+    },
+    {
+      "_$id": "3jhcl3su",
+      "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+      "_$var": true,
+      "name": "btnSearch",
+      "active": true,
+      "x": 250,
+      "y": 179,
+      "width": 114,
+      "height": 54,
+      "visible": true,
+      "title": "搜索",
+      "icon": "res://baee511f-4929-462c-a7d8-f1dc11b0b36c"
+    },
+    {
+      "_$id": "zvoa47zq",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "x": 21,
+      "y": 223,
+      "width": 660,
+      "height": 777,
+      "layout": {
+        "type": 1
+      },
+      "scroller": {
+        "_$type": "Scroller"
+      },
+      "_templateNode": {
+        "_$ref": "jg4vmduk",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 3,
+      "_isDemo": true,
+      "_$child": [
+        {
+          "_$id": "jg4vmduk",
+          "_$prefab": "2cf38cec-9263-421d-ada5-526565c7b6ee",
+          "name": "Item_Gm",
+          "active": true,
+          "x": 0,
+          "y": 0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "_$id": "xn6ie59t",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "linkGp",
+      "x": 18,
+      "y": 509,
+      "width": 280,
+      "height": 400,
+      "visible": false,
+      "_$child": [
+        {
+          "_$id": "8rjcj9xt",
+          "_$type": "GWidget",
+          "name": "node",
+          "width": 280,
+          "height": 400,
+          "background": {
+            "_$type": "DrawRectCmd",
+            "fillColor": "#ffffff"
+          }
+        },
+        {
+          "_$id": "z6501oyu",
+          "_$var": true,
+          "_$type": "GList",
+          "name": "linkList",
+          "x": 5,
+          "y": 5,
+          "width": 270,
+          "height": 390,
+          "layout": {
+            "type": 1,
+            "rowGap": 2
+          },
+          "scroller": {
+            "_$type": "Scroller"
+          },
+          "_templateNode": {
+            "_$ref": "q1jxam4w",
+            "_$tmpl": "itemTemplate"
+          },
+          "_initItemNum": 2,
+          "_isDemo": true,
+          "_itemData": [],
+          "_$child": [
+            {
+              "_$id": "q1jxam4w",
+              "_$type": "GButton",
+              "name": "btn",
+              "width": 270,
+              "height": 40,
+              "controllers": {
+                "_$type": "Record",
+                "button": {
+                  "_$type": "Controller",
+                  "pages": [
+                    "up",
+                    "down",
+                    "over",
+                    "selectedOver"
+                  ]
+                }
+              },
+              "titleFontSize": 24,
+              "titleWidget": {
+                "_$ref": "iq6s4bid"
+              },
+              "mode": 2,
+              "_$child": [
+                {
+                  "_$id": "7fgi7plq",
+                  "_$type": "GImage",
+                  "name": "img",
+                  "width": 270,
+                  "height": 40,
+                  "src": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+                  "autoSize": false
+                },
+                {
+                  "_$id": "iq6s4bid",
+                  "_$type": "GTextField",
+                  "name": "txt",
+                  "x": 8,
+                  "y": 5,
+                  "width": 43,
+                  "height": 32,
+                  "text": "text",
+                  "_isDemo": true,
+                  "fontSize": 24,
+                  "fitContent": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_$ver": 1,
+  "y": 0,
+  "x": 0,
+  "_$runtime": "res://67f9e213-02ad-4248-90e6-55f63efa81a5"
+}

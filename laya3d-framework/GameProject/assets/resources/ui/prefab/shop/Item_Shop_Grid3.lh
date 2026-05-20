@@ -1,0 +1,112 @@
+{
+  "_$ver": 1,
+  "_$id": "4culzp9x",
+  "_$runtime": "res://8661c045-aa71-4b5e-b3cc-2aa9ad5b7344",
+  "_$type": "GButton",
+  "name": "Item_Shop_Grid3",
+  "width": 206,
+  "height": 288,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "downEffect": 3,
+  "_$child": [
+    {
+      "_$id": "2blwvwa6",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img",
+      "x": -1,
+      "width": 206,
+      "height": 292,
+      "src": "res://8a8774cd-985f-4623-b4a1-18e51fb07062"
+    },
+    {
+      "_$id": "ph89cbf0",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btn",
+      "x": 103,
+      "y": 244,
+      "width": 184,
+      "height": 71,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "_mouseState": 1,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "titleColor": "#f3f3f3",
+      "titleFontSize": 36,
+      "titleWidget": {
+        "_$ref": "shk46eac"
+      },
+      "iconWidget": {
+        "_$ref": "o63kcr6d"
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "6hhmyhv6",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgAd",
+          "x": 27,
+          "y": 14,
+          "width": 50,
+          "height": 42,
+          "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+        },
+        {
+          "_$id": "shk46eac",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "txtBtn",
+          "x": 84,
+          "y": 14,
+          "width": 74,
+          "height": 43,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "ph89cbf0"
+              },
+              "data": [
+                6,
+                0,
+                13,
+                0
+              ]
+            }
+          ],
+          "text": "text",
+          "_isDemo": true,
+          "fontSize": 36,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        }
+      ]
+    }
+  ]
+}

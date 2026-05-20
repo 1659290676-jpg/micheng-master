@@ -1,0 +1,67 @@
+{
+  "_$ver": 1,
+  "_$id": "f1276ufq",
+  "_$type": "Sprite3D",
+  "name": "Common_langan_2",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "Common_langan_02",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -1.685874082544257e-7,
+          "y": 0.7071067215818791,
+          "z": 1.6858737983271579e-7,
+          "w": 0.7071068407911707
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.10000000149011612,
+          "y": 0.10000000149011612,
+          "z": 0.10000000149011612
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "37f58240-a876-4aa0-9a0b-a4b5131b3576@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

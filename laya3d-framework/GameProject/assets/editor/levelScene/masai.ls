@@ -1,0 +1,24999 @@
+{
+  "_$ver": 1,
+  "_$id": "f8t87jy8",
+  "_$type": "Scene",
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "name": "Scene2D",
+  "width": 720,
+  "height": 1440,
+  "_$child": [
+    {
+      "_$id": "n9gjxcltvl",
+      "_$type": "Scene3D",
+      "name": "Scene3D",
+      "skyRenderer": {
+        "meshType": "dome",
+        "material": {
+          "_$uuid": "793cffc6-730a-4756-a658-efe98c230292",
+          "_$type": "Material"
+        }
+      },
+      "ambientColor": {
+        "_$type": "Color",
+        "r": 0.5882352941176471,
+        "g": 0.5882352941176471,
+        "b": 0.5882352941176471
+      },
+      "fogStart": 0,
+      "fogEnd": 300,
+      "fogColor": {
+        "_$type": "Color",
+        "r": 0.7019607843137254,
+        "g": 0.7019607843137254,
+        "b": 0.7019607843137254
+      },
+      "_$child": [
+        {
+          "_$id": "6jx8h8bvc6",
+          "_$type": "Camera",
+          "name": "Main Camera",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "y": 1,
+              "z": 5
+            }
+          },
+          "nearPlane": 0.3,
+          "farPlane": 1000,
+          "clearFlag": 1,
+          "clearColor": {
+            "_$type": "Color",
+            "r": 0.3921,
+            "g": 0.5843,
+            "b": 0.9294
+          }
+        },
+        {
+          "_$id": "epc3356p",
+          "_$type": "Sprite3D",
+          "name": "masai",
+          "_$comp": [
+            {
+              "_$type": "e8f192ec-d9e8-4176-864f-af4349fa93bd",
+              "scriptPath": "../src/Game/Scene/Components/Level_Scene.ts",
+              "owner": {
+                "_$ref": "epc3356p"
+              },
+              "npcBorns": [
+                null
+              ],
+              "playerBorns": [
+                {
+                  "_$ref": "5j5i8dm7",
+                  "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b"
+                }
+              ],
+              "itemBorns": [
+                {
+                  "_$ref": "d3bc2u8m"
+                }
+              ],
+              "buildings": [
+                {
+                  "_$ref": "06buebuu",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "7m6uuqtw",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                {
+                  "_$ref": "34cuvtfa",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "xo7sy1ct",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "yfscbaye",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "9ducmwy9",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "ulqx59fa",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "11oq70jk",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "dn6pyyfc",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "3onbly05",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "igjxq56e",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "ghrwefze",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                {
+                  "_$ref": "bxtm3kch",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "x95w4lmc",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "78yyby00",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "5juqcvsa",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "qsdg6js9",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "rqzmh9gj",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "gqo6pkmy",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "fwm3gzoy",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "w9tndgii",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "xdp3j90v",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "h8w4etxq",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "v1v1o5me",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "d0g84cmg",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "piblj6j2",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "abxc21mr",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "tllup3pu",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "qlpyky03",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "mu6hr1pg",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "vbx6ht9i",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "620ifhy6",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "_$ref": "hogexaml",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "tlzzkgcx",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "ccwgqwmj",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                {
+                  "_$ref": "al7r94ch",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                {
+                  "_$ref": "fkzqffcv",
+                  "_$type": "03c092ed-9019-447b-94f9-2152a4a13788"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          ],
+          "_$child": [
+            {
+              "_$id": "oydbcwhm",
+              "_$type": "Sprite3D",
+              "name": "Light",
+              "_$child": [
+                {
+                  "_$id": "y9lafy67",
+                  "_$type": "Sprite3D",
+                  "name": "DirectionLight",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 119.73974609375,
+                      "z": -122.70027923583984
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "x": -0.39713126196710286,
+                      "y": 0.30997551921944466,
+                      "z": 0.144543958452599,
+                      "w": 0.8516507396391465
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1.0000000124717343,
+                      "y": 1.0000000081998608,
+                      "z": 1.000000004743117
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "DirectionLightCom",
+                      "shadowStrength": 0.723,
+                      "shadowDistance": 100,
+                      "shadowDepthBias": 2,
+                      "strength": 10,
+                      "angle": 0.526,
+                      "maxBounces": 1024
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_$id": "462lebh8",
+              "_$type": "Sprite3D",
+              "name": "Range",
+              "_$child": [
+                {
+                  "_$id": "79tkzp78",
+                  "_$type": "Sprite3D",
+                  "name": "Sprite3D",
+                  "layer": 1,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -7.3152794663070395,
+                      "y": -2
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "PhysicsCollider",
+                      "colliderShape": {
+                        "_$type": "CompoundColliderShape",
+                        "shapes": [
+                          {
+                            "_$type": "BoxColliderShape",
+                            "localOffset": {
+                              "_$type": "Vector3",
+                              "x": 7.6740573847114035,
+                              "z": 0.18879218894679184
+                            },
+                            "size": {
+                              "_$type": "Vector3",
+                              "x": 217.63622002264339,
+                              "y": 1,
+                              "z": 218.05639759312578
+                            }
+                          },
+                          {
+                            "_$type": "BoxColliderShape",
+                            "localOffset": {
+                              "_$type": "Vector3",
+                              "x": 125.43967481082622,
+                              "z": 9.32811873600146
+                            },
+                            "size": {
+                              "_$type": "Vector3",
+                              "x": 20.95563621822552,
+                              "y": 1,
+                              "z": 46.68012662541148
+                            }
+                          },
+                          {
+                            "_$type": "BoxColliderShape",
+                            "localOffset": {
+                              "_$type": "Vector3",
+                              "x": -108.94984375682131,
+                              "z": -76.20907302534906
+                            },
+                            "size": {
+                              "_$type": "Vector3",
+                              "x": 24.12734826193973,
+                              "y": 1,
+                              "z": 44.37762546415799
+                            }
+                          },
+                          {
+                            "_$type": "BoxColliderShape",
+                            "localOffset": {
+                              "_$type": "Vector3",
+                              "x": -104.27969461117189,
+                              "z": 96.23732162029697
+                            },
+                            "size": {
+                              "_$type": "Vector3",
+                              "x": 13.480808486505737,
+                              "y": 1,
+                              "z": 25.00898645976855
+                            }
+                          }
+                        ]
+                      },
+                      "collisionGroup": 2,
+                      "canCollideWith": 20,
+                      "friction": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_$id": "2ei1jtlt",
+              "_$type": "Sprite3D",
+              "name": "Ground",
+              "isStatic": true,
+              "_$child": [
+                {
+                  "_$id": "s607e0rf",
+                  "_$type": "Sprite3D",
+                  "name": "caodi",
+                  "_$child": [
+                    {
+                      "_$id": "1slpimtw",
+                      "_$prefab": "da7a493d-b90d-47f6-895c-e2a3e65fd873",
+                      "name": "Common_chaodi03_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76.14849820619253,
+                          "y": 0.15050813555717468,
+                          "z": -56.209892484808336
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "13x6q963",
+                      "_$prefab": "9a0d994f-9681-4515-95c1-87ea2d675397",
+                      "name": "Common_xiaolu_56",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -39.276917685870664,
+                          "y": 1.2079226507921703e-12,
+                          "z": 44.68651826486196
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.96,
+                          "y": 1,
+                          "z": 0.8922222222222221
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "aqihw6fl",
+                      "_$prefab": "5fe360cc-314d-40d8-899d-750c12d7ff64",
+                      "name": "Common_chaodi01",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -41.615377404930626,
+                          "y": 2.8421709430404007e-13,
+                          "z": 79.8862879770891
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "aeb4jygs",
+                      "_$prefab": "9a0d994f-9681-4515-95c1-87ea2d675397",
+                      "name": "Common_xiaolu_58",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76,
+                          "y": 1.4210854715202004e-13,
+                          "z": 63.10566111953573
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.5,
+                          "y": 1,
+                          "z": 1.3899999
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "nlhz4kjh",
+                      "_$prefab": "29435cd6-dc2d-4fc9-a11a-afcfe0032750",
+                      "name": "Common_xiaolu_59",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -87.87421310732826,
+                          "y": 1.1368683772161603e-13,
+                          "z": 59.86810457680713
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.1399997,
+                          "y": 1,
+                          "z": 1.0499999
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "mz9zb1by",
+                      "_$prefab": "29435cd6-dc2d-4fc9-a11a-afcfe0032750",
+                      "name": "Common_xiaolu_61",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -9.496697026240648,
+                          "z": -18.485858917236328
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.91,
+                          "y": 1,
+                          "z": 0.94
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "lld4t17b",
+                      "_$prefab": "29435cd6-dc2d-4fc9-a11a-afcfe0032750",
+                      "name": "Common_xiaolu_63",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 34.48684210325669,
+                          "y": -1.4779288903810084e-12,
+                          "z": -15.630954730077542
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.95,
+                          "y": 1,
+                          "z": 0.8
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "uqla9mh6",
+                      "_$prefab": "29435cd6-dc2d-4fc9-a11a-afcfe0032750",
+                      "name": "Common_xiaolu_65",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -5.901878701977726,
+                          "y": -0.011901875026524067,
+                          "z": 76.73080444335938
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.8199999,
+                          "y": 1,
+                          "z": 0.975825946817083
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "yw4rv4wv",
+                      "_$prefab": "da7a493d-b90d-47f6-895c-e2a3e65fd873",
+                      "name": "Common_chaodi03",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -25.63625504678459,
+                          "y": -1.8474111129762605e-13,
+                          "z": 25.88936873123381
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.7599998,
+                          "y": 1,
+                          "z": 0.7099997
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "x3jclvgz",
+                      "_$prefab": "3cfd2bb9-6a4e-4408-8157-027cb8c588db",
+                      "name": "Common_chaodi04",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -112.04493910982859,
+                          "y": -2.5579538487363607e-13,
+                          "z": -76.86210091128916
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.5,
+                          "y": 1,
+                          "z": 1.5
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "8nyxejp6",
+                      "_$prefab": "5ce7b121-2e1e-4f66-be6c-4474e23261a2",
+                      "name": "Common_xiaolu_67",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -2.364352110972863,
+                          "y": 5.684341886080802e-14,
+                          "z": 27.284515770380935
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.1699999,
+                          "y": 1,
+                          "z": 0.89
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "p8f9kdtv",
+                      "_$prefab": "b3591dd7-8f65-4867-a7c2-3d38d905d193",
+                      "name": "Common_chaodi009_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 114.3205473136768,
+                          "y": -1.1084466677857563e-12,
+                          "z": -0.07207477992194633
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.84,
+                          "y": 1,
+                          "z": 0.87
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "fhbjcaeu",
+                      "_$prefab": "9a0d994f-9681-4515-95c1-87ea2d675397",
+                      "name": "Common_xiaolu_55",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -29.23559521736255,
+                          "y": 1.1368683772161603e-13,
+                          "z": -76.6626968383789
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2,
+                          "y": 1,
+                          "z": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "9v4tlxg0",
+                      "_$prefab": "29435cd6-dc2d-4fc9-a11a-afcfe0032750",
+                      "name": "Common_xiaolu_69",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 33.066446172528266,
+                          "y": -0.011901875026524067,
+                          "z": 76.73080444335938
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.8199999,
+                          "y": 1,
+                          "z": 0.975825946817083
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "b6jo7duh",
+                      "_$prefab": "29435cd6-dc2d-4fc9-a11a-afcfe0032750",
+                      "name": "Common_xiaolu_70",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 33.98735809326172,
+                          "y": 1.4210854715202004e-13,
+                          "z": 34.43618986673029
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.96,
+                          "y": 1,
+                          "z": 0.93
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6aj7g6mn",
+                      "_$prefab": "230d4888-0c4d-48e3-a346-bfc1e9210828",
+                      "name": "Common_xiaolu_71",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76,
+                          "y": 7.105427357601002e-14,
+                          "z": 21.559211458280846
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.1899998,
+                          "y": 1,
+                          "z": 1.3899999
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "7wsqj59u",
+                      "_$prefab": "9a0d994f-9681-4515-95c1-87ea2d675397",
+                      "name": "Common_xiaolu_72",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 18.38855029044995,
+                          "y": 1.1368683772161603e-13,
+                          "z": -76.6626968383789
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2,
+                          "y": 1,
+                          "z": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "hpeoxtcq",
+                      "_$prefab": "9a0d994f-9681-4515-95c1-87ea2d675397",
+                      "name": "Common_xiaolu_73",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 66.04729319511304,
+                          "y": 1.1368683772161603e-13,
+                          "z": -76.6626968383789
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2,
+                          "y": 1,
+                          "z": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "na1nda6o",
+                      "_$prefab": "9a0d994f-9681-4515-95c1-87ea2d675397",
+                      "name": "Common_xiaolu_74",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76.48772181281481,
+                          "y": 5.968558980384842e-13,
+                          "z": -23.89397721765511
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2,
+                          "y": 1,
+                          "z": 1.4
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6wnaqqkh",
+                      "_$prefab": "b3591dd7-8f65-4867-a7c2-3d38d905d193",
+                      "name": "Common_chaodi009_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 114.32054901123047,
+                          "y": -1.1084466677857563e-12,
+                          "z": 21.3908366012404
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.84,
+                          "y": 1,
+                          "z": 0.84
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "z3qbphfo",
+                      "_$prefab": "da7a493d-b90d-47f6-895c-e2a3e65fd873",
+                      "name": "Common_chaodi03_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -101.01882829199735,
+                          "y": -8.100187187665142e-13,
+                          "z": -30.659911181749152
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "rcynz1cq",
+                      "_$prefab": "da7a493d-b90d-47f6-895c-e2a3e65fd873",
+                      "name": "Common_chaodi03_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -101.01882934570312,
+                          "y": -8.100187187665142e-13,
+                          "z": 23.947384745088627
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 0.91
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zeqv980e",
+                  "_$type": "Sprite3D",
+                  "name": "tree",
+                  "_$child": [
+                    {
+                      "_$id": "9je4oip4",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_6",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -6.229437054006748,
+                          "y": -9.308109838457312e-13,
+                          "z": 92.11641264252292
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.4,
+                          "y": 1.4,
+                          "z": 1.4
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "x7quz930",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 33.71363813206609,
+                          "y": -5.897504706808832e-13,
+                          "z": 91.92418189590796
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.4,
+                          "y": 1.4,
+                          "z": 1.4
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "e3h7riqc",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 64.0551146312153,
+                          "y": -7.815970093361102e-14,
+                          "z": 68.73958020753676
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "843irl3o",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76.51578623771458,
+                          "y": -2.0605739337042905e-13,
+                          "z": 91.30955854003854
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ly446max",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_10",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -68.38964996397466,
+                          "y": -1.4495071809506044e-12,
+                          "z": 59.41161670826256
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.399999976158142,
+                          "y": 1.5,
+                          "z": 1.5
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "1asl1rw5",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_11",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 63.60030853195232,
+                          "y": 2.6290081223123707e-13,
+                          "z": 26.200670323230863
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "vv6kjp1d",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_12",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 89.22008194300048,
+                          "y": 4.121147867408581e-13,
+                          "z": 26.854704376158423
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "pdjd6v93",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_13",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 51.967573716405994,
+                          "y": 8.455458555545192e-13,
+                          "z": 75.20290774012174
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "a20hfcn8",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_14",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -24.480606364689724,
+                          "y": 3.055333763768431e-13,
+                          "z": 75.11663818359375
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ufomg26f",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_15",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 89.32021653003659,
+                          "y": -4.902744876744691e-13,
+                          "z": 67.45044622120581
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "2yz4e6gd",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_63",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 88.53017322888383,
+                          "y": 6.750155989720952e-13,
+                          "z": -1.7774318340639077
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "mtsd4bz5",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_64",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 78.53624852543217,
+                          "y": -1.0942358130705543e-12,
+                          "z": 10.764250566760975
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "0uzg9ao6",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_18",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -14.652372978682813,
+                          "y": -1.2008172234345693e-12,
+                          "z": -88.78250589019372
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "xg3wwpp5",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_19",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -8.551817627681269,
+                          "y": -1.3287149158713873e-12,
+                          "z": -65.68113302055178
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "26u9dlhi",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_20",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -25.00296963972806,
+                          "y": -4.384048679639818e-12,
+                          "z": -21.107985980191756
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "7y7wceur",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_21",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 74.04309665614612,
+                          "y": 4.618527782440651e-13,
+                          "z": -88.39487558108617
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "n6oakke9",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_22",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 89.35517220158513,
+                          "y": -1.2292389328649733e-12,
+                          "z": -77.35715719366331
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.9,
+                          "y": 0.9,
+                          "z": 0.9
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "45phs6mp",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_23",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76.19396209716797,
+                          "y": -9.663381206337363e-13,
+                          "z": -65.25547790527344
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "9ib8ab40",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_24",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 34.55884587476946,
+                          "y": -1.4992451724538114e-12,
+                          "z": -65.76167446214752
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ykjfc6l4",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_25",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 89.23672260912814,
+                          "y": -1.1866063687193673e-12,
+                          "z": -20.539410934322724
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "nqcncpbs",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_26",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 77.08467530537075,
+                          "y": -6.892264536872972e-13,
+                          "z": -47.07880830283674
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "5xkd78ni",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_27",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 64.24496215604442,
+                          "y": -1.5916157281026244e-12,
+                          "z": -30.526873987391184
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3qpuf2ka",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_28",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 16.436119079589844,
+                          "y": -1.8616219676914625e-12,
+                          "z": -17.993241793937848
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "o8ezivqa",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_29",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 34.79880847340158,
+                          "y": -1.5916157281026244e-12,
+                          "z": -1.3057903725293762
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "7rbla227",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_30",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 39.32464076181158,
+                          "y": -1.5489831639570184e-12,
+                          "z": -30.504469400793667
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "u4wg4fqa",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_31",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -36.71904314438553,
+                          "y": -6.608047442568932e-13,
+                          "z": -65.38222652755833
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "xe3pwqzx",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_32",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -88.46093868540491,
+                          "y": 4.405364961712621e-13,
+                          "z": 38.64492416381836
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2999999523162842,
+                          "y": 1.2999999523162842,
+                          "z": 1.2999999523162842
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "omn7j8ll",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_33",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -41.53875135812328,
+                          "y": -4.476419235288631e-13,
+                          "z": 70.88366297801439
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "h2ka3eas",
+                      "_$prefab": "5a01a4f5-a340-40fb-9f8c-f46a61d30809",
+                      "name": "Common_tree04",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -23.29706382751465,
+                          "y": 7.815970093361102e-14,
+                          "z": 25.859596252441406
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "y33rbe3n",
+                      "_$prefab": "5a01a4f5-a340-40fb-9f8c-f46a61d30809",
+                      "name": "Common_tree04_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -4.7674019488038235,
+                          "y": 7.815970093361102e-14,
+                          "z": 10.968605471863771
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "v6xch150",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_20",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 32.80437138963521,
+                          "y": -7.151860616883717,
+                          "z": 47.82256556095278
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "65xk9xq7",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 30.439964294433594,
+                          "y": -7.318590178329032e-13,
+                          "z": 16.623134548759534
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "xnm6pqni",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_21",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 32.62861633300781,
+                          "z": 34.777898767508844
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "iizz4qfa",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 27.51680565680424,
+                          "y": -9.734435479913373e-13,
+                          "z": -88.47137942535079
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "j2ekjh69",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 122.27862235102913,
+                          "y": -1.2789769243681803e-13,
+                          "z": 15.352044096370484
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "98mycr8j",
+                      "_$prefab": "a66f424e-5467-41b9-b345-0d904e44273f",
+                      "name": "Common_tree02",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 106.31159478738854,
+                          "y": 7.176481631177012e-13,
+                          "z": 2.8828886371179934
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "7ary2166",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.04059841111302376,
+                          "z": -6.01994514465332
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "gpmcma1k",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -6.606313705444336,
+                          "z": -6.01994514465332
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "735uhxwk",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 79.10031127929688,
+                          "y": 1.2789769243681803e-13,
+                          "z": -13.893366813659668
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "lojlc64q",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 107.59026792059323,
+                          "y": 1.4921397450962104e-13,
+                          "z": 25.01010089139005
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "95gn9nhh",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 121.28744601118845,
+                          "y": 4.405364961712621e-13,
+                          "z": 2.212504620087536
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "h7simtzv",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_6",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 84.93252691811645,
+                          "y": 3.765876499528531e-13,
+                          "z": -54.941858100501854
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "yzmpilgr",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 68.37709453319368,
+                          "y": 3.339550858072471e-13,
+                          "z": -67.8070611386676
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "onz5gxjc",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 43.02559947207011,
+                          "y": 5.400124791776761e-13,
+                          "z": -71.77468929182439
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ewsmddfc",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 80.44371771570651,
+                          "y": 6.110667527536862e-13,
+                          "z": -58.40723270486586
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "wpss3j3g",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_10",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 105.85894042086946,
+                          "y": 1.0942358130705543e-12,
+                          "z": -7.076696976064653
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6al9umph",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_11",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 67.09176598236098,
+                          "y": 5.684341886080801e-13,
+                          "z": -27.594815819763948
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "emxjywto",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_12",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 44.30908100752616,
+                          "y": 5.968558980384842e-13,
+                          "z": -87.15315468803018
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6x4n4g45",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_13",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -25.214477014038813,
+                          "y": 5.968558980384842e-13,
+                          "z": -70.7473072760562
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "dxuy51wb",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_14",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 22.433942794799805,
+                          "y": 6.110667527536862e-13,
+                          "z": -86.43024444580078
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3hlumn05",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_15",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -112.4019059864961,
+                          "y": 6.679101716144942e-13,
+                          "z": -82.47080595623342
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "1atzmiur",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_16",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 32.115273491253014,
+                          "y": 4.902744876744691e-13,
+                          "z": 68.98114466184488
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "z29hqq4m",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_23",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 89.34683146517614,
+                          "y": 1.8474111129762605e-13,
+                          "z": -40.51859244715591
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "m3m3z00f",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_32",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 74.79266772484695,
+                          "y": -0.9087843298908638,
+                          "z": -1.0792288179988203
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "qj04qzzm",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_33",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 64.8559347261115,
+                          "y": 1.3500311979441904e-13,
+                          "z": -1.261668527734738
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "39stydah",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_34",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 50.670570373535156,
+                          "y": 5.684341886080802e-14,
+                          "z": 16.801896131057827
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "tj6b1d0c",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_35",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 76.68614959716797,
+                          "y": 4.263256414560601e-14,
+                          "z": -19.346088409423828
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "oqzq5m6d",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_36",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 7.221751326193301,
+                          "y": 5.684341886080802e-14,
+                          "z": -2.688433239683196
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "z37vppmo",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_17",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 107.53740771918703,
+                          "z": 15.651680312675797
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "2txy2j3q",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_18",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 81.29463648150396,
+                          "y": 8.526512829121202e-14,
+                          "z": 27.461087221773408
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3o4tdytu",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_59",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 124.47449943453184,
+                          "y": -3.197442310920451e-13,
+                          "z": 8.450363128761126
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "5jq41hiy",
+                      "_$prefab": "66eafcaf-076f-4ab3-9584-c7b8e89da08d",
+                      "name": "Common_tree01_60",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 124.52976040241906,
+                          "y": 3.055333763768431e-13,
+                          "z": 29.430923872138507
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "n4isnsef",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_19",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 120.22347336768239,
+                          "y": 3.197442310920451e-13,
+                          "z": -6.374171977403886
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "sfm0pnaa",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -106.810890404574,
+                          "y": -1.4495071809506044e-12,
+                          "z": 62.3153522136422
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.399999976158142,
+                          "y": 1.5,
+                          "z": 1.5
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "r110n7ev",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_34",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -41.53874969482422,
+                          "y": -4.476419235288631e-13,
+                          "z": 88.91144553274162
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6y29kvzs",
+                      "_$prefab": "5a01a4f5-a340-40fb-9f8c-f46a61d30809",
+                      "name": "Common_tree04_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -105.42618097312301,
+                          "y": 1.3500311979441904e-13,
+                          "z": -76.60839060011514
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "kil10f93",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_35",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 2.7444956302642822,
+                          "y": -3.552713678800501e-14,
+                          "z": 61.234737917527
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "rbrcfai8",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_37",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 52.46315280207125,
+                          "y": -1.8332002582610585e-12,
+                          "z": -15.208657507541044
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "vq2w1wh6",
+                      "_$prefab": "96e5c876-82d3-4813-87f2-4ee3706fb28e",
+                      "name": "Common_tree03_22",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -112.2704152155053,
+                          "y": 6.821210263296962e-13,
+                          "z": -72.20563731038052
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "922owam7",
+                      "_$prefab": "5a01a4f5-a340-40fb-9f8c-f46a61d30809",
+                      "name": "Common_tree04_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -50.436300024939094,
+                          "y": 1.3500311979441904e-13,
+                          "z": -76.60839080810547
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "v0lrmrdt",
+                      "_$prefab": "5a01a4f5-a340-40fb-9f8c-f46a61d30809",
+                      "name": "Common_tree04_4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -42.97583392685548,
+                          "y": -4.973799150320701e-14,
+                          "z": -88.86336005385657
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "8wzojx29",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_38",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 51.96757507324219,
+                          "y": 8.455458555545192e-13,
+                          "z": 36.10402742118851
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "61xvn6f9",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_39",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 31.020928152509654,
+                          "y": -3.552713678800501e-14,
+                          "z": 52.829611876047416
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "2dmi32xk",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_40",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 17.792795761359933,
+                          "y": 8.455458555545192e-13,
+                          "z": 33.838914096719776
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1.2000000476837158,
+                          "y": 1.2000000476837158,
+                          "z": 1.2000000476837158
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "uo6eddiy",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_41",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 7.090497481352187,
+                          "y": -4.384048679639818e-12,
+                          "z": -22.705940995554535
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "f0duqzwu",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_42",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -10.210917095645257,
+                          "y": -1.5916157281026244e-12,
+                          "z": -1.3057904243469238
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "kffxijym",
+                      "_$prefab": "0f0734ff-3de7-4be2-b106-68ae0683c412",
+                      "name": "Common_tree05_43",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -8.688361706083302,
+                          "y": -1.5916157281026244e-12,
+                          "z": -36.145646468423706
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6ofb3jus",
+                  "_$type": "Sprite3D",
+                  "name": "langan",
+                  "_$child": [
+                    {
+                      "_$id": "s7vfpae4",
+                      "_$prefab": "2abcf6df-7e72-4985-be92-0ed33ba8cb10",
+                      "name": "Common_langan_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -25.859012301280547,
+                          "y": 1.0658141036401503e-14,
+                          "z": 75.64394965776084
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "8szdj905",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_6",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -10.825659130228818,
+                          "y": -1.7763568394002505e-14,
+                          "z": 12.957597938416336
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "tsi9yztj",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 5.436151837663796,
+                          "y": 1.4210854715202004e-14,
+                          "z": 13.0185439100857
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "mgv9okzn",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 49.594134909716324,
+                          "y": -3.197442310920451e-13,
+                          "z": 90.00921571155376
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "s4baeova",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 86.7468016421258,
+                          "y": -2.2737367544323206e-13,
+                          "z": 89.76482391357422
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "k0rnh5sp",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_10",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 86.79785457105535,
+                          "y": -2.2737367544323206e-13,
+                          "z": -2.7628462314605713
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "s5g4u0xn",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_11",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 86.77564804855626,
+                          "y": -2.2737367544323206e-13,
+                          "z": -67.39167022705078
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "5sgbl4zk",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_12",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 65.4994021663925,
+                          "y": -2.2737367544323206e-13,
+                          "z": 89.76482391357422
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "cp3l5w2b",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_13",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 65.56086872876094,
+                          "y": -2.2737367544323206e-13,
+                          "z": -2.8444310915190485
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "obh3l6rd",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_14",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 49.44730250904317,
+                          "y": -2.0605739337042905e-13,
+                          "z": 63.10900115966797
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "2mjuqn3p",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_15",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 5.207374377823527,
+                          "y": -1.0942358130705543e-12,
+                          "z": -34.385581970214844
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "x265igbd",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_16",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 49.627153532975484,
+                          "y": -1.0942358130705543e-12,
+                          "z": -28.16495192703808
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "owdsopxc",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_17",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 86.78092879319675,
+                          "y": -1.0942358130705543e-12,
+                          "z": -44.821041107177734
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ub4f9943",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_18",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 86.71936003889202,
+                          "y": -1.0800249583553523e-12,
+                          "z": -86.73031875954716
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "y1zmb5e9",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_19",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 49.53205464526445,
+                          "y": -2.2737367544323206e-13,
+                          "z": -2.7628462314605713
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "auhw5v6w",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_20",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 5.297540901248271,
+                          "y": -2.2737367544323206e-13,
+                          "z": -2.762846141630495
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3pw0e0ac",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_21",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -71.07375066034011,
+                          "y": -1.4210854715202004e-13,
+                          "z": 79.63809967041016
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "19gz2uwa",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_22",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 49.493773614025656,
+                          "y": -1.9895196601282805e-13,
+                          "z": 50.487918853759766
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "pjjhbqoa",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_23",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 5.449542203956284,
+                          "y": -1.8474111129762605e-13,
+                          "z": 42.03702926635742
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "cl3gz563",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_24",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 18.543517967951487,
+                          "y": -2.2737367544323206e-13,
+                          "z": -2.6339629730981153
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "7lda7bix",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_25",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -24.55066504713985,
+                          "y": -2.2737367544323206e-13,
+                          "z": -2.633962869644165
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6c799mc5",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_26",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -49.32927581176126,
+                          "y": -2.5579538487363607e-13,
+                          "z": -67.46815366280882
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "tenbkpl0",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_27",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -22.55733236677258,
+                          "y": -2.2737367544323206e-13,
+                          "z": 89.78473955428488
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ouykmhf7",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_28",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -105.780287118073,
+                          "y": -1.9895196601282805e-13,
+                          "z": 79.65897632795365
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "86i1w50z",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_29",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -22.542733115041244,
+                          "y": 1.4210854715202004e-13,
+                          "z": 63.19966224821765
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "z34kcw01",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_30",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -105.55633141456634,
+                          "y": 1.5631940186722204e-13,
+                          "z": 40.08511814159853
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "hqo984ws",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_31",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 65.15777003171564,
+                          "y": 1.7053025658242404e-13,
+                          "z": 12.975645840610289
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "v9hzne66",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_32",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 18.25238834110729,
+                          "y": -1.5631940186722204e-13,
+                          "z": 50.55424499511719
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "2lj1vrby",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_33",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -11.066556039503105,
+                          "y": -1.3500311979441904e-13,
+                          "z": 41.972163996617255
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "zbetvl9o",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_34",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -71.19837221612133,
+                          "y": -5.329070518200751e-13,
+                          "z": 39.967926025390625
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "o5zd2n67",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_35",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -23.98723404340835,
+                          "y": 1.4210854715202004e-13,
+                          "z": -34.234134674072266
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "5l8ioyem",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_36",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 18.446449279785156,
+                          "y": 1.6342482922482304e-13,
+                          "z": -28.20984356921885
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "4m53m1cq",
+                      "_$prefab": "e9b56be7-c585-4159-843a-1f27486e7fe7",
+                      "name": "Common_langan_37",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 18.22774314880371,
+                          "y": 1.6342482922482304e-13,
+                          "z": 18.258002641934375
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_$id": "acszzyjn",
+                  "_$type": "Sprite3D",
+                  "name": "HaTan",
+                  "_$child": [
+                    {
+                      "_$id": "2ifnjrr0",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 78.26367835989612,
+                          "z": 5.202457314235939
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "zweiaotf",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -2.6118469392927253,
+                          "z": 5.173428229312844
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "bkyea2mb",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -79.83497810203909,
+                          "z": -59.487193513434
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "cdyh2m8t",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_5",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -4.192205579310109,
+                          "z": -59.58549957973657
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "095jx1xk",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_6",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 25.94624762115719,
+                          "z": -59.6551446219976
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "26yvkdpl",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 47.889842056716134,
+                          "z": -94.2455747540339
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "0yamux54",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -75.03378367658001,
+                          "z": 97.2948307504651
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#41",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "x": -11.39092073070907
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "c3a6q57c",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -20.215924467767497,
+                          "z": 97.53569132548323
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3ep10z8y",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_10",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 23.542797446590548,
+                          "z": 97.53752024299645
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "5mf8orp5",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_11",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 77.07760075205385,
+                          "z": 97.70657183500205
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "7tq1ed93",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_12",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 94.9636223713596,
+                          "z": 34.32007222147096
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "jdar7741",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_13",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 95.04255333494805,
+                          "z": -23.804546356201172
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "5piin17p",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_14",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 95.24612426757812,
+                          "z": -59.941093399646306
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "vnvhbxwa",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_15",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 10.869790735376725,
+                          "z": -94.24557495117188
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ba2m6j3v",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_16",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -26.848752772718754,
+                          "z": -94.24557495117188
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "vfep515t",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_17",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -77.14014471360021,
+                          "z": -94.24557495117188
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "8i0c0p70",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_18",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 94.963623046875,
+                          "z": 69.44259404450203
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "azln8g0l",
+                      "_$prefab": "aa50c585-2001-4f23-ab6d-0556571977a8",
+                      "name": "Common_HaTan_19",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 33.12329227326068,
+                          "z": 5.173428058624268
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_$id": "19i99bzb",
+                  "_$type": "Sprite3D",
+                  "name": "shitou",
+                  "_$child": [
+                    {
+                      "_$id": "34h08wda",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_6",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -106.18205635342665,
+                          "y": -0.7144834995269207,
+                          "z": 112.53022009944414
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": -0.13482854498340396,
+                          "w": 0.9908689436336463
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.6999999886510911,
+                          "y": 0.699999988079071,
+                          "z": 0.6999999886510911
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "y": 2.7853275241795927e-12
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "k7jsv9ds",
+                      "_$prefab": "808d1d85-d39d-4b3e-9318-375e49bc13e1",
+                      "name": "shitou-3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -20.338808059692383,
+                          "y": -3.9996294942969044,
+                          "z": -113.66099548339844
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "9ptgqs9k",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -112.87375619859006,
+                          "y": -1.6485363245010376,
+                          "z": 61.47419357299805
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "y": -1.0597391985201199
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "yy7jk3qi",
+                      "_$prefab": "b13672d1-a560-42c9-b297-6ed93d289c6b",
+                      "name": "shitou4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 51.858497619628906,
+                          "y": 0.10413450002670288,
+                          "z": 116.44510617938377
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 1,
+                          "w": 6.123233995736766e-17
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "x": 1.4210854715202004e-14,
+                              "y": -2.473990631956756,
+                              "z": 1.4210854715202004e-14
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "3lxyo53p",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -113.63897825007331,
+                          "y": -1.6382658481607564,
+                          "z": -32.890825917529966
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.6708735287378047,
+                          "w": 0.7415717823912167
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.699999988079071,
+                          "y": 0.699999988079071,
+                          "z": 0.699999988079071
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "y": 2.7853275241795927e-12
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "3w0sknpy",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -81.89969635009766,
+                          "y": -2.3561367988586426,
+                          "z": 115.60171442353376
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "k4opzsag",
+                      "_$prefab": "b13672d1-a560-42c9-b297-6ed93d289c6b",
+                      "name": "shitou4_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 113.76966702119049,
+                          "y": -1.4960901737212566,
+                          "z": -89.0040749467908
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "paaw3gnv",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 114.37702999001213,
+                          "y": -1.7378367185592651,
+                          "z": 90.20563322250133
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "iyi1p2jk",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 91.81944274902344,
+                          "y": -3.108996868133545,
+                          "z": 115.38407283108373
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "m9v67vcv",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -115.40206329435773,
+                          "y": -2.223273277282715,
+                          "z": 6.317927360534668
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "s5axrgk9",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -121.21251551367718,
+                          "y": -2.0550901889801594,
+                          "z": -47.73661417598808
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.8,
+                          "y": 0.8,
+                          "z": 0.8
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "po7eqz2j",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_5",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -95.55684744060585,
+                          "y": -3.1088452306860646,
+                          "z": 33.800387477889046
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.800000011920929,
+                          "y": 0.800000011920929,
+                          "z": 0.800000011920929
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "4sa1eb0a",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -134.24500003030977,
+                          "y": -2.6403172016120493,
+                          "z": -91.20411616196603
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.680746953367313,
+                          "w": 0.7325186587938369
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "y": 2.7853275241795927e-12
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "u16mvq6o",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -124.28052333601507,
+                          "y": -2.6524558067321493,
+                          "z": 99.89612092853439
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "y": 2.7853275241795927e-12
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "y5eriqnv",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -133.60459428430966,
+                          "y": -1.725346922874479,
+                          "z": -65.69044433470546
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.6807357741777061,
+                          "w": 0.7325290477207571
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.6000000238418579,
+                          "y": 0.6000000238418579,
+                          "z": 0.6000000238418579
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "x": 0.000009369427914407424,
+                              "z": 4.9103590527010965e-8
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "vso4tb6x",
+                      "_$prefab": "cd3a0112-20ab-4ad8-8a1b-76f7937fb6f0",
+                      "name": "shitou02",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 113.65528577056183,
+                          "y": -2.312392234802246,
+                          "z": -50.17635493120821
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "p3hzzudf",
+                      "_$prefab": "b5f4ad04-fd9c-4945-b436-cc1da529e24f",
+                      "name": "shitou01",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.8456670641899109,
+                          "y": -2.4665446281433105,
+                          "z": 113.32170632217384
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.9,
+                          "y": 0.9,
+                          "z": 0.9
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "cii7qhoy",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 115.4102165515901,
+                          "y": -2.223273277282715,
+                          "z": 53.63667741049231
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "f7t6ysg9",
+                      "_$prefab": "b13672d1-a560-42c9-b297-6ed93d289c6b",
+                      "name": "shitou4_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -1.1638155476685128,
+                          "y": -2.276151657104407,
+                          "z": -113.20726809875784
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "nll2l7ga",
+                      "_$prefab": "cd3a0112-20ab-4ad8-8a1b-76f7937fb6f0",
+                      "name": "shitou02_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 78.70886993408203,
+                          "y": -1.1785457134246826,
+                          "z": -114.7804408246156
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "0rrr8uji",
+                      "_$prefab": "cd3a0112-20ab-4ad8-8a1b-76f7937fb6f0",
+                      "name": "shitou02_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -66.48995548768369,
+                          "y": -2.0029101371753484,
+                          "z": -112.98567945661553
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "yejgazp9",
+                      "_$prefab": "2fcb8846-524f-4def-8c84-488b4ef62edf",
+                      "name": "shitou5_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -46.53248596191406,
+                          "y": -2.3561367988586426,
+                          "z": 114.17170023185008
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.98,
+                          "y": 0.8,
+                          "z": 0.8
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "kq04ybx4",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 29.41800888875001,
+                          "y": -1.7182770967473004,
+                          "z": -113.27984110905886
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.9940051330508243,
+                          "w": 0.10933341423651342
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3321tdkv",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -114.23510307589027,
+                          "y": -1.63826584815979,
+                          "z": 33.48530219517677
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.6708735287378047,
+                          "w": 0.7415717823912167
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.699999988079071,
+                          "y": 0.699999988079071,
+                          "z": 0.699999988079071
+                        }
+                      },
+                      "_$child": [
+                        {
+                          "_$override": "#45",
+                          "transform": {
+                            "localPosition": {
+                              "_$type": "Vector3",
+                              "y": 2.7853275241795927e-12
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_$id": "yfk5q7jk",
+                      "_$prefab": "251e1529-1dc9-4214-a466-70e3fbe1ba6b",
+                      "name": "shitou6_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -125.70086178520397,
+                          "y": -1.718277096748352,
+                          "z": -103.6753028378149
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.9940051330508243,
+                          "w": 0.10933341423651342
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "sh2bkq3e",
+                      "_$prefab": "b13672d1-a560-42c9-b297-6ed93d289c6b",
+                      "name": "shitou4_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 132.30745284026142,
+                          "y": -1.4960901737213135,
+                          "z": 11.807912826538086
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion",
+                          "y": 0.7071067811865475,
+                          "w": 0.7071067811865476
+                        },
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0kzz5ipe",
+                  "_$type": "Sprite3D",
+                  "name": "shui",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -11.739938501840783
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$id": "40qm9jg1",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "y": -1.7458044590682253
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "imbwog78",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_1",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 115.44630308821056,
+                          "y": -1.7458044590682253
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "iiyh8tj7",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_2",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -86.5564756603428,
+                          "y": -1.7458044590682253
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "riikh1no",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_3",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -86.5564756603428,
+                          "y": -1.7458044590682253,
+                          "z": -50
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "6s59va01",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_4",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 100,
+                          "y": -1.7458044590682253,
+                          "z": -50
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ueal3705",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_5",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "y": -1.7458044590682253,
+                          "z": -50
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "072mimiv",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_6",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -100,
+                          "y": -1.7458044590682253,
+                          "z": -100
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "3atr15w5",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_7",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 100,
+                          "y": -1.7458044590682253,
+                          "z": -100
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "9qwaamcu",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_8",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "y": -1.7458044590682253,
+                          "z": -100
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "ree832dx",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_9",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -86.5564756603428,
+                          "y": -1.7458044590682253,
+                          "z": 50
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "cekbv7sl",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_10",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 115.44630308821056,
+                          "y": -1.7458044590682253,
+                          "z": 50
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "pn8qerx4",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_11",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "y": -1.7458044590682253,
+                          "z": 50
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "pdfq0gvl",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_12",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": -100,
+                          "y": -1.7458044590682253,
+                          "z": 100
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "1slst786",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_13",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 100,
+                          "y": -1.7458044590682253,
+                          "z": 100
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    },
+                    {
+                      "_$id": "kqoyauqk",
+                      "_$prefab": "2bd86be0-2d31-4b59-8b3e-f108ec8aaec5",
+                      "name": "shui02_14",
+                      "active": true,
+                      "layer": 0,
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "y": -1.7458044650693267,
+                          "z": 100
+                        },
+                        "localRotation": {
+                          "_$type": "Quaternion"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ebx2og8n",
+                  "_$prefab": "d8666d51-50f8-408d-acff-6e0a4056d6ad",
+                  "name": "masai",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -0.2000007927417755,
+                      "y": -4.214205453504789,
+                      "z": 0.10999979823827744
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "_$id": "vn2py9vx",
+              "_$type": "Sprite3D",
+              "name": "Npcs"
+            },
+            {
+              "_$id": "j1umhu6s",
+              "_$type": "Sprite3D",
+              "name": "Players"
+            },
+            {
+              "_$id": "g5nijijb",
+              "_$type": "Sprite3D",
+              "name": "Building",
+              "layer": 3,
+              "transform": {
+                "localPosition": {
+                  "_$type": "Vector3",
+                  "x": 259.2575378417969,
+                  "y": 5.684341886080802e-14,
+                  "z": -7.192525386810303
+                }
+              },
+              "_$child": [
+                {
+                  "_$id": "8w20rrfc",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_10",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -337.9864516137075,
+                      "z": 48.80155511984733
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "v62626d2",
+                  "_$prefab": "e697fcaa-edb4-4f83-bc82-6480ad1ed034",
+                  "name": "daxingjianzhu_yuanxing_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -188.0751114588523,
+                      "z": -49.18004791200871
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "0xbgnqmb",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -338.14380024652,
+                      "z": 71.33721872458365
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "dp5bfclc",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_12",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.69549059724307,
+                      "y": 1.5631940186722204e-13,
+                      "z": 0.7717599270922015
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "m8rcv3wm",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_13",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -235.95081134974848,
+                      "z": -11.791929727731741
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "cjyeg1xa",
+                  "_$prefab": "3b475904-cebf-49db-b0b9-efa802be7d0c",
+                  "name": "putong_xiaoxing04_12",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -347.27434615887125,
+                      "y": -1.0089706847793423e-12,
+                      "z": -28.49038305535234
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "41xnb30e",
+                  "_$prefab": "3b475904-cebf-49db-b0b9-efa802be7d0c",
+                  "name": "putong_xiaoxing04_15",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -338.67901657922016,
+                      "y": -1.0089706847793423e-12,
+                      "z": -28.806289580010542
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "w30b5p9d",
+                  "_$prefab": "0aa9a537-4d7c-4183-a5c2-764d39fa06ff",
+                  "name": "putong_xiaoxing10_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -347.40740279949625,
+                      "y": -3.552713678800501e-13,
+                      "z": -16.103078749322066
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "edjj2lxc",
+                  "_$prefab": "0aa9a537-4d7c-4183-a5c2-764d39fa06ff",
+                  "name": "putong_xiaoxing10_12",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -338.98767573709097,
+                      "y": -3.552713678800501e-13,
+                      "z": -16.103078749322066
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "7oylx0ed",
+                  "_$prefab": "e1edec1f-adcb-4a39-85b6-83900f3b5b35",
+                  "name": "putong_xiaoxing02_38",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -267.8426333187254,
+                      "z": 0.9068717635856949
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "7ogdumls",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -258.4565706966551,
+                      "z": -20.477830918909397
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "eco0p3fm",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_12",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -273.0276613948973,
+                      "z": -20.477830918909397
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "r2di0sjo",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_13",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -273.0276613948973,
+                      "z": -8.511489900232663
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "pe9twpdo",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_14",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -258.4565706966551,
+                      "z": -8.511489900232663
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "pnmi60wm",
+                  "_$prefab": "e1edec1f-adcb-4a39-85b6-83900f3b5b35",
+                  "name": "putong_xiaoxing02_46",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -210.85415421345436,
+                      "y": -1.2647660696529783e-12,
+                      "z": -78.28880240890182
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "425qxkod",
+                  "_$prefab": "8430c7a4-b5b2-4b22-9296-20e57bb5f3de",
+                  "name": "daxingjianzhu_zuqiuchang",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -305.61373248190387,
+                      "y": -1.5916157281026244e-12,
+                      "z": 86.83728163670334
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "n7ne527w",
+                  "_$prefab": "9726d308-e0eb-4e08-a2ce-46315d7f644e",
+                  "name": "daxingjianzhu_yuanhu",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -261.7154400245769,
+                      "y": 4.263256414560601e-14,
+                      "z": 59.511353446303325
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "twa895u8",
+                  "_$prefab": "e414f28c-a913-43c4-9590-7b1d49da04d4",
+                  "name": "daxingjianzhu_fangxing",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -256.3398026619237,
+                      "z": -38.894530706107695
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "6xcouh2o",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.73436999177432,
+                      "z": -21.202941000642173
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "npqowqi3",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.73436999177432,
+                      "z": -17.287596762360923
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "07ljuac6",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.73436999177432,
+                      "z": -13.034697592439048
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "qsfyaqsy",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_29",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.73436999177432,
+                      "z": -8.713812887849205
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "5d02ggcu",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.4220836148212,
+                      "z": -13.314597189607017
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "w9oxu8gu",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.4220836148212,
+                      "z": -8.28568178433358
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "0u2xdjra",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.4220836148212,
+                      "z": -21.3101492525953
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "91fd99tj",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.4220836148212,
+                      "z": -16.86430269497811
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "mn3qxyrb",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_14",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.16848867273902,
+                      "z": 64.2761453930681
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "n7qgmdu0",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_15",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.16848867273902,
+                      "z": 74.9579958264177
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "0es5xlj9",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_16",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.16848867273902,
+                      "z": 94.66616004150576
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ffd09dik",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_17",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.16848867273902,
+                      "z": 83.391032630617
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "6de5iu49",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_18",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -274.8123387406147,
+                      "z": 93.88652807603246
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "a9zg7hb6",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_19",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -274.8123387406147,
+                      "z": 73.19229704270728
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "cixb8zwu",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_20",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -274.8123387406147,
+                      "z": 83.87414747605689
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "nc1dsfgd",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_22",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -251.45558825233343,
+                      "z": 93.88653189072973
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "efy9p94l",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_23",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -251.45558825233343,
+                      "z": 73.19229704270728
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "b66qz8yc",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_24",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -251.45558825233343,
+                      "z": 83.87414747605689
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "0oodyyu6",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_26",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -229.50588122108343,
+                      "z": 93.88653189072973
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "4bxqrqoi",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_27",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -229.50588122108343,
+                      "z": 73.19229704270728
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "t5k6qnab",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_28",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -229.50588122108343,
+                      "z": 83.87414747605689
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "1ide8qwp",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_15",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -266.18395717126447,
+                      "z": -14.588979753137927
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "kynfg6uz",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_16",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -258.4565706966551,
+                      "z": 1.2780265487419449
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "l66pq9rw",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_17",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -280.41354091149884,
+                      "z": 1.2780265487419449
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "bcsfhkoq",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_18",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -280.41354091149884,
+                      "z": -12.24508670199048
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "mymqld1g",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_19",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -280.41354091149884,
+                      "z": -24.728162797571528
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "yd97t1k7",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_14",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -224.6445979708422,
+                      "z": -11.791929727731741
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "qetk8qkd",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_15",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -214.91510578334223,
+                      "z": -11.791929727731741
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "404uqiu8",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_30",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -225.65671344935782,
+                      "z": 2.836112493337575
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ruggggql",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_16",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -337.9864516137075,
+                      "z": 60.020795308445955
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ik0fmufs",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_17",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -359.89325093011377,
+                      "z": 71.33721872458365
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "m14svbrl",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_18",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -359.73590229730127,
+                      "z": 60.020795308445955
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "p8ijiqd1",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_19",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -359.73590229730127,
+                      "z": 48.80155511984733
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "6kfrxocb",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_20",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -246.45880321699437,
+                      "z": -39.71092295735143
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "cl5rbaec",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_21",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -235.15255932051,
+                      "z": -39.71092295735143
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "vvpghdae",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_22",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -225.42306713301,
+                      "z": -39.71092295735143
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "wxkaa255",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_23",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -151.1205891344774,
+                      "z": 6.638920498328353
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "j64mw90r",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_24",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -139.81434523799302,
+                      "z": 6.638920498328353
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "1fhpd3kd",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_31",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -233.58500734495897,
+                      "z": 37.65327351430371
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "rgjrtng0",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_32",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -233.58500734495897,
+                      "z": 27.95748799184276
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "cojlq1zz",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_33",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -191.52398446379053,
+                      "z": -64.2462202739103
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "hchxzolr",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_34",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -191.52398446379053,
+                      "z": -74.92806689256264
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "cq8jcsyi",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_21",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -209.60986391234178,
+                      "z": 30.534186295065417
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "yghicz7k",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_22",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -209.60986391234178,
+                      "z": 24.796362808737292
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "6wjbbxsi",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_23",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -209.60986391234178,
+                      "z": 36.16073506215527
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "io63pfgg",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_25",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -215.31324831175584,
+                      "z": 25.402884415182605
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "har9mv1f",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_26",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -215.31324831175584,
+                      "z": 31.1407002721162
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "ghom9xud",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_27",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -215.31324831175584,
+                      "z": 36.76725666860058
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "bbzp342m",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_26",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -215.84339396642548,
+                      "z": 51.28632335535662
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "6h4az24b",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_30",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -236.8791147916208,
+                      "z": 51.28632335535662
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "9phe95e5",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_31",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -225.57288615392548,
+                      "z": 51.28632335535662
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "mjilu4yg",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_32",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -243.51839981892314,
+                      "z": -69.5884964701811
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "jiqwp9mq",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_33",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -232.2121864400169,
+                      "z": -69.5884964701811
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "vso8urp9",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_34",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -222.48269425251692,
+                      "z": -69.5884964701811
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "78gqu7bn",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_35",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -257.2472511372825,
+                      "z": -73.35301902267133
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "drr1hze1",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_36",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -257.2472511372825,
+                      "z": -62.821864390102974
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "dwrpyhlh",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_35",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.69549059724307,
+                      "z": -29.74060732144295
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "g60qghtz",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.9923961148212,
+                      "z": -16.86430269497811
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "8b27u5qm",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.9923961148212,
+                      "z": -21.3101492525953
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "jjrumyzp",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.9923961148212,
+                      "z": -8.28568178433358
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "kqhiw37d",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.9923961148212,
+                      "z": -13.314597189607017
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "yicbec8x",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_30",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.30468249177432,
+                      "z": -8.713812887849205
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "26lwyzy0",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.30468249177432,
+                      "z": -13.034697592439048
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "j9qurl4b",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.30468249177432,
+                      "z": -17.287596762360923
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "tfy3gly0",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.30468249177432,
+                      "z": -21.202941000642173
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "n1w06adq",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -303.2812736595933,
+                      "z": -71.62444322789777
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "ze811og7",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -303.2812736595933,
+                      "z": -76.07028978551496
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "wroq2pap",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -303.2812736595933,
+                      "z": -63.04582231725324
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "hapo6mzr",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -303.2812736595933,
+                      "z": -68.07473772252668
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "kuyhu8ad",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_31",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.5935600365464,
+                      "z": -63.473953420768865
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "418lc4bt",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.5935600365464,
+                      "z": -67.79483812535871
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "v74fl2hr",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.5935600365464,
+                      "z": -72.04773729528058
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "kfvue0rl",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_2",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.5935600365464,
+                      "z": -75.96308153356183
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "etv7oc0c",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -293.85160141838236,
+                      "z": -71.62444322789777
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "81s7snjy",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -293.85160141838236,
+                      "z": -76.07028978551496
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "4qagts3i",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -293.85160141838236,
+                      "z": -63.04582231725324
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "dh5722ta",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -293.85160141838236,
+                      "z": -68.07473772252668
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "hz70gczl",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_32",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.16388779533554,
+                      "z": -63.473953420768865
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "5yflyyxm",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.16388779533554,
+                      "z": -67.79483812535871
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "zxyt2v5n",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.16388779533554,
+                      "z": -72.04773729528058
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "11h8olkp",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_3",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.16388779533554,
+                      "z": -75.96308153356183
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "hg6t7s19",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.7288902367418,
+                      "z": -71.62444322789777
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "d8ocy7i3",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.7288902367418,
+                      "z": -76.07028978551496
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "c5q3i0mn",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.7288902367418,
+                      "z": -63.04582231725324
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "uhgaaxnj",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.7288902367418,
+                      "z": -68.07473772252668
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "0wzziwwb",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_33",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -286.04117661369486,
+                      "z": -63.473953420768865
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "dn3qvwud",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -286.04117661369486,
+                      "z": -67.79483812535871
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "gd1ckf2m",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -286.04117661369486,
+                      "z": -72.04773729528058
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "t6asi59n",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_4",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -286.04117661369486,
+                      "z": -75.96308153356183
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "3e54q46e",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -272.29920273674173,
+                      "z": -71.62444322789777
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "llpuj7df",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -272.29920273674173,
+                      "z": -76.07028978551496
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "8l83l7p7",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -272.29920273674173,
+                      "z": -63.04582231725324
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "w3xpv25l",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -272.29920273674173,
+                      "z": -68.07473772252668
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "jjl0sgfz",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_34",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.61148911369486,
+                      "z": -63.473953420768865
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "f4j6used",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.61148911369486,
+                      "z": -67.79483812535871
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "1aew6oz9",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.61148911369486,
+                      "z": -72.04773729528058
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "grea3sex",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_5",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.61148911369486,
+                      "z": -75.96308153356183
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "rb038fuq",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_41",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.68271300769067,
+                      "y": 1.4210854715202004e-14,
+                      "z": 52.88429729464394
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "al7scz6n",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.40933654284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 35.24823467257362
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "3keiqtu2",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.40933654284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 30.802388114956436
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "ugu0ngaz",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.40933654284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 43.826847953823645
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "lwub5zoc",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -186.40933654284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 38.79793254855019
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "335enou0",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_35",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.72159240222192,
+                      "y": 1.4210854715202004e-14,
+                      "z": 43.39871685030802
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "0304kyjy",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.72159240222192,
+                      "y": 1.4210854715202004e-14,
+                      "z": 39.07783977511269
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "szdt7oi1",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.72159240222192,
+                      "y": 1.4210854715202004e-14,
+                      "z": 34.82494060519082
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "z5uwv8ky",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_6",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -190.72159240222192,
+                      "y": 1.4210854715202004e-14,
+                      "z": 30.90959636690956
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "wqixnuu4",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_42",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -183.68271300769067,
+                      "y": 1.4210854715202004e-14,
+                      "z": 22.37192241671426
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "o9yrukov",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.97964904284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 35.24823467257362
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "dvysv8b0",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.97964904284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 30.802388114956436
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "1jh5f2ta",
+                  "_$prefab": "56e5ee0e-3110-4a2c-b1d1-0eed3160eb3b",
+                  "name": "putong_zhongxing11_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.97964904284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 43.826847953823645
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "q45qix4h",
+                  "_$prefab": "8d384534-cb12-4904-8380-24d2281612a9",
+                  "name": "putong_zhongxing12_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -176.97964904284692,
+                      "y": 1.4210854715202004e-14,
+                      "z": 38.79793254855019
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "iv1i8io8",
+                  "_$prefab": "0a66c114-5d44-4de3-9c19-704339b3dcf0",
+                  "name": "putong_zhongxing13_36",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.29193541980004,
+                      "y": 1.4210854715202004e-14,
+                      "z": 43.39871685030802
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "r718fhas",
+                  "_$prefab": "1385bc70-85bd-4db8-b2bb-45be7ceaa6c1",
+                  "name": "putong_zhongxing14_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.29193541980004,
+                      "y": 1.4210854715202004e-14,
+                      "z": 39.07783977511269
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "rmfa3ixe",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.29193541980004,
+                      "y": 1.4210854715202004e-14,
+                      "z": 34.82494060519082
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "sdagm0ep",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_7",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -181.29193541980004,
+                      "y": 1.4210854715202004e-14,
+                      "z": 30.90959636690956
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "76rphn6i",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_42",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -283.8335866703308,
+                      "z": -34.5859955521202
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "zruab3bc",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_43",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -269.1640462650574,
+                      "z": -34.199360725460046
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "k6zznhwu",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_44",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -278.821425415448,
+                      "z": -34.430546638545984
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ddphj3z9",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_45",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -266.64904687540894,
+                      "z": -34.461567756710046
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "w7twpb4q",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_46",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.43769738810425,
+                      "z": -34.366032478389734
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "4we3zl8r",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_47",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -273.9194021000183,
+                      "z": -34.3302582474327
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "oodyq6r3",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_48",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -271.4222097172058,
+                      "z": -34.48746955114364
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "yb3tcclv",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_49",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.26777551310425,
+                      "z": -34.54714667516708
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "18k80vx9",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_50",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -283.8335866703308,
+                      "z": -39.50199591833114
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "2x6gpqc5",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_51",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -269.1640462650574,
+                      "z": -39.115361091670984
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "l4u7ko2g",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_52",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -278.821425415448,
+                      "z": -39.34654700475692
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "9kc0fq4q",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_53",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -266.64904687540894,
+                      "z": -39.377568122920984
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "alirgmit",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_54",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.43769738810425,
+                      "z": -39.28203284460067
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "p7sfcn3t",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_55",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -273.9194021000183,
+                      "z": -39.24625861364364
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "vttejxly",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_56",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -271.4222097172058,
+                      "z": -39.40346991735458
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "doijjabf",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_57",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.26777551310425,
+                      "z": -39.463147041378015
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "a11txlyc",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_58",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -283.8335866703308,
+                      "z": -44.99715506750106
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "1u746bnd",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_59",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -269.1640462650574,
+                      "z": -44.610520240840906
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "tfsydxin",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_60",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -278.821425415448,
+                      "z": -44.84170615392684
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "pto78bzr",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_61",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -266.64904687540894,
+                      "z": -44.872727272090906
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "czrgw8hd",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_62",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -276.43769738810425,
+                      "z": -44.77719199377059
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ct12u90r",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_63",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -273.9194021000183,
+                      "z": -44.74141776281356
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "w063j2bh",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_64",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -271.4222097172058,
+                      "z": -44.8986290665245
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "pusda65c",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_65",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -281.26777551310425,
+                      "z": -44.95830619054794
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "73j46phf",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_66",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -323.41632228320964,
+                      "z": -65.35559475778818
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "f8mwdy3n",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_67",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -318.4041610283268,
+                      "z": -65.20014584421396
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "fer12le1",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_68",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -316.0204330009831,
+                      "z": -65.13563168405771
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "xt9718sx",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_69",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -320.8505111259831,
+                      "z": -65.31674588083506
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "nd4sd5od",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_70",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -323.41632228320964,
+                      "z": -70.27159512399912
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "eji699e3",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_71",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -318.4041610283268,
+                      "z": -70.1161462104249
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "i0orqbon",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_72",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -316.0204330009831,
+                      "z": -70.05163205026865
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ygsxc3vz",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_73",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -320.8505111259831,
+                      "z": -70.232746247046
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "dv8sj9xr",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_74",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -323.41632228320964,
+                      "z": -75.76675808786631
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "aw96hxvb",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_75",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -318.4041610283268,
+                      "z": -75.61130917429209
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "9x3cmcjv",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_76",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -316.0204330009831,
+                      "z": -75.54679501413584
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "kuq9kjvi",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_77",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -320.8505111259831,
+                      "z": -75.72790921091318
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "i0cjw279",
+                  "_$prefab": "3b475904-cebf-49db-b0b9-efa802be7d0c",
+                  "name": "putong_xiaoxing04_26",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -292.33235160525373,
+                      "z": 91.2462297599282
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "kka9n4p2",
+                  "_$prefab": "0aa9a537-4d7c-4183-a5c2-764d39fa06ff",
+                  "name": "putong_xiaoxing10_18",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -292.24745170291,
+                      "z": 87.14516507792136
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "cdud1t2l",
+                  "_$prefab": "3b475904-cebf-49db-b0b9-efa802be7d0c",
+                  "name": "putong_xiaoxing04_27",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -292.33235160525373,
+                      "z": 82.89108335184714
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "33ni8z33",
+                  "_$prefab": "e1edec1f-adcb-4a39-85b6-83900f3b5b35",
+                  "name": "putong_xiaoxing02_51",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -210.85415421345436,
+                      "z": -70.26485755416547
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "y3845kn6",
+                  "_$prefab": "e1edec1f-adcb-4a39-85b6-83900f3b5b35",
+                  "name": "putong_xiaoxing02_52",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -210.85415421345436,
+                      "z": -62.24091651412641
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "1rbd7fi8",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_108",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.79192686993292,
+                      "z": -36.738308021083355
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ueyaf83x",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_109",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.71148253399542,
+                      "z": -0.11454875136899911
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    },
+                    {
+                      "_$id": "22sr8jn6",
+                      "_$type": "Sprite3D",
+                      "name": "transport_4",
+                      "layer": 3,
+                      "transform": {
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.009999999776482582,
+                          "y": 0.009999999776482582,
+                          "z": 0.009999999776482582
+                        }
+                      },
+                      "_$comp": [
+                        {
+                          "_$type": "MeshFilter",
+                          "sharedMesh": {
+                            "_$uuid": "e9ecfe86-c3a9-41ed-9d40-d904ffb486e3@lm0",
+                            "_$type": "Mesh"
+                          }
+                        },
+                        {
+                          "_$type": "MeshRenderer",
+                          "receiveShadow": true,
+                          "castShadow": true,
+                          "lightmapScaleOffset": {
+                            "_$type": "Vector4"
+                          },
+                          "sharedMaterials": [
+                            {
+                              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                              "_$type": "Material"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hsmzz80u",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_110",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -164.46947813946417,
+                      "z": 0.1759480748028759
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "lpb7g69j",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_111",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.11767149883917,
+                      "z": 24.408788612827767
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "4py5rcma",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_112",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -161.6998553367298,
+                      "z": 15.182043007359038
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.699162270488705,
+                      "w": 0.7149630196905843
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ae12ht9e",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_120",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.73460358717566,
+                      "y": -5.684341886080802e-14,
+                      "z": -72.82188311458734
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    },
+                    {
+                      "_$id": "4dthmiax",
+                      "_$type": "Sprite3D",
+                      "name": "transport_4",
+                      "layer": 3,
+                      "transform": {
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.009999999776482582,
+                          "y": 0.009999999776482582,
+                          "z": 0.009999999776482582
+                        }
+                      },
+                      "_$comp": [
+                        {
+                          "_$type": "MeshFilter",
+                          "sharedMesh": {
+                            "_$uuid": "e9ecfe86-c3a9-41ed-9d40-d904ffb486e3@lm0",
+                            "_$type": "Mesh"
+                          }
+                        },
+                        {
+                          "_$type": "MeshRenderer",
+                          "receiveShadow": true,
+                          "castShadow": true,
+                          "lightmapScaleOffset": {
+                            "_$type": "Vector4"
+                          },
+                          "sharedMaterials": [
+                            {
+                              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                              "_$type": "Material"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "a1qus2bm",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_121",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.22755402662878,
+                      "y": -5.684341886080802e-14,
+                      "z": -67.30853167415765
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "77ngnndm",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_48",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -214.02311163891466,
+                      "z": 83.64453959156154
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "xrnyy9b0",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_8",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -363.67805222375637,
+                      "z": 81.65618511228776
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "y3x2ajeh",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_8",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -363.67805222375637,
+                      "z": 85.57152935056902
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "y9pwvgmt",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_8",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -359.36576584680324,
+                      "z": 81.54897686033463
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "n1w9ki7e",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_8",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -359.36576584680324,
+                      "z": 85.99482341795184
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "zb4e4x9x",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_9",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -349.93607834680324,
+                      "z": 85.99482341795184
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "lbhccfe2",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_9",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -349.93607834680324,
+                      "z": 81.54897686033463
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "7h3o20m4",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_9",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -354.24836472375637,
+                      "z": 85.57152935056902
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "ui4x12y0",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_9",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -354.24836472375637,
+                      "z": 81.65618511228776
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "025sizzo",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_10",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -345.7148389664594,
+                      "y": -1.8189894035458565e-12,
+                      "z": 81.72790640748616
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "so8sk17z",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_10",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -345.7148389664594,
+                      "y": -1.8189894035458565e-12,
+                      "z": 85.64325064576741
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "5oaz25kw",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_10",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -341.4025525895063,
+                      "y": -1.8189894035458565e-12,
+                      "z": 81.62069815553303
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "gvfosntm",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_10",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -341.4025525895063,
+                      "y": -1.8189894035458565e-12,
+                      "z": 86.06654471315022
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "31z2h60d",
+                  "_$prefab": "6312d869-f268-44f5-92ae-6bae3af203cf",
+                  "name": "putong_zhongxing09_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -331.9728650895063,
+                      "y": -1.8189894035458565e-12,
+                      "z": 86.06654471315022
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "nnupg3ot",
+                  "_$prefab": "15022849-e8d6-404c-af6b-620e9c7bfbe9",
+                  "name": "putong_zhongxing10_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -331.9728650895063,
+                      "y": -1.8189894035458565e-12,
+                      "z": 81.62069815553303
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "ighdm2ns",
+                  "_$prefab": "b874a152-89cd-4701-9521-e7aa643651f4",
+                  "name": "putong_zhongxing15_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -336.2851514664594,
+                      "y": -1.8189894035458565e-12,
+                      "z": 85.64325064576741
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "7c4ezgap",
+                  "_$prefab": "931a193d-28a0-45d6-92ad-6d8bdd24109c",
+                  "name": "putong_zhongxing16_11",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -336.2851514664594,
+                      "y": -1.8189894035458565e-12,
+                      "z": 81.72790640748616
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "20nqxpaq",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_49",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -215.87907628727646,
+                      "z": -39.71092081069946
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "zi26n5rc",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_50",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -151.12059020996094,
+                      "z": 29.595745839429178
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "tlpqybs7",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_51",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -139.81434631347656,
+                      "z": 29.595745839429178
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "7a5e5yaw",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_175",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -352.31710743864176,
+                      "z": -64.26293612668616
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "1hyyjx22",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_176",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -347.30494618375894,
+                      "z": -64.10748721311194
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "g51ri1vm",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_177",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -344.9212181564152,
+                      "z": -64.04297305295569
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "50jxlwqe",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_178",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -349.7512962814152,
+                      "z": -64.22408724973303
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "hks6xrqk",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_179",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -352.31710743864176,
+                      "z": -69.1789364928971
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "tfceqail",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_180",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -347.30494618375894,
+                      "z": -69.02348757932288
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "r6qu3mw6",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_181",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -344.9212181564152,
+                      "z": -68.95897341916663
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "h1kqdxzi",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_182",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -349.7512962814152,
+                      "z": -69.14008761594397
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "47lniq61",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_183",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -352.31710743864176,
+                      "z": -74.67409945676428
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "sye0arq6",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_184",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -347.30494618375894,
+                      "z": -74.51865054319006
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "70m26o31",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_185",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -344.9212181564152,
+                      "z": -74.45413638303381
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "kbvpi9xo",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_186",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -349.7512962814152,
+                      "z": -74.63525057981116
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ywr2tstc",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_39",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -376.33993991323126,
+                      "y": -5.684341886080802e-14,
+                      "z": -51.00705389077174
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "ilsu85cb",
+                  "_$prefab": "9726d308-e0eb-4e08-a2ce-46315d7f644e",
+                  "name": "daxingjianzhu_yuanhu_1",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -357.4497217934329,
+                      "y": -1.4637180356658064e-12,
+                      "z": -1.6131205304560012
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "enupe63r",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_189",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -163.9823543796352,
+                      "z": 89.2431745591246
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9nzkmksv",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_190",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.22435877416646,
+                      "z": 88.95267773295272
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    },
+                    {
+                      "_$id": "o2y604km",
+                      "_$type": "Sprite3D",
+                      "name": "transport_4",
+                      "layer": 3,
+                      "transform": {
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.009999999776482582,
+                          "y": 0.009999999776482582,
+                          "z": 0.009999999776482582
+                        }
+                      },
+                      "_$comp": [
+                        {
+                          "_$type": "MeshFilter",
+                          "sharedMesh": {
+                            "_$uuid": "e9ecfe86-c3a9-41ed-9d40-d904ffb486e3@lm0",
+                            "_$type": "Mesh"
+                          }
+                        },
+                        {
+                          "_$type": "MeshRenderer",
+                          "receiveShadow": true,
+                          "castShadow": true,
+                          "lightmapScaleOffset": {
+                            "_$type": "Vector4"
+                          },
+                          "sharedMaterials": [
+                            {
+                              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                              "_$type": "Material"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "m33x4vhq",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_191",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -165.30480311010396,
+                      "z": 52.32891846323839
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "lxl2w1d4",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_192",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -198.37737573353178,
+                      "z": 14.36230720999203
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.699162270488705,
+                      "w": 0.7149630196905843
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9cweyn73",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_193",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -201.79519189564115,
+                      "z": 23.589052338623627
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "a0tjrotr",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_194",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -201.14699853626615,
+                      "z": -0.643787722564122
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xn6wa5vx",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_195",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -202.3890029307974,
+                      "z": -0.9342845487359934
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    },
+                    {
+                      "_$id": "3n5thlg9",
+                      "_$type": "Sprite3D",
+                      "name": "transport_4",
+                      "layer": 3,
+                      "transform": {
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.009999999776482582,
+                          "y": 0.009999999776482582,
+                          "z": 0.009999999776482582
+                        }
+                      },
+                      "_$comp": [
+                        {
+                          "_$type": "MeshFilter",
+                          "sharedMesh": {
+                            "_$uuid": "e9ecfe86-c3a9-41ed-9d40-d904ffb486e3@lm0",
+                            "_$type": "Mesh"
+                          }
+                        },
+                        {
+                          "_$type": "MeshRenderer",
+                          "receiveShadow": true,
+                          "castShadow": true,
+                          "lightmapScaleOffset": {
+                            "_$type": "Vector4"
+                          },
+                          "sharedMaterials": [
+                            {
+                              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                              "_$type": "Material"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mlxixg3t",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_196",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -202.4694472667349,
+                      "z": -37.558042387938876
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "71u4gg38",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_197",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -201.98232568470365,
+                      "z": 51.50918402197323
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vtbxqiai",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_198",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -201.90188134876615,
+                      "z": 88.13293661596735
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    },
+                    {
+                      "_$id": "owocjx77",
+                      "_$type": "Sprite3D",
+                      "name": "transport_4",
+                      "layer": 3,
+                      "transform": {
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.009999999776482582,
+                          "y": 0.009999999776482582,
+                          "z": 0.009999999776482582
+                        }
+                      },
+                      "_$comp": [
+                        {
+                          "_$type": "MeshFilter",
+                          "sharedMesh": {
+                            "_$uuid": "e9ecfe86-c3a9-41ed-9d40-d904ffb486e3@lm0",
+                            "_$type": "Mesh"
+                          }
+                        },
+                        {
+                          "_$type": "MeshRenderer",
+                          "receiveShadow": true,
+                          "castShadow": true,
+                          "lightmapScaleOffset": {
+                            "_$type": "Vector4"
+                          },
+                          "sharedMaterials": [
+                            {
+                              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                              "_$type": "Material"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "nqpy12oh",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_199",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -200.6598769542349,
+                      "z": 88.42343344213923
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2uzdca21",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_201",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -323.7143462422514,
+                      "z": 48.788495332837186
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "x": 0.0805615514372846,
+                          "z": 0.02114009661744376
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "bhpehui3",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_202",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -323.6339019063139,
+                      "z": 85.41224792683106
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    },
+                    {
+                      "_$id": "bjxjmp9y",
+                      "_$type": "Sprite3D",
+                      "name": "transport_4",
+                      "layer": 3,
+                      "transform": {
+                        "localScale": {
+                          "_$type": "Vector3",
+                          "x": 0.009999999776482582,
+                          "y": 0.009999999776482582,
+                          "z": 0.009999999776482582
+                        }
+                      },
+                      "_$comp": [
+                        {
+                          "_$type": "MeshFilter",
+                          "sharedMesh": {
+                            "_$uuid": "e9ecfe86-c3a9-41ed-9d40-d904ffb486e3@lm0",
+                            "_$type": "Mesh"
+                          }
+                        },
+                        {
+                          "_$type": "MeshRenderer",
+                          "receiveShadow": true,
+                          "castShadow": true,
+                          "lightmapScaleOffset": {
+                            "_$type": "Vector4"
+                          },
+                          "sharedMaterials": [
+                            {
+                              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                              "_$type": "Material"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fopdyx0k",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_203",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -322.39189751178264,
+                      "z": 85.70274475300293
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7149630196905843,
+                      "w": -0.699162270488705
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "23r8eivc",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_204",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -197.95003133654086,
+                      "y": 5.684341886080802e-14,
+                      "z": 106.41017099397206
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9fxgyb4h",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_205",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -203.43216329454864,
+                      "y": 5.684341886080802e-14,
+                      "z": 106.23180719392323
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wfsdylkp",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_206",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -206.1697731578299,
+                      "y": 5.684341886080802e-14,
+                      "z": 103.04355951325917
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yip5qjbu",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_207",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -211.65260702013458,
+                      "y": 5.684341886080802e-14,
+                      "z": 103.07173868196034
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "4p2ezahl",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_208",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -245.13405233263458,
+                      "y": 5.684341886080802e-14,
+                      "z": 106.00340982453847
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yokv8zjg",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_209",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -250.61619954943146,
+                      "y": 5.684341886080802e-14,
+                      "z": 105.82504602448964
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "lqgf0yn5",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_210",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -253.3538094127127,
+                      "y": 5.684341886080802e-14,
+                      "z": 102.63680215852284
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9pdhkh6l",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_211",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -258.8366432750174,
+                      "y": 5.684341886080802e-14,
+                      "z": 102.66498132722401
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "7u79n7js",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_212",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -264.44235635905164,
+                      "z": 106.21926087036364
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "e4lq1157",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_213",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -269.92448831705946,
+                      "z": 106.04089707031481
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qdsatxs2",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_214",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -272.6620981803407,
+                      "z": 102.85264938965075
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "rkwio0bq",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_215",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -278.1449320426454,
+                      "z": 102.88082855835192
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kzyfi4f4",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_216",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -311.62637735514545,
+                      "z": 105.81249970093005
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "l552ifrz",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_217",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -317.1085245719423,
+                      "z": 105.63413590088122
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "h389yods",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_218",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -319.8461344352236,
+                      "z": 102.44589203491442
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "obd76c7q",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_219",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -325.32896829752826,
+                      "z": 102.4740712036156
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "j8eoh5dq",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_220",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -290.27285885561986,
+                      "z": 65.00638171711293
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hi3id64u",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_221",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -295.75500607241673,
+                      "z": 64.82801410236684
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "tew67bru",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_222",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -302.7405034083464,
+                      "z": 62.925838275939995
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "oa6v2obv",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_223",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -308.22335252944015,
+                      "z": 62.9540136299439
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 1,
+                      "w": 6.123233995736766e-17
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qm0auh0l",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_52",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -360.3620612096755,
+                      "z": -23.47962614082121
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "mfbj5i7p",
+                  "_$prefab": "9314d608-878d-4e9e-8a61-537a00b746f6",
+                  "name": "putong_dajianzhu01_53",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -360.39843517450623,
+                      "z": 32.19340914331082
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    }
+                  }
+                },
+                {
+                  "_$id": "aol5xgs7",
+                  "_$prefab": "99dec2ee-cff7-48fb-8f53-8260db6cad3b",
+                  "name": "putong_dajianzhu03_40",
+                  "active": true,
+                  "layer": 0,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -376.3399353027344,
+                      "y": -5.684341886080802e-14,
+                      "z": -85.99945728497916
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    }
+                  }
+                },
+                {
+                  "_$id": "fkzqffcv",
+                  "_$prefab": "8430c7a4-b5b2-4b22-9296-20e57bb5f3de",
+                  "name": "daxingjianzhu_zuqiuchang",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -334.62725830078125,
+                      "y": 1.0516032489249483e-12,
+                      "z": -69.7607421875
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "z": 0.5
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "al7r94ch",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_4",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -355.58447265625,
+                      "y": -2.842170943040401e-14,
+                      "z": 99.40575408935547
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ccwgqwmj",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_3",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -350.80462646484375,
+                      "y": -2.842170943040401e-14,
+                      "z": 99.49217987060547
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "tlzzkgcx",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_7",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -340.9208984375,
+                      "y": 7.673861546209082e-13,
+                      "z": 99.17041015625
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hogexaml",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_8",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -345.74932861328125,
+                      "y": -2.842170943040401e-14,
+                      "z": 99.22021484375
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "620ifhy6",
+                  "_$prefab": "0aa9a537-4d7c-4183-a5c2-764d39fa06ff",
+                  "name": "putong_xiaoxing10",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -254.54727172851562,
+                      "y": 8.526512829121202e-14,
+                      "z": 22.643688201904297
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 0.699999988079071,
+                      "y": 0.699999988079071,
+                      "z": 0.699999988079071
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vbx6ht9i",
+                  "_$prefab": "a781a7e2-eb06-4aaa-bf15-be863f6590b9",
+                  "name": "putong_zhongxing05_1",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -347.2699890136719,
+                      "y": -1.1368683772161603e-13,
+                      "z": -41.10383605957031
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 0.6000000238418579,
+                      "y": 0.6000000238418579,
+                      "z": 0.6000000238418579
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mu6hr1pg",
+                  "_$prefab": "a781a7e2-eb06-4aaa-bf15-be863f6590b9",
+                  "name": "putong_zhongxing05_5",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -339.27960205078125,
+                      "y": -1.1368683772161603e-13,
+                      "z": -41.10383605957031
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 0.6000000238418579,
+                      "y": 0.6000000238418579,
+                      "z": 0.6000000238418579
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qlpyky03",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_9",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -219.42276000976562,
+                      "y": -7.176481631177012e-13,
+                      "z": 18.777088165283203
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "tllup3pu",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_10",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -229.3038787841797,
+                      "y": -6.963318810448982e-13,
+                      "z": 18.670133590698242
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "abxc21mr",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_11",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -234.00453186035156,
+                      "y": -7.247535904753022e-13,
+                      "z": 18.68138313293457
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "piblj6j2",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_12",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -226.9346160888672,
+                      "y": -7.247535904753022e-13,
+                      "z": 18.604846954345703
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "d0g84cmg",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_13",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -231.5809783935547,
+                      "y": -7.247535904753022e-13,
+                      "z": 18.658796310424805
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1.2000000476837158,
+                      "y": 1.2000000476837158,
+                      "z": 1.2000000476837158
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "v1v1o5me",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_14",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -221.89840698242188,
+                      "y": 7.105427357601002e-14,
+                      "z": 18.275360107421875
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "h8w4etxq",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_15",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -224.7432861328125,
+                      "y": 7.105427357601002e-14,
+                      "z": 18.56593894958496
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xdp3j90v",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_16",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -217.16285705566406,
+                      "y": 7.105427357601002e-14,
+                      "z": 18.588693618774414
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "w9tndgii",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_17",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -348.209716796875,
+                      "y": 3.197442310920451e-14,
+                      "z": 95.319580078125
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fwm3gzoy",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_18",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -338.5650634765625,
+                      "y": 8.313350008393172e-13,
+                      "z": 95.31385040283203
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gqo6pkmy",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_19",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -353.3879699707031,
+                      "y": 8.970602038971265e-13,
+                      "z": 99.25431060791016
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "rqzmh9gj",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_20",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -343.489990234375,
+                      "y": 8.322231792590173e-13,
+                      "z": 95.62137603759766
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qsdg6js9",
+                  "_$prefab": "f186ecd5-dc9b-42bf-b724-cf99e3af5799",
+                  "name": "putong_ditiezhan_1",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -286.79888916015625,
+                      "y": -7.744915819785092e-13,
+                      "z": 20.676803588867188
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  }
+                },
+                {
+                  "_$id": "5juqcvsa",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_29",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -311.319091796875,
+                      "y": -1.7763568394002505e-13,
+                      "z": -30.90287208557129
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1.2000000476837158,
+                      "y": 1.2000000476837158,
+                      "z": 1.2000000476837158
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "78yyby00",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_30",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.3580322265625,
+                      "y": 8.739675649849232e-13,
+                      "z": -31.056127548217773
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "x95w4lmc",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_31",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -311.26153564453125,
+                      "y": 9.023892744153272e-13,
+                      "z": -28.57420539855957
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "bxtm3kch",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_32",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.2000732421875,
+                      "y": -7.105427357601002e-15,
+                      "z": -28.667627334594727
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ghrwefze",
+                  "_$prefab": "71f2afca-7e90-493e-9516-d6b84e3d50ba",
+                  "name": "dibiao_lufugong",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -328.0878601074219,
+                      "y": 5.684341886080802e-14,
+                      "z": 12.252357482910156
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion",
+                      "y": 0.7071067811865475,
+                      "w": 0.7071067811865476
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 0.699999988079071,
+                      "y": 0.699999988079071,
+                      "z": 0.699999988079071
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "igjxq56e",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_33",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -311.4700012207031,
+                      "y": 3.552713678800501e-14,
+                      "z": -26.109785079956055
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3onbly05",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_34",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.2214050292969,
+                      "y": 2.2026824808563106e-13,
+                      "z": -25.941667556762695
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dn6pyyfc",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_35",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -311.2984619140625,
+                      "y": 1.7763568394002505e-13,
+                      "z": -23.62574577331543
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "11oq70jk",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_36",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.6284484863281,
+                      "y": 8.029132914089132e-13,
+                      "z": -23.593034744262695
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ulqx59fa",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_37",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -326.99468994140625,
+                      "y": 6.394884621840902e-14,
+                      "z": -25.880720138549805
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3",
+                          "y": 3.552713678800501e-15
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9ducmwy9",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_38",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -327.42218017578125,
+                      "y": 2.1316282072803006e-14,
+                      "z": -23.655088424682617
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yfscbaye",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_39",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -311.48968505859375,
+                      "y": 9.450218385609332e-13,
+                      "z": -20.99721908569336
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xo7sy1ct",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_40",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -327.06011962890625,
+                      "y": 9.237055564881302e-14,
+                      "z": -31.078596115112305
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1.2000000476837158,
+                      "y": 1.2000000476837158,
+                      "z": 1.2000000476837158
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "34cuvtfa",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_41",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -307.4256591796875,
+                      "y": 9.166001291305292e-13,
+                      "z": -20.962087631225586
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mz4rmfck",
+                  "_$prefab": "72dcf5d3-d717-4288-b010-d0ae5bddc9ed",
+                  "name": "transport_44",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.3766174316406,
+                      "y": -1.7763568394002505e-13,
+                      "z": 19.388994216918945
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1.2000000476837158,
+                      "y": 1.2000000476837158,
+                      "z": 1.2000000476837158
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "juc3dy3u",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_45",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -294.41558837890625,
+                      "y": 8.739675649849232e-13,
+                      "z": 19.23573875427246
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zo51v1yw",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_46",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.3190612792969,
+                      "y": 9.023892744153272e-13,
+                      "z": 21.717660903930664
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zh12dj7d",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_47",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -294.2575988769531,
+                      "y": -7.105427357601002e-15,
+                      "z": 21.624238967895508
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2bh7h7qh",
+                  "_$prefab": "e1f8bb45-dc62-48e0-80fe-89eb381be3f1",
+                  "name": "transport_48",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.52752685546875,
+                      "y": 3.552713678800501e-14,
+                      "z": 24.182083129882812
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ko6wub9p",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_49",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -294.2789306640625,
+                      "y": 2.2026824808563106e-13,
+                      "z": 24.350200653076172
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "j5jgstsm",
+                  "_$prefab": "2b4a74c3-f50b-43c5-8451-8a4ac6a32d6a",
+                  "name": "transport_50",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.3559875488281,
+                      "y": 1.7763568394002505e-13,
+                      "z": 26.666122436523438
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xrygoac2",
+                  "_$prefab": "b1868237-20e3-4480-8b0e-232ee095ecaa",
+                  "name": "transport_51",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -294.68597412109375,
+                      "y": 8.029132914089132e-13,
+                      "z": 26.698833465576172
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1jcevd71",
+                  "_$prefab": "fff3eb6b-0fcb-4ceb-afc1-183c9459bdb6",
+                  "name": "transport_52",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -298.5472106933594,
+                      "y": 9.450218385609332e-13,
+                      "z": 29.294649124145508
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "554gefk1",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_53",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -294.48321533203125,
+                      "y": 9.166001291305292e-13,
+                      "z": 29.32978057861328
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "7m6uuqtw",
+                  "_$prefab": "914b0603-66fe-4513-b09d-5084f60abab1",
+                  "name": "transport_42",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -327.0788879394531,
+                      "y": 5.684341886080801e-13,
+                      "z": -21.26267433166504
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "transform": {
+                        "localPosition": {
+                          "_$type": "Vector3"
+                        }
+                      },
+                      "layer": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "06buebuu",
+                  "_$prefab": "7778d123-330c-4237-a152-b4176c756a3e",
+                  "name": "transport_43",
+                  "active": true,
+                  "layer": 3,
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -327.2813720703125,
+                      "y": 7.105427357601002e-15,
+                      "z": -28.499265670776367
+                    },
+                    "localRotation": {
+                      "_$type": "Quaternion"
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    }
+                  },
+                  "_$child": [
+                    {
+                      "_$override": "#45",
+                      "layer": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_$id": "edmaqf1r",
+              "_$type": "Sprite3D",
+              "name": "NpcBorn",
+              "_$child": [
+                {
+                  "_$id": "kh9bcqh7",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_11",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56599954566971,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "r09202ub",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_12",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.54542306861893,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dxtiyyik",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_13",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56599954566971,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "8ruipd3u",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_14",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.54542306861893,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "tblvzg3d",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_15",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56599954566971,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "brf16l3l",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_16",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56599954566971,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jf7v9hf0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_17",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.54542306861893,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ycsqetwh",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_18",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56599954566971,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5wv0544c",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_19",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.54542306861893,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "okd94df8",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_20",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56599954566971,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dj4y29qk",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_25",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05330171138978,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "bpe5x7fw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_26",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.032725234339,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3rcuzeqr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_27",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05330171138978,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ruzj665y",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_28",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.032725234339,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3rstlwa0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_29",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05330171138978,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "c2ckrcvo",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_30",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05330171138978,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "afr27zn3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_31",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.032725234339,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t593k97n",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_32",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05330171138978,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uo0qlvs4",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_33",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.032725234339,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "q8uvqe0z",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_34",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05330171138978,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "azoofrlk",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_39",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688630611631,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fx1gt4br",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_40",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.31630982906553,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ov9cfgyf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_41",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688630611631,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "eid1o0st",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_42",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.31630982906553,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "644habcz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_43",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688630611631,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "cm40p5ii",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_44",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688630611631,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0w2n1njm",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_45",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.31630982906553,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jen4flh6",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_46",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688630611631,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "i6bj8pqs",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_47",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.31630982906553,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "a0qkdfih",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_48",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688630611631,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9xii4s1u",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_53",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.416879469233315,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xffvskjq",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_54",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.396302992182534,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "8iuhhmot",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_55",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.416879469233315,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "4be57a1t",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_56",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.396302992182534,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "bvbc4tll",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_57",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.416879469233315,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "eib3pya3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_58",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.416879469233315,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "a8e7md9i",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_59",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.396302992182534,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "eq8p4pz5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_60",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.416879469233315,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "34rcvdxf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_61",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.396302992182534,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ns8o897g",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_62",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.416879469233315,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wp30yo9t",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_67",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464063959863,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9k3vx3i4",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_68",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.679887586909082,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uepmioyu",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_69",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464063959863,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "37v9yy4g",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_70",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.679887586909082,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zvvdwqcg",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_71",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464063959863,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dbulqzeb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_72",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464063959863,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ngqweesv",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_73",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.679887586909082,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "88jxj4cw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_74",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464063959863,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "rfn2ghsp",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_75",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -19.76934950212163,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0h19n8pn",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_76",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -19.659574703522313,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "n4d180ue",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_79",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761122065346,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "53ewiadz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_80",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.167184645014565,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "lyd7e2i7",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_81",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761122065346,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zn24ksyv",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_82",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.167184645014565,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1pezizht",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_83",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761122065346,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ntpw4mrr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_84",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761122065346,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "r5lvgwvd",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_85",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.167184645014565,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t7zcicyv",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_86",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761122065346,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fkzrqy6y",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_87",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.167184645014565,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "94ujjule",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_88",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761122065346,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vrt9y4n0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_91",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.528650468510829,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0hbyui41",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_92",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.54922694556161,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "y71o16bi",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_93",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 7.261315141094762,
+                      "y": 5.684341886080802e-14,
+                      "z": -40.7743922361838
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yeugosml",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_94",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 7.57066909436049,
+                      "y": 1.1368683772161603e-13,
+                      "z": -29.018072691950238
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ma8nev3f",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_95",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.528650468510829,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ykx5vulb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_96",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 6.8647058474321625,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3os341v0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_97",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 6.885282324482947,
+                      "y": 1.1368683772161603e-13,
+                      "z": 12.581746336590381
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "og8101rj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_98",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.528650468510829,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hw0hhy69",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_99",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.54922694556161,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "s96nqdyb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_100",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 6.513762610692275,
+                      "y": 5.684341886080802e-14,
+                      "z": 61.630237389735655
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kmm9vp56",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_103",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.698788317710026,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0xn14jxn",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_104",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.719364794760807,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "khgel4pr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_105",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 18.96612283192562,
+                      "y": 5.684341886080802e-14,
+                      "z": -40.77439223618381
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "l6vpjhmn",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_106",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.14180921383197,
+                      "y": 1.1368683772161603e-13,
+                      "z": -29.884405168829026
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "45g4pjg1",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_107",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.698788317710026,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wgfch22b",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_108",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 17.692662671070547,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.9437752668100949
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "lu5qxkfg",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_109",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 18.38126692992827,
+                      "y": 1.1368683772161603e-13,
+                      "z": 12.247732427087719
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "liemsffj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_110",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.698788317710026,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "htdm6d3c",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_111",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.719364794760807,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "8ogjs6ck",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_112",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 18.974841117170648,
+                      "z": 61.13768119887015
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "h47gosnk",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_115",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520372298346,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uttzjodx",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_116",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.435780200034245,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "stfn4673",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_117",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520372298346,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mlzmujse",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_118",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.435780200034245,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3ke4ei4p",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_119",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520372298346,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dodi2hlc",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_120",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520372298346,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qbsljixx",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_121",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.435780200034245,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ldcfinkx",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_122",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520372298346,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2j19u5o5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_123",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.435780200034245,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "y8jzjryg",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_124",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520372298346,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vank532t",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_128",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790666487801,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yy9fvhhw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_130",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790666487801,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "otzw2xy0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_131",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.94848314192879,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vavuiqar",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_132",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790666487801,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1wym90lb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_133",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 51.597975490899124,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.9437752668100954
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hucc86rn",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_134",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 51.61855196794987,
+                      "y": 1.1368683772161603e-13,
+                      "z": 14.25181588410188
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "iv412b54",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_135",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790666487801,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ndw830ey",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_136",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.94848314192879,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2mws9na8",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_137",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790666487801,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "k4m6ifbq",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_141",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.64431825545418,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9n66di57",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_142",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.66489473250496,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "nd8gdyaf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_143",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.64431825545418,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ifognkjs",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_144",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.66489473250496,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yv0wogfz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_145",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.64431825545418,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vbwamue5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_146",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.04494469043685,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3segzqjl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_147",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 61.866775294450775,
+                      "y": 1.1368683772161603e-13,
+                      "z": 13.455738702935875
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dcq7eahs",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_148",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.10463331299321,
+                      "y": -7.105427357601002e-14,
+                      "z": 32.520646584614745
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vz1du8be",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_149",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 66.63051432976292,
+                      "y": 1.2789769243681803e-13,
+                      "z": 42.709032601945154
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5sam63zu",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_150",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.64431825545418,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "tomxajy5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_155",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.56432786849129,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "4ntabg51",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_156",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.58490434554207,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ge0uvbwm",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_157",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.56432786849129,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "emnekxxn",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_158",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.58490434554207,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kmfdauxs",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_159",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.56432786849129,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fghlx7w0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_160",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.56432786849129,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "q7lg4awm",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_161",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.58490434554207,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "esk7qvlc",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_162",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 79.28920851062594,
+                      "y": 5.684341886080802e-14,
+                      "z": 33.05853926181484
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hg29o98h",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_163",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 79.56241230503501,
+                      "y": 1.2789769243681803e-13,
+                      "z": 45.367583949852325
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hytrkkmw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_164",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.56432786849129,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "s1eu1riw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_167",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.3801631009939,
+                      "y": 5.684341886080802e-14,
+                      "z": -43.13716053334771
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fuza4e0e",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_168",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.40073957804468,
+                      "y": 1.1368683772161603e-13,
+                      "z": -28.493066066184625
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "tdi55hlu",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_169",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.3801631009939,
+                      "y": 5.684341886080802e-14,
+                      "z": -13.041756862083062
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "lhk92i20",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_170",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.40073957804468,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.94047092763482
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3uz5sv4t",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_175",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.03394576274145,
+                      "y": 8.526512829121202e-14,
+                      "z": -71.51242382940097
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vuazoukj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_178",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.80545053672404,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wtrcyj6s",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_179",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.82602701377482,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "7mfwcaqy",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_180",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.80545053672404,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gxwjp05r",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_181",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.82602701377482,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "95diee1z",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_182",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.80545053672404,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hfse4le3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_183",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.80545053672404,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2f6zjazl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_184",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.82602701377482,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uwun386z",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_185",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.80545053672404,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yebwua4i",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_186",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.82602701377482,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2ar5kfz7",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_187",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.1952045418824,
+                      "y": 8.526512829121202e-14,
+                      "z": 42.8768746110102
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mq8jc596",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_188",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.56200294276131,
+                      "y": 1.1368683772161603e-13,
+                      "z": 56.448823616137176
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uvm33mlj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_189",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.54142646571053,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.34753863536332
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1pl5n02d",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_190",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.56200294276131,
+                      "y": 1.1368683772161603e-13,
+                      "z": 90.1583977551567
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1q4okbon",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_191",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.54142646571053,
+                      "y": 5.684341886080802e-14,
+                      "z": 71.2521340104243
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "cwvipel9",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_192",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.8260269165039,
+                      "y": 1.1368683772161603e-13,
+                      "z": 3.5420120769382066
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zgaqczex",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_193",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.19520568847656,
+                      "y": 8.526512829121202e-14,
+                      "z": 1.069626670444066
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "f8xcucov",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_194",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.56200408935547,
+                      "y": 1.1368683772161603e-13,
+                      "z": 14.64157567557102
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6nfpftpl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_195",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 106.54142761230469,
+                      "y": 5.684341886080802e-14,
+                      "z": 29.444889884555394
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "pqyu43iq",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_196",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688735961914,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "h9oqw7no",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_197",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.31631088256836,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dsi3sqfj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_198",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05329895019531,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "f6d4qg3o",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_199",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.03272247314453,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qxn8bb4a",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_200",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.8260269165039,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t1idm56j",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_201",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.80545043945312,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "qn83c4jp",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_202",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.03394317626953,
+                      "y": 8.526512829121202e-14,
+                      "z": -99.38392092692698
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dp37f1n0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_203",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464248657227,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6n4zo76o",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_204",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.679887771606445,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xgjw2ukr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_205",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 105.40074157714844,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.81197192180002
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "84vmbm4g",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_206",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.58490753173828,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "k2h26x1v",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_207",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.5643310546875,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gv6whdin",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_208",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.664894104003906,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "emewbp5s",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_209",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.644317626953125,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "unyhsfem",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_210",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.41687774658203,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "en3wx4ay",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_211",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.39630126953125,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "j5qyl4h2",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_212",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.948482513427734,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xyx993hb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_213",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790603637695,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uousz4lj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_214",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.4357795715332,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gea7orj3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_215",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520309448242,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "s6thrwk3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_216",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56600189208984,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ag55y1kb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_217",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.719364166259766,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yfl6yw07",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_218",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.698787689208984,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ou488mn3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_219",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.54542541503906,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yuipe86t",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_220",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.549226760864258,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jc403f2p",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_221",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.528650283813477,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xjfvljwl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_222",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.167184829711914,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186785685862
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "202ts269",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_223",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761306762695,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82596041667307
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "b8oj67wl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_224",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.8260269165039,
+                      "y": 1.1368683772161603e-13,
+                      "z": 59.28500466534243
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "xe0mg9ta",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_225",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56600189208984,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0lmqh7id",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_226",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688735961914,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zox8uvvu",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_227",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.5643310546875,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "irlkfwi9",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_228",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05329895019531,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "a0c8bilz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_229",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.41687774658203,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "pn7usvzh",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_230",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.644317626953125,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "twqzalhh",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_231",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464248657227,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "psrf3ucu",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_232",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790603637695,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "cq35jqqo",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_233",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520309448242,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jxffeukt",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_234",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 19.22111919888807,
+                      "y": 5.400124791776761e-13,
+                      "z": 73.26138181667629
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "b04ay8x7",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_235",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 8.237709182732367,
+                      "y": 2.5579538487363607e-13,
+                      "z": 73.01510372124338
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "w0naemic",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_236",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761306762695,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765920761347
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5pb53qfx",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_237",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.8260269165039,
+                      "y": 1.1368683772161603e-13,
+                      "z": 72.64009405258417
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "m0yc09as",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_238",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56600189208984,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "hqp5t678",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_239",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688735961914,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ual10yfb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_240",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.5643310546875,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "3toky9zd",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_241",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05329895019531,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "e8169jbl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_242",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.41687774658203,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "25sdkohe",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_243",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.644317626953125,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gmo1tahd",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_244",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464248657227,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "w4bnuse6",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_245",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790603637695,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t91y100j",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_246",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520309448242,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "0ar2a49w",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_247",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.698787689208984,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "h1ghh09l",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_248",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.528650283813477,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ptb42loo",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_249",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761306762695,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426337811631
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fw3nu3cz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_250",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.8260269165039,
+                      "y": 1.1368683772161603e-13,
+                      "z": 89.67669822308702
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fkahay51",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_251",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -83.56600189208984,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fldl5fyf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_252",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -54.33688735961914,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "9bwg52n4",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_253",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 80.5643310546875,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "72p9nolf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_254",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -68.05329895019531,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "glseixyf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_255",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -37.41687774658203,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5xplg6lo",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_256",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 63.644317626953125,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "i704731r",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_257",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -23.700464248657227,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jj96ro9g",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_258",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 49.92790603637695,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "e5cmkaov",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_259",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 34.41520309448242,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gookhba5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_260",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 20.698787689208984,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "37dh6f8h",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_261",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 5.528650283813477,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1ptuvzju",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_262",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -8.187761306762695,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980787401453
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "nv45s7gf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_263",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.8260269165039,
+                      "y": 1.1368683772161603e-13,
+                      "z": 101.09224271898523
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "e4p3kjcd",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_264",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.77759344328969,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "iich3nyt",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_265",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "o7lox2dm",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_266",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5m867ezr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_267",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "41w23iky",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_268",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.77759344328969,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186950683594
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "z3ppyomk",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_269",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.77759344328969,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kbjw9mr4",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_270",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.77759344328969,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6749rks0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_271",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ejcsyfib",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_272",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82595825195312
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "uul5153m",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_273",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.77759344328969,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "29i5sqqt",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_274",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "r35jfet5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_275",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jxp5pmd3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_276",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765991210938
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5pku9fba",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_277",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426574707031
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "bpuql7q9",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_278",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -95.79816992034047,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980834960938
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ii0lgiaz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_279",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.507812005439,
+                      "y": 1.1368683772161603e-13,
+                      "z": 45.34925842285156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "94t51j2g",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_280",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": -12.411653518676758
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "j1bcg82i",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_281",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": 0.6097613573074341
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "faknlap9",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_282",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": 30.705167770385742
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ikndwq8q",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_283",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.507812005439,
+                      "y": 1.1368683772161603e-13,
+                      "z": -85.18186950683594
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "s7i0c2en",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_284",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.507812005439,
+                      "y": 1.1368683772161603e-13,
+                      "z": 15.253857612609863
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "frflbb51",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_285",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.507812005439,
+                      "y": 1.1368683772161603e-13,
+                      "z": -27.86296272277832
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ncn06ohz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_286",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": -42.507057189941406
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "4of9ms4z",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_287",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": -99.82595825195312
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "rb9hwafj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_288",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.507812005439,
+                      "y": 1.1368683772161603e-13,
+                      "z": -57.310367584228516
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6wraxtec",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_289",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": -71.95446014404297
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "d96b9fyw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_290",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": 60.15256881713867
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "dtqvd2e4",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_291",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": 73.50765991210938
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ujcktmu5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_292",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426574707031
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t743y06x",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_293",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -104.52838848248979,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980834960938
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 6,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "cfyxzi7g",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_294",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -118.16530542723326,
+                      "y": 1.1368683772161603e-13,
+                      "z": -74.29055529172079
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 15,
+                      "y": 1,
+                      "z": 12
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6lw9hix0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_295",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -118.18588190428405,
+                      "y": 5.684341886080802e-14,
+                      "z": -88.93464403683798
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 15,
+                      "y": 1,
+                      "z": 12
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "4c1llflj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_296",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -118.18588190428405,
+                      "y": 5.684341886080802e-14,
+                      "z": -61.06314592892782
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 15,
+                      "y": 1,
+                      "z": 12
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wzscjytx",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_297",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 118.41821727382394,
+                      "y": 1.1368683772161603e-13,
+                      "z": 12.234964441858983
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 15,
+                      "y": 1,
+                      "z": 12
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "cjn8t50h",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_298",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 118.39764079677316,
+                      "y": 5.684341886080802e-14,
+                      "z": -2.4091243032581993
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 15,
+                      "y": 1,
+                      "z": 12
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "jzpxhwai",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_299",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 118.39764079677316,
+                      "y": 5.684341886080802e-14,
+                      "z": 25.46237761934922
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 15,
+                      "y": 1,
+                      "z": 12
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ymbynhob",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_300",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -113.43376981351906,
+                      "y": 5.684341886080802e-14,
+                      "z": 90.54426574707031
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t8wysimn",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_301",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -113.43376981351906,
+                      "y": 5.684341886080802e-14,
+                      "z": 101.95980834960938
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 1
+                    }
+                  ]
+                },
+                {
+                  "_$id": "x2is0xen",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_302",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -87.88169803147878,
+                      "y": 5.684341886080802e-14,
+                      "z": 96.27879624078929
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "u30mq0c0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_303",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -36.75259115069328,
+                      "y": 5.684341886080802e-14,
+                      "z": 96.27879333496094
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "6j68ep6v",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_304",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 9.507078472765066,
+                      "y": 5.684341886080802e-14,
+                      "z": 96.27879333496094
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "s40o3i1f",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_305",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.57831995723308,
+                      "y": 5.684341886080802e-14,
+                      "z": 96.27879333496094
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "pusqcbki",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_306",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 94.72225685927557,
+                      "y": 5.684341886080802e-14,
+                      "z": 96.27879333496094
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wjlbb93b",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_307",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 94.72225952148438,
+                      "y": 5.684341886080802e-14,
+                      "z": 49.16778552327483
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vy8tyjbt",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_308",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.57831954956055,
+                      "y": 5.684341886080802e-14,
+                      "z": 49.16778552327483
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "t6lxxw4t",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_309",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 94.72225952148438,
+                      "y": 5.684341886080802e-14,
+                      "z": 3.5523653824139316
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "w27t0gmt",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_310",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.57831954956055,
+                      "y": 5.684341886080802e-14,
+                      "z": 3.5523653824139316
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mtoa26hi",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_311",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 94.72225952148438,
+                      "y": 5.684341886080802e-14,
+                      "z": -47.969680037720316
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "2p7kcws5",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_312",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.57831954956055,
+                      "y": 5.684341886080802e-14,
+                      "z": -47.969680037720316
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "i2ijedkr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_313",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 94.72225952148438,
+                      "y": 5.684341886080802e-14,
+                      "z": -94.18798616534211
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "sucegjz0",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_314",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.57831954956055,
+                      "y": 5.684341886080802e-14,
+                      "z": -94.18798616534211
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yrvl8mf2",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_315",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -4.533442519129778,
+                      "y": 5.684341886080802e-14,
+                      "z": -94.18798828125
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "75vyktok",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_316",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -42.677382491053606,
+                      "y": 5.684341886080802e-14,
+                      "z": -94.18798828125
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kkmrvmkz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_317",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -4.533442497253418,
+                      "y": 5.684341886080802e-14,
+                      "z": -59.334839962508156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "n2llo2dj",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_318",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -42.67738342285156,
+                      "y": 5.684341886080802e-14,
+                      "z": -59.334839962508156
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "8pd002kf",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_319",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 13.650808258276356,
+                      "y": 5.684341886080802e-14,
+                      "z": 4.310040671392727
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1mwtw004",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_320",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -24.493132667321788,
+                      "y": 5.684341886080802e-14,
+                      "z": 4.310040671392727
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 10,
+                      "y": 1,
+                      "z": 10
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "c07476fa-0d5f-49b6-a2cb-dd3f0e15a138",
+                      "scriptPath": "../src/Game/Scene/Components/Point_NpcBorn.ts",
+                      "type": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_$id": "vayeydh2",
+              "_$type": "Sprite3D",
+              "name": "PlayerBorn",
+              "_$child": [
+                {
+                  "_$id": "5j5i8dm7",
+                  "_$type": "Sprite3D",
+                  "name": "Plane",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -62.30690350045311,
+                      "y": 3.552713678800501e-15,
+                      "z": 66.71082305908203
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "o8zavbxl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_1",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 12.957592928820464,
+                      "y": 3.552713678800501e-15,
+                      "z": 6.446174141919911
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mzyrfqvv",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_2",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.46266246152347,
+                      "y": 3.552713678800501e-15,
+                      "z": 7.675370241239586
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "zlhb4t35",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_3",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.132260989158226,
+                      "y": 3.552713678800501e-15,
+                      "z": -35.27673019610589
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "gt13edf3",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_4",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -30.586530081649798,
+                      "y": 3.197442310920451e-14,
+                      "z": -50.31411710676224
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ggveybrl",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_5",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 56.825950622558594,
+                      "y": -6.501466032204917e-13,
+                      "z": 39.85953876072775
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "e6i4b33f",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_6",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 12.929679870605469,
+                      "y": -6.501466032204917e-13,
+                      "z": 53.71910291660332
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "fq05koyz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_7",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 13.87665067277915,
+                      "y": -2.582822844487964e-12,
+                      "z": -59.77915988047874
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "m1yjpo8r",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_8",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 13.806507753966438,
+                      "y": -2.582822844487964e-12,
+                      "z": -94.17032449688027
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ld8y9eaq",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_9",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 57.08418485468244,
+                      "y": 1.623590151211829e-12,
+                      "z": 91.6538851108022
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ehl3hfzr",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_10",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -16.194235625479333,
+                      "y": -4.511946372076636e-13,
+                      "z": 53.89132461463222
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kp57f9vy",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_11",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -32.6927747422926,
+                      "y": -2.582822844487964e-12,
+                      "z": -94.62883598647433
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "yap2xvsy",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_12",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 13.587873334028846,
+                      "y": -2.582822844487964e-12,
+                      "z": -34.94429520870393
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "8vknssvw",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_13",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 95.59035082997589,
+                      "y": 5.03419528286031e-12,
+                      "z": 37.93515003227188
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "1aoe4xg2",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_14",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 57.562171936035156,
+                      "y": 6.039613253960852e-14,
+                      "z": -59.28574680568215
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter",
+                      "sharedMesh": {
+                        "_$uuid": "4a4afb22-ef83-40a2-a6a8-212a2d20c52f",
+                        "_$type": "Mesh"
+                      }
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    },
+                    {
+                      "_$type": "79983f09-e1ab-47b6-b3ad-c4a6f7fc5e7b",
+                      "scriptPath": "../src/Game/Scene/Components/Point_PlayerBorn.ts"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_$id": "px38l9ja",
+              "_$type": "Sprite3D",
+              "name": "ItemBorn",
+              "_$child": [
+                {
+                  "_$id": "d3bc2u8m",
+                  "_$type": "Sprite3D",
+                  "name": "Plane",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 102.08732504486241,
+                      "y": 4.014566457044566e-13,
+                      "z": 104.17989723191045
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "kkvtmhil",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_1",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -105.88750128287288,
+                      "y": 1.0267342531733448e-12,
+                      "z": 82.58733501418838
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "staw5voz",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_2",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -102.35038080710034,
+                      "y": 1.1404210908949608e-12,
+                      "z": -49.463548124942264
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "7x8qcztg",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_3",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -2.1515390102136465,
+                      "y": -5.8477667153056245e-12,
+                      "z": 23.02916200666421
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "5xozo11d",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_4",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 100.08204004596303,
+                      "y": -5.7340798775840085e-12,
+                      "z": -92.68871804581573
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "vkc9myl9",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_5",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 12.15374951630914,
+                      "y": -5.6203930398623925e-12,
+                      "z": -99.13595830797574
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "ewrm2mqb",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_6",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": -15.65968691809205,
+                      "y": -5.6772364587232005e-12,
+                      "z": -34.57592165745215
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_$id": "wxch8wnm",
+                  "_$type": "Sprite3D",
+                  "name": "Plane_7",
+                  "transform": {
+                    "localPosition": {
+                      "_$type": "Vector3",
+                      "x": 77.13278100102691,
+                      "y": -5.023537141823908e-12,
+                      "z": 24.965883376592114
+                    },
+                    "localScale": {
+                      "_$type": "Vector3",
+                      "x": 5,
+                      "y": 1,
+                      "z": 5
+                    }
+                  },
+                  "_$comp": [
+                    {
+                      "_$type": "MeshFilter"
+                    },
+                    {
+                      "_$type": "MeshRenderer",
+                      "lightmapScaleOffset": {
+                        "_$type": "Vector4"
+                      },
+                      "sharedMaterials": [
+                        {
+                          "_$uuid": "6f90bbb0-bcb2-4311-8a9d-3d8277522098",
+                          "_$type": "Material"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

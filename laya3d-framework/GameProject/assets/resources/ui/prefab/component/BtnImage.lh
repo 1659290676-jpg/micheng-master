@@ -1,0 +1,53 @@
+{
+  "_$ver": 1,
+  "_$id": "1arrrkoz",
+  "_$runtime": "res://6afa6652-3bf2-4cc9-a059-13db22cbecc9",
+  "_$type": "GButton",
+  "name": "ImageBtn",
+  "x": 272,
+  "y": 707,
+  "width": 50,
+  "height": 50,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "relations": [
+    {
+      "_$type": "Relation",
+      "target": {
+        "_$ref": "ed2a4w12"
+      },
+      "data": [
+        1,
+        0,
+        2,
+        0
+      ]
+    }
+  ],
+  "iconWidget": {
+    "_$ref": "ed2a4w12"
+  },
+  "downEffect": 2,
+  "_$child": [
+    {
+      "_$id": "ed2a4w12",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 50,
+      "height": 50,
+      "src": ""
+    }
+  ]
+}

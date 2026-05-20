@@ -1,0 +1,200 @@
+{
+  "_$ver": 1,
+  "_$id": "hnd8p7pj",
+  "_$runtime": "res://85a98272-1ba4-4407-99f1-87fe9e70514f",
+  "_$type": "GWidget",
+  "name": "Vw_Arena_Guilde",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "s17qvca8",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgTitle",
+      "x": 194,
+      "y": 59,
+      "width": 331,
+      "height": 71,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "hnd8p7pj"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://ae16b243-c7f6-4698-8208-7b0b024804e3"
+    },
+    {
+      "_$id": "tuzj3xlb",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img1",
+      "x": 93,
+      "y": 204,
+      "width": 173,
+      "height": 138,
+      "src": "res://17866ebf-db2a-4aa6-80ef-2fc943681911",
+      "_$child": [
+        {
+          "_$id": "1bmskh7s",
+          "_$type": "GTextField",
+          "name": "txt",
+          "x": -27,
+          "y": 134,
+          "width": 221,
+          "height": 50,
+          "text": "闯关!",
+          "fontSize": 32,
+          "color": "#f3f3f3",
+          "align": "center",
+          "strokeColor": "#070b0e"
+        }
+      ]
+    },
+    {
+      "_$id": "hbogzclu",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img2",
+      "x": 290,
+      "y": 359,
+      "width": 92,
+      "height": 81,
+      "src": "res://3e095f73-e2ff-47cc-80f2-a71ac1521167"
+    },
+    {
+      "_$id": "82ekbddf",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img3",
+      "x": 407,
+      "y": 433,
+      "width": 177,
+      "height": 95,
+      "src": "res://9d96da0d-42d7-42fc-8cd0-aab0a87f64f8",
+      "_$child": [
+        {
+          "_$id": "ooi031fj",
+          "_$type": "GTextField",
+          "name": "txt",
+          "x": -11,
+          "y": 115,
+          "width": 221,
+          "height": 50,
+          "text": "收集战令！",
+          "fontSize": 32,
+          "color": "#f3f3f3",
+          "align": "center",
+          "strokeColor": "#070b0e"
+        }
+      ]
+    },
+    {
+      "_$id": "rwdcxtx8",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img4",
+      "x": 384,
+      "y": 601,
+      "width": 92,
+      "height": 81,
+      "scaleX": -1,
+      "skewX": 1,
+      "src": "res://3e095f73-e2ff-47cc-80f2-a71ac1521167"
+    },
+    {
+      "_$id": "hxz4p7ox",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img5",
+      "x": 113,
+      "y": 719,
+      "width": 141,
+      "height": 138,
+      "src": "res://070d0dc9-f432-4ff3-88ad-fc07797ec335",
+      "_$child": [
+        {
+          "_$id": "0oi0ne3w",
+          "_$type": "GTextField",
+          "name": "txt",
+          "x": -175,
+          "y": 156,
+          "width": 468,
+          "height": 88,
+          "text": "赢得锦标赛\n赢取",
+          "fontSize": 32,
+          "color": "#f3f3f3",
+          "align": "center",
+          "strokeColor": "#070b0e"
+        }
+      ]
+    },
+    {
+      "_$id": "wft3ljvy",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 739,
+      "y": 125,
+      "width": 254,
+      "height": 73,
+      "visible": false,
+      "text": "竞技场",
+      "fontSize": 60,
+      "color": "#ffffff",
+      "align": "center",
+      "stroke": 6,
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "o8ooprxb",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 295,
+      "y": 1348,
+      "width": 130,
+      "height": 39,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "hnd8p7pj"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "点击继续",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "bold": true,
+      "align": "center",
+      "strokeColor": "#070b0e"
+    }
+  ]
+}

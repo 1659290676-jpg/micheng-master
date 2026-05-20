@@ -1,0 +1,13 @@
+
+fx_KL_pingmu.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangci01_yu
+  rotate: false
+  xy: 2, 2
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 2
+  index: -1

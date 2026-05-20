@@ -1,0 +1,80 @@
+{
+  "_$ver": 1,
+  "_$id": "qx9gokgh",
+  "_$runtime": "res://3f55d7bc-97a8-4c25-818a-f64732d880f9",
+  "_$type": "GWidget",
+  "name": "Vw_ItemDescTip",
+  "width": 1,
+  "height": 1,
+  "_$child": [
+    {
+      "_$id": "u0o6zohg",
+      "_$var": true,
+      "_$type": "GBox",
+      "name": "box",
+      "width": 1,
+      "height": 1,
+      "_$child": [
+        {
+          "_$id": "jyoh3j3c",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "bg",
+          "x": 1,
+          "y": 1,
+          "width": 75,
+          "height": 39,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "rmfcn5wz"
+              },
+              "data": [
+                1,
+                0,
+                2,
+                0
+              ]
+            }
+          ],
+          "src": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+          "autoSize": false
+        },
+        {
+          "_$id": "itb62nph",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgJt",
+          "x": 36,
+          "y": 49,
+          "width": 8,
+          "height": 8,
+          "anchorX": 0.5,
+          "scaleY": -1,
+          "visible": false,
+          "src": "res://55571f14-8d0b-42ce-9e90-7d5bff339752",
+          "autoSize": false
+        },
+        {
+          "_$id": "rmfcn5wz",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "txtDesc",
+          "x": 13,
+          "y": 6,
+          "width": 51,
+          "height": 30,
+          "text": "text",
+          "_isDemo": true,
+          "fontSize": 24,
+          "color": "#fcf8fe",
+          "fitContent": 1,
+          "maxWidth": 260,
+          "stroke": 3,
+          "strokeColor": "#2c2014"
+        }
+      ]
+    }
+  ]
+}

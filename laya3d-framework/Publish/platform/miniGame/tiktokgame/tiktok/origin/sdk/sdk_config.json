@@ -1,0 +1,8 @@
+{
+  "base_url": "https://sdk.tapplus.com",
+   "app_key": "8d48d600a930f2c3acea7b5bc697a7a9",
+   "package_code": "PXJtd9",
+   "platform": "tiktok",
+   "tt_appid": "mgu2im4la3ylcjxu",
+   "tt_login_scope": ["user.info.basic"]
+  }

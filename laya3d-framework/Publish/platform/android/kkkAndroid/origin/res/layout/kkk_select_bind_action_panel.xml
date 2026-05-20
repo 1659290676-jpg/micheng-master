@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkk_fragment_transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <Button
+        android:id="@+id/kkk_btn_change_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/kkk_btn_bg_orange"
+        android:text="更改绑定手机号"
+        android:textColor="@color/kkk_color_white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/kkk_btn_unbind_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kkk_btn_bg_orange"
+        android:text="解绑手机号"
+        android:textColor="@color/kkk_color_white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

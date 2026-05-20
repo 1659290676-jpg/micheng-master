@@ -1,0 +1,251 @@
+{
+  "_$ver": 1,
+  "_$id": "zf0px3mq",
+  "_$runtime": "res://7f139c06-5f0f-4a25-966d-7712ab65761e",
+  "_$type": "GWidget",
+  "name": "Vw_Arena_Reward",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "m6awwkau",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 194,
+      "y": 163,
+      "width": 331,
+      "height": 71,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "zf0px3mq"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://ae16b243-c7f6-4698-8208-7b0b024804e3"
+    },
+    {
+      "_$id": "21wmkw9b",
+      "_$type": "GImage",
+      "name": "img_5",
+      "x": 160,
+      "y": 505,
+      "width": 399,
+      "height": 370,
+      "src": "res://630b7d21-9a26-4ff9-b669-1176756a8cb1"
+    },
+    {
+      "_$id": "oio2gabl",
+      "_$type": "GImage",
+      "name": "img_3",
+      "x": 72,
+      "y": 492,
+      "width": 228,
+      "height": 30,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xuwgsvsv"
+          },
+          "data": [
+            7,
+            0
+          ]
+        }
+      ],
+      "src": "res://459e29b1-d9c6-4d32-87cf-59e0f23b5a90"
+    },
+    {
+      "_$id": "wi03wgur",
+      "_$type": "GImage",
+      "name": "img_4",
+      "x": 648,
+      "y": 492,
+      "width": 228,
+      "height": 30,
+      "scaleX": -1,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "zf0px3mq"
+          },
+          "data": []
+        }
+      ],
+      "src": "res://459e29b1-d9c6-4d32-87cf-59e0f23b5a90"
+    },
+    {
+      "_$id": "h0cecqwn",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgItem",
+      "x": 255,
+      "y": 606,
+      "width": 210,
+      "height": 210,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "zf0px3mq"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://d009c258-7086-4ed6-b12d-2a37f96ed27d"
+    },
+    {
+      "_$id": "q6chqg0a",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 779,
+      "y": 122,
+      "width": 254,
+      "height": 73,
+      "visible": false,
+      "text": "竞技场",
+      "fontSize": 60,
+      "color": "#ffffff",
+      "align": "center",
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "7crcil9v",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 263,
+      "y": 314,
+      "width": 193,
+      "height": 55,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "zf0px3mq"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "恭喜获奖",
+      "fontSize": 48,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "xuwgsvsv",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes1",
+      "x": 318,
+      "y": 486,
+      "width": 83,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xuwgsvsv"
+          },
+          "data": [
+            5,
+            0
+          ]
+        }
+      ],
+      "text": "奖励",
+      "fontSize": 40,
+      "color": "#ffffff",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "9zn3arq4",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbCnt",
+      "x": 333,
+      "y": 746,
+      "width": 53,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "zf0px3mq"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "x1",
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "phjaq4j3",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes2",
+      "x": 295,
+      "y": 964,
+      "width": 130,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "zf0px3mq"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "点击领取",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#070b0e"
+    }
+  ]
+}

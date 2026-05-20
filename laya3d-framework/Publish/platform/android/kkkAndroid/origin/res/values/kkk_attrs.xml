@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="kkk_round_imageview">
+        <attr name="type" format="enum">
+            <enum name="kkk_circle" value="1"/>
+            <enum name="kkk_round" value="2"/>
+        </attr>
+        <attr name="kkk_radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+</resources>

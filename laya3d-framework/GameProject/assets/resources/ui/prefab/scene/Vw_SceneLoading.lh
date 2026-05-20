@@ -1,0 +1,50 @@
+{
+  "_$ver": 1,
+  "_$id": "mtwvusne",
+  "_$runtime": "res://f013eb64-84b8-4cfb-bf99-5c2d0a47ddf8",
+  "_$type": "GWidget",
+  "name": "Vw_SceneLoading",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "y6dfm36m",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "x": 360,
+      "y": 720,
+      "width": 720,
+      "height": 1440,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "src": "res://59d574f0-84e2-4fae-ae6e-9687acad3313"
+    },
+    {
+      "_$id": "2cdnvfy2",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "black",
+      "width": 720,
+      "height": 1440,
+      "alpha": 0.936,
+      "src": "res://92927145-5074-484f-8cc5-a75f8edf4de7",
+      "autoSize": false
+    }
+  ]
+}

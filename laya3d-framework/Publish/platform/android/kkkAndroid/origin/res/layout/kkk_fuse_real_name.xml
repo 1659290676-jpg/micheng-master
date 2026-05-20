@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/kkk_fuse_login_account_act_bg_gray">
+
+    <RelativeLayout
+        android:id="@+id/kkk_fuse_account_center_rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/kkk_fuse_login_account_title_bg_black">
+
+        <TextView
+            android:id="@+id/kkk_fuse_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="实名登记"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/kkk_fuse_iv_return"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:padding="2dp" />
+
+        <ImageView
+            android:id="@+id/kkk_fuse_iv_header_close"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:padding="2dp"
+            android:src="@drawable/kkk_fuse_header_close"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/kkk_fuse_fragment_container"
+            android:layout_below="@id/kkk_fuse_account_center_rl_title"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/kkk_fuse_tv_tips_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="为符合国家新闻出版署相关法律法规及监管要求，并保证您的个人权益，请填写有效身份证明信息"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <cn.kkk.gamesdk.fuse.util.RightEventEditText
+                android:id="@+id/kkk_fuse_reet_id_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp" />
+
+            <cn.kkk.gamesdk.fuse.util.RightEventEditText
+                android:id="@+id/kkk_fuse_reet_id_number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:id="@+id/tv_oversea_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/kkk_fuse_color_orange"
+                android:gravity="center"
+                android:layout_marginTop="14dp"
+                android:textSize="14sp"
+                android:text="港澳台/海外/实名异常用户"/>
+
+            <Button
+                android:id="@+id/kkk_fuse_btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/kkk_fuse_btn_bg_orange"
+                android:text="确认"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/kkk_fuse_tv_tips_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="注：有效身份信息限填写一次，提交后不可更改，请确保信息真实有效。"
+                android:textColor="@color/kkk_fuse_color_orange"
+                android:textSize="9sp" />
+    </LinearLayout>
+
+</RelativeLayout>

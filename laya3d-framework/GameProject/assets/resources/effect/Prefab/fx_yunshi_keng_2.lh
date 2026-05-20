@@ -1,0 +1,39 @@
+{
+  "_$ver": 1,
+  "_$id": "9hl4z0c4",
+  "_$type": "Sprite3D",
+  "name": "fx_yunshi_keng_2",
+  "_$child": [
+    {
+      "_$id": "tgyy2d1g",
+      "_$prefab": "9a2acf89-b929-4292-8481-e17060ccd117",
+      "name": "yunshikeng",
+      "active": true,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3"
+        },
+        "localRotation": {
+          "_$type": "Quaternion"
+        }
+      },
+      "_$child": [
+        {
+          "_$override": "#42",
+          "_$comp": [
+            {
+              "_$override": "MeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

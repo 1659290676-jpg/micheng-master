@@ -1,0 +1,2 @@
+resources/effect
+resources/scene

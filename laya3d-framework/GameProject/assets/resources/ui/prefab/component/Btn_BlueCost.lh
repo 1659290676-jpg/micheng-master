@@ -1,0 +1,119 @@
+{
+  "_$ver": 1,
+  "_$id": "dcwpaxqz",
+  "_$runtime": "res://6afa6652-3bf2-4cc9-a059-13db22cbecc9",
+  "_$type": "GButton",
+  "name": "btn",
+  "width": 290,
+  "height": 120,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "titleWidget": {
+    "_$ref": "w449x07r"
+  },
+  "_$child": [
+    {
+      "_$id": "mlqbsf67",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 290,
+      "height": 120,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "dcwpaxqz"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://62e0eef0-96c4-4016-9768-c1dd814c9321",
+      "autoSize": false
+    },
+    {
+      "_$id": "0reqn56g",
+      "_$type": "GWidget",
+      "name": "node",
+      "x": 70,
+      "y": 13,
+      "width": 150,
+      "height": 100,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "w449x07r"
+          },
+          "data": [
+            1,
+            0
+          ]
+        },
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "dcwpaxqz"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "w449x07r",
+          "_$type": "GTextField",
+          "name": "txt",
+          "y": 26,
+          "width": 71,
+          "height": 49,
+          "text": "900",
+          "_isDemo": true,
+          "fontSize": 40,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "yfov6awo",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": 73,
+          "y": 21,
+          "width": 54,
+          "height": 40,
+          "scaleX": 1.4,
+          "scaleY": 1.4,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "w449x07r"
+              },
+              "data": [
+                5,
+                0
+              ]
+            }
+          ],
+          "src": "res://33678001-a91f-42ed-874b-3332ddf46ba5"
+        }
+      ]
+    }
+  ]
+}

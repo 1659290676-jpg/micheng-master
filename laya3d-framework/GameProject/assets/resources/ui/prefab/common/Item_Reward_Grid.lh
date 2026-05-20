@@ -1,0 +1,38 @@
+{
+  "_$ver": 1,
+  "_$id": "e1senqyx",
+  "_$runtime": "res://16346afc-45f2-4903-943b-be48aa734cc0",
+  "_$type": "GWidget",
+  "name": "Item_Reward_Grid",
+  "width": 170,
+  "height": 178,
+  "_$child": [
+    {
+      "_$id": "547vm7dd",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "x": 20,
+      "width": 130,
+      "height": 130,
+      "src": "res://6a51479b-ce5f-4da0-a506-16ec828a36cd",
+      "autoSize": false
+    },
+    {
+      "_$id": "dzrdvxl6",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbCnt",
+      "x": -64,
+      "y": 125,
+      "width": 298,
+      "height": 73,
+      "text": "11111",
+      "fontSize": 50,
+      "color": "#ffffff",
+      "align": "center",
+      "stroke": 6,
+      "strokeColor": "#070b0e"
+    }
+  ]
+}

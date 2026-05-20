@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="@dimen/kkk_login_land_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/kkk_login_bg_margin"
+        android:layout_marginRight="@dimen/kkk_login_bg_margin"
+        android:background="@drawable/kkk_login_account_act_bg_gray"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/kkk_layout_titlebar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kkk_login_account_rl_title"
+            android:paddingLeft="14dp"
+            android:paddingTop="20dp"
+            android:paddingRight="14dp"
+            android:paddingBottom="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/kkk_rl_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="请填写手机动态验证码"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                    <cn.kkk.gamesdk.k3.ui.VerificationCodeView
+                        android:id="@+id/kkk_my_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="14dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/kkk_tv_show_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="验证码已发送至"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp" />
+
+                        <Button
+                            android:id="@+id/kkk_tv_report"
+                            android:layout_width="47dp"
+                            android:layout_height="27dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="7dp"
+                            android:background="@drawable/kkk_btn_bg_hollow_yellow"
+                            android:gravity="center"
+                            android:paddingLeft="7dp"
+                            android:paddingTop="0dp"
+                            android:paddingRight="7dp"
+                            android:paddingBottom="0dp"
+                            android:text="重发"
+                            android:textColor="@color/kkk_color_orange"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/kkk_tv_gm"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
+                        android:text="联系客服"
+                        android:textColor="@color/kkk_color_orange"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:id="@+id/kkk_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/kkk_color_gray_70" />
+
+                    <LinearLayout
+                        android:id="@+id/kkk_ll_rl_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/kkk_tv_hint2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="实名登记"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp" />
+
+
+                        <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                            android:id="@+id/kkk_reet_id_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp" />
+
+                        <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                            android:id="@+id/kkk_reet_id_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp" />
+
+                        <Button
+                            android:id="@+id/kkk_btn_confirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/kkk_btn_bg_orange"
+                            android:text="确认"
+                            android:textColor="@color/kkk_color_white"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+{
+  "uuid": "8b3c9766-4ff5-4823-80be-acf912ec57fb",
+  "importer": {
+    "sRGB": false,
+    "filterMode": 0,
+    "generateMipmap": false,
+    "textureType": 2,
+    "cubemapSize": 128,
+    "cubemapFileMode": "R32G32B32A32"
+  }
+}

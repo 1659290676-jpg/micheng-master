@@ -1,0 +1,692 @@
+{
+  "_$ver": 1,
+  "_$id": "74naoeg9",
+  "_$type": "Sprite3D",
+  "name": "hengbing_shui",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.001",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -15.47747802734375,
+          "y": -1.5930800437927246,
+          "z": 18.798797607421875
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 5,
+          "y": 5,
+          "z": 5
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm13",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#43",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.003",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 61.99955749511719,
+          "y": -3.160456657409668,
+          "z": 76.19891357421875
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#44",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.004",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -73.55963897705078,
+          "y": -3.160456657409668,
+          "z": -2.951231002807617
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7022763482034476,
+          "y": -0.08250917484143225,
+          "z": -0.08250916739085165,
+          "w": 0.7022765866220264
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028351306915283,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm1",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.005",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 128.4031524658203,
+          "y": -3.160456657409668,
+          "z": 25.032176971435547
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm2",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#46",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.006",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 78.78695678710938,
+          "y": -3.160456657409668,
+          "z": -38.5173225402832
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm3",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#47",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.007",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 18.975658416748047,
+          "y": -3.160456657409668,
+          "z": -55.50917053222656
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm4",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#48",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.008",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -69.72178649902344,
+          "y": -3.160456657409668,
+          "z": -54.829498291015625
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm5",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#49",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.009",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -181.86798095703125,
+          "y": -3.160456657409668,
+          "z": -15.748252868652344
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm6",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#50",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.010",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -145.2910919189453,
+          "y": -3.160456657409668,
+          "z": -51.239559173583984
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7022763482034476,
+          "y": -0.08250917484143225,
+          "z": -0.08250916739085165,
+          "w": 0.7022765866220264
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028351306915283,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm7",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#51",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.011",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -100.98681640625,
+          "y": -3.160456657409668,
+          "z": -15.06856918334961
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm8",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#52",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.012",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -33.458866119384766,
+          "y": -3.160456657409668,
+          "z": -90.96903228759766
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7022763482034476,
+          "y": -0.08250917484143225,
+          "z": -0.08250916739085165,
+          "w": 0.7022765866220264
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028351306915283,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm10",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#53",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.013",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -145.2910919189453,
+          "y": -3.160456657409668,
+          "z": 27.058866500854492
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7022763482034476,
+          "y": -0.08250917484143225,
+          "z": -0.08250916739085165,
+          "w": 0.7022765866220264
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028351306915283,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm11",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#54",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.014",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -50.01124572753906,
+          "y": -3.160456657409668,
+          "z": 35.2272834777832
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.44746776536291016,
+          "y": 0.5475149643158278,
+          "z": 0.5475147258972535,
+          "w": -0.44746797397916277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm12",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#55",
+      "_$type": "Sprite3D",
+      "name": "hengbing_1.015",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -9.462544441223145,
+          "y": -3.160456657409668,
+          "z": 77.46372985839844
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "58116925-0d52-4b11-90ff-2720adac2c9a@lm9",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

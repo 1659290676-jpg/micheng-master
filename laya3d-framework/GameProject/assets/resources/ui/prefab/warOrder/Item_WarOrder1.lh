@@ -1,0 +1,360 @@
+{
+  "_$ver": 1,
+  "_$id": "uz5gqjq9",
+  "_$runtime": "res://056363c0-d3d0-43e2-b0e7-386eb5440f39",
+  "_$type": "GWidget",
+  "name": "Item_WarOrder1",
+  "y": 1183,
+  "width": 720,
+  "height": 250,
+  "_$child": [
+    {
+      "_$id": "f1kdgw2a",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgCur",
+      "width": 720,
+      "height": 250,
+      "src": "res://92c41345-7aa9-478f-bc98-c0e11d61208d",
+      "autoSize": false
+    },
+    {
+      "_$id": "0a82agjn",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgPro1",
+      "x": 357,
+      "y": -75,
+      "width": 6,
+      "height": 141,
+      "src": "res://1062d01b-e6ae-48bf-b1ac-ea4856478699",
+      "autoSize": false
+    },
+    {
+      "_$id": "jzpvir0v",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgPro2",
+      "x": 303,
+      "y": 63,
+      "width": 114,
+      "height": 114,
+      "src": "res://e5c5b36b-8baa-46b3-b28a-df02f99f6bbc"
+    },
+    {
+      "_$id": "cb51erac",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img1",
+      "x": 324,
+      "y": 84,
+      "width": 72,
+      "height": 76,
+      "src": "res://39a1a493-7b38-4736-81c7-869c05d46f54"
+    },
+    {
+      "_$id": "e7i4zqdf",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgStar",
+      "x": 338,
+      "y": 98,
+      "width": 43,
+      "height": 43,
+      "src": "res://29204437-5ea9-4683-866e-911488109e72",
+      "autoSize": false
+    },
+    {
+      "_$id": "on0k6s85",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "item1",
+      "x": 175,
+      "y": 120,
+      "width": 170,
+      "height": 170,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "5uligdcc",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 170,
+          "height": 170,
+          "src": "res://f185e9b1-7d18-40b2-8c52-f5dcb09d75da"
+        },
+        {
+          "_$id": "gpw760dv",
+          "_$prefab": "d9579deb-319c-4f08-80d6-41d92a8754f4",
+          "_$var": true,
+          "name": "icon1",
+          "active": true,
+          "x": 12,
+          "y": 12,
+          "visible": true,
+          "_$child": [
+            {
+              "_$override": "cp7bly7j",
+              "stroke": 6
+            }
+          ]
+        },
+        {
+          "_$id": "05k3kakz",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGet1",
+          "x": 134,
+          "y": 145,
+          "width": 40,
+          "height": 32,
+          "src": "res://a7000c55-09be-4f7b-9d3b-4e37f709190d"
+        },
+        {
+          "_$id": "bobtxvjz",
+          "_$var": true,
+          "_$type": "GButton",
+          "name": "btnFetch1",
+          "x": 27,
+          "y": 148,
+          "width": 116,
+          "height": 52,
+          "controllers": {
+            "_$type": "Record",
+            "button": {
+              "_$type": "Controller",
+              "pages": [
+                "up",
+                "down",
+                "over",
+                "selectedOver"
+              ]
+            }
+          },
+          "titleColor": "#fcf8fe",
+          "titleFontSize": 28,
+          "titleWidget": {
+            "_$ref": "dkukkpl9"
+          },
+          "iconWidget": {
+            "_$ref": "xd51l48s"
+          },
+          "_$child": [
+            {
+              "_$id": "xd51l48s",
+              "_$type": "GImage",
+              "name": "imgFetch1",
+              "width": 116,
+              "height": 52,
+              "src": "res://f70f15ab-3186-41f8-b02a-c096129cc691",
+              "autoSize": false
+            },
+            {
+              "_$id": "dkukkpl9",
+              "_$type": "GTextField",
+              "name": "txtBtnFetch1",
+              "x": 29,
+              "y": 9,
+              "width": 59,
+              "height": 34,
+              "relations": [
+                {
+                  "_$type": "Relation",
+                  "target": {
+                    "_$ref": "bobtxvjz"
+                  },
+                  "data": [
+                    6,
+                    0
+                  ]
+                }
+              ],
+              "text": "领取",
+              "_isDemo": true,
+              "fontSize": 28,
+              "color": "#fcf8fe",
+              "fitContent": 1,
+              "valign": "middle",
+              "strokeColor": "#2c2014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "7vtx4v7s",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "item2",
+      "x": 546,
+      "y": 120,
+      "width": 170,
+      "height": 170,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "temrsudf",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 170,
+          "height": 170,
+          "src": "res://a0065657-2844-4a02-b97a-04c646f7207f"
+        },
+        {
+          "_$id": "9hvisay2",
+          "_$prefab": "d9579deb-319c-4f08-80d6-41d92a8754f4",
+          "_$var": true,
+          "name": "icon2",
+          "active": true,
+          "x": 12,
+          "y": 12,
+          "visible": true,
+          "_$child": [
+            {
+              "_$override": "cp7bly7j",
+              "stroke": 6
+            }
+          ]
+        },
+        {
+          "_$id": "15ephk50",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGet2",
+          "x": 134,
+          "y": 145,
+          "width": 40,
+          "height": 32,
+          "src": "res://a7000c55-09be-4f7b-9d3b-4e37f709190d",
+          "autoSize": false
+        },
+        {
+          "_$id": "xkpuqfts",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgLock",
+          "x": 126,
+          "y": 13,
+          "width": 32,
+          "height": 42,
+          "src": "res://c67fef9f-edd1-44ad-9522-ffa1ef8b5bbb",
+          "autoSize": false
+        },
+        {
+          "_$id": "r4sj4fs4",
+          "_$var": true,
+          "_$type": "GButton",
+          "name": "btnFetch2",
+          "x": 27,
+          "y": 151,
+          "width": 116,
+          "height": 52,
+          "controllers": {
+            "_$type": "Record",
+            "button": {
+              "_$type": "Controller",
+              "pages": [
+                "up",
+                "down",
+                "over",
+                "selectedOver"
+              ]
+            }
+          },
+          "titleColor": "#fcf8fe",
+          "titleFontSize": 28,
+          "titleWidget": {
+            "_$ref": "cxyryc6t"
+          },
+          "iconWidget": {
+            "_$ref": "tx6ngxll"
+          },
+          "_$child": [
+            {
+              "_$id": "tx6ngxll",
+              "_$type": "GImage",
+              "name": "imgFetch2",
+              "width": 116,
+              "height": 52,
+              "src": "res://f70f15ab-3186-41f8-b02a-c096129cc691",
+              "autoSize": false
+            },
+            {
+              "_$id": "cxyryc6t",
+              "_$type": "GTextField",
+              "name": "txtBtnFetch2",
+              "x": 29,
+              "y": 9,
+              "width": 59,
+              "height": 34,
+              "relations": [
+                {
+                  "_$type": "Relation",
+                  "target": {
+                    "_$ref": "r4sj4fs4"
+                  },
+                  "data": [
+                    6,
+                    0
+                  ]
+                }
+              ],
+              "text": "领取",
+              "_isDemo": true,
+              "fontSize": 28,
+              "color": "#fcf8fe",
+              "fitContent": 1,
+              "valign": "middle",
+              "strokeColor": "#2c2014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "uru2hmhw",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtLv",
+      "x": 317,
+      "y": 96,
+      "width": 85,
+      "height": 48,
+      "text": "4",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "bold": true,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

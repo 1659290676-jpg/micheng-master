@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="@dimen/kkk_login_land_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/kkk_login_bg_margin"
+        android:layout_marginRight="@dimen/kkk_login_bg_margin"
+        android:background="@drawable/kkk_login_account_act_bg_gray"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/kkk_layout_titlebar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kkk_login_account_rl_title"
+            android:paddingLeft="14dp"
+            android:paddingTop="20dp"
+            android:paddingRight="14dp"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:id="@+id/kkk_rl_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+
+                <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                    android:id="@+id/kkk_et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/kkk_ll_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="0dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/kkk_btn_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/kkk_et_password"
+                        android:layout_alignLeft="@id/kkk_et_password"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/kkk_btn_bg_orange_selected"
+                        android:text="下一步"
+                        android:textColor="@color/kkk_color_white"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/kkk_rl_go_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/kkk_ll_login"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/kkk_tv_go_back"
+                        android:layout_width="90dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:autoLink="all"
+                        android:gravity="center"
+                        android:text="其他登录方式"
+                        android:textColor="@color/kkk_color_orange"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/kkk_iv_age_level"
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/kkk_age_level_8" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

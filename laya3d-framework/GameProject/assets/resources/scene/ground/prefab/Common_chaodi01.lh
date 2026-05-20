@@ -1,0 +1,36 @@
+{
+  "_$ver": 1,
+  "_$id": "yil75iak",
+  "_$type": "Sprite3D",
+  "name": "Common_chaodi01",
+  "_$child": [
+    {
+      "_$id": "#41",
+      "_$type": "Sprite3D",
+      "name": "Common_chaodi01",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "30b9d05b-092b-4b13-92fc-6674bfed9143@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

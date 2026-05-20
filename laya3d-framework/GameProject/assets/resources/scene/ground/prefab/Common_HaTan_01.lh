@@ -1,0 +1,51 @@
+{
+  "_$ver": 1,
+  "_$id": "1e6kgp2d",
+  "_$type": "Sprite3D",
+  "name": "Common_HaTan_01",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "平面.026",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068407911881,
+          "y": -6.181724749079482e-8,
+          "z": -6.181725459622231e-8,
+          "w": 0.7071067215818966
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 5,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "de2d96e3-501b-41d8-81ab-f6c3ccca021d@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

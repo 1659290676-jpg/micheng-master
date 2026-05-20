@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/kkk_et_code"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:imeOptions="flagNoExtractUi|flagNoFullscreen"
+        android:maxLength="6"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:textCursorDrawable="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kkk_tv_code_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_tv_code_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_tv_code_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_tv_code_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_tv_code_5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/kkk_tv_code_6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/kkk_line_1"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/kkk_line_2"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/kkk_line_3"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/kkk_line_4"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/kkk_line_5"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/kkk_line_6"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/kkk_verification_code_margin"
+            android:layout_marginRight="@dimen/kkk_verification_code_margin"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

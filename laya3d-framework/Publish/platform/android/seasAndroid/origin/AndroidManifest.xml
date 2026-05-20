@@ -1,0 +1,156 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.joylith.ic.gg">
+    <!--normal-->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <queries>
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.ss.android.ugc.trill" />
+    </queries>
+	
+    <!-- Android 13+ 需额外声明前台服务类型 -->
+	<!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" /> -->
+
+    <!--dangerous-->
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" tools:ignore="ProtectedPermissions"/>
+    <!--<uses-permission android:name="android.permission.RECORD_AUDIO"/>-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE"/>-->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+    </queries>
+    <application android:name="com.joylith.ic.gg.GameApplication" android:networkSecurityConfig="@xml/network_security_config" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:theme="@style/Theme.AppCompat.NoActionBar" android:allowBackup="false" android:requestLegacyExternalStorage="true" tools:replace="android:allowBackup" android:usesCleartextTraffic="true">
+        <!--xiaomi-->
+        <meta-data android:name="notch.config" android:value="portrait"/>
+        <!--huawei-->
+        <meta-data android:name="android.notch_support" android:value="true"/>
+        <provider android:name="com.xingyun.game.LayaFileProvider" android:authorities="${applicationId}.laya.fileprovider" android:grantUriPermissions="true" android:exported="false">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/laya_file_paths"/>
+        </provider>
+
+        <activity
+            android:name="com.android.splus.sdk.apiinterface.splash.LinkSplashImageActivity"
+            android:theme="@style/LinkkkkAppTheme_splash"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.joylith.ic.gg.GameActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/LinkkkkAppTheme_splash"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tapplus.action" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+		<!-- <service
+            android:name="com.xingyun.game.NetworkKeepAliveService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" /> -->
+
+        <!-- 专门用于处理 Twitter 回调的 Activity -->
+        <activity android:name="com.android.splus.sdk._linksdk.TwitterCallbackActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/LinkkkkAppTheme_splash"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="linktapplus" android:host="callback" />
+            </intent-filter>
+        </activity>
+        <!-- 专门用于处理 VK 回调的 Activity -->
+        <activity android:name="com.android.splus.sdk._linksdk.VkSdkCallbackActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/LinkkkkAppTheme_splash"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/vk_login_scheme"
+                    android:host="vk.com"
+                    android:path="/blank.html"
+                    />
+            </intent-filter>
+        </activity>
+        <!-- Google Play Games -->
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/game_services_project_id"/>
+        <!-- Facebook -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/facebook_app_id" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1249260468957551~5880136152"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+            android:value="true"/>
+        <meta-data
+            android:name="console_app_id_value"
+            android:value="@string/console_app_id" />
+        <!-- RuStore 回调 Activity -->
+        <activity
+            android:name="com.android.splus.sdk._linksdk.RustorePayActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="com.joycrit.wac.and.ru.ru.scheme" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="sdk_pay_scheme_value"
+            android:value="com.joycrit.wac.and.ru.ru.scheme" />
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+   </application>
+</manifest>

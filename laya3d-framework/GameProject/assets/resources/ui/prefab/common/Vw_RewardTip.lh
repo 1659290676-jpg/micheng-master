@@ -1,0 +1,107 @@
+{
+  "_$ver": 1,
+  "_$id": "yf2rk3e4",
+  "_$runtime": "res://36b3c509-b26c-4482-94fe-f062f4a32b98",
+  "_$type": "GWidget",
+  "name": "Vw_RewardTip",
+  "width": 720,
+  "height": 1440,
+  "_$child": [
+    {
+      "_$id": "iejzf1py",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "content",
+      "x": 366,
+      "y": 713,
+      "width": 194,
+      "height": 88,
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "_$child": [
+        {
+          "_$id": "7uvtwd3c",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "bg",
+          "width": 194,
+          "height": 88,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "iejzf1py"
+              },
+              "data": [
+                1,
+                0,
+                2,
+                0
+              ]
+            }
+          ],
+          "src": "res://3ae86c1a-14b3-4a62-a5ec-ff5ef6818b4e",
+          "autoSize": false
+        },
+        {
+          "_$id": "4psimpba",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "img_1",
+          "x": 93,
+          "y": 102,
+          "width": 8,
+          "height": 8,
+          "scaleY": -1,
+          "visible": false,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "iejzf1py"
+              },
+              "data": [
+                6,
+                0,
+                16,
+                0
+              ]
+            }
+          ],
+          "src": "res://55571f14-8d0b-42ce-9e90-7d5bff339752",
+          "autoSize": false
+        },
+        {
+          "_$id": "labt2eza",
+          "_$var": true,
+          "_$type": "GList",
+          "name": "list",
+          "x": 4,
+          "y": 14,
+          "width": 190,
+          "height": 135,
+          "layout": {
+            "type": 3,
+            "rowGap": 9,
+            "columnGap": -17
+          },
+          "_templateNode": {
+            "_$ref": "6s4kubyp",
+            "_$tmpl": "itemTemplate"
+          },
+          "_initItemNum": 4,
+          "_isDemo": true
+        }
+      ]
+    },
+    {
+      "_$id": "6s4kubyp",
+      "_$prefab": "a8a67ed6-ecde-4986-b304-c2dd9f2cafe1",
+      "name": "Item_Grid1",
+      "active": true,
+      "x": 0,
+      "y": 0,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "_$ver": 1,
+  "_$id": "p1a5mzrp",
+  "_$runtime": "res://f9e012fc-fe5a-4021-9102-df26fe47f18f",
+  "_$type": "GWidget",
+  "name": "Vw_BuyStamina",
+  "width": 594,
+  "height": 556,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "qi0mxevi",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 594,
+      "height": 556,
+      "src": "res://e39e3b87-020b-48b8-a902-86325c53c8d4",
+      "autoSize": false
+    },
+    {
+      "_$id": "u4pjfg45",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 46,
+      "y": 112,
+      "width": 499,
+      "height": 240,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false
+    },
+    {
+      "_$id": "thzhjc6n",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 87,
+      "y": 161,
+      "width": 120,
+      "height": 148,
+      "src": "res://6a546ced-9cc2-4e73-9ae3-039c3b20e98b"
+    },
+    {
+      "_$id": "6q1m528p",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 539,
+      "y": 35,
+      "visible": true,
+      "width": 34,
+      "height": 34,
+      "icon": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf"
+    },
+    {
+      "_$id": "l5tseggk",
+      "_$prefab": "835fcc3c-f332-4a7f-aeaa-fa467e709009",
+      "_$var": true,
+      "name": "btnAd",
+      "active": true,
+      "x": 69,
+      "y": 391,
+      "visible": true
+    },
+    {
+      "_$id": "ls2tnrhr",
+      "_$prefab": "296df50c-4e02-465b-ad08-2ae18eff8321",
+      "_$var": true,
+      "name": "btnBuy",
+      "active": true,
+      "x": 306,
+      "y": 391,
+      "visible": true
+    },
+    {
+      "_$id": "vdzw18vk",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 284,
+      "y": 14,
+      "width": 26,
+      "height": 49,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "p1a5mzrp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "1",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "iq1opzvn",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbNum",
+      "x": 161,
+      "y": 250,
+      "width": 37,
+      "height": 71,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "p1a5mzrp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "1",
+      "_isDemo": true,
+      "fontSize": 60,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "e6ntrg1z",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTimeTitle",
+      "x": 251,
+      "y": 185,
+      "width": 264,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "p1a5mzrp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "下一次补充体力时间:",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "fk58s3ku",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTime",
+      "x": 320,
+      "y": 231,
+      "width": 124,
+      "height": 58,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "p1a5mzrp"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "00:00",
+      "_isDemo": true,
+      "fontSize": 48,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

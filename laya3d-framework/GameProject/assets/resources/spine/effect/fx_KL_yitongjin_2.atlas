@@ -1,0 +1,27 @@
+
+fx_KL_yitongjin_2.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_xinxin_1
+  rotate: false
+  xy: 2, 2
+  size: 114, 114
+  orig: 128, 128
+  offset: 6, 6
+  index: -1
+effect_liubianxing
+  rotate: false
+  xy: 118, 59
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+yuanlizi_a
+  rotate: false
+  xy: 118, 87
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <partner>248</partner>
+    <cate_id>17</cate_id>
+    <game_id>26</game_id>
+    <package_id>152</package_id>
+    <channel_id>6</channel_id>
+    <base_url>https://sdk.tapplus.com</base_url>
+    <splash_action>com.tapplus.action</splash_action>
+    <gg_token>787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com</gg_token>
+    <ad_token>9sfp44mbton3</ad_token>
+    <ad_first_event_token>507lt6</ad_first_event_token>
+    <ad_signv2>1</ad_signv2>
+    <is_sdk_appkey>1e73e0ae5</is_sdk_appkey>
+    <is_segment>android_ads</is_segment>
+    <tt_business_id>7435626245536202771</tt_business_id>
+    <no_splash>1</no_splash>
+    <line_channel_id>2007747529</line_channel_id>
+    <twitter_client_id>WWlTREpRRUJzXzZqMlNlMjB5M206MTpjaQ</twitter_client_id>
+    <twitter_client_secret>EXekHCKxkj09C8HGu3Y13S4lZbHXEXhHohZU05Wive83kZUKsq</twitter_client_secret>
+    <twitter_callback_url>linktapplus://callback</twitter_callback_url>
+    <vk_appid>54157221</vk_appid>
+</config>

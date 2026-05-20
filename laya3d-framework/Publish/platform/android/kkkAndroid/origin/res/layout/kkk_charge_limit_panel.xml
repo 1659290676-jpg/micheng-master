@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkk_fragment_transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/kkk_fragment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="设置游戏每日消费限额(元)" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:id="@+id/kkk_rl_limit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/kkk_charge_limit_sp_selector">
+
+            <TextView
+                android:id="@+id/kkk_tv_limit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="不限额"
+                android:textColor="@android:color/white"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/kkk_et_limit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:numeric="integer"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/kkk_color_font_gray"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/kkk_iv_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/kkk_btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/kkk_rl_limit"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/kkk_btn_bg_orange"
+            android:text="确认"
+            android:textColor="@color/kkk_color_white"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/kkk_lv_limit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/kkk_rl_limit"
+            android:background="@drawable/kkk_dialog_white_bg"
+            android:divider="#B3B6B6B6"
+            android:dividerHeight="1dp"
+            android:scrollbars="none"
+            android:listSelector="@drawable/kkk_switch_item_bg_selected"></ListView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

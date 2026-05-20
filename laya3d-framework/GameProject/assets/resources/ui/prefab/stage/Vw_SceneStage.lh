@@ -1,0 +1,590 @@
+{
+  "_$ver": 1,
+  "_$id": "xy5g7v8b",
+  "_$runtime": "res://abe3be43-168d-4d13-89ff-0fa46b4bfc95",
+  "_$type": "GWidget",
+  "name": "Vw_SceneStage",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": 3,
+      "horizontal": 0,
+      "vertical": 4,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "q9ry4iaw",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "flyBase",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "_$id": "1z2uh108",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "area",
+      "width": 720,
+      "height": 1440,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "sg1su7uh",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "topCenter",
+      "x": 360,
+      "width": 0,
+      "height": 0,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "8huzfvp2",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "stageNameBg",
+          "x": -100,
+          "width": 202,
+          "height": 50,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "sg1su7uh"
+              },
+              "data": [
+                6,
+                0
+              ]
+            },
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "8ocsww3l"
+              },
+              "data": [
+                1,
+                0
+              ]
+            }
+          ],
+          "src": "res://3568d927-5075-41b4-9636-e7838a1553ba",
+          "autoSize": false
+        },
+        {
+          "_$id": "mslh6k4h",
+          "_$type": "GImage",
+          "name": "img",
+          "x": -80,
+          "y": 57,
+          "width": 160,
+          "height": 32,
+          "src": "res://ccb4e6ed-191a-4ee3-ae09-cf017c3625f8"
+        },
+        {
+          "_$id": "hqlr7td8",
+          "_$type": "GImage",
+          "name": "img_1",
+          "x": -56,
+          "y": 61,
+          "width": 20,
+          "height": 24,
+          "src": "res://35163632-542f-4d49-9405-401f62dc7138"
+        },
+        {
+          "_$id": "7qgs4fq0",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbTime",
+          "x": -20,
+          "y": 56,
+          "width": 74,
+          "height": 36,
+          "text": "01:00",
+          "_isDemo": true,
+          "fontSize": 28,
+          "color": "#2b2b2b",
+          "fitContent": 1
+        },
+        {
+          "_$id": "8ocsww3l",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbStage",
+          "x": -89,
+          "y": 3,
+          "width": 180,
+          "height": 49,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "sg1su7uh"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "111111111",
+          "_isDemo": true,
+          "fontSize": 40,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "c1huszyq",
+      "_$type": "GWidget",
+      "name": "money",
+      "x": 504,
+      "y": 18,
+      "width": 196,
+      "height": 43,
+      "_mouseState": 2,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            9,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "ksed5tzn",
+          "_$type": "GImage",
+          "name": "img_2",
+          "width": 188,
+          "height": 40,
+          "src": "res://44780878-e9eb-4fe8-92ba-7a9fb92b96e7"
+        },
+        {
+          "_$id": "pcu1eor7",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgGold",
+          "x": 14,
+          "y": 20,
+          "width": 50,
+          "height": 54,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e"
+        },
+        {
+          "_$id": "05tvqlj7",
+          "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+          "_$var": true,
+          "name": "btnGold",
+          "active": true,
+          "x": 169,
+          "y": 19,
+          "visible": true,
+          "width": 62,
+          "height": 62,
+          "icon": "res://6285f6c7-bd50-4e10-9dca-a6f7d082c1cf"
+        },
+        {
+          "_$id": "cjl7ajwv",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbGold",
+          "x": 50,
+          "y": 2,
+          "width": 79,
+          "height": 38,
+          "text": "35:00",
+          "_isDemo": true,
+          "fontSize": 30,
+          "color": "#ffffff",
+          "fitContent": 1,
+          "stroke": 2
+        }
+      ]
+    },
+    {
+      "_$id": "f2pxbsk6",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "startGp",
+      "x": 213,
+      "y": 550,
+      "width": 294,
+      "height": 132,
+      "_mouseState": 1,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "l9kjdrt8",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgStart",
+          "x": 118,
+          "y": 10,
+          "width": 57,
+          "height": 111,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "f2pxbsk6"
+              },
+              "data": [
+                6,
+                0,
+                13,
+                0
+              ]
+            }
+          ],
+          "src": "res://4b5e685d-fd44-4568-ba88-cd210e33cf34"
+        }
+      ]
+    },
+    {
+      "_$id": "7xipzjgv",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnSeting",
+      "active": true,
+      "x": 47,
+      "y": 37,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "scaleX": 0.78,
+      "scaleY": 0.78,
+      "visible": true,
+      "width": 70,
+      "height": 70,
+      "icon": "res://d8af7231-dbd8-4717-a463-9b50a0dd6ff4"
+    },
+    {
+      "_$id": "gozazn3p",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "btmGp",
+      "y": 1296,
+      "width": 720,
+      "height": 140,
+      "_mouseState": 2,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0,
+            16,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "g4m2mr5g",
+          "_$prefab": "6b332b78-4806-4821-b787-e384e3802d2e",
+          "_$var": true,
+          "name": "btnSkill0",
+          "active": true,
+          "x": 123,
+          "y": 70,
+          "visible": true,
+          "_$child": [
+            {
+              "_$override": "94icxctf",
+              "y": 12
+            }
+          ]
+        },
+        {
+          "_$id": "3itcjoq5",
+          "_$prefab": "6b332b78-4806-4821-b787-e384e3802d2e",
+          "_$var": true,
+          "name": "btnSkill1",
+          "active": true,
+          "x": 281,
+          "y": 70,
+          "visible": true,
+          "icon": "res://a41461d8-a3ee-499b-b397-864888328b30"
+        },
+        {
+          "_$id": "27x1qz0a",
+          "_$prefab": "6b332b78-4806-4821-b787-e384e3802d2e",
+          "_$var": true,
+          "name": "btnSkill2",
+          "active": true,
+          "x": 439,
+          "y": 70,
+          "visible": true,
+          "icon": "res://d225b378-ed16-4006-88ff-06dea75381bd"
+        },
+        {
+          "_$id": "yltczgwf",
+          "_$prefab": "6b332b78-4806-4821-b787-e384e3802d2e",
+          "_$var": true,
+          "name": "btnSkill3",
+          "active": true,
+          "x": 597,
+          "y": 70,
+          "visible": true,
+          "icon": "res://fa2704db-a383-4a29-a287-7833b06230b4"
+        }
+      ]
+    },
+    {
+      "_$id": "dohfqlxw",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "targetGp",
+      "y": 86,
+      "width": 102,
+      "height": 357,
+      "_mouseState": 2,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "nmplj24i"
+          },
+          "data": [
+            2,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "u123q7ve",
+          "_$type": "GImage",
+          "name": "img_1",
+          "x": 11,
+          "y": 15,
+          "width": 94,
+          "height": 342,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "dohfqlxw"
+              },
+              "data": [
+                2,
+                0
+              ]
+            }
+          ],
+          "src": "res://48c7017d-c1fb-4f7f-b596-831a39daa8ef",
+          "autoSize": false
+        },
+        {
+          "_$id": "vx7jmqgk",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": -2,
+          "width": 135,
+          "height": 39,
+          "src": "res://ca4359a7-c7a1-4b2b-9adf-63c124d5e49c",
+          "autoSize": false
+        },
+        {
+          "_$id": "nmplj24i",
+          "_$var": true,
+          "_$type": "GList",
+          "name": "targetList",
+          "x": 15,
+          "y": 44,
+          "width": 86,
+          "height": 318,
+          "layout": {
+            "type": 1,
+            "rowGap": 10
+          },
+          "scroller": {
+            "_$type": "Scroller",
+            "bouncebackEffect": 2
+          },
+          "_templateNode": {
+            "_$ref": "5q4avj8c",
+            "_$tmpl": "itemTemplate"
+          },
+          "_initItemNum": 4,
+          "_isDemo": true,
+          "_$child": [
+            {
+              "_$id": "5q4avj8c",
+              "_$prefab": "de52dad9-96fe-4068-bc6e-8652fcf0449c",
+              "name": "Item_StageTarget",
+              "active": true,
+              "x": 0,
+              "y": 0,
+              "visible": true
+            }
+          ]
+        },
+        {
+          "_$id": "tated7pf",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbTarget",
+          "x": 11,
+          "y": 4,
+          "width": 100,
+          "height": 32,
+          "text": "关卡目标",
+          "_isDemo": true,
+          "fontSize": 24,
+          "color": "#ffffff",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "gk1xmvh9",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "guideGp",
+      "x": 360,
+      "y": 1040,
+      "width": 0,
+      "height": 0,
+      "_mouseState": 1,
+      "mouseThrough": true,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0,
+            16,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "wsyzlseu",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbGuide",
+          "x": -16,
+          "y": -268,
+          "width": 31,
+          "height": 58,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "gk1xmvh9"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "1",
+          "_isDemo": true,
+          "fontSize": 48,
+          "color": "#f84326",
+          "fitContent": 1,
+          "stroke": 3,
+          "strokeColor": "#ffffff"
+        }
+      ]
+    },
+    {
+      "_$id": "iyn4oo0k",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "moveEff",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "_$id": "mgvv00wp",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbCountDown",
+      "x": 260,
+      "y": 559,
+      "width": 199,
+      "height": 115,
+      "visible": false,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "1",
+      "font": "res://7c7f5281-7346-4432-8074-c7e3bdfb6384",
+      "fontSize": 32,
+      "color": "#ffffff",
+      "align": "center"
+    }
+  ]
+}

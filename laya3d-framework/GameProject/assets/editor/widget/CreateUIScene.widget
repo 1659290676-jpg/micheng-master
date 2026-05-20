@@ -1,0 +1,63 @@
+{
+  "_$ver": 1,
+  "_$id": "81ikou45",
+  "_$type": "Widget",
+  "name": "Root",
+  "width": 400,
+  "height": 200,
+  "_$child": [
+    {
+      "_$id": "utf03gpi",
+      "_$prefab": "889a3232-df74-c494-e827-ce1f557f8e85",
+      "name": "btnSure",
+      "active": true,
+      "x": 157,
+      "y": 145,
+      "visible": true,
+      "touchable": true,
+      "title": "确定"
+    },
+    {
+      "_$id": "ejac1v7k",
+      "_$type": "TextField",
+      "name": "txt",
+      "x": 20,
+      "y": 61,
+      "width": 100,
+      "height": 16,
+      "text": "保存路径",
+      "style": {
+        "fontSize": 12,
+        "color": 12434877
+      }
+    },
+    {
+      "_$id": "jmacmdy7",
+      "_$type": "TextField",
+      "name": "txt_1",
+      "x": 20,
+      "y": 101,
+      "width": 100,
+      "height": 16,
+      "text": "UI名称",
+      "style": {
+        "fontSize": 12,
+        "color": 12434877
+      }
+    },
+    {
+      "_$id": "zjwbf5d0",
+      "_$type": "TextField",
+      "name": "txt_2",
+      "x": 157,
+      "y": 12,
+      "width": 85,
+      "height": 20,
+      "text": "创建UI场景",
+      "style": {
+        "fontSize": 16,
+        "color": 12434877
+      }
+    }
+  ]
+}

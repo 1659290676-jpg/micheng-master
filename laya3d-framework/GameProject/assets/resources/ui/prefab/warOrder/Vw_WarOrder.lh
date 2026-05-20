@@ -1,0 +1,562 @@
+{
+  "_$ver": 1,
+  "_$id": "o0iuz8zx",
+  "_$runtime": "res://9dcfe3dc-69e7-401e-874d-8a02f03eb2eb",
+  "_$preloads": [
+    "res://cf302ece-dcf4-44d6-ac0b-05ff5274dd2f",
+    "res://745ef81d-87f8-4a8c-a68c-80eb53cc2ba4"
+  ],
+  "_$type": "GWidget",
+  "name": "Vw_WarOrder",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "q6n7warr",
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 720,
+      "height": 1440,
+      "src": "res://32d3e6dc-902a-4060-a619-1e9ab1ef73a7"
+    },
+    {
+      "_$id": "n7k6910z",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "y": 561,
+      "width": 720,
+      "height": 878,
+      "layout": {
+        "type": 1,
+        "padding": [
+          63,
+          0,
+          50,
+          0
+        ]
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "paddingMaskDisabled": true
+      },
+      "_templateNode": {
+        "_$ref": "56gyn5kl",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 4,
+      "_isDemo": true
+    },
+    {
+      "_$id": "lp9jv615",
+      "_$type": "GImage",
+      "name": "img_11",
+      "x": 234,
+      "y": 303,
+      "width": 253,
+      "height": 76,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "wvcautde"
+          },
+          "data": [
+            1,
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "src": "res://fa5dc5cb-5af7-4660-96d1-ee39ba94e39e",
+      "autoSize": false
+    },
+    {
+      "_$id": "208crmz3",
+      "_$type": "GImage",
+      "name": "img_6",
+      "x": 290,
+      "y": 361,
+      "width": 160,
+      "height": 40,
+      "src": "res://f78a434c-fc0e-43bb-b6ce-2d020b33f718",
+      "autoSize": false
+    },
+    {
+      "_$id": "uopcyd0p",
+      "_$type": "GImage",
+      "name": "img_7",
+      "x": 270,
+      "y": 357,
+      "width": 46,
+      "height": 50,
+      "src": "res://9218a651-1740-4e1f-8e0e-a6bc232ac10d"
+    },
+    {
+      "_$id": "p7kbh7hm",
+      "_$type": "GImage",
+      "name": "img_9",
+      "x": 78,
+      "y": 559,
+      "width": 196,
+      "height": 47,
+      "src": "res://9da4d412-4f57-4b7f-a7cd-d235e31a92d0"
+    },
+    {
+      "_$id": "yuzk20qy",
+      "_$type": "GImage",
+      "name": "img_10",
+      "x": 446,
+      "y": 559,
+      "width": 196,
+      "height": 47,
+      "src": "res://9f2adeda-feb5-4e3b-ba24-f894828be50d"
+    },
+    {
+      "_$id": "r4e726n0",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgGold",
+      "x": 405,
+      "y": 23,
+      "width": 209,
+      "height": 54,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "6avus2tw",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "iconGold",
+          "x": 14,
+          "y": 29,
+          "width": 64,
+          "height": 67,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e",
+          "autoSize": false
+        },
+        {
+          "_$id": "0dvbev1s",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbGold",
+          "x": 74,
+          "y": 9,
+          "width": 61,
+          "height": 39,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "r4e726n0"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "865",
+          "fontSize": 32,
+          "color": "#ffffff",
+          "fitContent": 1,
+          "align": "right",
+          "stroke": 4,
+          "strokeColor": "#32343d"
+        },
+        {
+          "_$id": "noqdm6g5",
+          "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+          "_$var": true,
+          "name": "btnAdd",
+          "active": true,
+          "x": 189,
+          "y": 26,
+          "visible": true,
+          "width": 62,
+          "height": 62,
+          "icon": "res://6285f6c7-bd50-4e10-9dca-a6f7d082c1cf"
+        }
+      ]
+    },
+    {
+      "_$id": "1b1bsbv1",
+      "_$var": true,
+      "_$type": "GPanel",
+      "name": "progressPanel",
+      "y": 561,
+      "width": 720,
+      "height": 878,
+      "_mouseState": 1,
+      "scroller": {
+        "_$type": "Scroller"
+      },
+      "_$child": [
+        {
+          "_$id": "ia2y8u2f",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgListPro",
+          "x": 357,
+          "y": -270,
+          "width": 6,
+          "height": 270,
+          "src": "res://1062d01b-e6ae-48bf-b1ac-ea4856478699",
+          "autoSize": false
+        }
+      ]
+    },
+    {
+      "_$id": "2ont38ml",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 27,
+      "y": 27,
+      "width": 54,
+      "height": 54,
+      "visible": true,
+      "_$child": [
+        {
+          "_$id": "0x18qs9l",
+          "_$index": 0,
+          "_$type": "GImage",
+          "name": "img_1",
+          "width": 54,
+          "height": 54,
+          "src": "res://e98db99a-64d6-4c4d-a67a-9101a1f0a759"
+        },
+        {
+          "_$override": "4k97pnt4",
+          "src": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf",
+          "x": 10,
+          "y": 10
+        }
+      ]
+    },
+    {
+      "_$id": "pimrjg84",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btnAct",
+      "x": 543,
+      "y": 468,
+      "width": 246,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "titleColor": "#f3f3f3",
+      "titleFontSize": 40,
+      "titleWidget": {
+        "_$ref": "uazeuith"
+      },
+      "iconWidget": {
+        "_$ref": "z0zym3tm"
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "z0zym3tm",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 246,
+          "height": 72,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "pimrjg84"
+              },
+              "data": [
+                1,
+                0,
+                2,
+                0
+              ]
+            }
+          ],
+          "src": "res://efc9267f-428e-44b5-81bf-9b42e787d14d",
+          "autoSize": false
+        },
+        {
+          "_$id": "cwly8l6k",
+          "_$type": "GBox",
+          "name": "box",
+          "x": -70,
+          "width": 359,
+          "height": 72,
+          "_mouseState": 1,
+          "layout": {
+            "type": 2,
+            "columnGap": 10,
+            "align": 1,
+            "valign": 1
+          },
+          "_$child": [
+            {
+              "_$id": "boy35wbn",
+              "_$var": true,
+              "_$type": "GImage",
+              "name": "imgAct",
+              "x": 113,
+              "y": 14,
+              "width": 40,
+              "height": 44,
+              "src": "res://61af221d-c1d5-4e3d-bd17-5edbc9406d49"
+            },
+            {
+              "_$id": "uazeuith",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 163,
+              "y": 12,
+              "width": 82,
+              "height": 48,
+              "relations": [
+                {
+                  "_$type": "Relation",
+                  "target": {
+                    "_$ref": "pimrjg84"
+                  },
+                  "data": [
+                    6,
+                    0,
+                    13,
+                    0
+                  ]
+                }
+              ],
+              "text": "text",
+              "_isDemo": true,
+              "fontSize": 40,
+              "color": "#f3f3f3",
+              "fitContent": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "9k529tly",
+      "_$prefab": "e8c51cff-5479-45e3-b2f7-7096ca963647",
+      "_$var": true,
+      "name": "comProg",
+      "active": true,
+      "x": 176,
+      "y": 466,
+      "visible": true
+    },
+    {
+      "_$id": "fdlzfwdr",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btnHelp",
+      "x": 450,
+      "y": 331,
+      "width": 60,
+      "height": 60,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "iconWidget": {
+        "_$ref": "w7dwfnwc"
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "w7dwfnwc",
+          "_$type": "GImage",
+          "name": "img_12",
+          "x": 10,
+          "y": 9,
+          "width": 40,
+          "height": 42,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "wvcautde"
+              },
+              "data": [
+                5,
+                0
+              ]
+            }
+          ],
+          "src": "res://e18a8beb-77ba-4f9c-8665-7e09ce97d905",
+          "autoSize": false
+        }
+      ]
+    },
+    {
+      "_$id": "pe46wnsi",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTime",
+      "x": 318,
+      "y": 366,
+      "width": 118,
+      "height": 31,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "o0iuz8zx"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "21天2小时",
+      "_isDemo": true,
+      "fontSize": 24,
+      "color": "#ffffff",
+      "fitContent": 1
+    },
+    {
+      "_$id": "6owts8yk",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt1",
+      "x": 143,
+      "y": 565,
+      "width": 58,
+      "height": 35,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "o0iuz8zx"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "text",
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "4vk8mfj3",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt2",
+      "x": 516,
+      "y": 565,
+      "width": 58,
+      "height": 35,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "o0iuz8zx"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "text",
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "wvcautde",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTitle",
+      "x": 262,
+      "y": 308,
+      "width": 161,
+      "height": 48,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "o0iuz8zx"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "成长之路",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "56gyn5kl",
+      "_$prefab": "cf302ece-dcf4-44d6-ac0b-05ff5274dd2f",
+      "name": "Item_WarOrder1",
+      "active": true,
+      "x": 0,
+      "y": 0,
+      "visible": false,
+      "_$child": [
+        {
+          "_$override": "dkukkpl9",
+          "stroke": 4
+        },
+        {
+          "_$override": "uru2hmhw",
+          "stroke": 6
+        }
+      ]
+    }
+  ]
+}

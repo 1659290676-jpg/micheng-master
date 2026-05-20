@@ -1,0 +1,132 @@
+
+fx_KL_shijianjingzhi.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bk_00000
+  rotate: false
+  xy: 2, 2
+  size: 202, 76
+  orig: 256, 120
+  offset: 27, 23
+  index: -1
+bk_2_00000
+  rotate: false
+  xy: 277, 172
+  size: 202, 76
+  orig: 256, 120
+  offset: 27, 23
+  index: -1
+bk_a_00001
+  rotate: false
+  xy: 2, 80
+  size: 222, 93
+  orig: 320, 140
+  offset: 41, 18
+  index: -1
+bk_c_00001
+  rotate: false
+  xy: 2, 175
+  size: 273, 73
+  orig: 320, 140
+  offset: 20, 41
+  index: -1
+eff_xinxin_1
+  rotate: false
+  xy: 226, 56
+  size: 114, 114
+  orig: 128, 128
+  offset: 6, 6
+  index: -1
+lg_00000
+  rotate: true
+  xy: 342, 62
+  size: 6, 20
+  orig: 160, 32
+  offset: 0, 3
+  index: -1
+lg_00001
+  rotate: false
+  xy: 481, 216
+  size: 23, 32
+  orig: 160, 32
+  offset: 0, 0
+  index: -1
+lg_00002
+  rotate: false
+  xy: 296, 22
+  size: 40, 32
+  orig: 160, 32
+  offset: 0, 0
+  index: -1
+lg_00003
+  rotate: false
+  xy: 394, 70
+  size: 46, 32
+  orig: 160, 32
+  offset: 11, 0
+  index: -1
+lg_00004
+  rotate: false
+  xy: 342, 70
+  size: 50, 32
+  orig: 160, 32
+  offset: 24, 0
+  index: -1
+lg_00005
+  rotate: false
+  xy: 342, 104
+  size: 53, 32
+  orig: 160, 32
+  offset: 37, 0
+  index: -1
+lg_00006
+  rotate: false
+  xy: 342, 138
+  size: 57, 32
+  orig: 160, 32
+  offset: 50, 0
+  index: -1
+lg_00007
+  rotate: false
+  xy: 401, 138
+  size: 53, 32
+  orig: 160, 32
+  offset: 68, 0
+  index: -1
+lg_00008
+  rotate: false
+  xy: 397, 104
+  size: 50, 32
+  orig: 160, 32
+  offset: 85, 0
+  index: -1
+lg_00009
+  rotate: false
+  xy: 248, 22
+  size: 46, 32
+  orig: 160, 32
+  offset: 102, 0
+  index: -1
+lg_00010
+  rotate: false
+  xy: 456, 138
+  size: 40, 32
+  orig: 160, 32
+  offset: 120, 0
+  index: -1
+lg_00011
+  rotate: false
+  xy: 449, 104
+  size: 23, 32
+  orig: 160, 32
+  offset: 137, 0
+  index: -1
+xuehua01
+  rotate: false
+  xy: 206, 14
+  size: 40, 40
+  orig: 64, 64
+  offset: 12, 12
+  index: -1

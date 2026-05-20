@@ -1,0 +1,20 @@
+
+fx_KL_shouzhizhuandong.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bm_shouzhi
+  rotate: false
+  xy: 270, 10
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+Bm_xh
+  rotate: false
+  xy: 2, 2
+  size: 266, 136
+  orig: 266, 136
+  offset: 0, 0
+  index: -1

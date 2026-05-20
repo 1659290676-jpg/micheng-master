@@ -1,0 +1,76 @@
+{
+  "_$ver": 1,
+  "_$id": "t9oysupz",
+  "_$runtime": "res://bc1b24ab-b743-483b-a67e-fc4eec6e440a",
+  "_$type": "GWidget",
+  "name": "Item_FireTrial_Head",
+  "width": 138,
+  "height": 139,
+  "anchorX": 0.5,
+  "anchorY": 1,
+  "_$child": [
+    {
+      "_$id": "yytcfx5h",
+      "_$var": true,
+      "_$type": "GPanel",
+      "name": "panel",
+      "x": 69,
+      "y": 69,
+      "width": 138,
+      "height": 139,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "_$child": [
+        {
+          "_$id": "h4e48as8",
+          "_$var": true,
+          "_$type": "GWidget",
+          "name": "box",
+          "x": 69,
+          "y": 69,
+          "width": 138,
+          "height": 139,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "_$child": [
+            {
+              "_$id": "dus3nd6k",
+              "_$type": "GImage",
+              "name": "frame",
+              "x": 69,
+              "y": 139,
+              "width": 138,
+              "height": 139,
+              "anchorX": 0.5,
+              "anchorY": 1,
+              "src": "res://9cc618e7-3abb-4125-9167-7d185e367e2e"
+            },
+            {
+              "_$id": "dg75npd2",
+              "_$type": "GImage",
+              "name": "head",
+              "x": 69,
+              "y": 125,
+              "width": 120,
+              "height": 120,
+              "anchorX": 0.5,
+              "anchorY": 1,
+              "src": "res://91196bee-cc02-4f49-ab5f-883db454244f",
+              "autoSize": false
+            }
+          ]
+        },
+        {
+          "_$id": "f5o8rdtg",
+          "_$var": true,
+          "_$type": "GWidget",
+          "name": "spineBox",
+          "x": 75,
+          "y": 157,
+          "width": 150,
+          "height": 156
+        }
+      ]
+    }
+  ]
+}

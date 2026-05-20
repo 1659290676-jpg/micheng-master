@@ -1,0 +1,47 @@
+{
+  "_$ver": 1,
+  "_$id": "2vfml6lh",
+  "_$type": "Sprite3D",
+  "name": "shui01",
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "shui01",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": -0.00019761576550081372
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "fcb79a89-2d9e-47ef-8c9f-6e317adf6eb5@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

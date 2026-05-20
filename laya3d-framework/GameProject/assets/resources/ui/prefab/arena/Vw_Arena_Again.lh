@@ -1,0 +1,144 @@
+{
+  "_$ver": 1,
+  "_$id": "7f7t01k2",
+  "_$runtime": "res://b8d2b340-595a-41d8-9a2e-3b919dcc9c06",
+  "_$type": "GWidget",
+  "name": "Vw_Arena_Again",
+  "width": 664,
+  "height": 1003,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "e42fx3zs",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 664,
+      "height": 1003,
+      "src": "res://38309f48-6a1b-4d3c-863a-7a88cba17f1d",
+      "_isDemo": true
+    },
+    {
+      "_$id": "213y120m",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 247,
+      "y": 15,
+      "width": 169,
+      "height": 76,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "10sut5mg"
+          },
+          "data": [
+            1,
+            0,
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://c0d45bf2-a4f3-4209-89f7-9860a592f337",
+      "autoSize": false
+    },
+    {
+      "_$id": "sfq5v9ck",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 58,
+      "y": 689,
+      "width": 547,
+      "height": 110,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "7f7t01k2"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "像素1111",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "html": true,
+      "align": "center",
+      "valign": "middle",
+      "wordWrap": true,
+      "maxWidth": 547,
+      "strokeColor": "#070b0e"
+    },
+    {
+      "_$id": "10sut5mg",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 283,
+      "y": 33,
+      "width": 98,
+      "height": 39,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "7f7t01k2"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "竞技场",
+      "_isDemo": true,
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "h6hqxncq",
+      "_$prefab": "41d34236-11c6-4303-b5b1-81d86b55b3c4",
+      "_$var": true,
+      "name": "btnOK",
+      "active": true,
+      "x": 332,
+      "y": 891,
+      "visible": true
+    },
+    {
+      "_$id": "0jptwxu0",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 618,
+      "y": 43,
+      "visible": true,
+      "width": 54,
+      "height": 54,
+      "icon": "res://4b1dbb7c-0a2d-4732-aeb8-af0ac2efe62f"
+    }
+  ]
+}

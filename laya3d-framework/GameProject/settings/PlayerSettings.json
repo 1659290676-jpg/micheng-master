@@ -1,0 +1,57 @@
+{
+  "resolution": {
+    "designWidth": 720,
+    "designHeight": 1280,
+    "scaleMode": "fixedauto",
+    "backgroundColor": "#9d9d9d"
+  },
+  "2D": {
+    "FPS": 30,
+    "defaultFontSize": 24
+  },
+  "3D": {
+    "enableMultiLight": false
+  },
+  "physics3D": {
+    "layers": [
+      "Default",
+      "range",
+      "npc",
+      "building",
+      "player",
+      "skill",
+      "donot",
+      "item"
+    ]
+  },
+  "UI": {
+    "alwaysIncludeDefaultSkin": false,
+    "horizontalScrollBar": null,
+    "verticalScrollBar": null,
+    "popupMenu": null,
+    "tooltipsWidget": null
+  },
+  "modules": {
+    "laya.ui": true,
+    "laya.spine": true,
+    "laya.d3": true,
+    "laya.physics3D": true,
+    "laya.trail3D": true,
+    "laya.particle3D": true,
+    "laya.postProcess": true,
+    "laya.particle": true,
+    "laya.trail2D": true
+  },
+  "addons": {
+    "laya.ui": "ui2"
+  },
+  "splash": {
+    "fit": "center"
+  },
+  "stat": true,
+  "statEnum": {
+    "CT_2DDrawCall": true,
+    "CT_3DDrawCall": true
+  },
+  "vConsole": true
+}

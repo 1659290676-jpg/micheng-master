@@ -1,0 +1,125 @@
+{
+  "_$ver": 1,
+  "_$id": "ruxm5m3y",
+  "_$runtime": "res://fe81e409-7954-481b-8ae2-2ef7271f86ee",
+  "_$type": "GButton",
+  "name": "Item_WarOrder",
+  "width": 108,
+  "height": 120,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "downEffect": 3,
+  "_$child": [
+    {
+      "_$id": "2ku91iol",
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 108,
+      "height": 120,
+      "anchorX": 1,
+      "scaleX": -1,
+      "src": "res://37759d32-ceb4-46c6-8306-3729be644bce",
+      "autoSize": false
+    },
+    {
+      "_$id": "p72o9vvo",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 22,
+      "y": 25,
+      "width": 70,
+      "height": 70,
+      "src": "res://e3003020-8c37-4133-94e5-6ba9a9f67a59"
+    },
+    {
+      "_$id": "cvqp791e",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgProBg",
+      "x": 8,
+      "y": 14,
+      "width": 92,
+      "height": 92,
+      "src": "res://99dab33b-9318-4fcf-b3df-1dcb3436a9b7"
+    },
+    {
+      "_$id": "j8kwilvu",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgPro",
+      "x": 8,
+      "y": 14,
+      "width": 92,
+      "height": 92,
+      "src": "res://906afef1-0aa1-4599-af86-02e5b79f31a0",
+      "autoSize": false,
+      "mesh": {
+        "_$type": "ProgressMesh",
+        "amount": 1
+      }
+    },
+    {
+      "_$id": "olw0lxwc",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bgText",
+      "x": 55,
+      "y": 98,
+      "width": 72,
+      "height": 22,
+      "anchorX": 0.5,
+      "src": "res://590de609-8493-43f6-86cb-adb791a57929"
+    },
+    {
+      "_$id": "2rjqc1b7",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgLock",
+      "x": 22,
+      "y": 100,
+      "width": 16,
+      "height": 22,
+      "src": "res://6e48df7a-85fb-4fd2-b32a-28ccd77e29f8"
+    },
+    {
+      "_$id": "9r5embdt",
+      "_$var": true,
+      "_$type": "GProgressBar",
+      "name": "proBar",
+      "x": -130,
+      "y": 8,
+      "width": 100,
+      "height": 100,
+      "visible": false,
+      "value": 177,
+      "_hBar": {
+        "_$ref": "j8kwilvu"
+      }
+    },
+    {
+      "_$id": "imzn8a6a",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb",
+      "x": 33,
+      "y": 97,
+      "width": 36,
+      "height": 27,
+      "text": "text",
+      "fontSize": 20,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0",
+              "exitByTime": true,
+              "transduration": 0.15,
+              "exitTime": 0.85
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 550
+        },
+        {
+          "x": 328.8616071428572,
+          "y": 393.1249949868985,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "1",
+          "name": "xiaorenbianse_run",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "f76676d3-c45b-4f72-b2c4-6138810336cf"
+          }
+        },
+        {
+          "x": 63.14732142857144,
+          "y": 428.83928019926833,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "xiaorenbianse_idle",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "ddace969-4a42-4a4b-a163-087005e3df5f"
+          },
+          "soloTransitions": []
+        }
+      ],
+      "stageX": 78.97142857142859,
+      "stageY": -8.8857142857143,
+      "stageScale": 0.6000000000000001,
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1
+    }
+  ],
+  "layerW": 150
+}

@@ -1,0 +1,93 @@
+{
+  "_$ver": 1,
+  "_$id": "n1etocs2",
+  "_$runtime": "res://06d293c0-7351-42d4-80b6-878b18ed1976",
+  "_$type": "GWidget",
+  "name": "Root",
+  "width": 84,
+  "height": 96,
+  "_$child": [
+    {
+      "_$id": "bdvbw8s0",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 84,
+      "height": 84,
+      "src": "res://911ebbbf-b117-45bc-93d7-8d151ccae6ad",
+      "autoSize": false
+    },
+    {
+      "_$id": "iq3xzz6j",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgIcon",
+      "x": -1,
+      "y": 1,
+      "width": 86,
+      "height": 86,
+      "src": "",
+      "autoSize": false
+    },
+    {
+      "_$id": "yk0h84h1",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 16,
+      "y": 71,
+      "width": 51,
+      "height": 24,
+      "src": "res://c0200ad4-420e-4d87-bdd6-04354d921497",
+      "autoSize": false
+    },
+    {
+      "_$id": "8d35ewpi",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbCount",
+      "x": 34,
+      "y": 68,
+      "width": 17,
+      "height": 32,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "n1etocs2"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "2",
+      "_isDemo": true,
+      "fontSize": 24,
+      "color": "#2b2b2b",
+      "fitContent": 1
+    },
+    {
+      "_$id": "ag625a5v",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgMask0",
+      "width": 84,
+      "height": 96,
+      "visible": false,
+      "src": "res://ff27f03c-cae9-45ea-b823-b7822a93c777",
+      "autoSize": false
+    },
+    {
+      "_$id": "9zdwwn2z",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgMask1",
+      "x": 19,
+      "y": 24,
+      "width": 46,
+      "height": 36,
+      "visible": false,
+      "src": "res://e0d66934-cb56-43c7-9216-b301850eacf4"
+    }
+  ]
+}

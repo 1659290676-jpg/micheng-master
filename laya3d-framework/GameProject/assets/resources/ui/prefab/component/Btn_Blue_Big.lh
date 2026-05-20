@@ -1,0 +1,83 @@
+{
+  "_$ver": 1,
+  "_$id": "nzgx9llk",
+  "_$runtime": "res://6afa6652-3bf2-4cc9-a059-13db22cbecc9",
+  "_$type": "GButton",
+  "name": "Btn_Blue_Big",
+  "width": 290,
+  "height": 120,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "titleWidget": {
+    "_$ref": "oaz9swpx"
+  },
+  "iconWidget": {
+    "_$ref": "cn22nt1y"
+  },
+  "downEffect": 2,
+  "_$child": [
+    {
+      "_$id": "cn22nt1y",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 290,
+      "height": 120,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "nzgx9llk"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://62e0eef0-96c4-4016-9768-c1dd814c9321",
+      "autoSize": false
+    },
+    {
+      "_$id": "oaz9swpx",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 104,
+      "y": 31,
+      "width": 81,
+      "height": 58,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "nzgx9llk"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "text",
+      "_isDemo": true,
+      "fontSize": 48,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

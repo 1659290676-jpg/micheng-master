@@ -1,0 +1,152 @@
+{
+  "_$ver": 1,
+  "_$id": "bl68q213",
+  "_$runtime": "res://00283f6a-0cb7-430d-8fe5-9b489064d87b",
+  "_$type": "GWidget",
+  "name": "Group_StageLev",
+  "width": 720,
+  "height": 1440,
+  "_$child": [
+    {
+      "_$id": "4l7l3z9n",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 720,
+      "height": 1440,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "bl68q213"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "src": ""
+    },
+    {
+      "_$id": "61efhs8h",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item0",
+      "active": true,
+      "x": 423,
+      "y": 1213,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "4u39ivz0",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item1",
+      "active": true,
+      "x": 305,
+      "y": 1094,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "a1swd0k8",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item2",
+      "active": true,
+      "x": 540,
+      "y": 1030,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "5ynejh11",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item3",
+      "active": true,
+      "x": 438,
+      "y": 872,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "j8ig0ciy",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item4",
+      "active": true,
+      "x": 215,
+      "y": 795,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "pr96dutf",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item5",
+      "active": true,
+      "x": 162,
+      "y": 618,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "w5itqjnj",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item6",
+      "active": true,
+      "x": 339,
+      "y": 495,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "qtg4ks51",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item7",
+      "active": true,
+      "x": 518,
+      "y": 371,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "vb33c879",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item8",
+      "active": true,
+      "x": 426,
+      "y": 211,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "_$id": "id6w28xh",
+      "_$prefab": "13c1b8e5-14b5-4131-81a2-9dc956b08172",
+      "_$var": true,
+      "name": "item9",
+      "active": true,
+      "x": 227,
+      "y": 87,
+      "visible": true,
+      "width": 90,
+      "height": 67
+    }
+  ]
+}

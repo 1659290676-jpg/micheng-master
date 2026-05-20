@@ -1,0 +1,42 @@
+{
+  "_$ver": 1,
+  "_$id": "zyuj6p2a",
+  "_$type": "Sprite3D",
+  "name": "ren",
+  "layer": 2,
+  "_$child": [
+    {
+      "_$id": "8ox53z1q",
+      "_$prefab": "273c742a-3100-4801-8e83-ab462bd17c30",
+      "name": "Role_ren01",
+      "active": true,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3"
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "y": 1,
+          "w": 6.123233995736766e-17
+        }
+      },
+      "_$child": [
+        {
+          "_$override": "ddp40vxv",
+          "_$comp": [
+            {
+              "_$override": "SimpleSkinnedMeshRenderer",
+              "sharedMaterials": [
+                {
+                  "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+                  "_$type": "Material"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

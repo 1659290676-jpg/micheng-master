@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kkk_fuse_ll_looper_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/kkk_fuse_bill_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/kkk_fuse_close_img" />
+
+    <RelativeLayout
+        android:id="@+id/kkk_fuse_bill_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kkk_fuse_bill_close"
+        android:orientation="vertical"
+        android:paddingTop="2dp">
+
+        <LinearLayout
+            android:id="@+id/kkk_fuse_bill_content_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#b311130f"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/kkk_fuse_bill_points_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/kkk_fuse_bill_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

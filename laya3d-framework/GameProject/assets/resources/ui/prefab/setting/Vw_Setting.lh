@@ -1,0 +1,602 @@
+{
+  "_$ver": 1,
+  "_$id": "xy5g7v8b",
+  "_$runtime": "res://e99f79f3-9149-48a5-9d1b-2b53bb07d3ad",
+  "_$type": "GWidget",
+  "name": "Vw_Setting",
+  "width": 594,
+  "height": 736,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "pwv86w1l",
+      "_$type": "GImage",
+      "name": "img_1",
+      "width": 594,
+      "height": 736,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://e39e3b87-020b-48b8-a902-86325c53c8d4",
+      "autoSize": false
+    },
+    {
+      "_$id": "hxi74rfh",
+      "_$var": true,
+      "_$type": "GSlider",
+      "name": "musicSd",
+      "x": 170,
+      "y": 113,
+      "width": 348,
+      "height": 30,
+      "value": 100,
+      "wholeNumbers": true,
+      "changeOnClick": false,
+      "_hBar": {
+        "_$ref": "0zhk1ejv"
+      },
+      "_gripButton": {
+        "_$ref": "eeu34kmn"
+      },
+      "_$child": [
+        {
+          "_$id": "0mnu0acg",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 348,
+          "height": 24,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "hxi74rfh"
+              },
+              "data": [
+                1,
+                0
+              ]
+            }
+          ],
+          "src": "res://45087138-e2ef-4078-bf88-fd1a825b4d89",
+          "autoSize": false
+        },
+        {
+          "_$id": "0zhk1ejv",
+          "_$type": "GImage",
+          "name": "img_1",
+          "width": 348,
+          "height": 30,
+          "src": "res://f328090b-e101-4147-aa84-15bb17c00949",
+          "autoSize": false
+        },
+        {
+          "_$id": "eeu34kmn",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": 316,
+          "y": -12,
+          "width": 50,
+          "height": 50,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "0zhk1ejv"
+              },
+              "data": [
+                9,
+                0
+              ]
+            }
+          ],
+          "src": "res://e5f148f8-daaf-444e-a152-18c66d05c18f"
+        }
+      ]
+    },
+    {
+      "_$id": "xd24o5l9",
+      "_$var": true,
+      "_$type": "GSlider",
+      "name": "soundSd",
+      "x": 171,
+      "y": 186,
+      "width": 348,
+      "height": 30,
+      "value": 100,
+      "wholeNumbers": true,
+      "changeOnClick": false,
+      "_hBar": {
+        "_$ref": "3c3kgj08"
+      },
+      "_gripButton": {
+        "_$ref": "rhyb64bi"
+      },
+      "_$child": [
+        {
+          "_$id": "4br770gp",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 348,
+          "height": 24,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "xd24o5l9"
+              },
+              "data": [
+                1,
+                0
+              ]
+            }
+          ],
+          "src": "res://45087138-e2ef-4078-bf88-fd1a825b4d89",
+          "autoSize": false
+        },
+        {
+          "_$id": "3c3kgj08",
+          "_$type": "GImage",
+          "name": "img_1",
+          "width": 348,
+          "height": 30,
+          "src": "res://f328090b-e101-4147-aa84-15bb17c00949",
+          "autoSize": false
+        },
+        {
+          "_$id": "rhyb64bi",
+          "_$type": "GImage",
+          "name": "img_3",
+          "x": 316,
+          "y": -12,
+          "width": 50,
+          "height": 50,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "3c3kgj08"
+              },
+              "data": [
+                9,
+                0
+              ]
+            }
+          ],
+          "src": "res://bb9ebd0f-3da8-43c5-9697-32f33594f3f3"
+        }
+      ]
+    },
+    {
+      "_$id": "4d7xc3rv",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 539,
+      "y": 35,
+      "visible": true,
+      "width": 34,
+      "height": 34,
+      "icon": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf"
+    },
+    {
+      "_$id": "gh0312hw",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 256,
+      "y": 13,
+      "width": 84,
+      "height": 49,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "设置",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "stroke": 3,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "y028526m",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb0",
+      "x": 76,
+      "y": 110,
+      "width": 60,
+      "height": 36,
+      "text": "音乐",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "vowfscwp",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb1",
+      "x": 76,
+      "y": 179,
+      "width": 60,
+      "height": 36,
+      "text": "音效",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "7azo5gg2",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb2",
+      "x": 76,
+      "y": 255,
+      "width": 60,
+      "height": 36,
+      "text": "震动",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "bo4j3z6x",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb3",
+      "x": 76,
+      "y": 334,
+      "width": 60,
+      "height": 36,
+      "text": "语言",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "yw6q2hu2",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btnShake",
+      "x": 356,
+      "y": 250,
+      "width": 150,
+      "height": 42,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "mode": 1,
+      "_$child": [
+        {
+          "_$id": "g969ma4r",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 150,
+          "height": 42,
+          "src": "res://ba07b2cd-dd04-45d9-9596-6135422abf06"
+        },
+        {
+          "_$id": "3vyrej3i",
+          "_$type": "GImage",
+          "name": "img_1",
+          "width": 75,
+          "height": 42,
+          "gears": [
+            {
+              "_$type": "GearDisplay",
+              "controller": {
+                "_$ref": "yw6q2hu2",
+                "_$ctrl": "button"
+              },
+              "pages": [
+                1,
+                3
+              ]
+            }
+          ],
+          "src": "res://831976b8-c429-441c-84bd-f8cf5f13bcf9"
+        },
+        {
+          "_$id": "cxriq5vs",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": 75,
+          "width": 75,
+          "height": 42,
+          "anchorX": 1,
+          "scaleX": -1,
+          "gears": [
+            {
+              "_$type": "GearDisplay",
+              "controller": {
+                "_$ref": "yw6q2hu2",
+                "_$ctrl": "button"
+              },
+              "pages": [
+                0,
+                2
+              ]
+            }
+          ],
+          "src": "res://831976b8-c429-441c-84bd-f8cf5f13bcf9"
+        },
+        {
+          "_$id": "g566nqvj",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbShake0",
+          "x": 97,
+          "y": 3,
+          "width": 32,
+          "height": 36,
+          "gears": [
+            {
+              "_$type": "GearDisplay",
+              "controller": {
+                "_$ref": "yw6q2hu2",
+                "_$ctrl": "button"
+              },
+              "pages": [
+                1,
+                3
+              ]
+            }
+          ],
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "cxriq5vs"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "开",
+          "_isDemo": true,
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "sqi3d2a4",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbShake1",
+          "x": 21,
+          "y": 3,
+          "width": 32,
+          "height": 36,
+          "gears": [
+            {
+              "_$type": "GearDisplay",
+              "controller": {
+                "_$ref": "yw6q2hu2",
+                "_$ctrl": "button"
+              },
+              "pages": [
+                0,
+                2
+              ]
+            }
+          ],
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "3vyrej3i"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "关",
+          "_isDemo": true,
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "cn0nzzs7",
+      "_$prefab": "6226a296-7580-48c1-a121-9b6122cf2122",
+      "_$var": true,
+      "name": "btn0",
+      "active": true,
+      "x": 164,
+      "y": 449,
+      "visible": false
+    },
+    {
+      "_$id": "768ez5ai",
+      "_$prefab": "6226a296-7580-48c1-a121-9b6122cf2122",
+      "_$var": true,
+      "name": "btn1",
+      "active": true,
+      "x": 432,
+      "y": 449,
+      "visible": false
+    },
+    {
+      "_$id": "0mwzl0aj",
+      "_$prefab": "6226a296-7580-48c1-a121-9b6122cf2122",
+      "_$var": true,
+      "name": "btn2",
+      "active": true,
+      "x": 164,
+      "y": 549,
+      "visible": false
+    },
+    {
+      "_$id": "7u3b86mo",
+      "_$prefab": "6226a296-7580-48c1-a121-9b6122cf2122",
+      "_$var": true,
+      "name": "btn3",
+      "active": true,
+      "x": 432,
+      "y": 549,
+      "visible": false
+    },
+    {
+      "_$id": "r48j0ksu",
+      "_$prefab": "6226a296-7580-48c1-a121-9b6122cf2122",
+      "_$var": true,
+      "name": "btnStart",
+      "active": true,
+      "x": 297,
+      "y": 549,
+      "visible": false
+    },
+    {
+      "_$id": "3rzpxolj",
+      "_$prefab": "6226a296-7580-48c1-a121-9b6122cf2122",
+      "_$var": true,
+      "name": "btnHome",
+      "active": true,
+      "x": 297,
+      "y": 649,
+      "visible": false
+    },
+    {
+      "_$id": "ganqw8wh",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbVersion",
+      "x": 273,
+      "y": 668,
+      "width": 49,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0,
+            16,
+            0
+          ]
+        }
+      ],
+      "text": "text",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#7f7f7f",
+      "fitContent": 1
+    },
+    {
+      "_$id": "5y4im6sa",
+      "_$var": true,
+      "_$type": "GComboBox",
+      "name": "btnBox",
+      "x": 316,
+      "y": 326,
+      "width": 190,
+      "height": 50,
+      "title": "语言",
+      "titleColor": "#f3f3f3",
+      "titleFontSize": 28,
+      "titleWidget": {
+        "_$ref": "nhvu37vh"
+      },
+      "dropdownRes": {
+        "_$uuid": "8cb84454-924d-41f2-ad3f-ff97e82fb0ea",
+        "_$type": "Prefab"
+      },
+      "_$child": [
+        {
+          "_$id": "gdmr0wof",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 190,
+          "height": 50,
+          "src": "res://ba07b2cd-dd04-45d9-9596-6135422abf06",
+          "autoSize": false
+        },
+        {
+          "_$id": "nhvu37vh",
+          "_$type": "GTextField",
+          "name": "lbLang",
+          "x": 65,
+          "y": 9,
+          "width": 60,
+          "height": 36,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "5y4im6sa"
+              },
+              "data": [
+                6,
+                0,
+                13,
+                0
+              ]
+            }
+          ],
+          "text": "语言",
+          "_isDemo": true,
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "valign": "middle"
+        }
+      ]
+    }
+  ]
+}

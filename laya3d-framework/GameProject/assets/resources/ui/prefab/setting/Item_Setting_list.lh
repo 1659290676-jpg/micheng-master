@@ -1,0 +1,65 @@
+{
+  "_$ver": 1,
+  "_$id": "80gjx97n",
+  "_$type": "GButton",
+  "name": "Item_Setting_list",
+  "width": 180,
+  "height": 48,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ],
+      "_editingIndex": 1
+    }
+  },
+  "titleWidget": {
+    "_$ref": "28nlraas"
+  },
+  "mode": 2,
+  "_$child": [
+    {
+      "_$id": "xm9g76iw",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 180,
+      "height": 48,
+      "gears": [
+        {
+          "_$type": "GearDisplay",
+          "controller": {
+            "_$ref": "80gjx97n",
+            "_$ctrl": "button"
+          },
+          "pages": [
+            1,
+            3
+          ]
+        }
+      ],
+      "src": "res://ba07b2cd-dd04-45d9-9596-6135422abf06",
+      "autoSize": false
+    },
+    {
+      "_$id": "28nlraas",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb",
+      "y": 1,
+      "width": 180,
+      "height": 44,
+      "text": "1",
+      "_isDemo": true,
+      "fontSize": 36,
+      "color": "#fcf8fe",
+      "fitContent": 2,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

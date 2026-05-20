@@ -1,0 +1,90 @@
+
+fx_KL_mianguanggao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_xinxin_1
+  rotate: false
+  xy: 638, 134
+  size: 114, 114
+  orig: 128, 128
+  offset: 6, 6
+  index: -1
+mgg_lg_00000
+  rotate: true
+  xy: 638, 81
+  size: 51, 110
+  orig: 287, 284
+  offset: 4, 139
+  index: -1
+mgg_lg_00001
+  rotate: false
+  xy: 542, 80
+  size: 94, 168
+  orig: 287, 284
+  offset: 4, 98
+  index: -1
+mgg_lg_00002
+  rotate: false
+  xy: 152, 15
+  size: 126, 225
+  orig: 287, 284
+  offset: 15, 59
+  index: -1
+mgg_lg_00003
+  rotate: false
+  xy: 396, 3
+  size: 144, 244
+  orig: 287, 284
+  offset: 26, 40
+  index: -1
+mgg_lg_00004
+  rotate: false
+  xy: 367, 249
+  size: 164, 256
+  orig: 287, 284
+  offset: 36, 28
+  index: -1
+mgg_lg_00005
+  rotate: false
+  xy: 186, 242
+  size: 179, 263
+  orig: 287, 284
+  offset: 50, 16
+  index: -1
+mgg_lg_00006
+  rotate: false
+  xy: 2, 242
+  size: 182, 263
+  orig: 287, 284
+  offset: 68, 9
+  index: -1
+mgg_lg_00007
+  rotate: false
+  xy: 533, 250
+  size: 163, 255
+  orig: 287, 284
+  offset: 99, 9
+  index: -1
+mgg_lg_00008
+  rotate: false
+  xy: 2, 2
+  size: 148, 238
+  orig: 287, 284
+  offset: 130, 9
+  index: -1
+mgg_lg_00009
+  rotate: false
+  xy: 280, 48
+  size: 114, 192
+  orig: 287, 284
+  offset: 169, 20
+  index: -1
+mgg_lg_00010
+  rotate: true
+  xy: 542, 7
+  size: 71, 143
+  orig: 287, 284
+  offset: 212, 38
+  index: -1

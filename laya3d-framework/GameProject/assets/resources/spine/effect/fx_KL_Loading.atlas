@@ -1,0 +1,62 @@
+
+fx_KL_Loading.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 240, 2
+  size: 10, 44
+  orig: 12, 46
+  offset: 1, 1
+  index: -1
+z1
+  rotate: false
+  xy: 212, 7
+  size: 26, 39
+  orig: 28, 41
+  offset: 1, 1
+  index: -1
+z2
+  rotate: true
+  xy: 127, 16
+  size: 30, 33
+  orig: 32, 35
+  offset: 1, 1
+  index: -1
+z3
+  rotate: true
+  xy: 92, 15
+  size: 31, 33
+  orig: 33, 35
+  offset: 1, 1
+  index: -1
+z4
+  rotate: true
+  xy: 2, 15
+  size: 31, 44
+  orig: 33, 46
+  offset: 1, 1
+  index: -1
+z5
+  rotate: false
+  xy: 196, 2
+  size: 14, 44
+  orig: 16, 46
+  offset: 1, 1
+  index: -1
+z6
+  rotate: true
+  xy: 162, 16
+  size: 30, 32
+  orig: 32, 34
+  offset: 1, 1
+  index: -1
+z7
+  rotate: true
+  xy: 48, 15
+  size: 31, 42
+  orig: 33, 44
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,13 @@
+{
+  "textureType": 2,
+  "layers": [
+    "Default",
+    "Range",
+    "Npc",
+    "Buidling",
+    "Player",
+    "Items"
+  ],
+  "liveServerPort": 18092,
+  "liveServerSecurePort": 18093
+}

@@ -1,0 +1,38 @@
+{
+  "_$ver": 1,
+  "_$id": "epiyfw12",
+  "_$type": "GWidget",
+  "name": "Item_WarOrderIcon",
+  "width": 146,
+  "height": 146,
+  "_$child": [
+    {
+      "_$id": "h0s8wxnh",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 10,
+      "y": 18,
+      "width": 125,
+      "height": 109,
+      "src": "res://0d73cf70-c418-42ef-87a3-8b6425ea1c32",
+      "_isDemo": true,
+      "autoSize": false
+    },
+    {
+      "_$id": "cp7bly7j",
+      "_$type": "GTextField",
+      "name": "txtNum",
+      "x": 32,
+      "y": 95,
+      "width": 82,
+      "height": 47,
+      "text": "text",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "stroke": 4,
+      "strokeColor": "#2c2c2c"
+    }
+  ]
+}

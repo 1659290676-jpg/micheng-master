@@ -1,0 +1,57 @@
+
+apply plugin: 'com.android.library'
+
+// sdk 版本号
+def TARGET_SDKVERSION = rootProject.ext.targetSdkVersion
+def MIN_SDKVERSION = rootProject.ext.minSdkVersion
+def COMPILE_SDK_VERSION = rootProject.ext.compileSdkVersion
+def BUILD_TOOLS_VERSION = rootProject.ext.buildToolsVersion
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdkVersion MIN_SDKVERSION
+        targetSdkVersion TARGET_SDKVERSION
+    }
+    sourceSets.main{
+        jniLibs.srcDir 'libs'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.core:core:1.6.0'
+    //implementation 'org.jetbrains:annotations-java5:15.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation("com.squareup.okhttp3:okhttp:3.14.9")
+    
+    // 解决 vectordrawable 命名空间冲突
+    constraints {
+        implementation('androidx.vectordrawable:vectordrawable:1.0.0') {
+            because '统一 vectordrawable 版本'
+        }
+        implementation('androidx.vectordrawable:vectordrawable-animated:1.0.0') {
+            because '统一 vectordrawable-animated 版本'
+        }
+    }
+}
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    namespace 'layaair.game'
+    lint {
+        abortOnError false
+    }
+}

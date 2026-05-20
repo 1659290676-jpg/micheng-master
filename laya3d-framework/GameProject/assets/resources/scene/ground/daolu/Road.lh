@@ -1,0 +1,36 @@
+{
+  "_$ver": 1,
+  "_$id": "kpu5q637",
+  "_$type": "Sprite3D",
+  "name": "Road",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "Road T_Intersection_01.001",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "f700b84d-16a6-49d8-9a9f-eee171c02c11@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "a5e096b3-74dc-4eda-9716-c6474df11d24",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

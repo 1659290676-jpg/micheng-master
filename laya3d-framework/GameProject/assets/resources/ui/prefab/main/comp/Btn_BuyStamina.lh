@@ -1,0 +1,128 @@
+{
+  "_$ver": 1,
+  "_$id": "0ud0uay6",
+  "_$runtime": "res://c69c3ba5-7426-4f39-9c33-015f65ff8f5d",
+  "_$type": "GButton",
+  "name": "Btn_BuyStamina",
+  "x": 306,
+  "y": 391,
+  "width": 220,
+  "height": 90,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "titleWidget": {
+    "_$ref": "7wzrjubu"
+  },
+  "_$child": [
+    {
+      "_$id": "0mhoikvn",
+      "_$type": "GImage",
+      "name": "img_3",
+      "width": 220,
+      "height": 90,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "0ud0uay6"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://7b9ea8d7-389b-413f-95ab-db9b19f5f016",
+      "autoSize": false
+    },
+    {
+      "_$id": "8sogo9ks",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 114,
+      "y": 46,
+      "width": 54,
+      "height": 40,
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "fqe23bhx"
+          },
+          "data": [
+            5,
+            0
+          ]
+        }
+      ],
+      "src": "res://33678001-a91f-42ed-874b-3332ddf46ba5"
+    },
+    {
+      "_$id": "7wzrjubu",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 48,
+      "y": 11,
+      "width": 124,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "0ud0uay6"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "立即补充",
+      "_isDemo": true,
+      "fontSize": 30,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "fqe23bhx",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbNeed",
+      "x": 63,
+      "y": 44,
+      "width": 51,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "0ud0uay6"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "900",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

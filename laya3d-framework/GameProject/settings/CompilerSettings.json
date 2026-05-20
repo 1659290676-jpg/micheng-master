@@ -1,0 +1,16 @@
+{
+  "defines": [
+    {
+      "name": "DEBUG",
+      "debugValue": "true",
+      "releaseValue": "false"
+    },
+    {
+      "name": "RELEASE",
+      "debugValue": "false",
+      "releaseValue": "true"
+    }
+  ],
+  "dropDebugger": true,
+  "keepNames": true
+}

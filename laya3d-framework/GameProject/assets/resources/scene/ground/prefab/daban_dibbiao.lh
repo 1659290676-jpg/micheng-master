@@ -1,0 +1,231 @@
+{
+  "_$ver": 1,
+  "_$id": "vyxvizq3",
+  "_$type": "Sprite3D",
+  "name": "daban_dibbiao",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "Scene_MaLu01_11_mesh012.001",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 88.85801696777344,
+          "y": -0.01323852501809597,
+          "z": -66.47688293457031
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705934616,
+          "y": -2.5288098803665187e-7,
+          "z": -2.528810164583606e-7,
+          "w": 0.7071066917795317
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "ed207252-8f0d-4240-99e3-cc545220f51d@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "00d88280-b43e-4de5-b3b4-07822c0f7202",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "00d88280-b43e-4de5-b3b4-07822c0f7202",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#43",
+      "_$type": "Sprite3D",
+      "name": "Scene_MaLu01_11_mesh012.002",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 88.85801696777344,
+          "y": -0.01323852501809597,
+          "z": -66.47688293457031
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705934616,
+          "y": -2.5288098803665187e-7,
+          "z": -2.528810164583606e-7,
+          "w": 0.7071066917795317
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "ed207252-8f0d-4240-99e3-cc545220f51d@lm1",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "ab864f97-3a27-470d-b62c-a652ea9f8f3d",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "ab864f97-3a27-470d-b62c-a652ea9f8f3d",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "ab864f97-3a27-470d-b62c-a652ea9f8f3d",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#44",
+      "_$type": "Sprite3D",
+      "name": "Scene_TingCheChang07_1_mesh.001",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 86.9010238647461,
+          "y": -0.02671913057565689,
+          "z": 24.11791229248047
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.5000000670552245,
+          "y": 0.49999994784593316,
+          "z": 0.5000000074505788,
+          "w": -0.499999977648256
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "ed207252-8f0d-4240-99e3-cc545220f51d@lm2",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "5592082a-9277-4351-91c5-959ab3101ac0",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "huashengdun_dibiao.011",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -277.58416748046875,
+          "y": 7.2759574515531e-14,
+          "z": 194.47412109375
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935069,
+          "w": 0.707106691779577
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "ed207252-8f0d-4240-99e3-cc545220f51d@lm3",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "5592082a-9277-4351-91c5-959ab3101ac0",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#46",
+      "_$type": "Sprite3D",
+      "name": "huashengdun_dibiao.016",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -277.58416748046875,
+          "y": 7.2759574515531e-14,
+          "z": 194.47412109375
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935069,
+          "w": 0.707106691779577
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "ed207252-8f0d-4240-99e3-cc545220f51d@lm4",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "5592082a-9277-4351-91c5-959ab3101ac0",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

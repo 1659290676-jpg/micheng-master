@@ -1,0 +1,149 @@
+{
+  "_$ver": 1,
+  "_$id": "f3jlg8u3",
+  "_$type": "Sprite3D",
+  "name": "bali",
+  "_$child": [
+    {
+      "_$id": "#40",
+      "_$type": "Sprite3D",
+      "name": "bali2",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 0.000012402343600115273,
+          "y": -1.88079096131566e-37,
+          "z": -0.00001860351585492026
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.02539999969303608,
+          "y": 0.02539999969303608,
+          "z": 0.02539999969303608
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "499f4458-2c85-4b90-a186-f93d15cf6546@lm1",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "00d88280-b43e-4de5-b3b4-07822c0f7202",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#41",
+      "_$type": "Sprite3D",
+      "name": "bali3",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 0.000012402343600115273,
+          "y": -1.88079096131566e-37,
+          "z": -0.00001860351585492026
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.02539999969303608,
+          "y": 0.02539999969303608,
+          "z": 0.02539999969303608
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "499f4458-2c85-4b90-a186-f93d15cf6546@lm2",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "ab864f97-3a27-470d-b62c-a652ea9f8f3d",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "bali1",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 0.000012402343600115273,
+          "y": -1.88079096131566e-37,
+          "z": -0.00001860351585492026
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.02539999969303608,
+          "y": 0.02539999969303608,
+          "z": 0.02539999969303608
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "499f4458-2c85-4b90-a186-f93d15cf6546@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "5592082a-9277-4351-91c5-959ab3101ac0",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

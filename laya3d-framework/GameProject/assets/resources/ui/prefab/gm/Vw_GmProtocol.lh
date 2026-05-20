@@ -1,0 +1,324 @@
+{
+  "_$id": "xy5g7v8b",
+  "_$type": "GWidget",
+  "name": "Vw_GmProtocol",
+  "width": 700,
+  "height": 1100,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "k5qck26r",
+      "_$type": "GWidget",
+      "name": "node",
+      "width": 700,
+      "height": 1100,
+      "background": {
+        "_$type": "DrawRoundRectCmd",
+        "lt": 20,
+        "rt": 20,
+        "lb": 20,
+        "rb": 20,
+        "fillColor": "#dcdcdc"
+      }
+    },
+    {
+      "_$id": "sownxakk",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 276,
+      "y": 16,
+      "width": 148,
+      "height": 49,
+      "text": "GM协议",
+      "fontSize": 40,
+      "fitContent": 1
+    },
+    {
+      "_$id": "rlmmhe4b",
+      "_$type": "GTextField",
+      "name": "txt_1",
+      "x": 13,
+      "y": 81,
+      "width": 76,
+      "height": 32,
+      "text": "协议号",
+      "fontSize": 24,
+      "fitContent": 1
+    },
+    {
+      "_$id": "m4cha2lj",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 13,
+      "y": 138,
+      "width": 670,
+      "height": 32,
+      "text": "描述",
+      "fontSize": 24,
+      "fitContent": 2
+    },
+    {
+      "_$id": "3wykaxds",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 100,
+      "y": 73,
+      "width": 157,
+      "height": 47,
+      "src": "res://63e14989-655b-438c-9f91-6943213a523f",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "qvbpm0kz",
+          "_$var": true,
+          "_$type": "GTextInput",
+          "name": "lbCmd",
+          "x": 5,
+          "width": 147,
+          "height": 46,
+          "text": "",
+          "fontSize": 24,
+          "color": "#ffffff",
+          "valign": "middle"
+        }
+      ]
+    },
+    {
+      "_$id": "yth9ps4p",
+      "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+      "_$var": true,
+      "name": "btnAdd",
+      "active": true,
+      "x": 336,
+      "y": 97,
+      "width": 146,
+      "height": 54,
+      "visible": true,
+      "title": "生成数据",
+      "icon": "res://baee511f-4929-462c-a7d8-f1dc11b0b36c"
+    },
+    {
+      "_$id": "c3r8nzzz",
+      "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+      "_$var": true,
+      "name": "btnClear",
+      "active": true,
+      "x": 494,
+      "y": 97,
+      "width": 146,
+      "height": 54,
+      "visible": true,
+      "title": "清理数据",
+      "icon": "res://baee511f-4929-462c-a7d8-f1dc11b0b36c"
+    },
+    {
+      "_$id": "evbtolmc",
+      "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+      "_$var": true,
+      "name": "btnSend",
+      "active": true,
+      "x": 372,
+      "y": 1067,
+      "width": 146,
+      "height": 54,
+      "visible": true,
+      "title": "发送",
+      "icon": "res://baee511f-4929-462c-a7d8-f1dc11b0b36c"
+    },
+    {
+      "_$id": "4woplpfu",
+      "_$type": "GTextField",
+      "name": "txt_2",
+      "x": 20,
+      "y": 1051,
+      "width": 100,
+      "height": 32,
+      "text": "发送次数",
+      "fontSize": 24,
+      "fitContent": 1
+    },
+    {
+      "_$id": "h84q4c0j",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 127,
+      "y": 1043,
+      "width": 157,
+      "height": 47,
+      "src": "res://63e14989-655b-438c-9f91-6943213a523f",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "tbft62fl",
+          "_$var": true,
+          "_$type": "GTextInput",
+          "name": "lbCount",
+          "x": 5,
+          "width": 147,
+          "height": 46,
+          "text": "1",
+          "fontSize": 24,
+          "color": "#ffffff",
+          "valign": "middle"
+        }
+      ]
+    },
+    {
+      "_$id": "x8z2acn2",
+      "_$type": "GImage",
+      "name": "img",
+      "x": 10,
+      "y": 280,
+      "width": 680,
+      "height": 750,
+      "src": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "b1fre3mb",
+          "_$var": true,
+          "_$type": "GPanel",
+          "name": "container",
+          "x": 5,
+          "y": 5,
+          "width": 670,
+          "height": 740,
+          "layout": {
+            "rowGap": 4
+          },
+          "scroller": {
+            "_$type": "Scroller"
+          },
+          "_$child": [
+            {
+              "_$id": "r2602prs",
+              "_$prefab": "26267613-2c34-4934-a3f2-45c43be27469",
+              "_$var": true,
+              "name": "itemGp",
+              "active": true,
+              "x": 0,
+              "y": 0,
+              "visible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "dbl9m13h",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "search",
+      "x": 100,
+      "y": 127,
+      "width": 250,
+      "height": 300,
+      "visible": false,
+      "background": {
+        "_$type": "DrawRoundRectCmd",
+        "fillColor": "#ffffff"
+      },
+      "_$child": [
+        {
+          "_$id": "ey5lar8l",
+          "_$var": true,
+          "_$type": "GList",
+          "name": "searchList",
+          "x": 5,
+          "y": 5,
+          "width": 240,
+          "height": 290,
+          "layout": {
+            "type": 1,
+            "rowGap": 2
+          },
+          "scroller": {
+            "_$type": "Scroller"
+          },
+          "_templateNode": {
+            "_$ref": "tcvc1hce",
+            "_$tmpl": "itemTemplate"
+          },
+          "_initItemNum": 4,
+          "_$child": [
+            {
+              "_$id": "tcvc1hce",
+              "_$type": "GButton",
+              "name": "btn",
+              "width": 240,
+              "height": 38,
+              "controllers": {
+                "_$type": "Record",
+                "button": {
+                  "_$type": "Controller",
+                  "pages": [
+                    "up",
+                    "down",
+                    "over",
+                    "selectedOver"
+                  ]
+                }
+              },
+              "titleFontSize": 22,
+              "titleWidget": {
+                "_$ref": "77dd9vt1"
+              },
+              "mode": 2,
+              "_$child": [
+                {
+                  "_$id": "kl2q9888",
+                  "_$type": "GImage",
+                  "name": "img",
+                  "width": 240,
+                  "height": 38,
+                  "src": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+                  "autoSize": false
+                },
+                {
+                  "_$id": "77dd9vt1",
+                  "_$type": "GTextField",
+                  "name": "txt",
+                  "x": 4,
+                  "y": 4,
+                  "width": 39,
+                  "height": 30,
+                  "text": "text",
+                  "_isDemo": true,
+                  "fontSize": 22,
+                  "fitContent": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "2zc77tp8",
+      "_$prefab": "33b28a59-32be-4f8a-a66f-6f40e7e4b312",
+      "_$var": true,
+      "name": "proCmd",
+      "active": true,
+      "x": 0,
+      "y": -118,
+      "visible": true
+    }
+  ],
+  "_$ver": 1,
+  "y": 0,
+  "x": 0,
+  "_$runtime": "res://683427a4-47ca-484e-ae31-1c4ce3ab3014"
+}

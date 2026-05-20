@@ -1,0 +1,68 @@
+{
+  "_$ver": 1,
+  "_$id": "yfdk7a0c",
+  "_$runtime": "res://ee2f5d5d-a255-49a3-b9e2-61826f443a1e",
+  "_$type": "GWidget",
+  "name": "Item_Shop2",
+  "width": 720,
+  "height": 400,
+  "_$child": [
+    {
+      "_$id": "wdegp09d",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgTitle",
+      "x": 11,
+      "width": 698,
+      "height": 59,
+      "src": "res://726d2149-5f07-4c49-8bd8-a45ef07bbbec",
+      "autoSize": false
+    },
+    {
+      "_$id": "oeosvb0t",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "title",
+      "x": 99,
+      "y": 10,
+      "width": 521,
+      "height": 38,
+      "text": "金币",
+      "fontSize": 30,
+      "color": "#ffffff",
+      "bold": true,
+      "align": "center",
+      "stroke": 2
+    },
+    {
+      "_$id": "owjmqw8k",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "x": 10,
+      "y": 86,
+      "width": 700,
+      "height": 629,
+      "layout": {
+        "type": 1,
+        "rowGap": 15
+      },
+      "clipping": false,
+      "_templateNode": {
+        "_$ref": "xk4u7lm1",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 2,
+      "_isDemo": true
+    },
+    {
+      "_$id": "xk4u7lm1",
+      "_$prefab": "fdce03de-add1-491b-ab4d-32feddb4702f",
+      "name": "Item_Shop_Grid2",
+      "active": true,
+      "x": 350,
+      "y": 129,
+      "visible": false
+    }
+  ]
+}

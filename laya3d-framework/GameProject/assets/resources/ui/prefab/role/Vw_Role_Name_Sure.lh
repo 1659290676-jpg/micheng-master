@@ -1,0 +1,150 @@
+{
+  "_$ver": 1,
+  "_$id": "qopsmgl0",
+  "_$runtime": "res://77bcd2ea-7f3b-42ed-9da9-0101c15d2746",
+  "_$type": "GWidget",
+  "name": "Vw_Role_Name",
+  "width": 594,
+  "height": 388,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "vnq24oe4",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 594,
+      "height": 388,
+      "src": "res://7c4edada-684a-4340-85ce-70be82d404d2",
+      "autoSize": false
+    },
+    {
+      "_$id": "o1deovy4",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 62,
+      "y": 161,
+      "width": 469,
+      "height": 60,
+      "src": "res://aac42420-3668-45f8-b00e-24af87b6fef7",
+      "autoSize": false
+    },
+    {
+      "_$id": "62rvg7qi",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 216,
+      "y": 13,
+      "width": 161,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "qopsmgl0"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "改名确认",
+      "fontSize": 40,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "gnr55spk",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb1",
+      "x": 177,
+      "y": 95,
+      "width": 240,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "qopsmgl0"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "你的昵称将改为：",
+      "fontSize": 30,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "iifz9emb",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbName",
+      "x": 65,
+      "y": 173,
+      "width": 464,
+      "height": 36,
+      "text": "1",
+      "fontSize": 30,
+      "color": "#fcf8fe",
+      "fitContent": 2,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "sbj5j4sy",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 538,
+      "y": 35,
+      "visible": true
+    },
+    {
+      "_$id": "kb3gp5o9",
+      "_$prefab": "9fc7680a-61ee-4217-b3d2-b5cdbd769123",
+      "_$var": true,
+      "name": "btn0",
+      "active": true,
+      "x": 164,
+      "y": 297,
+      "visible": true,
+      "title": "取 消"
+    },
+    {
+      "_$id": "kr8ytby7",
+      "_$prefab": "78b881d7-0bdc-40e8-a004-7718e9d713cf",
+      "_$var": true,
+      "name": "btn1",
+      "active": true,
+      "x": 432,
+      "y": 297,
+      "visible": true,
+      "title": "确 认"
+    }
+  ]
+}

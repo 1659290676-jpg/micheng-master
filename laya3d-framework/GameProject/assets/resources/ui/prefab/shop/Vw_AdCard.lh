@@ -1,0 +1,318 @@
+{
+  "_$ver": 1,
+  "_$id": "dzoupdgl",
+  "_$runtime": "res://a0bf1d65-4597-4d27-a610-8a2edd4aac71",
+  "_$type": "GWidget",
+  "name": "Vw_AdCard",
+  "width": 594,
+  "height": 946,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "y10m5la0",
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 594,
+      "height": 860,
+      "src": "res://7c4edada-684a-4340-85ce-70be82d404d2",
+      "autoSize": false
+    },
+    {
+      "_$id": "ily7kjvs",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 65,
+      "y": 416,
+      "width": 463,
+      "height": 222,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false
+    },
+    {
+      "_$id": "45i0wg3s",
+      "_$type": "GImage",
+      "name": "img_4",
+      "x": 134,
+      "y": 516,
+      "width": 44,
+      "height": 34,
+      "src": "res://82a7f0ca-0ff8-4f93-8891-1b001cf2d353",
+      "autoSize": false
+    },
+    {
+      "_$id": "y198zf56",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgIcon",
+      "x": 297,
+      "y": 250,
+      "width": 287,
+      "height": 284,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "src": "res://abffccc0-cc30-43ff-bedc-0a9a34cc7835"
+    },
+    {
+      "_$id": "iuy10eoq",
+      "_$type": "GImage",
+      "name": "img_3",
+      "x": 133,
+      "y": 448,
+      "width": 44,
+      "height": 46,
+      "src": "res://0126cf9d-63ce-489d-890a-d7cc955dda83",
+      "autoSize": false
+    },
+    {
+      "_$id": "8qvn2qwh",
+      "_$type": "GImage",
+      "name": "img_5",
+      "x": 135,
+      "y": 565,
+      "width": 44,
+      "height": 38,
+      "src": "res://9af41133-627e-4d05-b50c-f4e66700ff4f"
+    },
+    {
+      "_$id": "dncjdpab",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 539,
+      "y": 35,
+      "width": 34,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "visible": true
+    },
+    {
+      "_$id": "zmrsovf3",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btn",
+      "x": 297,
+      "y": 729,
+      "width": 290,
+      "height": 120,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "titleColor": "#f3f3f3",
+      "titleFontSize": 48,
+      "titleWidget": {
+        "_$ref": "cxz77tbv"
+      },
+      "iconWidget": {
+        "_$ref": "4o1ghyfi"
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "4o1ghyfi",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 290,
+          "height": 120,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "zmrsovf3"
+              },
+              "data": [
+                1,
+                0,
+                2,
+                0
+              ]
+            }
+          ],
+          "src": "res://62e0eef0-96c4-4016-9768-c1dd814c9321",
+          "autoSize": false
+        },
+        {
+          "_$id": "ovtl6oaa",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgAd",
+          "x": 66,
+          "y": 39,
+          "width": 50,
+          "height": 42,
+          "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+        },
+        {
+          "_$id": "cxz77tbv",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "txtBtn",
+          "x": 126,
+          "y": 32,
+          "width": 97,
+          "height": 55,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "zmrsovf3"
+              },
+              "data": [
+                6,
+                0,
+                13,
+                0
+              ]
+            }
+          ],
+          "text": "text",
+          "_isDemo": true,
+          "fontSize": 48,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "6ar23viu",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTitle",
+      "x": 236,
+      "y": 15,
+      "width": 122,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "免广卡",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "valign": "middle",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "3412g7ah",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt1",
+      "x": 210,
+      "y": 451,
+      "width": 240,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "dzoupdgl"
+          },
+          "data": [
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "不再强制弹出广告",
+      "_isDemo": true,
+      "fontSize": 30,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "valign": "middle",
+      "maxWidth": 335,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "ruszubrb",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt2",
+      "x": 210,
+      "y": 511,
+      "width": 224,
+      "height": 34,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "dzoupdgl"
+          },
+          "data": [
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "不再强制弹出广告",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "valign": "middle",
+      "maxWidth": 335,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "ug8m0b3s",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt3",
+      "x": 210,
+      "y": 571,
+      "width": 224,
+      "height": 34,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "dzoupdgl"
+          },
+          "data": [
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "不再强制弹出广告",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "valign": "middle",
+      "maxWidth": 335,
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

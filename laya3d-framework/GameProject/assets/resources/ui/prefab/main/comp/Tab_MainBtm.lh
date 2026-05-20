@@ -1,0 +1,142 @@
+{
+  "_$ver": 1,
+  "_$id": "7lx8fqe7",
+  "_$runtime": "res://6afa6652-3bf2-4cc9-a059-13db22cbecc9",
+  "_$type": "GButton",
+  "name": "Tab_MainBtm",
+  "x": 252,
+  "y": -49,
+  "width": 198,
+  "height": 146,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ],
+      "_editingIndex": 1
+    }
+  },
+  "titleWidget": {
+    "_$ref": "18rt949x"
+  },
+  "iconWidget": {
+    "_$ref": "vecaxdf3"
+  },
+  "mode": 2,
+  "_$child": [
+    {
+      "_$id": "jc0fw35r",
+      "_$type": "GImage",
+      "name": "img_2",
+      "width": 198,
+      "height": 146,
+      "gears": [
+        {
+          "_$type": "GearDisplay",
+          "controller": {
+            "_$ref": "7lx8fqe7",
+            "_$ctrl": "button"
+          },
+          "pages": [
+            1,
+            3
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "7lx8fqe7"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://f6ab97b7-0118-45f7-aee6-d0feba188d51"
+    },
+    {
+      "_$id": "vecaxdf3",
+      "_$type": "GImage",
+      "name": "img_3",
+      "x": 58,
+      "y": 14,
+      "width": 82,
+      "height": 82,
+      "gears": [
+        {
+          "_$type": "GearDisplay",
+          "controller": {
+            "_$ref": "7lx8fqe7",
+            "_$ctrl": "button"
+          },
+          "pages": [
+            1,
+            3
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "7lx8fqe7"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://d0549a50-39df-4442-8968-6a9ebdea2b1d"
+    },
+    {
+      "_$id": "18rt949x",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 61,
+      "y": 106,
+      "width": 76,
+      "height": 45,
+      "gears": [
+        {
+          "_$type": "GearDisplay",
+          "controller": {
+            "_$ref": "7lx8fqe7",
+            "_$ctrl": "button"
+          },
+          "pages": [
+            1,
+            3
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "7lx8fqe7"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "关卡",
+      "_isDemo": true,
+      "fontSize": 36,
+      "color": "#403100",
+      "fitContent": 1
+    }
+  ]
+}

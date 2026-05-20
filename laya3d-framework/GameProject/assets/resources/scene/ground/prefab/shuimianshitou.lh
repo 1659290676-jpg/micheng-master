@@ -1,0 +1,6022 @@
+{
+  "_$ver": 1,
+  "_$id": "btcwrxmn",
+  "_$type": "Sprite3D",
+  "name": "shuimianshitou",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "平面.075",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 29.937633514404297,
+          "y": -2.4380943775177,
+          "z": -165.11134338378906
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 5,
+          "y": 5,
+          "z": 5
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm122",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#43",
+      "_$type": "Sprite3D",
+      "name": "棱角球",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": -3.0228710174560547,
+          "z": 142.84400939941406
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.370419502258301,
+          "y": 3.370419502258301,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm121",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#44",
+      "_$type": "Sprite3D",
+      "name": "棱角球.001",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 7.391354560852051,
+          "y": -3.7037034034729004,
+          "z": 142.9783477783203
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.486377715962557,
+          "y": 0.513261020076035,
+          "z": 0.5132573245880597,
+          "w": 0.48638129224124277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 5.6638288497924805,
+          "y": 6.071400165557861,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "棱角球.002",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 16.409189224243164,
+          "y": -3.5716235637664795,
+          "z": 143.98614501953125
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm1",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#46",
+      "_$type": "Sprite3D",
+      "name": "棱角球.003",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 32.96257400512695,
+          "y": -3.0031216144561768,
+          "z": 143.24156188964844
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm2",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#47",
+      "_$type": "Sprite3D",
+      "name": "棱角球.004",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 36.710975646972656,
+          "y": -3.1133992671966553,
+          "z": 144.338134765625
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm3",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#48",
+      "_$type": "Sprite3D",
+      "name": "棱角球.005",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 44.345149993896484,
+          "y": -3.5716235637664795,
+          "z": 143.04660034179688
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm4",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#49",
+      "_$type": "Sprite3D",
+      "name": "棱角球.006",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 77.24920654296875,
+          "y": -3.0031216144561768,
+          "z": 143.06117248535156
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm5",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#50",
+      "_$type": "Sprite3D",
+      "name": "棱角球.007",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 80.99761199951172,
+          "y": -3.1133992671966553,
+          "z": 144.15774536132812
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm6",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#51",
+      "_$type": "Sprite3D",
+      "name": "棱角球.008",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 68.69243621826172,
+          "y": -3.5716235637664795,
+          "z": 142.8662109375
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm7",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#52",
+      "_$type": "Sprite3D",
+      "name": "棱角球.009",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 122.4919204711914,
+          "y": -3.0031216144561768,
+          "z": 143.81883239746094
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm8",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#53",
+      "_$type": "Sprite3D",
+      "name": "棱角球.010",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 126.24034118652344,
+          "y": -3.1133992671966553,
+          "z": 144.9154052734375
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm9",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#54",
+      "_$type": "Sprite3D",
+      "name": "棱角球.011",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 113.93516540527344,
+          "y": -3.5716235637664795,
+          "z": 143.62387084960938
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm10",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#55",
+      "_$type": "Sprite3D",
+      "name": "棱角球.012",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 134.81405639648438,
+          "y": -3.5716235637664795,
+          "z": 142.44943237304688
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm11",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#56",
+      "_$type": "Sprite3D",
+      "name": "棱角球.013",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 139.02105712890625,
+          "y": -3.0031216144561768,
+          "z": 134.2493438720703
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm12",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#57",
+      "_$type": "Sprite3D",
+      "name": "棱角球.014",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 140.32415771484375,
+          "y": -3.0031216144561768,
+          "z": 125.72437286376953
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm13",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#58",
+      "_$type": "Sprite3D",
+      "name": "棱角球.015",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 144.07257080078125,
+          "y": -3.1133992671966553,
+          "z": 126.8209457397461
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm14",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#59",
+      "_$type": "Sprite3D",
+      "name": "棱角球.017",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 142.1139373779297,
+          "y": -3.0031216144561768,
+          "z": 100.24132537841797
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm15",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#60",
+      "_$type": "Sprite3D",
+      "name": "棱角球.018",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 145.8623504638672,
+          "y": -3.1133992671966553,
+          "z": 101.3379135131836
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm16",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#61",
+      "_$type": "Sprite3D",
+      "name": "棱角球.019",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 138.80194091796875,
+          "y": -3.5716235637664795,
+          "z": 95.71943664550781
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm17",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#62",
+      "_$type": "Sprite3D",
+      "name": "棱角球.020",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 141.7205810546875,
+          "y": -3.0031216144561768,
+          "z": 58.7420768737793
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm18",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#63",
+      "_$type": "Sprite3D",
+      "name": "棱角球.021",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 145.468994140625,
+          "y": -3.1133992671966553,
+          "z": 52.823768615722656
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm19",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#64",
+      "_$type": "Sprite3D",
+      "name": "棱角球.022",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 138.40858459472656,
+          "y": -3.5716235637664795,
+          "z": 54.22018051147461
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm20",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#65",
+      "_$type": "Sprite3D",
+      "name": "棱角球.023",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 138.7819061279297,
+          "y": -3.1133992671966553,
+          "z": 67.64025115966797
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm21",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#66",
+      "_$type": "Sprite3D",
+      "name": "棱角球.024",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 181.6579132080078,
+          "y": -3.1133992671966553,
+          "z": 52.299293518066406
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm22",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#67",
+      "_$type": "Sprite3D",
+      "name": "棱角球.025",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 174.59750366210938,
+          "y": -3.5716235637664795,
+          "z": 53.695701599121094
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm23",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#68",
+      "_$type": "Sprite3D",
+      "name": "棱角球.026",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 191.8081512451172,
+          "y": -3.0031216144561768,
+          "z": 51.20271301269531
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm24",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#69",
+      "_$type": "Sprite3D",
+      "name": "棱角球.027",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 200.5391082763672,
+          "y": -3.1133992671966553,
+          "z": 52.4304084777832
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm25",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#70",
+      "_$type": "Sprite3D",
+      "name": "棱角球.028",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 193.47869873046875,
+          "y": -3.5716235637664795,
+          "z": 53.826820373535156
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm26",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#71",
+      "_$type": "Sprite3D",
+      "name": "棱角球.029",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 210.68931579589844,
+          "y": -3.0031216144561768,
+          "z": 51.333839416503906
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm27",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#72",
+      "_$type": "Sprite3D",
+      "name": "棱角球.030",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 216.86346435546875,
+          "y": -3.1133992671966553,
+          "z": 43.97321319580078
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm28",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#73",
+      "_$type": "Sprite3D",
+      "name": "棱角球.031",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 209.80303955078125,
+          "y": -3.5716235637664795,
+          "z": 45.3696174621582
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm29",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#74",
+      "_$type": "Sprite3D",
+      "name": "棱角球.032",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 231.84539794921875,
+          "y": -3.0031216144561768,
+          "z": 32.80582809448242
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm30",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#75",
+      "_$type": "Sprite3D",
+      "name": "棱角球.033",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 234.4716339111328,
+          "y": -3.1133992671966553,
+          "z": 28.073291778564453
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm31",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#76",
+      "_$type": "Sprite3D",
+      "name": "棱角球.034",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 230.95913696289062,
+          "y": -3.5716235637664795,
+          "z": 26.84161949157715
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm32",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#77",
+      "_$type": "Sprite3D",
+      "name": "棱角球.035",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 232.6338348388672,
+          "y": -3.0031216144561768,
+          "z": 12.0439453125
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm33",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#78",
+      "_$type": "Sprite3D",
+      "name": "棱角球.036",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 231.12081909179688,
+          "y": -3.1133992671966553,
+          "z": 7.311408519744873
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm34",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#79",
+      "_$type": "Sprite3D",
+      "name": "棱角球.037",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 227.6083221435547,
+          "y": -3.5716235637664795,
+          "z": 6.079735279083252
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm35",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#80",
+      "_$type": "Sprite3D",
+      "name": "棱角球.038",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 232.6338348388672,
+          "y": -3.0031216144561768,
+          "z": -20.018707275390625
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm36",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#81",
+      "_$type": "Sprite3D",
+      "name": "棱角球.039",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 231.12081909179688,
+          "y": -3.1133992671966553,
+          "z": -24.751243591308594
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm37",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#82",
+      "_$type": "Sprite3D",
+      "name": "棱角球.040",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 228.13394165039062,
+          "y": -3.5716235637664795,
+          "z": -12.448273658752441
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm38",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#83",
+      "_$type": "Sprite3D",
+      "name": "棱角球.041",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 229.87432861328125,
+          "y": -3.0031216144561768,
+          "z": -34.473182678222656
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm39",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#84",
+      "_$type": "Sprite3D",
+      "name": "棱角球.042",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 228.361328125,
+          "y": -3.1133992671966553,
+          "z": -39.20571517944336
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm40",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#85",
+      "_$type": "Sprite3D",
+      "name": "棱角球.044",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 233.7507781982422,
+          "y": -3.0031216144561768,
+          "z": -54.24953079223633
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm41",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#86",
+      "_$type": "Sprite3D",
+      "name": "棱角球.045",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 228.49273681640625,
+          "y": -3.1133992671966553,
+          "z": -56.09117126464844
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm42",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#87",
+      "_$type": "Sprite3D",
+      "name": "棱角球.046",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 225.505859375,
+          "y": -3.5716235637664795,
+          "z": -43.7881965637207
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm43",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#88",
+      "_$type": "Sprite3D",
+      "name": "棱角球.048",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 221.2499542236328,
+          "y": -3.1133992671966553,
+          "z": -60.5398063659668
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm44",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#89",
+      "_$type": "Sprite3D",
+      "name": "棱角球.049",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 213.03126525878906,
+          "y": -3.0031216144561768,
+          "z": -60.65852355957031
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm45",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#90",
+      "_$type": "Sprite3D",
+      "name": "棱角球.051",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 158.4768524169922,
+          "y": -3.1133992671966553,
+          "z": -61.856712341308594
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm46",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#91",
+      "_$type": "Sprite3D",
+      "name": "棱角球.052",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 150.25814819335938,
+          "y": -3.0031216144561768,
+          "z": -61.97544860839844
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm47",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#92",
+      "_$type": "Sprite3D",
+      "name": "棱角球.053",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 118.74951934814453,
+          "y": -3.1133992671966553,
+          "z": -58.90058898925781
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm48",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#93",
+      "_$type": "Sprite3D",
+      "name": "棱角球.054",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 111.15556335449219,
+          "y": -3.1133992671966553,
+          "z": -60.36421203613281
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm49",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#94",
+      "_$type": "Sprite3D",
+      "name": "棱角球.055",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 109.08248901367188,
+          "y": -3.0031216144561768,
+          "z": -67.50650787353516
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm50",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#95",
+      "_$type": "Sprite3D",
+      "name": "棱角球.056",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 108.82872772216797,
+          "y": -3.1133992671966553,
+          "z": -94.8085708618164
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm51",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#96",
+      "_$type": "Sprite3D",
+      "name": "棱角球.057",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 110.6288070678711,
+          "y": -3.1133992671966553,
+          "z": -99.25720977783203
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm52",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#97",
+      "_$type": "Sprite3D",
+      "name": "棱角球.058",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 108.55570983886719,
+          "y": -3.0031216144561768,
+          "z": -106.39950561523438
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm53",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#98",
+      "_$type": "Sprite3D",
+      "name": "棱角球.059",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 110.58462524414062,
+          "y": -3.1133992671966553,
+          "z": -85.3267593383789
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm54",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#99",
+      "_$type": "Sprite3D",
+      "name": "棱角球.060",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 108.78511810302734,
+          "y": -3.1133992671966553,
+          "z": -81.78608703613281
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm55",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#100",
+      "_$type": "Sprite3D",
+      "name": "棱角球.061",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 110.31161499023438,
+          "y": -3.0031216144561768,
+          "z": -88.92837524414062
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm56",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#101",
+      "_$type": "Sprite3D",
+      "name": "棱角球.062",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 97.4350814819336,
+          "y": -3.0031216144561768,
+          "z": -110.9355697631836
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm57",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#102",
+      "_$type": "Sprite3D",
+      "name": "棱角球.063",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 87.7580337524414,
+          "y": -3.1133992671966553,
+          "z": -112.25044250488281
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm58",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#103",
+      "_$type": "Sprite3D",
+      "name": "棱角球.065",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 81.33940124511719,
+          "y": -3.0031216144561768,
+          "z": -110.9501953125
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm59",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#104",
+      "_$type": "Sprite3D",
+      "name": "棱角球.066",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 53.46461868286133,
+          "y": -3.0031216144561768,
+          "z": -110.42343139648438
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm60",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#105",
+      "_$type": "Sprite3D",
+      "name": "棱角球.067",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 48.177303314208984,
+          "y": -3.1133992671966553,
+          "z": -109.68974304199219
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm61",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#106",
+      "_$type": "Sprite3D",
+      "name": "棱角球.068",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 37.36894607543945,
+          "y": -3.0031216144561768,
+          "z": -110.43805694580078
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm62",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#107",
+      "_$type": "Sprite3D",
+      "name": "棱角球.071",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -1.2606697082519531,
+          "y": -3.0031216144561768,
+          "z": -109.63327026367188
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm63",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#108",
+      "_$type": "Sprite3D",
+      "name": "棱角球.072",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -35.79320526123047,
+          "y": -3.0031216144561768,
+          "z": -110.93555450439453
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm64",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#109",
+      "_$type": "Sprite3D",
+      "name": "棱角球.073",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -17.96127700805664,
+          "y": -3.1133992671966553,
+          "z": -110.2018814086914
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm65",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#110",
+      "_$type": "Sprite3D",
+      "name": "棱角球.074",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -28.769638061523438,
+          "y": -3.0031216144561768,
+          "z": -110.9501724243164
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm66",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#111",
+      "_$type": "Sprite3D",
+      "name": "棱角球.075",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -83.71440124511719,
+          "y": -3.0031216144561768,
+          "z": -112.32563781738281
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm67",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#112",
+      "_$type": "Sprite3D",
+      "name": "棱角球.076",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -65.88249206542969,
+          "y": -3.1133992671966553,
+          "z": -111.59197235107422
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm68",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#113",
+      "_$type": "Sprite3D",
+      "name": "棱角球.077",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -71.05736541748047,
+          "y": -3.0031216144561768,
+          "z": -112.34027099609375
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm69",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#114",
+      "_$type": "Sprite3D",
+      "name": "棱角球.078",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -138.2933807373047,
+          "y": -3.0031216144561768,
+          "z": -110.56973266601562
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm70",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#115",
+      "_$type": "Sprite3D",
+      "name": "棱角球.079",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -120.4614486694336,
+          "y": -3.1133992671966553,
+          "z": -109.8360824584961
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm71",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#116",
+      "_$type": "Sprite3D",
+      "name": "棱角球.080",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -125.63632202148438,
+          "y": -3.0031216144561768,
+          "z": -112.41343688964844
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm72",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#117",
+      "_$type": "Sprite3D",
+      "name": "棱角球.081",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -145.24378967285156,
+          "y": -3.0031216144561768,
+          "z": -89.0600814819336
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm73",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#118",
+      "_$type": "Sprite3D",
+      "name": "棱角球.082",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -143.56106567382812,
+          "y": -3.0031216144561768,
+          "z": -95.51297760009766
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545195946983,
+          "y": -0.07465707673109329,
+          "z": -0.07465708418167405,
+          "w": 0.7031545791993444
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.8103508949279785,
+          "y": 4.825498104095459,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm74",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#119",
+      "_$type": "Sprite3D",
+      "name": "棱角球.083",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -145.02430725097656,
+          "y": -3.0031216144561768,
+          "z": -73.40337371826172
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm75",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#120",
+      "_$type": "Sprite3D",
+      "name": "棱角球.084",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -143.34158325195312,
+          "y": -3.0031216144561768,
+          "z": -79.85627746582031
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm76",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#121",
+      "_$type": "Sprite3D",
+      "name": "棱角球.085",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -143.8537139892578,
+          "y": -3.0031216144561768,
+          "z": -53.43009948730469
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm77",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#122",
+      "_$type": "Sprite3D",
+      "name": "棱角球.086",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -143.6342315673828,
+          "y": -3.0031216144561768,
+          "z": -43.48005294799805
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm78",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#123",
+      "_$type": "Sprite3D",
+      "name": "棱角球.087",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -141.95150756835938,
+          "y": -3.0031216144561768,
+          "z": -49.932960510253906
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm79",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#124",
+      "_$type": "Sprite3D",
+      "name": "棱角球.088",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -150.2188262939453,
+          "y": -3.0031216144561768,
+          "z": -42.5289421081543
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm80",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#125",
+      "_$type": "Sprite3D",
+      "name": "棱角球.089",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -149.9993438720703,
+          "y": -3.0031216144561768,
+          "z": -32.57889175415039
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm81",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#126",
+      "_$type": "Sprite3D",
+      "name": "棱角球.090",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -148.31661987304688,
+          "y": -3.0031216144561768,
+          "z": -39.03179168701172
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm82",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#127",
+      "_$type": "Sprite3D",
+      "name": "棱角球.091",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -141.95150756835938,
+          "y": -3.0031216144561768,
+          "z": -24.4578914642334
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm83",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#128",
+      "_$type": "Sprite3D",
+      "name": "棱角球.092",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -141.73202514648438,
+          "y": -3.0031216144561768,
+          "z": -14.507840156555176
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm84",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#129",
+      "_$type": "Sprite3D",
+      "name": "棱角球.093",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -140.04930114746094,
+          "y": -3.0031216144561768,
+          "z": -20.960744857788086
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm85",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#130",
+      "_$type": "Sprite3D",
+      "name": "棱角球.094",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -142.53680419921875,
+          "y": -3.0031216144561768,
+          "z": 8.24559211730957
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm86",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#131",
+      "_$type": "Sprite3D",
+      "name": "棱角球.095",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -142.31732177734375,
+          "y": -3.0031216144561768,
+          "z": 24.707069396972656
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm87",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#132",
+      "_$type": "Sprite3D",
+      "name": "棱角球.096",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -140.6345977783203,
+          "y": -3.0031216144561768,
+          "z": 8.88941478729248
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm88",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#133",
+      "_$type": "Sprite3D",
+      "name": "棱角球.097",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -152.04788208007812,
+          "y": -3.0031216144561768,
+          "z": 42.4854850769043
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm89",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#134",
+      "_$type": "Sprite3D",
+      "name": "棱角球.098",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -154.6085662841797,
+          "y": -3.0031216144561768,
+          "z": 58.946964263916016
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm90",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#135",
+      "_$type": "Sprite3D",
+      "name": "棱角球.099",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -147.3655242919922,
+          "y": -3.0031216144561768,
+          "z": 43.129295349121094
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm91",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#136",
+      "_$type": "Sprite3D",
+      "name": "棱角球.100",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -155.55966186523438,
+          "y": -3.0031216144561768,
+          "z": 75.05726623535156
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm92",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#137",
+      "_$type": "Sprite3D",
+      "name": "棱角球.101",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -154.25738525390625,
+          "y": -3.0031216144561768,
+          "z": 84.58297729492188
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm93",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#138",
+      "_$type": "Sprite3D",
+      "name": "棱角球.102",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -154.12570190429688,
+          "y": -3.0031216144561768,
+          "z": 68.76531982421875
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm94",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#139",
+      "_$type": "Sprite3D",
+      "name": "棱角球.103",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -155.74989318847656,
+          "y": -3.0031216144561768,
+          "z": 90.28962707519531
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm95",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#140",
+      "_$type": "Sprite3D",
+      "name": "棱角球.104",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -155.39871215820312,
+          "y": -3.0031216144561768,
+          "z": 115.92564392089844
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm96",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#141",
+      "_$type": "Sprite3D",
+      "name": "棱角球.105",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -155.26702880859375,
+          "y": -3.0031216144561768,
+          "z": 100.10798645019531
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm97",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#142",
+      "_$type": "Sprite3D",
+      "name": "棱角球.106",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -43.30477523803711,
+          "y": -3.7037034034729004,
+          "z": 144.1161651611328
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.486377715962557,
+          "y": 0.513261020076035,
+          "z": 0.5132573245880597,
+          "w": 0.48638129224124277
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 5.6638288497924805,
+          "y": 6.071400165557861,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm98",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#143",
+      "_$type": "Sprite3D",
+      "name": "棱角球.107",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -34.37473678588867,
+          "y": -3.5716235637664795,
+          "z": 142.57791137695312
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm99",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#144",
+      "_$type": "Sprite3D",
+      "name": "棱角球.108",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -17.73355484008789,
+          "y": -3.0031216144561768,
+          "z": 144.37937927246094
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm100",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#145",
+      "_$type": "Sprite3D",
+      "name": "棱角球.109",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -13.985154151916504,
+          "y": -3.1133992671966553,
+          "z": 145.4759521484375
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm101",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#146",
+      "_$type": "Sprite3D",
+      "name": "棱角球.110",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -6.350978851318359,
+          "y": -3.5716235637664795,
+          "z": 144.18441772460938
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm102",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#147",
+      "_$type": "Sprite3D",
+      "name": "棱角球.111",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -154.83819580078125,
+          "y": -3.0031216144561768,
+          "z": 104.81183624267578
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm103",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#148",
+      "_$type": "Sprite3D",
+      "name": "棱角球.112",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -154.48703002929688,
+          "y": -3.0031216144561768,
+          "z": 130.44786071777344
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6395592678206002,
+          "y": -0.30160245246012446,
+          "z": -0.3016025120647691,
+          "w": 0.6395590890066662
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.3604607582092285,
+          "y": 2.8251242637634277,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm104",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#149",
+      "_$type": "Sprite3D",
+      "name": "棱角球.113",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -154.3553466796875,
+          "y": -3.0031216144561768,
+          "z": 114.63019561767578
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.6968301632157451,
+          "y": 0.12011682410229886,
+          "z": 0.12011686135520237,
+          "w": 0.6968296863785802
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.810351848602295,
+          "y": 4.825499057769775,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm105",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#150",
+      "_$type": "Sprite3D",
+      "name": "棱角球.114",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -58.25629806518555,
+          "y": -3.681879997253418,
+          "z": 140.11325073242188
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.370419502258301,
+          "y": 3.370419502258301,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm106",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#151",
+      "_$type": "Sprite3D",
+      "name": "棱角球.115",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -75.98985290527344,
+          "y": -3.0031216144561768,
+          "z": 141.64862060546875
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm107",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#152",
+      "_$type": "Sprite3D",
+      "name": "棱角球.116",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -72.241455078125,
+          "y": -3.1133992671966553,
+          "z": 142.7451934814453
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm108",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#153",
+      "_$type": "Sprite3D",
+      "name": "棱角球.117",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -64.6072769165039,
+          "y": -3.5716235637664795,
+          "z": 141.4536590576172
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm109",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#154",
+      "_$type": "Sprite3D",
+      "name": "棱角球.118",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -84.5019760131836,
+          "y": -3.890618085861206,
+          "z": 130.40386962890625
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.370419502258301,
+          "y": 3.370419502258301,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm110",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#155",
+      "_$type": "Sprite3D",
+      "name": "棱角球.119",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -119.48960876464844,
+          "y": -3.0031216144561768,
+          "z": 131.93923950195312
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm111",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#156",
+      "_$type": "Sprite3D",
+      "name": "棱角球.120",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -98.48712921142578,
+          "y": -3.1133992671966553,
+          "z": 133.0358123779297
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm112",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#157",
+      "_$type": "Sprite3D",
+      "name": "棱角球.121",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -90.85293579101562,
+          "y": -3.5716235637664795,
+          "z": 131.74427795410156
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm113",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#158",
+      "_$type": "Sprite3D",
+      "name": "棱角球.122",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -133.9591522216797,
+          "y": -4.465593338012695,
+          "z": 131.20216369628906
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.370419502258301,
+          "y": 3.370419502258301,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm114",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#159",
+      "_$type": "Sprite3D",
+      "name": "棱角球.123",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -151.6927032470703,
+          "y": -3.0031216144561768,
+          "z": 130.72557067871094
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm115",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#160",
+      "_$type": "Sprite3D",
+      "name": "棱角球.124",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -147.94430541992188,
+          "y": -3.1133992671966553,
+          "z": 133.59022521972656
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm116",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#161",
+      "_$type": "Sprite3D",
+      "name": "棱角球.125",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -140.31011962890625,
+          "y": -3.5716235637664795,
+          "z": 130.53060913085938
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm117",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#162",
+      "_$type": "Sprite3D",
+      "name": "棱角球.126",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -109.38885498046875,
+          "y": -3.0228710174560547,
+          "z": 130.95828247070312
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068705935067,
+          "w": 0.7071066917795769
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.370419502258301,
+          "y": 3.370419502258301,
+          "z": 3.370419502258301
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm118",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#163",
+      "_$type": "Sprite3D",
+      "name": "棱角球.127",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -127.12240600585938,
+          "y": -3.0031216144561768,
+          "z": 130.481689453125
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.07465708409861975,
+          "z": -0.0746570915492005,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 3.4028353691101074,
+          "y": 4.718086242675781,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm119",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "#164",
+      "_$type": "Sprite3D",
+      "name": "棱角球.128",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -115.326171875,
+          "y": -3.1133992671966553,
+          "z": 133.34634399414062
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.4863766697597499,
+          "y": 0.5132622088748575,
+          "z": 0.5132563676197082,
+          "w": 0.4863820937823885
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 2.1803476810455322,
+          "y": 4.938073635101318,
+          "z": 2.7454323768615723
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "63521dfd-0824-4046-baf2-61833d7fb930@lm120",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

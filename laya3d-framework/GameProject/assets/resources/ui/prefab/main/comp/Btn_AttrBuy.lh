@@ -1,0 +1,138 @@
+{
+  "_$ver": 1,
+  "_$id": "6ltuo2i7",
+  "_$runtime": "res://6afa6652-3bf2-4cc9-a059-13db22cbecc9",
+  "_$type": "GButton",
+  "name": "Btn_AttrBuy",
+  "x": 5,
+  "y": 175,
+  "width": 160,
+  "height": 44,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "titleWidget": {
+    "_$ref": "3gn9writ"
+  },
+  "downEffect": 2,
+  "_$child": [
+    {
+      "_$id": "6fgyctgi",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 160,
+      "height": 44,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6ltuo2i7"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://063cbd4b-aa2a-4281-99f3-55279e56f89a",
+      "autoSize": false
+    },
+    {
+      "_$id": "gnvl8xdn",
+      "_$type": "GWidget",
+      "name": "node",
+      "x": 43,
+      "y": 3,
+      "width": 74,
+      "height": 39,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "3gn9writ"
+          },
+          "data": [
+            1,
+            0
+          ]
+        },
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6ltuo2i7"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "8bujpc0s",
+          "_$type": "GImage",
+          "name": "img_1",
+          "width": 50,
+          "height": 54,
+          "scaleX": 0.76,
+          "scaleY": 0.76,
+          "src": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e"
+        },
+        {
+          "_$id": "3gn9writ",
+          "_$type": "GTextField",
+          "name": "txt",
+          "x": 50,
+          "y": 2,
+          "width": 22,
+          "height": 40,
+          "text": "1",
+          "_isDemo": true,
+          "fontSize": 32,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "trmyw35u",
+      "_$type": "GTextField",
+      "name": "max",
+      "x": 44,
+      "y": 3,
+      "width": 73,
+      "height": 40,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6ltuo2i7"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "MAX",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+
+fx_huanguan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangguan_00000
+  rotate: false
+  xy: 2, 368
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00001
+  rotate: false
+  xy: 2, 246
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00002
+  rotate: false
+  xy: 124, 368
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00003
+  rotate: false
+  xy: 2, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00004
+  rotate: false
+  xy: 124, 246
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00005
+  rotate: false
+  xy: 246, 368
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00006
+  rotate: false
+  xy: 2, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00007
+  rotate: false
+  xy: 124, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00008
+  rotate: false
+  xy: 246, 246
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00009
+  rotate: false
+  xy: 368, 368
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00010
+  rotate: false
+  xy: 124, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00011
+  rotate: false
+  xy: 246, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+huangguan_00012
+  rotate: false
+  xy: 368, 246
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1

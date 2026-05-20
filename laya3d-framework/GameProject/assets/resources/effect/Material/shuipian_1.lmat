@@ -1,0 +1,58 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "textures": [
+      {
+        "path": "res://614fa230-5c4d-493f-b731-5a80f346fddd",
+        "constructParams": [
+          20,
+          20,
+          1,
+          false,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 1,
+          "wrapModeV": 1,
+          "anisoLevel": 4
+        },
+        "name": "u_texture"
+      }
+    ],
+    "type": "PARTICLESHURIKEN",
+    "renderQueue": 2000,
+    "materialRenderMode": 0,
+    "u_AlphaTestValue": 0.404,
+    "s_Cull": 2,
+    "s_Blend": 0,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 7,
+    "s_BlendSrcRGB": 0,
+    "s_BlendDstRGB": 0,
+    "s_BlendSrcAlpha": 0,
+    "s_BlendDstAlpha": 0,
+    "s_BlendEquation": 0,
+    "s_BlendEquationRGB": 0,
+    "s_BlendEquationAlpha": 0,
+    "s_DepthTest": 1,
+    "s_DepthWrite": true,
+    "u_TilingOffset": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "u_Tintcolor": [
+      1,
+      0.561652131782946,
+      0.27131782945736427,
+      1
+    ],
+    "defines": [
+      "DIFFUSEMAP",
+      "TINTCOLOR"
+    ]
+  }
+}

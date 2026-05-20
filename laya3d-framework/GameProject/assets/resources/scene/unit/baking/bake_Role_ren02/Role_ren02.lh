@@ -1,0 +1,141 @@
+{
+  "_$ver": 1,
+  "_$id": "xtrl3afs",
+  "_$type": "Sprite3D",
+  "name": "Role_ren02",
+  "transform": {
+    "localRotation": {
+      "_$type": "Quaternion",
+      "y": 1,
+      "w": 6.123233995736766e-17
+    },
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 0.9,
+      "y": 0.9,
+      "z": 0.9
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "Animator",
+      "controller": {
+        "_$uuid": "59fcf524-d02c-426f-be81-6b9ccdda25b7",
+        "_$type": "AnimationController"
+      },
+      "cullingMode": 0,
+      "controllerLayers": [
+        {
+          "_$type": "AnimatorControllerLayer",
+          "name": "idle",
+          "states": [
+            {
+              "_$type": "AnimatorState",
+              "name": "idle",
+              "clipStart": 0,
+              "clip": {
+                "_$uuid": "9086146b-25c0-42c2-ac90-12674493012d",
+                "_$type": "AnimationClip"
+              },
+              "soloTransitions": []
+            },
+            {
+              "_$type": "AnimatorState",
+              "name": "run",
+              "clipStart": 0,
+              "clip": {
+                "_$uuid": "1fc643cd-c42d-401c-9b43-780802d5ec2d",
+                "_$type": "AnimationClip"
+              },
+              "soloTransitions": []
+            }
+          ],
+          "defaultStateName": "idle"
+        }
+      ]
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "2cowmz3q",
+      "_$type": "Sprite3D",
+      "name": "Role_ren02",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "53920a74-5a57-4331-81b0-0d91ebe9d0ad",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "SimpleSkinnedMeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ],
+          "_bones": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "rootBone": {
+            "_$ref": "xtrl3afs"
+          },
+          "localBounds": {
+            "_$type": "Bounds",
+            "min": {
+              "_$type": "Vector3",
+              "x": -0.3755009617692804,
+              "y": -0.05648512372416592,
+              "z": -0.3490540580359154
+            },
+            "max": {
+              "_$type": "Vector3",
+              "x": 0.3874528729101674,
+              "y": 1.1998895585881,
+              "z": 0.4328417089122003
+            }
+          },
+          "simpleAnimatorTexture": {
+            "_$uuid": "be8c9bf4-872b-4397-997e-65575d48e187",
+            "_$type": "Texture2D"
+          },
+          "_bonesNums": 28
+        }
+      ]
+    }
+  ]
+}

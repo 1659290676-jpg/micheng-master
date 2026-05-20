@@ -1,0 +1,162 @@
+{
+  "_$ver": 1,
+  "_$id": "wr8k7kzr",
+  "_$type": "Sprite3D",
+  "name": "Role_dinosaur02",
+  "_$comp": [
+    {
+      "_$type": "Animator",
+      "controller": {
+        "_$uuid": "05fc6a89-d2aa-4ba4-b18a-8161dd8cdade",
+        "_$type": "AnimationController"
+      },
+      "cullingMode": 0,
+      "controllerLayers": [
+        {
+          "_$type": "AnimatorControllerLayer",
+          "name": "Base Layer",
+          "defaultStateName": "idle"
+        }
+      ]
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "kiy62klm",
+      "_$type": "Sprite3D",
+      "name": "Role_dinosaur02",
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "d7135ae0-cd2e-4d6a-8f02-d94140b2bd73",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "SimpleSkinnedMeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ],
+          "_bones": [
+            {
+              "_$ref": "0xzyrfcp"
+            },
+            {
+              "_$ref": "ntcwdoaz"
+            },
+            {
+              "_$ref": "3c28e3u7"
+            },
+            {
+              "_$ref": "5vy5kfi6"
+            },
+            {
+              "_$ref": "0d9c2g7c"
+            },
+            {
+              "_$ref": "j9ssl964"
+            },
+            {
+              "_$ref": "3gxj73hb"
+            },
+            {
+              "_$ref": "dxi622t5"
+            },
+            {
+              "_$ref": "gez5wm4k"
+            },
+            {
+              "_$ref": "suuyusvm"
+            },
+            {
+              "_$ref": "0hp6pl91"
+            },
+            {
+              "_$ref": "f31qgd8x"
+            },
+            {
+              "_$ref": "ngqmvriu"
+            },
+            {
+              "_$ref": "f39bi4x5"
+            },
+            {
+              "_$ref": "drwp8inm"
+            },
+            {
+              "_$ref": "thi7t5he"
+            },
+            {
+              "_$ref": "2c7sq2nm"
+            },
+            {
+              "_$ref": "jua57z45"
+            },
+            {
+              "_$ref": "q2lp6thm"
+            },
+            {
+              "_$ref": "zt8sh1as"
+            },
+            {
+              "_$ref": "ozkxdgas"
+            },
+            {
+              "_$ref": "vdu6dm3v"
+            },
+            {
+              "_$ref": "xdrpjjei"
+            },
+            {
+              "_$ref": "yl83hbwj"
+            },
+            {
+              "_$ref": "ozqu0a4e"
+            },
+            {
+              "_$ref": "lolfiyhg"
+            },
+            {
+              "_$ref": "ww775vn0"
+            },
+            {
+              "_$ref": "v66muxhb"
+            }
+          ],
+          "rootBone": {
+            "_$ref": "wr8k7kzr"
+          },
+          "localBounds": {
+            "_$type": "Bounds",
+            "min": {
+              "_$type": "Vector3",
+              "x": -0.5686323627660075,
+              "y": -0.19234930188327692,
+              "z": -1.830089209044372
+            },
+            "max": {
+              "_$type": "Vector3",
+              "x": 0.5210647547200626,
+              "y": 1.8641026091850443,
+              "z": 1.5060585120354124
+            }
+          },
+          "_bonesNums": 28,
+          "simpleAnimatorTexture": {
+            "_$type": "Texture2D",
+            "_$uuid": "8b3c9766-4ff5-4823-80be-acf912ec57fb"
+          }
+        }
+      ]
+    }
+  ]
+}

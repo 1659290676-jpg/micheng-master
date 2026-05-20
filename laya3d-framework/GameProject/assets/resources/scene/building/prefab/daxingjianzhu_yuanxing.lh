@@ -1,0 +1,80 @@
+{
+  "_$ver": 1,
+  "_$id": "4h3879aa",
+  "_$type": "Sprite3D",
+  "name": "daxingjianzhu_yuanxing_1",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "03c092ed-9019-447b-94f9-2152a4a13788",
+      "scriptPath": "../src/Game/Scene/Components/Unit_Building.ts",
+      "type": 13
+    },
+    {
+      "_$type": "PhysicsCollider",
+      "colliderShape": {
+        "_$type": "CylinderColliderShape",
+        "localOffset": {
+          "_$type": "Vector3",
+          "y": 19.166
+        },
+        "radius": 5.697,
+        "height": 38.145
+      },
+      "collisionGroup": 8,
+      "canCollideWith": 16
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "daxingjianzhu_yuanxing",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -4.371139183945148e-8,
+          "y": 4.371139183945148e-8,
+          "z": -4.3711384734024124e-8,
+          "w": 0.9999999999999971
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "fa0fc76f-79ea-4d05-b7b6-31519e79b9dc@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

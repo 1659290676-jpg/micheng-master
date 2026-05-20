@@ -1,0 +1,139 @@
+
+fx_KL_shibai_tili.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bm_kctl
+  rotate: false
+  xy: 2, 279
+  size: 197, 230
+  orig: 199, 231
+  offset: 1, 1
+  index: -1
+Bm_kctl_g_00000
+  rotate: false
+  xy: 2, 47
+  size: 196, 230
+  orig: 199, 231
+  offset: 1, 1
+  index: -1
+Bm_kctl_lg_00001
+  rotate: false
+  xy: 573, 405
+  size: 62, 104
+  orig: 199, 231
+  offset: 1, 1
+  index: -1
+Bm_kctl_lg_00002
+  rotate: true
+  xy: 318, 280
+  size: 71, 131
+  orig: 199, 231
+  offset: 1, 1
+  index: -1
+Bm_kctl_lg_00003
+  rotate: true
+  xy: 556, 298
+  size: 85, 134
+  orig: 199, 231
+  offset: 1, 25
+  index: -1
+Bm_kctl_lg_00004
+  rotate: true
+  xy: 460, 185
+  size: 95, 155
+  orig: 199, 231
+  offset: 5, 32
+  index: -1
+Bm_kctl_lg_00005
+  rotate: true
+  xy: 200, 2
+  size: 105, 174
+  orig: 199, 231
+  offset: 8, 40
+  index: -1
+Bm_kctl_lg_00006
+  rotate: false
+  xy: 201, 328
+  size: 115, 181
+  orig: 199, 231
+  offset: 12, 47
+  index: -1
+Bm_kctl_lg_00007
+  rotate: false
+  xy: 200, 109
+  size: 125, 168
+  orig: 199, 231
+  offset: 17, 61
+  index: -1
+Bm_kctl_lg_00008
+  rotate: false
+  xy: 318, 353
+  size: 133, 156
+  orig: 199, 231
+  offset: 23, 74
+  index: -1
+Bm_kctl_lg_00009
+  rotate: false
+  xy: 327, 135
+  size: 131, 143
+  orig: 199, 231
+  offset: 39, 88
+  index: -1
+Bm_kctl_lg_00010
+  rotate: false
+  xy: 376, 3
+  size: 117, 130
+  orig: 199, 231
+  offset: 62, 101
+  index: -1
+Bm_kctl_lg_00011
+  rotate: true
+  xy: 451, 282
+  size: 69, 103
+  orig: 199, 231
+  offset: 110, 115
+  index: -1
+Bm_kctl_lg_00012
+  rotate: true
+  xy: 637, 391
+  size: 56, 53
+  orig: 199, 231
+  offset: 119, 165
+  index: -1
+Bm_kctl_lg_00013
+  rotate: true
+  xy: 2, 11
+  size: 34, 29
+  orig: 199, 231
+  offset: 146, 186
+  index: -1
+baiguang1
+  rotate: false
+  xy: 637, 449
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+effect_liubianxing
+  rotate: true
+  xy: 33, 19
+  size: 26, 22
+  orig: 26, 26
+  offset: 0, 2
+  index: -1
+effect_liubianxing2
+  rotate: true
+  xy: 57, 19
+  size: 26, 22
+  orig: 26, 26
+  offset: 0, 2
+  index: -1
+fx_giow
+  rotate: true
+  xy: 453, 385
+  size: 124, 118
+  orig: 128, 128
+  offset: 2, 3
+  index: -1

@@ -1,0 +1,136 @@
+{
+  "_$ver": 1,
+  "_$id": "bi4oiwup",
+  "_$runtime": "res://3e770cb9-a932-4d06-be20-e133a36a6d43",
+  "_$type": "GWidget",
+  "name": "Vw_ServerList",
+  "width": 500,
+  "height": 700,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "e5l21bb4",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 500,
+      "height": 700,
+      "src": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+      "autoSize": false
+    },
+    {
+      "_$id": "y5wqgxyo",
+      "_$var": true,
+      "_$type": "GList",
+      "name": "list",
+      "x": 35,
+      "y": 75,
+      "width": 430,
+      "height": 582,
+      "layout": {
+        "type": 1,
+        "rowGap": 4
+      },
+      "scroller": {
+        "_$type": "Scroller"
+      },
+      "_templateNode": {
+        "_$ref": "ycs6pzrm",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 3,
+      "_isDemo": true,
+      "_itemData": [],
+      "_$child": [
+        {
+          "_$id": "ycs6pzrm",
+          "_$type": "GButton",
+          "name": "btn",
+          "width": 430,
+          "height": 50,
+          "controllers": {
+            "_$type": "Record",
+            "button": {
+              "_$type": "Controller",
+              "pages": [
+                "up",
+                "down",
+                "over",
+                "selectedOver"
+              ]
+            }
+          },
+          "titleColor": "#f3f3f3",
+          "titleFontSize": 28,
+          "titleWidget": {
+            "_$ref": "wqbhzgi2"
+          },
+          "_$child": [
+            {
+              "_$id": "7bs6uy90",
+              "_$type": "GImage",
+              "name": "img",
+              "width": 430,
+              "height": 50,
+              "src": "res://63e14989-655b-438c-9f91-6943213a523f",
+              "autoSize": false
+            },
+            {
+              "_$id": "wqbhzgi2",
+              "_$type": "GTextField",
+              "name": "txt",
+              "x": 190,
+              "y": 8,
+              "width": 49,
+              "height": 36,
+              "relations": [
+                {
+                  "_$type": "Relation",
+                  "target": {
+                    "_$ref": "ycs6pzrm"
+                  },
+                  "data": [
+                    6,
+                    0,
+                    13,
+                    0
+                  ]
+                }
+              ],
+              "text": "text",
+              "fontSize": 28,
+              "color": "#f3f3f3",
+              "fitContent": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_$id": "9uk1p08d",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 158,
+      "y": 17,
+      "width": 184,
+      "height": 45,
+      "text": "服务器列表",
+      "fontSize": 36,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "_$ver": 1,
+  "_$id": "wlk56kgf",
+  "_$runtime": "res://17c4b7a7-e0d0-4836-a2ee-09461c2ff0b8",
+  "_$type": "GButton",
+  "name": "Btn_RewardAd",
+  "width": 230,
+  "height": 90,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "titleWidget": {
+    "_$ref": "n6b63j58"
+  },
+  "downEffect": 2,
+  "_$child": [
+    {
+      "_$id": "w0dbza5x",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 230,
+      "height": 90,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "wlk56kgf"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://9db6518b-2bdf-4b31-8ef1-f15382a7df87",
+      "autoSize": false
+    },
+    {
+      "_$id": "u4ru6ev4",
+      "_$type": "GImage",
+      "name": "img_1",
+      "x": 129,
+      "y": 26,
+      "width": 54,
+      "height": 40,
+      "src": "res://33678001-a91f-42ed-874b-3332ddf46ba5"
+    },
+    {
+      "_$id": "9j5gsjx8",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 15,
+      "y": 23,
+      "width": 50,
+      "height": 42,
+      "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+    },
+    {
+      "_$id": "n6b63j58",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 77,
+      "y": 15,
+      "width": 60,
+      "height": 60,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "wlk56kgf"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "80",
+      "_isDemo": true,
+      "fontSize": 50,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "lgb8gcc9",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbMul",
+      "x": 178,
+      "y": 36,
+      "width": 34,
+      "height": 36,
+      "text": "x2",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

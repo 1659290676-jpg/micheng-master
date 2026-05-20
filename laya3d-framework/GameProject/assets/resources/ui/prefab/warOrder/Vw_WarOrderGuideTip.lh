@@ -1,0 +1,247 @@
+{
+  "_$ver": 1,
+  "_$id": "x2k0yor4",
+  "_$runtime": "res://473496ed-1e2c-426a-83bd-8c2c5b85ed1d",
+  "_$type": "GWidget",
+  "name": "Vw_WarOrderGuideTip",
+  "width": 720,
+  "height": 1400,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "ccka27ia",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgTitle",
+      "x": 229,
+      "y": 92,
+      "width": 262,
+      "height": 66,
+      "src": "res://5e915ef7-95a3-41a0-93c9-ef53094ce9a2",
+      "autoSize": false
+    },
+    {
+      "_$id": "gi73bae2",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "iconHelp1",
+      "x": 97,
+      "y": 226,
+      "width": 178,
+      "height": 138,
+      "src": "res://8adc18df-49a2-4cff-a06b-87ebf50a7197"
+    },
+    {
+      "_$id": "i655xmqk",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgJt1",
+      "x": 298,
+      "y": 410,
+      "width": 92,
+      "height": 81,
+      "src": "res://cf4368ed-c4c5-4533-95cf-a6538e5c7d9a"
+    },
+    {
+      "_$id": "k3efnw1b",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "iconHelp2",
+      "x": 350,
+      "y": 538,
+      "width": 326,
+      "height": 76,
+      "src": "res://690e8230-a264-4e0c-9c27-da868f54725d"
+    },
+    {
+      "_$id": "wbzxqpkb",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "iconHelp3",
+      "x": 86,
+      "y": 807,
+      "width": 194,
+      "height": 167,
+      "src": "res://ca3fbc2c-b506-4742-9678-2ea7c3683082",
+      "autoSize": false
+    },
+    {
+      "_$id": "iemgf39y",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgJt2",
+      "x": 396,
+      "y": 723,
+      "width": 92,
+      "height": 81,
+      "scaleX": -1,
+      "src": "res://cf4368ed-c4c5-4533-95cf-a6538e5c7d9a"
+    },
+    {
+      "_$id": "s61t9gc3",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "iconHelp4",
+      "x": 87,
+      "y": 1126,
+      "width": 168,
+      "height": 132,
+      "src": "res://fc84fba4-9ca6-4c06-b9e5-7bd395462f8e",
+      "autoSize": false
+    },
+    {
+      "_$id": "e6r3c10p",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTip",
+      "x": 248,
+      "y": 1323,
+      "width": 224,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "x2k0yor4"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "点击空白处继续",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "avh7yt50",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt1",
+      "x": 88,
+      "y": 368,
+      "width": 193,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "x2k0yor4"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "玩家共同挑战",
+      "_isDemo": true,
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "fkafrczz",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt2",
+      "x": 456,
+      "y": 612,
+      "width": 98,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "x2k0yor4"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "收集肉",
+      "_isDemo": true,
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "v7oosy1t",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt3",
+      "x": 118,
+      "y": 982,
+      "width": 130,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "x2k0yor4"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "解锁奖励",
+      "_isDemo": true,
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "kd99u6ri",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt4",
+      "x": 281,
+      "y": 1162,
+      "width": 379,
+      "height": 74,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "x2k0yor4"
+          },
+          "data": [
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "激活高级通行证获取专属奖励！",
+      "_isDemo": true,
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "fitContent": 2,
+      "wordWrap": true,
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_$ver": 1,
+  "_$id": "ejlpr6cl",
+  "_$type": "Sprite3D",
+  "name": "Common_langan_70",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "Common_langan_04.002",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -0.0007656184025108814,
+          "y": 0.4123523235321045,
+          "z": 0.028933703899383545
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": 0.5000001266598559,
+          "y": 0.49999985843895045,
+          "z": 0.5000001266598559,
+          "w": -0.4999998882412733
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.10000000149011612,
+          "y": 0.10000000149011612,
+          "z": 0.10000000149011612
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "9ec1c160-c586-479e-b41e-3326ab8791f3@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

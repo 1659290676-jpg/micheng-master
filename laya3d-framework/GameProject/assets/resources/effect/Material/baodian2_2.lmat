@@ -1,0 +1,52 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "textures": [
+      {
+        "path": "res://5f028e60-0cc2-45bb-9a11-8851868a6efc",
+        "constructParams": [
+          128,
+          128,
+          1,
+          true,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 1,
+          "wrapModeV": 1,
+          "anisoLevel": 4
+        },
+        "name": "u_texture"
+      }
+    ],
+    "type": "PARTICLESHURIKEN",
+    "renderQueue": 3002,
+    "materialRenderMode": 3,
+    "u_AlphaTestValue": 0,
+    "s_Cull": 2,
+    "s_Blend": 1,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 1,
+    "s_DepthTest": 1,
+    "s_DepthWrite": false,
+    "u_TilingOffset": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "u_Tintcolor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "defines": [
+      "ADDTIVEFOG",
+      "DIFFUSEMAP",
+      "TINTCOLOR"
+    ]
+  }
+}

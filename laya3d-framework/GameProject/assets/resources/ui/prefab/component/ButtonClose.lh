@@ -1,0 +1,34 @@
+{
+  "_$ver": 1,
+  "_$id": "gwi8h5bj",
+  "_$type": "GButton",
+  "name": "ButtonClose",
+  "width": 34,
+  "height": 34,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "downEffect": 3,
+  "_$child": [
+    {
+      "_$id": "4k97pnt4",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 34,
+      "height": 34,
+      "src": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf",
+      "autoSize": false
+    }
+  ]
+}

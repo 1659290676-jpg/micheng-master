@@ -1,0 +1,137 @@
+{
+  "_$ver": 1,
+  "_$id": "6fuqk8yz",
+  "_$runtime": "res://24d7953a-b15c-473b-bb45-5de6a858d349",
+  "_$type": "GWidget",
+  "name": "Vw_FireTrial_Match",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "mwo3xsqb",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgTitle",
+      "x": 228,
+      "y": 120,
+      "width": 264,
+      "height": 67,
+      "src": "res://6558ba90-c090-4459-bec0-24eac133f0ba"
+    },
+    {
+      "_$id": "0puox5jm",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgJl",
+      "x": 138,
+      "y": 302,
+      "width": 444,
+      "height": 199,
+      "src": "res://a80992c9-1c60-433f-94e5-8d80bb4a295c"
+    },
+    {
+      "_$id": "0hb3m4xp",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "matchCom",
+      "x": 93,
+      "y": 569,
+      "width": 534,
+      "height": 180,
+      "_$child": [
+        {
+          "_$id": "eixpfh8k",
+          "_$type": "GImage",
+          "name": "img_3",
+          "x": 7,
+          "width": 520,
+          "height": 160,
+          "src": "res://cb02853f-1afe-455e-8b3c-d9728407130b"
+        },
+        {
+          "_$id": "ryhu1uo8",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbDes",
+          "x": -21,
+          "y": 22,
+          "width": 576,
+          "height": 40,
+          "text": "正在寻找",
+          "fontSize": 32,
+          "color": "#f3f3f3",
+          "align": "center",
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "sm4jci50",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbSum",
+          "x": -22,
+          "y": 75,
+          "width": 576,
+          "height": 60,
+          "text": "100/100",
+          "fontSize": 50,
+          "color": "#fcf8fe",
+          "align": "center",
+          "strokeColor": "#2c2014"
+        }
+      ]
+    },
+    {
+      "_$id": "223omlem",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "headCom",
+      "x": 248,
+      "y": 880,
+      "width": 272,
+      "height": 167,
+      "_$child": [
+        {
+          "_$id": "jzdl9jij",
+          "_$prefab": "73677fcd-072b-4f12-a90d-e92711dece9f",
+          "name": "Item_FireTrial_Head",
+          "active": true,
+          "x": 119,
+          "y": 162,
+          "scaleX": 0.9,
+          "scaleY": 0.9,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "_$id": "fssa3tjj",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbClose",
+      "x": 72,
+      "y": 1351,
+      "width": 576,
+      "height": 60,
+      "text": "点击空白继续",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "align": "center",
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

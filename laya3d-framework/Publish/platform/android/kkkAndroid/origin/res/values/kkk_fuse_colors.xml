@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kkk_fuse_color_orange">#ff912a</color>
+    <color name="kkk_fuse_color_gray">#4A565454</color>
+    <color name="kkk_fuse_color_blue_light">#28B8EE</color>
+    <color name="kkk_fuse_color_red_light">#ffff4444</color>
+
+
+</resources>

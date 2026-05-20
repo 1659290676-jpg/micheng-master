@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="kkk_login_space">5.5dp</dimen>
+    <dimen name="kkk_login_titlebar">40dp</dimen>
+    <dimen name="kkk_login_bg_margin">20dp</dimen>
+    <dimen name="kkk_login_land_width">400dp</dimen>
+    <dimen name="kkk_verification_code_margin">3dp</dimen>
+    <dimen name="kkk_account_center_width">500dp</dimen>
+    <dimen name="kkk_account_center_height">340dp</dimen>
+</resources>

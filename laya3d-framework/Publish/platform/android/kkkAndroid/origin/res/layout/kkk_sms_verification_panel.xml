@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkk_fragment_transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请填写手机动态验证码"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <cn.kkk.gamesdk.k3.ui.VerificationCodeView
+        android:id="@+id/kkk_vc_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kkk_tv_show_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="验证码已发送至"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/kkk_tv_repeat"
+            android:layout_width="47dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/kkk_btn_bg_hollow_yellow"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingTop="0dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="0dp"
+            android:text="重发"
+            android:textColor="@color/kkk_color_orange"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/kkk_btn_next"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kkk_btn_bg_orange"
+        android:text="下一步"
+        android:textColor="@color/kkk_color_white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+{
+  "_$ver": 1,
+  "_$id": "cyqnxy09",
+  "_$type": "Sprite3D",
+  "name": "huashengdun_dibiao",
+  "_$child": [
+    {
+      "_$id": "#40",
+      "_$type": "Sprite3D",
+      "name": "huashengdun_dibiao",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071068407911908,
+          "w": 0.7071067215818992
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "b0fb113f-8b02-4b35-ae02-10de22b4a1bb@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 376
+        },
+        {
+          "x": 218,
+          "y": 221,
+          "loopState": 0,
+          "_isLooping": 2,
+          "id": "1",
+          "name": "dead",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "ce6ae4ca-6697-4fb7-bc4e-61031e123a07@lani0"
+          }
+        },
+        {
+          "x": 182.04425433578393,
+          "y": 351.8619615055237,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "2",
+          "name": "run",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "12fb8b54-5cac-4a08-8f0a-00b5ea9b47ed@lani0"
+          }
+        },
+        {
+          "x": 17.877602546529673,
+          "y": 406.0286254533822,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "3",
+          "name": "attackL",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "3cd12037-3ea5-4cab-a049-0c12386d9eb9@lani0"
+          }
+        },
+        {
+          "x": 17.877602546529673,
+          "y": 246.86196677582888,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "4",
+          "name": "attackR",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "bacf5615-574a-46d6-a28c-7886ae3ff563@lani0"
+          }
+        },
+        {
+          "x": 46.21093218833999,
+          "y": 307.6953072038265,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "idle",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "2aa504a8-cc06-41db-bd88-b282648c09aa@lani0"
+          }
+        }
+      ],
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1,
+      "stageX": 143.54761904761875,
+      "stageY": -25.238095238095205,
+      "stageScale": 1.2000000000000002
+    },
+    {
+      "playOnWake": false,
+      "blendingMode": 1,
+      "name": "Base Layer 0",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 401,
+          "y": 100,
+          "loopState": 0,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1
+        },
+        {
+          "x": 148,
+          "y": 193,
+          "loopState": 0,
+          "_isLooping": 2,
+          "id": "0",
+          "name": "attack_l",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "3cd12037-3ea5-4cab-a049-0c12386d9eb9@lani0"
+          }
+        },
+        {
+          "x": 202,
+          "y": 277,
+          "loopState": 0,
+          "_isLooping": 2,
+          "id": "1",
+          "name": "attack_r",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "bacf5615-574a-46d6-a28c-7886ae3ff563@lani0"
+          }
+        }
+      ],
+      "defaultWeight": 1,
+      "avatarMask": {
+        "_$uuid": "bd109266-acbb-4585-badc-8cee32a55187"
+      }
+    }
+  ],
+  "layerW": 150
+}

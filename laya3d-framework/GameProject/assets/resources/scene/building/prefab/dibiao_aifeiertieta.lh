@@ -1,0 +1,129 @@
+{
+  "_$ver": 1,
+  "_$id": "gd93cj1t",
+  "_$type": "Sprite3D",
+  "name": "dibiao_aifeiertieta",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "03c092ed-9019-447b-94f9-2152a4a13788",
+      "scriptPath": "../src/Game/Scene/Components/Unit_Building.ts",
+      "type": 21
+    },
+    {
+      "_$type": "PhysicsCollider",
+      "colliderShape": {
+        "_$type": "CompoundColliderShape",
+        "shapes": [
+          {
+            "_$type": "BoxColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "x": -8.701144948076875,
+              "y": 6.266230544916552,
+              "z": -8.263
+            },
+            "size": {
+              "_$type": "Vector3",
+              "x": 8.20715373318641,
+              "y": 12.653883612858658,
+              "z": 8
+            }
+          },
+          {
+            "_$type": "BoxColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "x": 8.666,
+              "y": 6,
+              "z": 8.272419185903692
+            },
+            "size": {
+              "_$type": "Vector3",
+              "x": 8.549,
+              "y": 12,
+              "z": 7.7523461946330094
+            }
+          },
+          {
+            "_$type": "BoxColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "x": 8.6,
+              "y": 6,
+              "z": -8.272722276336799
+            },
+            "size": {
+              "_$type": "Vector3",
+              "x": -8.5,
+              "y": 12,
+              "z": 7.750318078258235
+            }
+          },
+          {
+            "_$type": "BoxColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "x": -8.771,
+              "y": 6,
+              "z": 8
+            },
+            "size": {
+              "_$type": "Vector3",
+              "x": 8.5,
+              "y": 12,
+              "z": 7.8
+            }
+          }
+        ]
+      },
+      "collisionGroup": 8,
+      "canCollideWith": 48
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "dibiao_aifeiertieta",
+      "transform": {
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "23c0c16b-ad47-4488-92ee-1fb4cf606df7@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

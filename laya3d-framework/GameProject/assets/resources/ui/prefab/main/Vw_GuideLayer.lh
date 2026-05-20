@@ -1,0 +1,83 @@
+{
+  "_$ver": 1,
+  "_$id": "m9qf1bk9",
+  "_$runtime": "res://0aebe1b9-c7e8-434b-9953-a627febd875d",
+  "_$type": "GWidget",
+  "name": "Vw_GuideLayer",
+  "width": 720,
+  "height": 1280,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 0,
+      "tweenAlpha": null,
+      "sizeType": 2,
+      "horizontal": 1,
+      "vertical": 1,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "0m7ldf24",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 720,
+      "height": 1280,
+      "src": "res://92927145-5074-484f-8cc5-a75f8edf4de7",
+      "autoSize": false
+    },
+    {
+      "_$id": "h9dulryd",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bgDesc",
+      "x": 65,
+      "y": 359,
+      "width": 196,
+      "height": 165,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "k2nhmw5z"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://9db6518b-2bdf-4b31-8ef1-f15382a7df87",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "k2nhmw5z",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "txtDesc",
+          "x": 61,
+          "y": 61,
+          "width": 74,
+          "height": 43,
+          "text": "text",
+          "_isDemo": true,
+          "fontSize": 36,
+          "color": "#ffffff",
+          "fitContent": 1,
+          "html": true,
+          "maxWidth": 480,
+          "stroke": 3,
+          "strokeColor": "#2c2014"
+        }
+      ]
+    }
+  ]
+}

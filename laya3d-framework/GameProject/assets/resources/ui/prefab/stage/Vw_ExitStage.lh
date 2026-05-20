@@ -1,0 +1,368 @@
+{
+  "_$ver": 1,
+  "_$id": "sucxz41k",
+  "_$runtime": "res://ed031a63-ab44-41f7-92f1-4c0cad455854",
+  "_$type": "GWidget",
+  "name": "Vw_ExitStage",
+  "width": 534,
+  "height": 668,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "s2udgvu9",
+      "_$type": "GImage",
+      "name": "img_1",
+      "width": 534,
+      "height": 668,
+      "src": "res://49b8307b-e4c1-4d35-8861-17a8874c5407",
+      "autoSize": false
+    },
+    {
+      "_$id": "58w876w1",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 479,
+      "y": 34,
+      "visible": true,
+      "width": 34,
+      "height": 34,
+      "icon": "res://fb0a9fd3-99ce-44d7-8fe0-eddbda9735bf"
+    },
+    {
+      "_$id": "pdm2splu",
+      "_$prefab": "1b0254db-f463-4e3e-bba5-0958ea5eb014",
+      "_$var": true,
+      "name": "btn",
+      "active": true,
+      "x": 267,
+      "y": 547,
+      "visible": true
+    },
+    {
+      "_$id": "shs3t3w6",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 185,
+      "y": 14,
+      "width": 164,
+      "height": 49,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "sucxz41k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "重新开始",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "u445or16",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 175,
+      "y": 420,
+      "width": 184,
+      "height": 38,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "sucxz41k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "继续进行游戏",
+      "_isDemo": true,
+      "fontSize": 30,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "vt1rz3vo",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbStrength",
+      "x": 300,
+      "y": 294,
+      "width": 61,
+      "height": 75,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "sucxz41k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "-1",
+      "fontSize": 64,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "8stw77qp",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgIcon",
+      "x": 268,
+      "y": 254,
+      "width": 199,
+      "height": 231,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "src": "res://31eb59b7-9c54-4c91-9770-008c27ec2b7b"
+    },
+    {
+      "_$id": "56b4v1zh",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "fireState",
+      "x": 37,
+      "y": 93,
+      "width": 461,
+      "height": 300,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "ml0a7s45",
+          "_$type": "GImage",
+          "name": "img_3",
+          "x": -3,
+          "y": 30,
+          "width": 467,
+          "height": 255,
+          "src": "res://c159801a-9241-43f6-b9fb-b589023239a9"
+        }
+      ]
+    },
+    {
+      "_$id": "uodjwp0j",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "arenaState",
+      "x": 37,
+      "y": 93,
+      "width": 461,
+      "height": 348,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false,
+      "_$child": [
+        {
+          "_$id": "hdfknebi",
+          "_$type": "GImage",
+          "name": "img_2",
+          "x": 10,
+          "y": 203,
+          "width": 439,
+          "height": 56,
+          "src": "res://86b6f4d0-15dc-4212-b2c8-8dfa75e7e83a",
+          "autoSize": false
+        },
+        {
+          "_$id": "wyx8e9dd",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg0",
+          "x": 63,
+          "y": 231,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://5068eb01-31b9-4c68-981a-41ad7b02014b"
+        },
+        {
+          "_$id": "d8xt23v1",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg1",
+          "x": 146,
+          "y": 231,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "xqhon7xo",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg2",
+          "x": 229,
+          "y": 231,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "qrq5pflj",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg3",
+          "x": 312,
+          "y": 231,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "2qdat2xl",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "arenaBg4",
+          "x": 395,
+          "y": 231,
+          "width": 87,
+          "height": 42,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "src": "res://20b2a27b-0a2b-49b9-95cd-af61f97e9801"
+        },
+        {
+          "_$id": "dfr6czbv",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbDes1",
+          "x": 138,
+          "y": 88,
+          "width": 184,
+          "height": 38,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "uodjwp0j"
+              },
+              "data": [
+                6,
+                0
+              ]
+            }
+          ],
+          "text": "继续进行游戏",
+          "_isDemo": true,
+          "fontSize": 30,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "align": "center",
+          "strokeColor": "#2c2014"
+        },
+        {
+          "_$id": "zs1c26tl",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena0",
+          "x": 49,
+          "y": 214,
+          "width": 34,
+          "height": 36,
+          "text": "x1",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "5xx5wfrc",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena1",
+          "x": 132,
+          "y": 214,
+          "width": 34,
+          "height": 36,
+          "text": "x2",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "jqq85hcp",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena2",
+          "x": 215,
+          "y": 214,
+          "width": 34,
+          "height": 36,
+          "text": "x3",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "ui74bavh",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena3",
+          "x": 300,
+          "y": 214,
+          "width": 34,
+          "height": 36,
+          "text": "x5",
+          "fontSize": 28,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        },
+        {
+          "_$id": "gtoya98p",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbArena4",
+          "x": 372,
+          "y": 214,
+          "width": 49,
+          "height": 36,
+          "text": "x10",
+          "fontSize": 28,
+          "color": "#fbf22c",
+          "fitContent": 1
+        }
+      ]
+    }
+  ]
+}

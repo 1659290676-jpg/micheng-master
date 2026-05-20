@@ -1,0 +1,51 @@
+{
+  "_$ver": 1,
+  "_$id": "n1pmrcnm",
+  "_$type": "GLabel",
+  "name": "Comp_Money",
+  "x": 266,
+  "y": 701,
+  "width": 204,
+  "height": 54,
+  "titleWidget": {
+    "_$ref": "7b5y2ou8"
+  },
+  "iconWidget": {
+    "_$ref": "a0ewf9pq"
+  },
+  "_$child": [
+    {
+      "_$id": "oyfwe1o1",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 16,
+      "y": 6,
+      "width": 188,
+      "height": 40,
+      "src": "res://716cb702-13b4-45ba-a6d3-62073a348866",
+      "autoSize": false
+    },
+    {
+      "_$id": "a0ewf9pq",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 50,
+      "height": 54,
+      "src": "res://ef0f2a1a-7b6d-4c60-80b9-d02f63c8293e"
+    },
+    {
+      "_$id": "7b5y2ou8",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 68,
+      "y": 9,
+      "width": 20,
+      "height": 36,
+      "text": "8",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

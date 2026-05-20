@@ -1,0 +1,1 @@
+window.gameVer = "1.0.0";

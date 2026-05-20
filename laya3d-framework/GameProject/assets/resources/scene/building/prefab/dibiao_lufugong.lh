@@ -1,0 +1,111 @@
+{
+  "_$ver": 1,
+  "_$id": "kbscdv1t",
+  "_$type": "Sprite3D",
+  "name": "dibiao_lufugong",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "03c092ed-9019-447b-94f9-2152a4a13788",
+      "scriptPath": "../src/Game/Scene/Components/Unit_Building.ts",
+      "type": 22
+    },
+    {
+      "_$type": "PhysicsCollider",
+      "colliderShape": {
+        "_$type": "CompoundColliderShape",
+        "shapes": [
+          {
+            "_$type": "ConeColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "y": 10,
+              "z": 10
+            },
+            "radius": 20,
+            "height": 20
+          },
+          {
+            "_$type": "ConeColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "x": 39.725,
+              "y": 3.344,
+              "z": 8.597
+            },
+            "radius": 6.112,
+            "height": 5.786
+          },
+          {
+            "_$type": "ConeColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "y": 3.108,
+              "z": -33.142
+            },
+            "radius": 6,
+            "height": 5.8
+          },
+          {
+            "_$type": "ConeColliderShape",
+            "localOffset": {
+              "_$type": "Vector3",
+              "x": -39.63,
+              "y": 3.453,
+              "z": 8.774
+            },
+            "radius": 6.395037707740329,
+            "height": 5.8
+          }
+        ]
+      },
+      "collisionGroup": 8,
+      "canCollideWith": 48
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "dibiao_lufugong",
+      "transform": {
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "89ab810f-bc21-4e48-a0ff-d8ee100e561c@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

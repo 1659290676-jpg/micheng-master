@@ -1,0 +1,125 @@
+{
+  "_$ver": 1,
+  "_$id": "je7t5nx7",
+  "_$type": "GButton",
+  "name": "Btn_AdStamina",
+  "x": 69,
+  "y": 391,
+  "width": 220,
+  "height": 90,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "titleWidget": {
+    "_$ref": "mnb08upd"
+  },
+  "_$child": [
+    {
+      "_$id": "u4xbl9tn",
+      "_$type": "GImage",
+      "name": "img",
+      "width": 220,
+      "height": 90,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "je7t5nx7"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://9db6518b-2bdf-4b31-8ef1-f15382a7df87",
+      "autoSize": false
+    },
+    {
+      "_$id": "95s811dj",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 15,
+      "y": 25,
+      "width": 50,
+      "height": 42,
+      "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+    },
+    {
+      "_$id": "l7f4v5tr",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 157,
+      "y": 16,
+      "width": 48,
+      "height": 61,
+      "src": "res://32d6de98-4b04-41ab-9c4c-477f2107a377"
+    },
+    {
+      "_$id": "mnb08upd",
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 76,
+      "y": 24,
+      "width": 76,
+      "height": 45,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "je7t5nx7"
+          },
+          "data": [
+            6,
+            0,
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "获得",
+      "_isDemo": true,
+      "fontSize": 36,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    },
+    {
+      "_$id": "a6opoauf",
+      "_$type": "GTextField",
+      "name": "txt_1",
+      "x": 176,
+      "y": 44,
+      "width": 36,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "l7f4v5tr"
+          },
+          "data": [
+            5,
+            0,
+            10,
+            0
+          ]
+        }
+      ],
+      "text": "+1",
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1
+    }
+  ]
+}

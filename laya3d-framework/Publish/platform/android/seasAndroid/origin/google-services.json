@@ -1,0 +1,235 @@
+{
+  "project_info": {
+    "project_number": "787700866501",
+    "project_id": "api-project-66969354",
+    "storage_bucket": "api-project-66969354.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787700866501:android:8362ad55540f1c391fbfac",
+        "android_client_info": {
+          "package_name": "com.joylith.ddg.gg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787700866501-5puccpv9al9cgtjeacf8nmssk07tsm8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joylith.ddg.gg",
+            "certificate_hash": "96b5c5e5133c49af68355973b90fec48e7d37d03"
+          }
+        },
+        {
+          "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvErFZt_cxV4fSgEWdVjoxDoCgr1xO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787700866501-i9vqq2t40stfsiu5l4b3onragjf8vvkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tapplus.cjqy.as",
+                "app_store_id": "6446157970"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787700866501:android:5f8c07566d84a70f1fbfac",
+        "android_client_info": {
+          "package_name": "com.joylith.dg.gg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787700866501-od5qtg669ns0nfoatuimu3lrqrn8kr81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joylith.dg.gg",
+            "certificate_hash": "7d58911da072fe9db4c8ac3afb0715e0c9c7634e"
+          }
+        },
+        {
+          "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvErFZt_cxV4fSgEWdVjoxDoCgr1xO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787700866501-i9vqq2t40stfsiu5l4b3onragjf8vvkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tapplus.cjqy.as",
+                "app_store_id": "6446157970"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787700866501:android:c3a3d2da6fa781f61fbfac",
+        "android_client_info": {
+          "package_name": "com.joylith.ic.gg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787700866501-4vgbbt4sa1ev0uiq5ibuoon9mgveorha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joylith.ic.gg",
+            "certificate_hash": "078aa73c61054eaafa6b5871666fa3acc1d48a58"
+          }
+        },
+        {
+          "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvErFZt_cxV4fSgEWdVjoxDoCgr1xO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787700866501-i9vqq2t40stfsiu5l4b3onragjf8vvkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tapplus.cjqy.as",
+                "app_store_id": "6446157970"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787700866501:android:99adbf27f93d3a4b1fbfac",
+        "android_client_info": {
+          "package_name": "com.tapplus.cjqy.gp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787700866501-o1bcafo6dnpd5shd5f4vmg3cua3a87qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tapplus.cjqy.gp",
+            "certificate_hash": "2e789bd426b417d4023532627b1304e45e25590e"
+          }
+        },
+        {
+          "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvErFZt_cxV4fSgEWdVjoxDoCgr1xO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787700866501-i9vqq2t40stfsiu5l4b3onragjf8vvkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tapplus.cjqy.as",
+                "app_store_id": "6446157970"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787700866501:android:bdbab84a66e586731fbfac",
+        "android_client_info": {
+          "package_name": "com.tapplus.cjqy.huawei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787700866501-113e96ovhnvs3323arspq4mep0iighd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tapplus.cjqy.huawei",
+            "certificate_hash": "727ab7b9504733b2244d814838968397ad31d98a"
+          }
+        },
+        {
+          "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvErFZt_cxV4fSgEWdVjoxDoCgr1xO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787700866501-7bm5bsn7dq90sc9289ikrjbuke070am0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787700866501-i9vqq2t40stfsiu5l4b3onragjf8vvkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tapplus.cjqy.as",
+                "app_store_id": "6446157970"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

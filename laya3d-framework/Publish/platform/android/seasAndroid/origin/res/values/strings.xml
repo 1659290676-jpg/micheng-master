@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LayaBox</string>
+    <string name="on_back_pressed">Click the back button again to exit the app!</string>
+    <string name="alert_dialog_title">Tips</string>
+    <string name="todo">todo</string>
+    <string name="waring">Waring</string>
+    <string name="permission_waring">Failed to obtain permission, which may cause some functions to fail to work normally. Please go to the application permission setting page for manual authorization</string>
+    <string name="init_failed">Initialization failed, please exit and try again</string>
+    <string name="ok">OK</string>
+    <string name="network_error">The network is abnormal, please check your network or contact the developer</string>
+    <string name="parse_json_error">Parse json error, please exit and try again</string>
+    <string name="download_error">Download error, please exit and try again</string>
+    <string name="internal_error">Internal error, please contact the developer</string>
+    <string name="update_tip">Downloading game resources</string>
+    <string name="tips0">The gates to a new world are about to open</string>
+    <string name="tips1">Enemy forces will arrive in 30 seconds</string>
+    <string name="tips2">Mom said, Nobody can eat hot tofu in a hurry</string>
+
+    <string name="game_services_project_id" translatable="false">787700866501</string>
+    <!--    rustore参数-->
+    <string name="console_app_id">2063657734</string>
+    <string name="vk_login_scheme">vk54157221</string>
+    <string name="facebook_app_id">1014583400448103</string>
+    <string name="fb_login_protocol_scheme">fb1014583400448103</string>
+    <string name="facebook_client_token">31c2e6a08ab1aff46a1e46624cd53c87</string>
+</resources>

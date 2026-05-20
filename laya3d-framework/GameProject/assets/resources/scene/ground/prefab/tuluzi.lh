@@ -1,0 +1,57 @@
+{
+  "_$ver": 1,
+  "_$id": "ylfup4pw",
+  "_$type": "Sprite3D",
+  "name": "tuluzi",
+  "_$child": [
+    {
+      "_$id": "#40",
+      "_$type": "Sprite3D",
+      "name": "tuluzi",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.02539999969303608,
+          "y": 0.02539999969303608,
+          "z": 0.02539999969303608
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "a292e481-b6e6-4d47-abf0-96ec078b0733@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "5592082a-9277-4351-91c5-959ab3101ac0",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "00d88280-b43e-4de5-b3b4-07822c0f7202",
+              "_$type": "Material"
+            },
+            {
+              "_$uuid": "ab864f97-3a27-470d-b62c-a652ea9f8f3d",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "_$ver": 1,
+  "_$id": "s7cfrnrx",
+  "_$type": "Widget",
+  "name": "Root",
+  "width": 400,
+  "height": 400,
+  "_$child": [
+    {
+      "_$id": "3bna33tx",
+      "_$type": "TextField",
+      "name": "txtTitle",
+      "x": 138,
+      "y": 15,
+      "width": 124,
+      "height": 28,
+      "text": "构建微信包",
+      "style": {
+        "fontSize": 24,
+        "color": 12434877
+      },
+      "autoSize": 1
+    },
+    {
+      "_$id": "idz8z8ih",
+      "_$type": "Box",
+      "name": "box",
+      "y": 77,
+      "width": 110,
+      "height": 257,
+      "layout": {
+        "type": 1,
+        "rowGap": 11
+      },
+      "_$child": [
+        {
+          "_$id": "51qxi7ii",
+          "_$type": "TextField",
+          "name": "txt_2",
+          "width": 110,
+          "height": 20,
+          "text": "appid：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        },
+        {
+          "_$id": "l3qfobag",
+          "_$type": "TextField",
+          "name": "txt_3",
+          "y": 31,
+          "width": 110,
+          "height": 20,
+          "text": "备注：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        },
+        {
+          "_$id": "tjeq1rxa",
+          "_$type": "TextField",
+          "name": "txt_4",
+          "y": 62,
+          "width": 110,
+          "height": 20,
+          "text": "wx_appid：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        },
+        {
+          "_$id": "2azzgpms",
+          "_$type": "TextField",
+          "name": "txt_5",
+          "y": 93,
+          "width": 110,
+          "height": 20,
+          "text": "platform：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        },
+        {
+          "_$id": "trgmf1es",
+          "_$type": "TextField",
+          "name": "txt_6",
+          "y": 124,
+          "width": 110,
+          "height": 20,
+          "text": "pf：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        },
+        {
+          "_$id": "ualtumo9",
+          "_$type": "TextField",
+          "name": "txt_7",
+          "y": 155,
+          "width": 110,
+          "height": 20,
+          "text": "servHttp：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        },
+        {
+          "_$id": "8kxfogsn",
+          "_$type": "TextField",
+          "name": "txt_8",
+          "y": 186,
+          "width": 110,
+          "height": 20,
+          "text": "gameVer：",
+          "style": {
+            "fontSize": 16,
+            "color": 12434877,
+            "align": 2
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "mrdmvhi1",
+      "_$type": "Box",
+      "name": "box2",
+      "x": 105,
+      "y": 77,
+      "width": 256,
+      "height": 247,
+      "layout": {
+        "type": 1,
+        "rowGap": 12
+      },
+      "_$child": [
+        {
+          "_$id": "je1530ao",
+          "_$prefab": "ed2708d4-ee8f-2474-e9d7-ec7a657dd734",
+          "name": "cbAppId",
+          "active": true,
+          "x": 0,
+          "y": 0,
+          "width": 256,
+          "visible": true,
+          "touchable": true
+        },
+        {
+          "_$id": "s83i9s2j",
+          "_$prefab": "25b38c03-cefe-a4c8-cad2-9f64513caa90",
+          "name": "lbDesc",
+          "active": true,
+          "x": 0,
+          "y": 31,
+          "width": 256,
+          "visible": true,
+          "touchable": false
+        },
+        {
+          "_$id": "x64nkbfa",
+          "_$prefab": "25b38c03-cefe-a4c8-cad2-9f64513caa90",
+          "name": "lbWxAppiId",
+          "active": true,
+          "x": 0,
+          "y": 62,
+          "width": 256,
+          "visible": true,
+          "touchable": false
+        },
+        {
+          "_$id": "r6ubeien",
+          "_$prefab": "25b38c03-cefe-a4c8-cad2-9f64513caa90",
+          "name": "lbPlatform",
+          "active": true,
+          "x": 0,
+          "y": 93,
+          "width": 256,
+          "visible": true,
+          "touchable": false
+        },
+        {
+          "_$id": "qdqgpc3s",
+          "_$prefab": "25b38c03-cefe-a4c8-cad2-9f64513caa90",
+          "name": "lbPF",
+          "active": true,
+          "x": 0,
+          "y": 124,
+          "width": 256,
+          "visible": true,
+          "touchable": false
+        },
+        {
+          "_$id": "9rgt4umv",
+          "_$prefab": "25b38c03-cefe-a4c8-cad2-9f64513caa90",
+          "name": "lbServHttp",
+          "active": true,
+          "x": 0,
+          "y": 155,
+          "width": 256,
+          "visible": true,
+          "touchable": false
+        },
+        {
+          "_$id": "wkytlsgq",
+          "_$prefab": "25b38c03-cefe-a4c8-cad2-9f64513caa90",
+          "name": "lbGameVer",
+          "active": true,
+          "x": 0,
+          "y": 186,
+          "width": 256,
+          "visible": true,
+          "touchable": true
+        }
+      ]
+    },
+    {
+      "_$id": "qcxk1yyt",
+      "_$prefab": "889a3232-df74-c494-e827-ce1f557f8e85",
+      "name": "btnStart",
+      "active": true,
+      "x": 157,
+      "y": 343,
+      "visible": true,
+      "touchable": true,
+      "title": "开始构建"
+    }
+  ]
+}

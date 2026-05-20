@@ -1,0 +1,25 @@
+{
+  "_$ver": 1,
+  "_$id": "gr5s8o6s",
+  "_$type": "Sprite3D",
+  "name": "Role_ren02",
+  "_$child": [
+    {
+      "_$id": "wa6xe9iy",
+      "_$prefab": "b2f42959-85c5-4d1a-adc0-6d063cc3ddf8",
+      "name": "Role_ren02",
+      "active": true,
+      "layer": 0,
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3"
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "y": 1,
+          "w": 6.123233995736766e-17
+        }
+      }
+    }
+  ]
+}

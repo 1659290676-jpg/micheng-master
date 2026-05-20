@@ -1,0 +1,115 @@
+{
+  "_$ver": 1,
+  "_$id": "w1q3hm4r",
+  "_$type": "Sprite3D",
+  "name": "daoju_huangguan@skin",
+  "_$comp": [
+    {
+      "_$type": "Animator",
+      "controller": {
+        "_$uuid": "7ed3534b-9a68-49d2-a8bc-e429493e92ea",
+        "_$type": "AnimationController"
+      },
+      "cullingMode": 0,
+      "controllerLayers": [
+        {
+          "_$type": "AnimatorControllerLayer",
+          "name": "Base Layer",
+          "states": [
+            {
+              "_$type": "AnimatorState",
+              "name": "idle",
+              "clipStart": 0,
+              "clip": {
+                "_$uuid": "650bfbbe-2461-4cd5-90ea-7ff0d623d7d5@lani0",
+                "_$type": "AnimationClip"
+              },
+              "soloTransitions": []
+            }
+          ],
+          "defaultStateName": "idle"
+        }
+      ]
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "#46",
+      "_$type": "Sprite3D",
+      "name": "huangguan",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -9.735359185469816e-8,
+          "w": 0.9999999999999953
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "3e9d5660-dde0-4de7-bc19-7a09963ca44d@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "SkinnedMeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ],
+          "_bones": [
+            {
+              "_$ref": "#47"
+            }
+          ],
+          "rootBone": {
+            "_$ref": "#47"
+          },
+          "localBounds": {
+            "_$type": "Bounds",
+            "min": {
+              "_$type": "Vector3",
+              "x": -103.77054595947266,
+              "y": -114.2068862915039,
+              "z": -20.107620239257812
+            },
+            "max": {
+              "_$type": "Vector3",
+              "x": 103.77053833007812,
+              "y": 114.2069091796875,
+              "z": 65.30712127685547
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "#47",
+      "_$type": "Sprite3D",
+      "name": "Bone001",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "y": -6.585445079827193e-10,
+          "z": -6.585445079827193e-10,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      }
+    }
+  ]
+}

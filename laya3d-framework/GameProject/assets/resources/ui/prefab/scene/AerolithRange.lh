@@ -1,0 +1,28 @@
+{
+  "_$ver": 1,
+  "_$id": "lbds3rgo",
+  "_$runtime": "res://4dacc992-1316-48ea-a11d-d3b5720ba0c8",
+  "_$type": "GWidget",
+  "name": "AerolithRange",
+  "width": 200,
+  "height": 200,
+  "_$child": [
+    {
+      "_$id": "kcpuyinm",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "imgRange",
+      "width": 200,
+      "height": 200,
+      "background": {
+        "_$type": "DrawCircleCmd",
+        "x": 0.5,
+        "y": 0.5,
+        "radius": 0.5,
+        "percent": true,
+        "lineWidth": 1,
+        "fillColor": "#fc3333"
+      }
+    }
+  ]
+}

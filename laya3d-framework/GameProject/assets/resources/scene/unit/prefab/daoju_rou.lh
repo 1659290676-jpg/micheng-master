@@ -1,0 +1,190 @@
+{
+  "_$ver": 1,
+  "_$id": "gxvwps8m",
+  "_$type": "Sprite3D",
+  "name": "daoju_rou",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 1.5,
+      "y": 1.5,
+      "z": 1.5
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "Animator",
+      "controller": {
+        "_$uuid": "aa1df830-30df-4709-a142-84b8eb797570",
+        "_$type": "AnimationController"
+      },
+      "cullingMode": 0,
+      "controllerLayers": [
+        {
+          "_$type": "AnimatorControllerLayer",
+          "name": "Base Layer",
+          "states": [
+            {
+              "_$type": "AnimatorState",
+              "name": "idle",
+              "clipStart": 0,
+              "clip": {
+                "_$uuid": "b6557b08-3900-4531-ae36-ddea9c23e29f@lani0",
+                "_$type": "AnimationClip"
+              },
+              "soloTransitions": []
+            }
+          ],
+          "defaultStateName": "idle"
+        }
+      ]
+    },
+    {
+      "_$type": "PhysicsCollider",
+      "colliderShape": {
+        "_$type": "BoxColliderShape",
+        "localOffset": {
+          "_$type": "Vector3",
+          "y": 0.75
+        },
+        "size": {
+          "_$type": "Vector3",
+          "x": 1,
+          "y": 1.5,
+          "z": 2
+        }
+      },
+      "collisionGroup": 128,
+      "canCollideWith": 48
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "#50",
+      "_$type": "Sprite3D",
+      "name": "daoju_rou",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "y": 0.7201810479164124,
+          "z": 3.1480045237231025e-8
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "e4cd64ca-9e45-415a-a0bc-331f0ef7f3cf@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "SkinnedMeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "bc0cb067-38ae-43c7-a0bb-6b464fecddd7",
+              "_$type": "Material"
+            }
+          ],
+          "_bones": [
+            {
+              "_$ref": "#53"
+            }
+          ],
+          "rootBone": {
+            "_$ref": "#53"
+          },
+          "localBounds": {
+            "_$type": "Bounds",
+            "min": {
+              "_$type": "Vector3",
+              "x": -118.8042984008789,
+              "y": -53.582313537597656,
+              "z": -53.236663818359375
+            },
+            "max": {
+              "_$type": "Vector3",
+              "x": 118.69962310791016,
+              "y": 53.582313537597656,
+              "z": 53.693077087402344
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "#51",
+      "_$type": "Sprite3D",
+      "name": "Bone001",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      },
+      "_$child": [
+        {
+          "_$id": "#52",
+          "_$type": "Sprite3D",
+          "name": "Bone002",
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 154.40457153320312,
+              "y": -0.000019526480173226446
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "#53",
+      "_$type": "Sprite3D",
+      "name": "Dummy001",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 9.2042477203284e-32,
+          "y": 0.717898964881897,
+          "z": 3.138035609140388e-8
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.5,
+          "y": 0.5,
+          "z": 0.5,
+          "w": 0.5
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.009999999776482582,
+          "y": 0.009999999776482582,
+          "z": 0.009999999776482582
+        }
+      }
+    }
+  ]
+}

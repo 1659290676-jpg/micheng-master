@@ -1,0 +1,367 @@
+
+// 打包出的资源
+def PATH_LOCAL_ROOT = '../../../'
+def PROJECT_NAME = project.hasProperty('PROJECT_NAME') ? PROJECT_NAME : "Game"
+
+// 是否打包成aab 1:是aab
+def IS_AAB = project.hasProperty('IS_AAB') ? project.property('IS_AAB') : "0"
+
+def APG_START_TIME = project.hasProperty('START_TIME') ? project.property('START_TIME') : ""
+
+def PATH_LOCAL_ASSETS = PATH_LOCAL_ROOT + 'dev_android/resource/' + PROJECT_NAME + '/assets'
+
+// app版本号
+def ARG_VERSION_CODE = project.hasProperty('VERSION_CODE') ? VERSION_CODE : '-1'
+ARG_VERSION_CODE = ARG_VERSION_CODE.toInteger()
+
+def ARG_VERSION_NAME = project.hasProperty('VERSION_NAME') ? VERSION_NAME : '1.0.0'
+def ARG_PACKAGE_NAME = project.hasProperty('PACKAGE_NAME') ? PACKAGE_NAME : 'com.joylith.ic.gg'
+def ARG_PF_TITLE = project.hasProperty('PF_TITLE') ? PF_TITLE : 'tapplusGps'
+def ARG_PF_SDK = project.hasProperty('PF_SDK') ? PF_SDK : 'tapplusGps'
+
+ARG_VERSION_CODE = checkVersionCodeChange(ARG_VERSION_CODE,PATH_LOCAL_ROOT,ARG_PF_TITLE)
+
+// apk输出的目录
+def ARG_PATH_OUT = project.hasProperty('PATH_OUT') ? PATH_OUT : null
+
+def ARG_PF_FOLDER = ARG_PF_TITLE
+
+def PATH_LIBS = 'src/' + ARG_PF_FOLDER + '/libs'
+def PATH_JNILIBS = 'src/' + ARG_PF_FOLDER + '/jniLibs'
+def PATH_MANIFEST = 'src/' + ARG_PF_FOLDER + '/AndroidManifest.xml'
+def PATH_ASSET_APP = 'src/' + ARG_PF_FOLDER + '/assets'
+def PATH_JAVA = 'src/' + ARG_PF_FOLDER + '/java'
+def PATH_RES = 'src/' + ARG_PF_FOLDER + '/res'
+
+// sdk 版本号
+def TARGET_SDKVERSION = project.hasProperty('TARGET_SDK_VERSION') ? TARGET_SDK_VERSION.toInteger() : rootProject.ext.targetSdkVersion
+def MIN_SDKVERSION = project.hasProperty('MIN_SDK_VERSION') ? MIN_SDK_VERSION.toInteger() : rootProject.ext.minSdkVersion
+def COMPILE_SDKVERSION = project.hasProperty('COMPILE_SDK_VERSION') ? COMPILE_SDK_VERSION.toInteger() : rootProject.ext.compileSdkVersion
+def BUILD_TOOLS_VERSION = rootProject.ext.buildToolsVersion
+
+// 资源路径
+def SRC_ASSET_PATHS = [PATH_ASSET_APP, PATH_LOCAL_ASSETS]
+
+def ABI_FILETERS = ['armeabi-v7a','arm64-v8a']
+
+// 签名
+def ARG_SIGN_STORE = project.hasProperty('SIGN_STORE') ? SIGN_STORE : "k3demo"
+def ARG_SIGN_PWD = project.hasProperty('SIGN_PWD') ? SIGN_PWD : "k3demo"
+def ARG_SIGN_ALIAS = project.hasProperty('SIGN_ALIAS') ? SIGN_ALIAS : "k3demo"
+def ARG_SIGN_ALIAS_PWD = project.hasProperty('SIGN_ALIAS_PWD') ? SIGN_ALIAS_PWD : "k3demo"
+def ARG_KEY_STORE_EXT = project.hasProperty('KEY_STORE_EXT') ? KEY_STORE_EXT : "keystore"   // 签名后缀
+def CERT_PATH = PATH_LOCAL_ROOT + 'platform/android/_common/cert/' + ARG_SIGN_STORE + '.' + ARG_KEY_STORE_EXT
+
+apply plugin: 'com.android.application'
+if(ARG_PF_SDK == "tapplusGps" || ARG_PF_SDK == "seasAndroid") {
+    //声明是要使用谷歌服务框架和 firebase 框架
+    apply plugin: 'com.google.gms.google-services'
+    apply plugin: 'com.google.firebase.crashlytics'
+    MIN_SDKVERSION = 24
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file("${CERT_PATH}")
+            storePassword "${ARG_SIGN_PWD}"
+            keyAlias "${ARG_SIGN_ALIAS}"
+            keyPassword "${ARG_SIGN_ALIAS_PWD}"
+        }
+        debug {
+            storeFile file("${CERT_PATH}")
+            storePassword "${ARG_SIGN_PWD}"
+            keyAlias "${ARG_SIGN_ALIAS}"
+            keyPassword "${ARG_SIGN_ALIAS_PWD}"
+        }
+    }
+    compileSdkVersion COMPILE_SDKVERSION
+	compileSdk COMPILE_SDKVERSION
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+		applicationId ARG_PACKAGE_NAME
+        versionCode ARG_VERSION_CODE
+        versionName ARG_VERSION_NAME
+        minSdkVersion MIN_SDKVERSION
+        targetSdkVersion TARGET_SDKVERSION
+        multiDexEnabled true
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters = ABI_FILETERS
+        }
+        /*externalNativeBuild {
+            cmake {
+                cppFlags '-fno-rtti -fexceptions -Wno-multichar'
+                arguments '-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON', '-DANDROID_STL=c++_shared', '-DANDROID_PLATFORM=android-21', '-DANDROID_ARM_NEON=TRUE', '-DANDROID_TOOLCHAIN=clang'
+                abiFilters ABI_FILETERS.split(',')
+            }
+        }*/
+    }
+    sourceSets {
+	    main {
+		    manifest.srcFile PATH_MANIFEST
+            java.srcDirs = [PATH_JAVA]
+            res.srcDirs = [PATH_RES]
+			assets.srcDirs = SRC_ASSET_PATHS
+		    jniLibs.srcDirs = [PATH_JNILIBS]
+		}
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+    // java8配置
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    android {
+        ndkVersion "27.0.12077973"//r28c
+    }
+    namespace ARG_PACKAGE_NAME
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    packaging {
+        resources {
+            excludes += ['com/qq/jce/wup/wup.properties']
+        }
+        exclude "dump_syms/linux/dump_syms.bin"
+        exclude "dump_syms/**/*.bin"
+    }
+    /*externalNativeBuild {
+        cmake {
+            path "../../../CMakeLists.txt"
+        }
+    }*/
+    buildToolsVersion BUILD_TOOLS_VERSION
+}
+dependencies {
+    implementation fileTree(dir: PATH_LIBS, include: ['*.jar','*.aar'], exclude: ['android-support-v4.jar', 'constraintlayout-1.1.3.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation project(path: ':conch')
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+
+    // 解决 vectordrawable 命名空间冲突
+    constraints {
+        implementation('androidx.vectordrawable:vectordrawable:1.0.0') {
+            because '统一 vectordrawable 版本'
+        }
+        implementation('androidx.vectordrawable:vectordrawable-animated:1.0.0') {
+            because '统一 vectordrawable-animated 版本'
+        }
+    }
+
+    if(ARG_PF_SDK == "tapplusGps" || ARG_PF_SDK == "seasAndroid") {
+        // 谷歌登录
+        implementation 'com.google.android.gms:play-services-auth:21.3.0'
+        // 谷歌支付
+        implementation "com.android.billingclient:billing:8.2.1"
+        implementation 'com.google.firebase:firebase-crashlytics-buildtools:3.0.3'
+        // Google Play
+        implementation "com.google.android.gms:play-services-games-v2:+"
+        // Facebook
+        implementation 'com.facebook.android:facebook-login:17.0.0'
+        implementation 'com.facebook.android:facebook-share:17.0.0'
+        // ironSource
+        implementation 'com.ironsource.sdk:mediationsdk:8.11.1'
+        implementation 'com.google.android.gms:play-services-appset:16.0.2'
+        implementation 'com.google.android.gms:play-services-basement:18.2.0'
+        // ironsource Facebook Network
+        implementation 'com.ironsource.adapters:facebookadapter:4.3.47'
+        implementation 'com.facebook.android:audience-network-sdk:6.17.0'
+        //ironsource appLovin
+        implementation 'com.ironsource.adapters:applovinadapter:4.3.46'
+        implementation 'com.applovin:applovin-sdk:13.4.0'
+        //ironsource Mintegral
+        implementation 'com.ironsource.adapters:mintegraladapter:4.3.26'
+        implementation 'com.mbridge.msdk.oversea:mbbid:16.7.31'
+        implementation 'com.mbridge.msdk.oversea:reward:16.7.31'
+        implementation 'com.mbridge.msdk.oversea:mbbanner:16.7.31'
+        implementation 'com.mbridge.msdk.oversea:newinterstitial:16.7.31'
+        //ironsource admob
+        implementation 'com.google.android.gms:play-services-ads:22.2.0'
+        implementation 'com.ironsource.adapters:admobadapter:4.3.35'
+        //ironsource unity
+        implementation 'com.ironsource.adapters:unityadsadapter:4.3.41'
+        implementation 'com.unity3d.ads:unity-ads:4.12.1'
+        //ironsource Pangle
+        implementation 'com.unity3d.ads-mediation:pangle-adapter:4.3.38'
+        implementation 'com.pangle.global:ads-sdk:6.5.0.6'
+        //ironsource Bigo
+        implementation 'com.unity3d.ads-mediation:bigo-adapter:4.3.12'
+        implementation 'com.bigossp:bigo-ads:5.5.1'
+        // 登录/绑定 UI：ConstraintLayout 布局与异形屏适配
+        implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+        //Firebase
+        // 声明 Firebase BOM (版本管理工具)
+        implementation(platform("com.google.firebase:firebase-bom:33.16.0"))
+        // 所有 Firebase SDK，将使用 BOM 定义的版本
+        implementation 'com.google.firebase:firebase-crashlytics'
+        //如果你的应用中包含 NDK（Native Development Kit），例如游戏引擎、底层编码功能或直接运行 C/C++代码，则需要额外添加：
+        implementation("com.google.firebase:firebase-crashlytics-ndk")
+        implementation 'com.google.firebase:firebase-analytics'
+        //这个用于自动上传符号
+        implementation 'com.google.firebase:firebase-crashlytics-buildtools:3.0.4'
+        implementation 'com.google.firebase:firebase-messaging'
+        implementation 'com.google.firebase:firebase-core:21.1.1'
+        //adjust用的
+        implementation 'com.adjust.sdk:adjust-android-webbridge:4.38.2'
+        implementation 'com.android.installreferrer:installreferrer:2.2'
+        implementation 'com.adjust.sdk:adjust-android-oaid:4.38.2'
+        implementation 'com.adjust.sdk:adjust-android:5.4.5'
+        implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+        //tiktok打点用
+        implementation 'com.github.tiktok:tiktok-business-android-sdk:1.3.6'
+        //用到Gson类
+        implementation 'com.google.code.gson:gson:2.8.6'
+        //应用内评分
+        implementation "com.google.android.play:review:2.0.1"
+        //反馈建议需要
+        implementation 'com.google.android.material:material:1.4.0'
+    }
+}
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHHmmss")
+}
+
+def checkVersionCodeChange(verCode, verCodeRootPath, pfTitle) {
+    if (verCode < 0) {
+        verCode = 1
+        def nowTaskNames = gradle.getStartParameter().getTaskNames()
+        def bOk = false;
+        for (int i = 0; i < nowTaskNames.size(); i++) {
+            def tmpname = nowTaskNames[i].toLowerCase()
+            //println("not task name =====" + tmpname)
+            if (tmpname.contains("release") || tmpname.contains("debug")) {
+
+                bOk = true
+                break
+            }
+        }
+        if (bOk) {
+            verCode = increaseVersionCode(verCodeRootPath+'platform/versioncode.txt', pfTitle)
+        }
+
+    }
+    return verCode
+}
+
+def increaseVersionCode(path, title) {
+    def codefile = file(path)
+    Properties prop = new Properties()
+    def inputStream = codefile.newDataInputStream()
+    prop.load(inputStream)
+    inputStream.close()
+
+    def versionCode = prop.get(title,"0")
+    versionCode = versionCode.toInteger()
+    versionCode = versionCode + 1
+    prop.setProperty(title,versionCode + "")
+
+    def ouputStream = codefile.newDataOutputStream()
+    prop.store(ouputStream,"")
+    ouputStream.flush();
+    ouputStream.close();
+
+    return versionCode
+}
+
+def _cap(String s) {
+    if (s == null || s.length() == 0) return s
+    return s.substring(0, 1).toUpperCase() + s.substring(1)
+}
+
+def _copyFirstMatchingFile(String fromDir, String includePattern, String targetDir, String targetName) {
+    def srcDir = file(fromDir)
+    if (!srcDir.exists()) {
+        println("Output dir not found: ${srcDir}")
+        return
+    }
+    def matches = fileTree(srcDir) { include includePattern }.files
+    if (matches == null || matches.size() == 0) {
+        println("No matching files: ${includePattern} in ${srcDir}")
+        return
+    }
+    def srcFile = matches.sort { a, b -> b.lastModified() <=> a.lastModified() }[0]
+    def outDir = file(targetDir)
+    outDir.mkdirs()
+    copy {
+        from srcFile
+        into outDir
+        rename { targetName }
+    }
+    println("--------------------------------------------------------------------------------------------------------------")
+    println("Copied to: ${new File(outDir, targetName)}")
+    println("--------------------------------------------------------------------------------------------------------------")
+}
+
+afterEvaluate {
+    // Sync google-services.json from channel folder into app/ root so that
+    // com.google.gms.google-services plugin can always find it.
+    def syncGoogleServicesJson = tasks.register("syncGoogleServicesJson") {
+        group = "build"
+        description = "Copy google-services.json from src/<channel>/ into app/ root."
+        doLast {
+            def srcFile = file("src/${ARG_PF_FOLDER}/google-services.json")
+            if (!srcFile.exists()) {
+                println("google-services.json not found for channel: ${srcFile}")
+                return
+            }
+            copy {
+                from srcFile
+                into project.projectDir
+                rename { "google-services.json" }
+            }
+            println("google-services.json synced from: ${srcFile}")
+        }
+    }
+
+    // Ensure all Google Services processing tasks see the synced json.
+    tasks.configureEach { t ->
+        if (t.name != null && t.name.toLowerCase().contains("googleservices") && t.name.toLowerCase().startsWith("process")) {
+            t.dependsOn(syncGoogleServicesJson)
+        }
+    }
+
+    def buildTime = APG_START_TIME
+    if (buildTime == "") {
+        buildTime = releaseTime()
+    }
+    def baseName = "${PROJECT_NAME}_${ARG_PF_TITLE}_${buildTime}_v${ARG_VERSION_NAME}_${ARG_VERSION_CODE}"
+
+    ["debug", "release"].each { bt ->
+        def capBt = _cap(bt)
+        def isAab = IS_AAB != null && IS_AAB.toString() == "1"
+        def depTask = isAab ? "bundle${capBt}" : "assemble${capBt}"
+
+        def pkgTaskName = "export${capBt}"
+
+        tasks.register(pkgTaskName) {
+            group = "build"
+            description = "Export ${bt} as " + (isAab ? "AAB" : "APK") + " to PATH_OUT (controlled by -PIS_AAB=1)"
+            dependsOn(depTask)
+            doLast {
+                if (ARG_PATH_OUT == null) {
+                    println("PATH_OUT not set, skip copying. (pass -PPATH_OUT=... to copy output)")
+                    return
+                }
+                if (isAab) {
+                    _copyFirstMatchingFile("$buildDir/outputs/bundle/${bt}", "*.aab", "${ARG_PATH_OUT}", "${baseName}.aab")
+                } else {
+                    _copyFirstMatchingFile("$buildDir/outputs/apk/${bt}", "*.apk", "${ARG_PATH_OUT}", "${baseName}.apk")
+                }
+            }
+        }
+    }
+}

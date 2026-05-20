@@ -1,0 +1,41 @@
+{
+  "_$ver": 1,
+  "_$id": "wfix4vst",
+  "_$runtime": "res://458af4f9-f2a0-41ee-b360-80bc024533ce",
+  "_$type": "GWidget",
+  "name": "Root",
+  "width": 0,
+  "height": 0,
+  "_$child": [
+    {
+      "_$id": "2aiv8euf",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbHurt",
+      "x": -22,
+      "y": -84,
+      "width": 44,
+      "height": 84,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "wfix4vst"
+          },
+          "data": [
+            6,
+            0,
+            16,
+            0
+          ]
+        }
+      ],
+      "text": "1",
+      "_isDemo": true,
+      "fontSize": 72,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "stroke": 4
+    }
+  ]
+}

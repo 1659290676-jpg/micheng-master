@@ -1,0 +1,89 @@
+{
+  "name": "GameFrame",
+  "minifyJS": true,
+  "startupScene": "res://9b931ecf-fde9-44dd-acf3-15f8dc807965",
+  "alwaysIncluded": [
+    "localize",
+    "login",
+    "plugin"
+  ],
+  "excludeFilesRule": [
+    "tool/**",
+    "json/**"
+  ],
+  "enableVersion": true,
+  "ignoreFilesInVersion": [
+    "res://3511aa8d-4c95-4dfb-9785-5d70a368c560",
+    "res://42553f61-7a9b-4217-8e64-20731e64ac3d",
+    "res://35c93509-485a-4cc0-89e0-2fcd12a33f4d"
+  ],
+  "enableSubpackages": true,
+  "subpackages": [
+    {
+      "path": "resources/cfg",
+      "autoLoad": true
+    },
+    {
+      "path": "localize",
+      "autoLoad": true
+    },
+    {
+      "path": "login",
+      "autoLoad": true
+    },
+    {
+      "path": "resources/effect",
+      "autoLoad": true,
+      "remote": true,
+      "remoteUrl": "https://cdn-qz-hs-test.3kxyz.com/dinosaur/miniGame"
+    },
+    {
+      "path": "resources/font",
+      "autoLoad": true,
+      "remote": true,
+      "remoteUrl": "https://cdn-qz-hs-test.3kxyz.com/dinosaur/miniGame"
+    },
+    {
+      "path": "resources/image",
+      "autoLoad": true
+    },
+    {
+      "path": "resources/scene",
+      "autoLoad": true,
+      "remote": true,
+      "remoteUrl": "https://cdn-qz-hs-test.3kxyz.com/dinosaur/miniGame"
+    },
+    {
+      "path": "resources/ui",
+      "autoLoad": true
+    },
+    {
+      "path": "resources/audio",
+      "autoLoad": true
+    },
+    {
+      "path": "resources/spine",
+      "autoLoad": true
+    }
+  ],
+  "android": {
+    "dcc": {
+      "enable": true,
+      "head": "http://123",
+      "DCCServer": "http://123",
+      "generate": true
+    },
+    "renderMode": "webgl",
+    "screenOrientation": "landscape",
+    "targetArchitectures": {
+      "ARMv7": true,
+      "ARM64": true,
+      "x86": true,
+      "x86-64": true
+    },
+    "exportFormat": "APK"
+  },
+  "wxgame": {
+    "appid": "wx0db800a2b5ac4439"
+  }
+}

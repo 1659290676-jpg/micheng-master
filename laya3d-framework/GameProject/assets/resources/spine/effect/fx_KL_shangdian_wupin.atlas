@@ -1,0 +1,20 @@
+
+fx_KL_shangdian_wupin.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_xinxin_1
+  rotate: false
+  xy: 200, 84
+  size: 114, 114
+  orig: 128, 128
+  offset: 6, 6
+  index: -1
+gm
+  rotate: false
+  xy: 2, 2
+  size: 196, 196
+  orig: 200, 200
+  offset: 2, 2
+  index: -1

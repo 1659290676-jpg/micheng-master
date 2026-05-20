@@ -1,0 +1,64 @@
+{
+  "_$ver": 1,
+  "_$id": "uw3v55d0",
+  "_$type": "Sprite3D",
+  "name": "dadizhuan_1",
+  "transform": {
+    "localPosition": {
+      "_$type": "Vector3",
+      "x": -33.830859326072556,
+      "z": -32.489535788570244
+    },
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 4,
+      "y": 4,
+      "z": 4
+    }
+  },
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "立方体.001",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -3.0908623745397495e-8,
+          "y": 0.70710684079119,
+          "z": 0.7071067215818985,
+          "w": -3.090861663997001e-8
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": -0.5,
+          "y": -0.5,
+          "z": -0.007483241148293018
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "c87f52ea-8e78-4487-af06-b5e615917b92@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

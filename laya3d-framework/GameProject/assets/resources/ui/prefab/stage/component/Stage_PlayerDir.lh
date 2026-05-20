@@ -1,0 +1,61 @@
+{
+  "_$ver": 1,
+  "_$id": "ybvzqpfc",
+  "_$runtime": "res://009bfe03-7e86-4e78-bfd8-3f2c26fa2061",
+  "_$type": "GWidget",
+  "name": "Root",
+  "width": 30,
+  "height": 12,
+  "_$child": [
+    {
+      "_$id": "abgce2y0",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgBg",
+      "x": -20,
+      "y": -20,
+      "width": 40,
+      "height": 40,
+      "src": "res://911ebbbf-b117-45bc-93d7-8d151ccae6ad",
+      "autoSize": false
+    },
+    {
+      "_$id": "625lamp6",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgIcon",
+      "x": -21,
+      "y": -21,
+      "width": 42,
+      "height": 42,
+      "src": "",
+      "autoSize": false
+    },
+    {
+      "_$id": "k3uuhl2h",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 36,
+      "height": 30,
+      "anchorX": 0.5,
+      "anchorY": 0.68,
+      "src": "res://a82c84f5-ae25-4dc5-9d1f-0a05c532624f"
+    },
+    {
+      "_$id": "46zndt8g",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lb",
+      "x": -38,
+      "y": -15,
+      "width": 76,
+      "height": 32,
+      "text": "1",
+      "fontSize": 24,
+      "color": "#f3f3f3",
+      "fitContent": 2,
+      "align": "center"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+
+fx_KL_lingquanniu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lg2_00000
+  rotate: false
+  xy: 200, 288
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00001
+  rotate: false
+  xy: 352, 288
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00002
+  rotate: false
+  xy: 2, 246
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00003
+  rotate: false
+  xy: 154, 206
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00004
+  rotate: false
+  xy: 306, 206
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00005
+  rotate: false
+  xy: 2, 164
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00006
+  rotate: false
+  xy: 154, 124
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg2_00007
+  rotate: false
+  xy: 306, 124
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+lg_00000
+  rotate: false
+  xy: 2, 412
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00001
+  rotate: false
+  xy: 101, 412
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00002
+  rotate: false
+  xy: 200, 412
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00003
+  rotate: false
+  xy: 299, 412
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00004
+  rotate: false
+  xy: 398, 412
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00005
+  rotate: false
+  xy: 2, 370
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00006
+  rotate: false
+  xy: 101, 370
+  size: 43, 40
+  orig: 97, 40
+  offset: 18, 0
+  index: -1
+lg_00010
+  rotate: false
+  xy: 146, 370
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00011
+  rotate: false
+  xy: 245, 370
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00012
+  rotate: false
+  xy: 344, 370
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00013
+  rotate: false
+  xy: 2, 328
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00014
+  rotate: false
+  xy: 101, 328
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+lg_00015
+  rotate: false
+  xy: 2, 2
+  size: 290, 120
+  orig: 290, 120
+  offset: 0, 0
+  index: -1

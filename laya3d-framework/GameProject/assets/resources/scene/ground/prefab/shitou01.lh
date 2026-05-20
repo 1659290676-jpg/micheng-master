@@ -1,0 +1,49 @@
+{
+  "_$ver": 1,
+  "_$id": "7nvthuor",
+  "_$type": "Sprite3D",
+  "name": "shitou01",
+  "_$child": [
+    {
+      "_$id": "#45",
+      "_$type": "Sprite3D",
+      "name": "shitou01",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": 3.1459646224975586,
+          "y": -0.012656317092478275,
+          "z": 0.24103689193725586
+        },
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7071067811865476,
+          "w": 0.7071067811865476
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "52c8e43b-97f8-41c8-9e73-778496d936be@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+fx_KL_gongxihuode.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0gm1
+  rotate: false
+  xy: 2, 2
+  size: 274, 256
+  orig: 280, 275
+  offset: 3, 11
+  index: -1
+0xx1
+  rotate: false
+  xy: 278, 132
+  size: 22, 27
+  orig: 24, 29
+  offset: 1, 1
+  index: -1
+0xx2
+  rotate: false
+  xy: 278, 161
+  size: 29, 35
+  orig: 31, 37
+  offset: 1, 1
+  index: -1
+0xx3
+  rotate: false
+  xy: 278, 78
+  size: 20, 24
+  orig: 22, 26
+  offset: 1, 1
+  index: -1
+baiguang1
+  rotate: false
+  xy: 278, 198
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+effect_liubianxing
+  rotate: true
+  xy: 278, 104
+  size: 26, 22
+  orig: 26, 26
+  offset: 0, 2
+  index: -1

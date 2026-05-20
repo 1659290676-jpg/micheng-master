@@ -1,0 +1,20 @@
+
+fx_KL_shangdian_dikuang.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baiguang1
+  rotate: true
+  xy: 118, 59
+  size: 57, 55
+  orig: 60, 60
+  offset: 2, 2
+  index: -1
+eff_xinxin_1
+  rotate: false
+  xy: 2, 2
+  size: 114, 114
+  orig: 128, 128
+  offset: 6, 6
+  index: -1

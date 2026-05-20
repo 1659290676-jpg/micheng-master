@@ -1,0 +1,59 @@
+{
+  "_$ver": 1,
+  "_$id": "mj7wa2t1",
+  "_$runtime": "res://2235a397-0935-49df-9552-ea7ae83e3ea6",
+  "_$type": "GWidget",
+  "name": "Root",
+  "width": 300,
+  "height": 300,
+  "_$child": [
+    {
+      "_$id": "y964txkk",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "halo",
+      "x": 50,
+      "y": 50,
+      "width": 200,
+      "height": 200,
+      "background": {
+        "_$type": "DrawCircleCmd",
+        "x": 0.5,
+        "y": 0.5,
+        "radius": 0.5,
+        "percent": true,
+        "lineWidth": 10,
+        "lineColor": "#ffffff"
+      }
+    },
+    {
+      "_$id": "5z48oxtc",
+      "_$var": true,
+      "_$type": "GProgressBar",
+      "name": "pb",
+      "width": 300,
+      "height": 300,
+      "value": 36,
+      "_hBar": {
+        "_$ref": "wjwrwcsx"
+      },
+      "_$child": [
+        {
+          "_$id": "wjwrwcsx",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 300,
+          "height": 300,
+          "src": "res://dce8a166-8fa5-4893-813f-586a7325cbb3",
+          "autoSize": false,
+          "mesh": {
+            "_$type": "ProgressMesh",
+            "origin": 1,
+            "clockwise": false,
+            "amount": 0.36
+          }
+        }
+      ]
+    }
+  ]
+}

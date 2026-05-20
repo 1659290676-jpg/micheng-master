@@ -1,0 +1,40 @@
+{
+  "_$ver": 1,
+  "_$id": "o8g5ycux",
+  "_$runtime": "res://e2bc3ac1-307f-40af-8277-7968d53029e0",
+  "_$type": "GWidget",
+  "name": "Item_Arena_Add",
+  "width": 124,
+  "height": 54,
+  "_$child": [
+    {
+      "_$id": "hy6s1orb",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "imgSelect",
+      "x": 56,
+      "y": 27,
+      "width": 111,
+      "height": 54,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "src": "res://8f1343bd-8a18-46bc-9c98-6bfae2a1ba40"
+    },
+    {
+      "_$id": "q94fx2sd",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbAdd",
+      "x": 9,
+      "y": 4,
+      "width": 101,
+      "height": 45,
+      "text": "x10",
+      "fontSize": 36,
+      "color": "#f3f3f3",
+      "align": "center",
+      "valign": "middle",
+      "strokeColor": "#070b0e"
+    }
+  ]
+}

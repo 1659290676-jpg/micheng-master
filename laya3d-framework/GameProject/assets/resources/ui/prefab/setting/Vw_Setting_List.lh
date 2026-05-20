@@ -1,0 +1,64 @@
+{
+  "_$ver": 1,
+  "_$id": "tc3jrw9j",
+  "_$type": "GWidget",
+  "name": "Vw_Setting_List",
+  "width": 190,
+  "height": 321,
+  "_$child": [
+    {
+      "_$id": "8v72vn1y",
+      "_$type": "GImage",
+      "name": "img_15",
+      "width": 190,
+      "height": 321,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "tc3jrw9j"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false
+    },
+    {
+      "_$id": "o3imzycf",
+      "_$type": "GList",
+      "name": "list",
+      "x": 5,
+      "y": 8,
+      "width": 180,
+      "height": 303,
+      "layout": {
+        "type": 1
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "barDisplay": 5
+      },
+      "_templateNode": {
+        "_$ref": "aqjbi469",
+        "_$tmpl": "itemTemplate"
+      },
+      "_initItemNum": 3,
+      "_isDemo": true
+    },
+    {
+      "_$id": "aqjbi469",
+      "_$prefab": "18c80eb2-bbbc-4917-b3af-1b22bc4986ee",
+      "name": "Item_Setting_list",
+      "active": true,
+      "x": 0,
+      "y": 0,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/kkk_login_bg_margin"
+        android:layout_marginRight="@dimen/kkk_login_bg_margin"
+        android:background="@drawable/kkk_login_account_act_bg_gray"
+        android:orientation="vertical">
+
+        <include layout="@layout/kkk_layout_titlebar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kkk_login_account_rl_title"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="14dp">
+
+
+                <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                    android:id="@+id/kkk_et_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp" />
+
+
+                <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                    android:id="@+id/kkk_et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp" />
+
+                <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                    android:id="@+id/kkk_et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp" />
+
+                <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                    android:id="@+id/kkk_et_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp" />
+
+                <cn.kkk.gamesdk.k3.ui.RightEventEditText
+                    android:id="@+id/kkk_et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="注：为了您的账号安全，注册后请尽快修改密码！"
+                    android:textColor="@color/kkk_color_white"
+                    android:visibility="gone"
+                    />
+
+                <Button
+                    android:id="@+id/kkk_btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/kkk_et_password"
+                    android:layout_alignLeft="@id/kkk_et_password"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/kkk_btn_bg_orange_selected"
+                    android:text="注册"
+                    android:textColor="@color/kkk_color_white"
+                    android:textSize="16sp" />
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/kkk_rl_go_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="14dp">
+                    <TextView
+                        android:id="@+id/kkk_tv_go_account_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:autoLink="all"
+                        android:text="已有账号"
+                        android:textColor="@color/kkk_color_orange"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/kkk_iv_age_level"
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/kkk_age_level_8" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

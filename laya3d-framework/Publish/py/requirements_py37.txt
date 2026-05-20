@@ -1,0 +1,7 @@
+tos>=2.9.0,<3
+# Python 3.7 compatibility pins (ASCII-only for Windows GBK pip)
+requests>=2.25,<2.32
+urllib3>=1.26.18,<2
+# Extra pins for Python 3.7 (some latest transitive deps require >=3.8)
+idna<3.4
+charset-normalizer<3.2

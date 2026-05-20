@@ -1,0 +1,153 @@
+{
+  "_$ver": 1,
+  "_$id": "vibxefz5",
+  "_$runtime": "res://11d1f78c-9c57-4e1e-8bac-29c2412ebb8a",
+  "_$type": "GWidget",
+  "name": "Vw_FireTrial_Enter",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "8yjxaykj",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "bg",
+      "x": 28,
+      "y": 226,
+      "width": 664,
+      "height": 1003,
+      "src": ""
+    },
+    {
+      "_$id": "ie4ex871",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbTitle",
+      "x": 279,
+      "y": 246,
+      "width": 161,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "vibxefz5"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "火焰试炼",
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "align": "center",
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "9z7f4sbg",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbDes",
+      "x": 89,
+      "y": 914,
+      "width": 541,
+      "height": 116,
+      "text": "连胜7关连胜",
+      "fontSize": 32,
+      "color": "#f3f3f3",
+      "html": true,
+      "align": "center",
+      "valign": "middle",
+      "maxWidth": 296,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "guoj61sx",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 647,
+      "y": 268,
+      "visible": true,
+      "width": 54,
+      "height": 54,
+      "icon": "res://84160c40-3c10-40ca-bb77-b7b7515b0b5b"
+    },
+    {
+      "_$id": "9zel5838",
+      "_$prefab": "41d34236-11c6-4303-b5b1-81d86b55b3c4",
+      "_$var": true,
+      "name": "btnStart",
+      "active": true,
+      "x": 360,
+      "y": 1118,
+      "visible": true
+    },
+    {
+      "_$id": "y6jjnhns",
+      "_$var": true,
+      "_$type": "GWidget",
+      "name": "cdCom",
+      "x": 262,
+      "y": 1089,
+      "width": 201,
+      "height": 61,
+      "_$child": [
+        {
+          "_$id": "t7wusbzg",
+          "_$type": "GImage",
+          "name": "img_1",
+          "x": 28,
+          "y": 10,
+          "width": 160,
+          "height": 40,
+          "src": "res://16639f08-f094-4a9c-adb8-eb012399e261"
+        },
+        {
+          "_$id": "1hzy1ldu",
+          "_$type": "GImage",
+          "name": "img",
+          "x": 8,
+          "y": 6,
+          "width": 46,
+          "height": 49,
+          "src": "res://7dcfffee-2bfc-43ad-839e-48abb043e313"
+        },
+        {
+          "_$id": "u697pibk",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "lbTime",
+          "x": 60,
+          "y": 16,
+          "width": 120,
+          "height": 28,
+          "text": "2h13m",
+          "fontSize": 24,
+          "color": "#f3f3f3",
+          "align": "center",
+          "strokeColor": "#070b0e"
+        }
+      ]
+    }
+  ]
+}

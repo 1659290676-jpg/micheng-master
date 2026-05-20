@@ -1,0 +1,116 @@
+{
+    "_$ver": 1,
+    "_$id": "wsmo3dts",
+    "_$var": true,
+    "_$type": "GWidget",
+    "name": "itemGp",
+    "width": 670,
+    "height": 150,
+    "_$child": [
+        {
+            "_$id": "ubanjfnu",
+            "_$var": true,
+            "_$type": "GTextField",
+            "name": "lbTitle",
+            "y": 4,
+            "width": 43,
+            "height": 32,
+            "text": "text",
+            "_isDemo": true,
+            "fontSize": 24,
+            "fitContent": 1
+        },
+        {
+            "_$id": "fpzxbtfp",
+            "_$var": true,
+            "_$type": "GTextField",
+            "name": "lbEnd",
+            "y": 118,
+            "width": 43,
+            "height": 32,
+            "relations": [
+                {
+                    "_$type": "Relation",
+                    "target": {
+                        "_$ref": "wsmo3dts"
+                    },
+                    "data": [
+                        16,
+                        0
+                    ]
+                }
+            ],
+            "text": "text",
+            "_isDemo": true,
+            "fontSize": 24,
+            "fitContent": 1
+        },
+        {
+            "_$id": "hvmltwkv",
+            "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+            "_$var": true,
+            "name": "btnAdd",
+            "active": true,
+            "x": 341,
+            "y": 22,
+            "width": 40,
+            "height": 40,
+            "visible": true,
+            "title": "+",
+            "icon": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+            "titleFontSize": 30
+        },
+        {
+            "_$id": "p1p9oj0c",
+            "_$prefab": "900320ca-1680-455a-a819-0a05a3b40348",
+            "_$var": true,
+            "name": "btnDel",
+            "active": true,
+            "x": 401,
+            "y": 22,
+            "width": 40,
+            "height": 40,
+            "visible": true,
+            "title": "-",
+            "icon": "res://f3f662c0-4210-4bfa-8858-0cfbd1186352",
+            "titleFontSize": 30
+        },
+        {
+            "_$id": "vutwt2qo",
+            "_$type": "GWidget",
+            "name": "node",
+            "y": 45,
+            "width": 670,
+            "height": 2,
+            "background": {
+                "_$type": "DrawRectCmd",
+                "fillColor": "#000000"
+            }
+        },
+        {
+            "_$id": "4zzuj5tx",
+            "_$type": "GWidget",
+            "name": "node_1",
+            "y": 118,
+            "width": 670,
+            "height": 2,
+            "background": {
+                "_$type": "DrawRectCmd",
+                "fillColor": "#000000"
+            },
+            "relations": [
+                {
+                    "_$type": "Relation",
+                    "target": {
+                        "_$ref": "wsmo3dts"
+                    },
+                    "data": [
+                        16,
+                        0
+                    ]
+                }
+            ]
+        }
+    ],
+    "_$runtime": "res://f7d0af81-3eab-48d1-a262-83eedaaf731a"
+}

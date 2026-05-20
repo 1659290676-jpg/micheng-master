@@ -1,0 +1,198 @@
+{
+  "_$ver": 1,
+  "_$id": "xy5g7v8b",
+  "_$runtime": "res://5141ceb1-47b7-47b3-a4ea-101c3bfb2e88",
+  "_$type": "GWidget",
+  "name": "Vw_Stage",
+  "width": 720,
+  "height": 1440,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": null,
+      "tweenAlpha": null,
+      "sizeType": 4,
+      "horizontal": 0,
+      "vertical": 1,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "o1rfs94v",
+      "_$var": true,
+      "_$type": "GPanel",
+      "name": "groupBase",
+      "width": 720,
+      "height": 1440,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "layout": {
+        "type": 1,
+        "align": 1
+      },
+      "scroller": {
+        "_$type": "Scroller",
+        "bouncebackEffect": 2
+      },
+      "_$child": [
+        {
+          "_$id": "x20w3kud",
+          "_$prefab": "8a91c6fc-a50b-4176-815e-0c8c242fbe0f",
+          "_$var": true,
+          "name": "group3",
+          "active": true,
+          "x": 0,
+          "y": 0,
+          "visible": true
+        },
+        {
+          "_$id": "1pulvvbj",
+          "_$prefab": "8a91c6fc-a50b-4176-815e-0c8c242fbe0f",
+          "_$var": true,
+          "name": "group2",
+          "active": true,
+          "x": 0,
+          "y": 1440,
+          "visible": true
+        },
+        {
+          "_$id": "wqmzgda3",
+          "_$prefab": "8a91c6fc-a50b-4176-815e-0c8c242fbe0f",
+          "_$var": true,
+          "name": "group1",
+          "active": true,
+          "x": 0,
+          "y": 2880,
+          "visible": true
+        },
+        {
+          "_$id": "wbh00wjn",
+          "_$prefab": "8a91c6fc-a50b-4176-815e-0c8c242fbe0f",
+          "_$var": true,
+          "name": "group0",
+          "active": true,
+          "x": 0,
+          "y": 4320,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "_$id": "vr7hadvn",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnAttr",
+      "active": true,
+      "x": 585,
+      "y": 1212,
+      "visible": true,
+      "width": 70,
+      "height": 89,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            16,
+            0
+          ]
+        },
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "fbumg3m4"
+          },
+          "data": [
+            5,
+            0
+          ]
+        }
+      ],
+      "icon": "res://0cd52c50-c509-4c24-b3a5-3b0007715787"
+    },
+    {
+      "_$id": "fbumg3m4",
+      "_$prefab": "8aa8fcd3-9701-48d5-898d-90f185624332",
+      "_$var": true,
+      "name": "btnStart",
+      "active": true,
+      "x": 361,
+      "y": 1216,
+      "visible": true,
+      "width": 270,
+      "height": 100,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "xy5g7v8b"
+          },
+          "data": [
+            6,
+            0,
+            16,
+            0
+          ]
+        }
+      ],
+      "icon": "res://f5f50a96-d73a-4fb9-ae5d-2d9b3ae45941"
+    },
+    {
+      "_$id": "u0y9rwnq",
+      "_$var": true,
+      "_$type": "GTextInput",
+      "name": "lbId",
+      "x": 288,
+      "y": 1089,
+      "width": 226,
+      "height": 47,
+      "background": {
+        "_$type": "DrawRectCmd",
+        "fillColor": "#c6c6c6"
+      },
+      "text": "",
+      "fontSize": 24,
+      "color": "#030303",
+      "valign": "middle",
+      "padding": [
+        2,
+        2,
+        2,
+        10
+      ]
+    },
+    {
+      "_$id": "f84tnjup",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt",
+      "x": 185,
+      "y": 1096,
+      "width": 100,
+      "height": 32,
+      "text": "场景资源",
+      "fontSize": 24,
+      "color": "#ffffff",
+      "fitContent": 1
+    }
+  ]
+}

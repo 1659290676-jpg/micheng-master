@@ -1,0 +1,406 @@
+{
+  "_$ver": 1,
+  "_$id": "6hwrhu2k",
+  "_$runtime": "res://2daf8257-846d-4179-b01f-39d8842b675b",
+  "_$type": "GWidget",
+  "name": "Vw_WarOrderBuyTip",
+  "width": 594,
+  "height": 890,
+  "_$comp": [
+    {
+      "_$type": "9ea59e17-324d-49ca-8b49-a3a937b341b3",
+      "scriptPath": "../src/XYFrame/UI/UILayout.ts",
+      "tweenType": 1,
+      "tweenAlpha": null,
+      "sizeType": null,
+      "horizontal": 0,
+      "vertical": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "5cz3ipf5",
+      "_$type": "GImage",
+      "name": "bg",
+      "width": 594,
+      "height": 901,
+      "src": "res://7c4edada-684a-4340-85ce-70be82d404d2",
+      "autoSize": false
+    },
+    {
+      "_$id": "japzysrf",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btnBuy",
+      "x": 297,
+      "y": 774,
+      "width": 290,
+      "height": 120,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "titleColor": "#f3f3f3",
+      "titleFontSize": 48,
+      "titleWidget": {
+        "_$ref": "nbj5m9r3"
+      },
+      "downEffect": 3,
+      "_$child": [
+        {
+          "_$id": "5tse1uoi",
+          "_$type": "GImage",
+          "name": "img_3",
+          "width": 290,
+          "height": 120,
+          "src": "res://62e0eef0-96c4-4016-9768-c1dd814c9321",
+          "autoSize": false
+        },
+        {
+          "_$id": "kpdo4563",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgAd",
+          "x": 79,
+          "y": 39,
+          "width": 50,
+          "height": 42,
+          "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+        },
+        {
+          "_$id": "nbj5m9r3",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "txtBtnBuy",
+          "x": 139,
+          "y": 32,
+          "width": 61,
+          "height": 55,
+          "text": "29",
+          "_isDemo": true,
+          "fontSize": 48,
+          "color": "#f3f3f3",
+          "fitContent": 1,
+          "strokeColor": "#2c2014"
+        }
+      ]
+    },
+    {
+      "_$id": "vitugdaa",
+      "_$prefab": "d8875e14-b11b-4e8b-a7a5-f9b1b8fe19fa",
+      "_$var": true,
+      "name": "btnClose",
+      "active": true,
+      "x": 540,
+      "y": 34,
+      "visible": true
+    },
+    {
+      "_$id": "aabqn4k2",
+      "_$type": "GImage",
+      "name": "img_2",
+      "x": 66,
+      "y": 439,
+      "width": 461,
+      "height": 233,
+      "src": "res://db104366-7b6f-4700-91d4-9359686bbfff",
+      "autoSize": false
+    },
+    {
+      "_$id": "w1r0wzjc",
+      "_$type": "GImage",
+      "name": "img_3",
+      "x": 218,
+      "y": 374,
+      "width": 160,
+      "height": 40,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "hq443t9j"
+          },
+          "data": [
+            1,
+            0,
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://4aed452a-50ba-4f68-b050-eeb6e0c4d7d6",
+      "autoSize": false
+    },
+    {
+      "_$id": "p69fmtmm",
+      "_$type": "GImage",
+      "name": "img_4",
+      "x": 217,
+      "y": 653,
+      "width": 160,
+      "height": 40,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "hq443t9j"
+          },
+          "data": [
+            1,
+            0,
+            6,
+            0
+          ]
+        }
+      ],
+      "src": "res://4aed452a-50ba-4f68-b050-eeb6e0c4d7d6",
+      "autoSize": false
+    },
+    {
+      "_$id": "oktbmpa4",
+      "_$type": "GImage",
+      "name": "img_5",
+      "x": 196,
+      "y": 648,
+      "width": 46,
+      "height": 50,
+      "src": "res://9218a651-1740-4e1f-8e0e-a6bc232ac10d"
+    },
+    {
+      "_$id": "7gwidddg",
+      "_$type": "GImage",
+      "name": "img_6",
+      "x": 158,
+      "y": 548,
+      "width": 48,
+      "height": 38,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "scaleX": -1,
+      "src": "res://87e58e7c-f254-4b06-ac1f-2e9b9d84643b",
+      "autoSize": false
+    },
+    {
+      "_$id": "m8ef8sbu",
+      "_$type": "GImage",
+      "name": "img_7",
+      "x": 158,
+      "y": 607,
+      "width": 47,
+      "height": 41,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "src": "res://f577804f-fa20-4883-9e1e-cc2f114a1e8f",
+      "autoSize": false
+    },
+    {
+      "_$id": "h8rk4w3y",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTitle",
+      "x": 216,
+      "y": 13,
+      "width": 161,
+      "height": 47,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "成长之路",
+      "_isDemo": true,
+      "fontSize": 40,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "u54vq4oq",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txtTime",
+      "x": 260,
+      "y": 660,
+      "width": 85,
+      "height": 30,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "2h13m",
+      "_isDemo": true,
+      "fontSize": 24,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "b8hcx90r",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt1",
+      "x": 129,
+      "y": 90,
+      "width": 335,
+      "height": 34,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "解锁成长之路获取专属奖励",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#9d4400"
+    },
+    {
+      "_$id": "hq443t9j",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt2",
+      "x": 248,
+      "y": 381,
+      "width": 98,
+      "height": 30,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "惊喜大奖",
+      "fontSize": 24,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "1dth6yu1",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt3",
+      "x": 137,
+      "y": 465,
+      "width": 335,
+      "height": 34,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            6,
+            0
+          ]
+        }
+      ],
+      "text": "活动结束前领取专属奖励！",
+      "_isDemo": true,
+      "fontSize": 28,
+      "color": "#ffe54c",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "morv96ml",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt4",
+      "x": 209,
+      "y": 531,
+      "width": 299,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "大量金币及道具奖励！",
+      "_isDemo": true,
+      "fontSize": 30,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    },
+    {
+      "_$id": "soeqg55w",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "txt5",
+      "x": 209,
+      "y": 590,
+      "width": 211,
+      "height": 36,
+      "relations": [
+        {
+          "_$type": "Relation",
+          "target": {
+            "_$ref": "6hwrhu2k"
+          },
+          "data": [
+            13,
+            0
+          ]
+        }
+      ],
+      "text": "提升体力上限！",
+      "_isDemo": true,
+      "fontSize": 30,
+      "color": "#fcf8fe",
+      "fitContent": 1,
+      "strokeColor": "#2c2014"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "_$ver": 1,
+  "_$id": "4wc04ib0",
+  "_$type": "Sprite3D",
+  "name": "shitou-3",
+  "_$child": [
+    {
+      "_$id": "#42",
+      "_$type": "Sprite3D",
+      "name": "棱角球.072",
+      "transform": {
+        "localRotation": {
+          "_$type": "Quaternion",
+          "x": -0.7031545188124549,
+          "y": -0.0746570915492005,
+          "z": -0.07465708409861975,
+          "w": 0.7031545784171009
+        },
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 4.7377800941467285,
+          "y": 2.8580689430236816,
+          "z": 2.5151007175445557
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "f758fa14-55b3-4f21-ba19-78a0561d3aaf@lm0",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "lightmapScaleOffset": {
+            "_$type": "Vector4"
+          },
+          "sharedMaterials": [
+            {
+              "_$uuid": "84f38651-f5ec-4d6f-841f-4f94c84ea17b",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

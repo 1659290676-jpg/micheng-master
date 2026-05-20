@@ -1,0 +1,166 @@
+{
+  "_$ver": 1,
+  "_$id": "sqiyjm2i",
+  "_$runtime": "res://8661c045-aa71-4b5e-b3cc-2aa9ad5b7344",
+  "_$type": "GButton",
+  "name": "Item_Shop_Grid",
+  "x": 10,
+  "y": 78,
+  "width": 700,
+  "height": 257,
+  "anchorX": 0.5,
+  "anchorY": 0.5,
+  "controllers": {
+    "_$type": "Record",
+    "button": {
+      "_$type": "Controller",
+      "pages": [
+        "up",
+        "down",
+        "over",
+        "selectedOver"
+      ]
+    }
+  },
+  "downEffect": 3,
+  "_$child": [
+    {
+      "_$id": "2blwvwa6",
+      "_$var": true,
+      "_$type": "GImage",
+      "name": "img",
+      "x": 50,
+      "width": 600,
+      "height": 254,
+      "src": "res://2a5f6ec4-188b-4d5f-a4dc-a5200c49f1c5",
+      "autoSize": false
+    },
+    {
+      "_$id": "frdj49ct",
+      "_$var": true,
+      "_$type": "GButton",
+      "name": "btn",
+      "x": 513,
+      "y": 197,
+      "width": 184,
+      "height": 71,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "_mouseState": 1,
+      "controllers": {
+        "_$type": "Record",
+        "button": {
+          "_$type": "Controller",
+          "pages": [
+            "up",
+            "down",
+            "over",
+            "selectedOver"
+          ]
+        }
+      },
+      "titleColor": "#f3f3f3",
+      "titleFontSize": 36,
+      "titleWidget": {
+        "_$ref": "561qphbx"
+      },
+      "iconWidget": {
+        "_$ref": "pd6gy03m"
+      },
+      "downEffect": 2,
+      "_$child": [
+        {
+          "_$id": "pd6gy03m",
+          "_$type": "GImage",
+          "name": "img",
+          "width": 184,
+          "height": 71,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "frdj49ct"
+              },
+              "data": [
+                1,
+                0,
+                2,
+                0
+              ]
+            }
+          ],
+          "src": "res://f70f15ab-3186-41f8-b02a-c096129cc691",
+          "autoSize": false
+        },
+        {
+          "_$id": "pre4e8sw",
+          "_$var": true,
+          "_$type": "GImage",
+          "name": "imgAd",
+          "x": 27,
+          "y": 14,
+          "width": 50,
+          "height": 42,
+          "src": "res://b57aae94-82da-43e7-a18d-357097a8b9c5"
+        },
+        {
+          "_$id": "561qphbx",
+          "_$var": true,
+          "_$type": "GTextField",
+          "name": "txtBtn",
+          "x": 84,
+          "y": 14,
+          "width": 74,
+          "height": 44,
+          "relations": [
+            {
+              "_$type": "Relation",
+              "target": {
+                "_$ref": "frdj49ct"
+              },
+              "data": [
+                6,
+                0,
+                13,
+                0
+              ]
+            }
+          ],
+          "text": "text",
+          "_isDemo": true,
+          "fontSize": 36,
+          "color": "#f3f3f3",
+          "fitContent": 1
+        }
+      ]
+    },
+    {
+      "_$id": "spsmpxd4",
+      "_$var": true,
+      "_$type": "GTextField",
+      "name": "lbName",
+      "x": 90,
+      "y": 178,
+      "width": 75,
+      "height": 44,
+      "postProcess": {
+        "_$type": "PostProcess2D",
+        "effects": [
+          {
+            "_$type": "GlowEffect2D",
+            "offsetX": 0.5,
+            "offsetY": -1,
+            "blur": 0.1,
+            "color": "#232323"
+          }
+        ]
+      },
+      "text": "礼包",
+      "_isDemo": true,
+      "fontSize": 36,
+      "color": "#f3f3f3",
+      "fitContent": 1,
+      "strokeColor": "#070b0e"
+    }
+  ]
+}
