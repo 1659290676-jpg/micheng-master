@@ -1,7 +1,11 @@
 # Laya3D 迁移评估报告
 
+**在线阅读**：<https://github.com/1659290676-jpg/micheng-master/blob/main/docs/laya3d-migration-assessment.md>
+
 日期：2026-05-20  
 目标：评估 `E:\CCfirst\laya3d-framework` 是否适合作为《咪城大师》Laya3D 版本框架，并明确可复用与需改造范围。
+
+相关文档：[模块化设计](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/module-architecture-plan.md) · [已确认规则](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/accepted-rules.md) · [LayaAir 预览指南](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/layaair-preview-guide.md) · [文档索引](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/README.md)
 
 ## 结论
 

@@ -1,7 +1,11 @@
 # 《咪城大师》协作守则与周工作机制草案
 
+**在线阅读**：<https://github.com/1659290676-jpg/micheng-master/blob/main/docs/workflow-governance.md>
+
 状态：待确认  
 目的：减少对话压缩后的上下文丢失，保护已验收规则，明确“什么指令代表确认执行”。
+
+相关文档：[已确认规则](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/accepted-rules.md) · [模块化设计](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/module-architecture-plan.md) · [项目状态](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/project-state.md) · [文档索引](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/README.md)
 
 ## 一、周工作总结机制
 
@@ -130,7 +134,7 @@ docs/
 > 记录为已验收规则  
 > 以后不要改这个规则
 
-我需要把对应内容写入 `docs/acceptance-log.md` 和 `docs/accepted-rules.md`。
+我需要把对应内容写入 `docs/acceptance-log.md` 和 [docs/accepted-rules.md](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/accepted-rules.md)。
 
 后续如果要改这些规则，必须先说明：
 

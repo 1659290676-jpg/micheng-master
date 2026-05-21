@@ -1,7 +1,11 @@
 # 《咪城大师》已确认规则
 
+**在线阅读**：<https://github.com/1659290676-jpg/micheng-master/blob/main/docs/accepted-rules.md>
+
 状态：待确认草案  
 最后更新：2026-05-20
+
+相关文档：[模块化设计](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/module-architecture-plan.md) · [协作守则](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/workflow-governance.md) · [文档索引](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/README.md)
 
 本文件用于记录用户已经确认的核心玩法规则。写入本文件后，后续开发不能静默改动；如需调整，必须先提出变更说明并等待用户确认。
 
@@ -69,4 +73,4 @@
 
 血量、攻击、射程、CD、产金、移动速度不是不可变规则基线。它们属于数值成长系统，后续会被宝盒、英雄卡牌、卡牌升级影响。
 
-当前初始数值详见 `docs/module-architecture-plan.md` 的“初始数值与成长系统”。
+当前初始数值详见 [module-architecture-plan.md](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/module-architecture-plan.md) 的「初始数值与成长系统」。

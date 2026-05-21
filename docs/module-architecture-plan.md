@@ -1,7 +1,11 @@
 # 《咪城大师》模块化设计草案
 
+**在线阅读**：<https://github.com/1659290676-jpg/micheng-master/blob/main/docs/module-architecture-plan.md>
+
 状态：待确认  
 目的：把当前核心玩法拆成稳定模块，避免“改一个地方，全局出 bug”。确认后再按此结构重构或迁移到 Laya3D。
+
+相关文档：[已确认规则](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/accepted-rules.md) · [Laya3D 迁移评估](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/laya3d-migration-assessment.md) · [协作守则](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/workflow-governance.md) · [文档索引](https://github.com/1659290676-jpg/micheng-master/blob/main/docs/README.md)
 
 ## 总体原则
 
